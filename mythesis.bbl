@@ -1,0 +1,32 @@
+\begin{thebibliography}{1}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{Aamodt:2008zz}
+K.~Aamodt, et~al., {The ALICE experiment at the CERN LHC}, JINST 3 (2008)
+  S08002.
+\newblock \href {http://dx.doi.org/10.1088/1748-0221/3/08/S08002}
+  {\path{doi:10.1088/1748-0221/3/08/S08002}}.
+
+\bibitem{Aad:2008zzm}
+G.~Aad, et~al., {The ATLAS Experiment at the CERN Large Hadron Collider}, JINST
+  3 (2008) S08003.
+\newblock \href {http://dx.doi.org/10.1088/1748-0221/3/08/S08003}
+  {\path{doi:10.1088/1748-0221/3/08/S08003}}.
+
+\bibitem{Chatrchyan:2008aa}
+S.~Chatrchyan, et~al., {The CMS experiment at the CERN LHC}, JINST 3 (2008)
+  S08004.
+\newblock \href {http://dx.doi.org/10.1088/1748-0221/3/08/S08004}
+  {\path{doi:10.1088/1748-0221/3/08/S08004}}.
+
+\bibitem{Alves:2008zz}
+J.~Alves, A.~Augusto, et~al., {The LHCb Detector at the LHC}, JINST 3 (2008)
+  S08005.
+\newblock \href {http://dx.doi.org/10.1088/1748-0221/3/08/S08005}
+  {\path{doi:10.1088/1748-0221/3/08/S08005}}.
+
+\end{thebibliography}

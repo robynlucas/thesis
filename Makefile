@@ -2,16 +2,16 @@
 
 EXTRASTYS = abhepexpt.sty abhep.sty  abmath.sty lineno.sty SIunits.sty varwidth.sty
 
-thesis.pdf: thesis.tex mythesis.cls chap1.tex chap2.tex chap3.tex frontmatter.tex appendices.tex
+mythesis.pdf: mythesis.tex mythesis.cls chap_theory.tex chap_detector.tex chap_l1jets.tex chap_compSUSY.tex frontmatter.tex appendices.tex
 	@rm -f $(EXTRASTYS)
 	unzip extrastyles.zip
-	@rm -f thesis.{aux,toc,lof,lot}
-	(pdflatex thesis && bibtex thesis && pdflatex thesis && pdflatex thesis) || rm -f $(EXTRASTYS) thesis.pdf
-	@rm -f thesis.{aux,toc,lof,lot}
+	@rm -f mythesis.{aux,toc,lof,lot}
+	(pdflatex mythesis && bibtex mythesis && pdflatex mythesis && pdflatex mythesis) || rm -f $(EXTRASTYS) mythesis.pdf
+	@rm -f mythesis.{aux,toc,lof,lot}
 	@rm -f $(EXTRASTYS)
 
 clean:
 	@rm -f $(EXTRASTYS)
-	@rm -f thesis.pdf thesis.log thesis.aux
+	@rm -f mythesis.pdf mythesis.log mythesis.aux
 	@rm -f *.bbl *.blg *.lof *.cut
 	@rm -f *.lot *.out *.toc
