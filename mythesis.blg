@@ -3,44 +3,52 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: mythesis.aux
 The style file: elsarticle-num.bst
 Database file #1: mythesis.bib
-You've used 4 entries,
+Warning--I didn't find a database entry for "TMT"
+Warning--I didn't find a database entry for "CMSdetector"
+Warning--I didn't find a database entry for "rho"
+Warning--I didn't find a database entry for "2007physics...3039H"
+Warning--empty journal in TDRVOL1
+Warning--empty institution in PFT-09-001
+Warning--empty institution in Cittolin:578006
+You've used 11 entries,
             2937 wiz_defined-function locations,
-            693 strings with 5583 characters,
-and the built_in function-call counts, 1226 in all, are:
-= -- 124
-> -- 28
-< -- 0
-+ -- 12
-- -- 8
-* -- 98
-:= -- 189
-add.period$ -- 8
-call.type$ -- 4
-change.case$ -- 4
+            752 strings with 7097 characters,
+and the built_in function-call counts, 3087 in all, are:
+= -- 312
+> -- 80
+< -- 1
++ -- 34
+- -- 23
+* -- 238
+:= -- 453
+add.period$ -- 19
+call.type$ -- 11
+change.case$ -- 12
 chr.to.int$ -- 0
-cite$ -- 4
-duplicate$ -- 32
-empty$ -- 129
-format.name$ -- 12
-if$ -- 305
+cite$ -- 14
+duplicate$ -- 88
+empty$ -- 331
+format.name$ -- 33
+if$ -- 790
 int.to.chr$ -- 0
-int.to.str$ -- 4
-missing$ -- 4
-newline$ -- 24
-num.names$ -- 4
-pop$ -- 12
+int.to.str$ -- 11
+missing$ -- 9
+newline$ -- 50
+num.names$ -- 11
+pop$ -- 44
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 76
+skip$ -- 200
 stack$ -- 0
-substring$ -- 72
-swap$ -- 12
-text.length$ -- 0
+substring$ -- 144
+swap$ -- 30
+text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 0
-while$ -- 8
-width$ -- 5
-write$ -- 47
+warning$ -- 3
+while$ -- 19
+width$ -- 13
+write$ -- 112
+(There were 7 warnings)

@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
 \expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
@@ -28,5 +28,48 @@ J.~Alves, A.~Augusto, et~al., {The LHCb Detector at the LHC}, JINST 3 (2008)
   S08005.
 \newblock \href {http://dx.doi.org/10.1088/1748-0221/3/08/S08005}
   {\path{doi:10.1088/1748-0221/3/08/S08005}}.
+
+\bibitem{TDRVOL1}
+S.~Chatrchyan, et~al., {CMS Physics: Technical Design Report Volume 1: Detector
+  Performance and Software}.
+
+\bibitem{bib:akjets}
+M.~Cacciari, G.~P. Salam, G.~Soyez, The anti-k$_\mathrm{t}$ jet clustering
+  algorithm, JHEP 04 (2008) 063.
+\newblock \href {http://arxiv.org/abs/0802.1189} {\path{arXiv:0802.1189}},
+  \href {http://dx.doi.org/10.1088/1126-6708/2008/04/063}
+  {\path{doi:10.1088/1126-6708/2008/04/063}}.
+
+\bibitem{PFT-09-001}
+{CMS Collaboration}, \href{http://cdsweb.cern.ch/record/1194487}{Particle flow
+  event reconstruction in cms and performance for jets, taus and met}, CMS
+  Physics Analysis Summary CMS-PAS-PFT-09-001 (2009).
+\newline\urlprefix\url{http://cdsweb.cern.ch/record/1194487}
+
+\bibitem{bib:Wdiscovery}
+G.~Arnison, et~al., {Experimental observation of isolated large transverse
+  energy electrons with associated missing energy at $\sqrt{s} = 540$~GeV},
+  Phys. Lett. B 122 (1983) 103--116.
+\newblock \href {http://dx.doi.org/10.1016/0370-2693(83) 91177-2}
+  {\path{doi:10.1016/0370-2693(83) 91177-2}}.
+
+\bibitem{Albajar:173124}
+C.~Albajar, et~al., {Events with large missing transverse energy at the CERN
+  collider: I. W $\rightarrow \tau \nu$ decay and test of $\tau - \mu - e$
+  universality at Q$^{2}$ = m$_{W}^{2}$}, Phys. Lett. B 185 (1986) 233--240.
+\newblock \href {http://dx.doi.org/10.1016/0370-2693(87) 91561-9}
+  {\path{doi:10.1016/0370-2693(87) 91561-9}}.
+
+\bibitem{Albajar:173125}
+C.~Albajar, et~al., {Events with large missing transverse energy at the CERN
+  collider: II. Search for the decays of W+- into heavy leptons and of Z0 into
+  non-interacting particles}, Phys. Lett. B 185 (1986) 241--248.
+\newblock \href {http://dx.doi.org/10.1016/0370-2693(87) 91562-0}
+  {\path{doi:10.1016/0370-2693(87) 91562-0}}.
+
+\bibitem{Cittolin:578006}
+S.~Cittolin, A.~Rácz, P.~Sphicas, {CMS The TriDAS Project: Technical Design
+  Report, Volume 2: Data Acquisition and High-Level Trigger. CMS trigger and
+  data-acquisition project}, Tech. rep., Geneva (2002).
 
 \end{thebibliography}
