@@ -1,75 +1,139 @@
-\begin{thebibliography}{10}
-\expandafter\ifx\csname url\endcsname\relax
-  \def\url#1{\texttt{#1}}\fi
-\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
-\expandafter\ifx\csname href\endcsname\relax
-  \def\href#1#2{#2} \def\path#1{#1}\fi
+\providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{10}%
+\makeatletter
+\providecommand{\hrefCMSnoop }[0]{\@secondoftwo}%
+\makeatother
+\providecommand{\doi}{\texttt{doi:}\begingroup \urlstyle{tt}\Url}
 
 \bibitem{Aamodt:2008zz}
-K.~Aamodt, et~al., {The ALICE experiment at the CERN LHC}, JINST 3 (2008)
-  S08002.
-\newblock \href {http://dx.doi.org/10.1088/1748-0221/3/08/S08002}
-  {\path{doi:10.1088/1748-0221/3/08/S08002}}.
+\hrefCMSnoop {} {{ ALICE} Collaboration, ``{The ALICE experiment at the CERN
+  LHC}'',} \textit{ JINST} \textbf{ 3} (2008) S08002,
+\href{http://dx.doi.org/10.1088/1748-0221/3/08/S08002}{\doi{10.1088/1748-0221/3/08/S08002}}.
+%%CITATION = JINST,3,S08002;%%.
 
 \bibitem{Aad:2008zzm}
-G.~Aad, et~al., {The ATLAS Experiment at the CERN Large Hadron Collider}, JINST
-  3 (2008) S08003.
-\newblock \href {http://dx.doi.org/10.1088/1748-0221/3/08/S08003}
-  {\path{doi:10.1088/1748-0221/3/08/S08003}}.
+\hrefCMSnoop {} {{ ATLAS Collaboration} Collaboration, ``{The ATLAS Experiment
+  at the CERN Large Hadron Collider}'',} \textit{ JINST} \textbf{ 3} (2008)
+  S08003,
+\href{http://dx.doi.org/10.1088/1748-0221/3/08/S08003}{\doi{10.1088/1748-0221/3/08/S08003}}.
+%%CITATION = JINST,3,S08003;%%.
 
 \bibitem{Chatrchyan:2008aa}
-S.~Chatrchyan, et~al., {The CMS experiment at the CERN LHC}, JINST 3 (2008)
-  S08004.
-\newblock \href {http://dx.doi.org/10.1088/1748-0221/3/08/S08004}
-  {\path{doi:10.1088/1748-0221/3/08/S08004}}.
+\hrefCMSnoop {} {{ CMS Collaboration} Collaboration, ``{The CMS experiment at
+  the CERN LHC}'',} \textit{ JINST} \textbf{ 3} (2008) S08004,
+\href{http://dx.doi.org/10.1088/1748-0221/3/08/S08004}{\doi{10.1088/1748-0221/3/08/S08004}}.
+%%CITATION = JINST,3,S08004;%%.
 
 \bibitem{Alves:2008zz}
-J.~Alves, A.~Augusto, et~al., {The LHCb Detector at the LHC}, JINST 3 (2008)
-  S08005.
-\newblock \href {http://dx.doi.org/10.1088/1748-0221/3/08/S08005}
-  {\path{doi:10.1088/1748-0221/3/08/S08005}}.
+\hrefCMSnoop {} {{ LHCb Collaboration} Collaboration, ``{The LHCb Detector at
+  the LHC}'',} \textit{ JINST} \textbf{ 3} (2008) S08005,
+\href{http://dx.doi.org/10.1088/1748-0221/3/08/S08005}{\doi{10.1088/1748-0221/3/08/S08005}}.
+%%CITATION = JINST,3,S08005;%%.
 
 \bibitem{TDRVOL1}
-S.~Chatrchyan, et~al., {CMS Physics: Technical Design Report Volume 1: Detector
-  Performance and Software}.
+\hrefCMSnoop {} {{ CMS Collaboration} Collaboration, ``{CMS Physics: Technical
+  Design Report Volume 1: Detector Performance and Software}'',}.
 
 \bibitem{bib:akjets}
-M.~Cacciari, G.~P. Salam, G.~Soyez, The anti-k$_\mathrm{t}$ jet clustering
-  algorithm, JHEP 04 (2008) 063.
-\newblock \href {http://arxiv.org/abs/0802.1189} {\path{arXiv:0802.1189}},
-  \href {http://dx.doi.org/10.1088/1126-6708/2008/04/063}
-  {\path{doi:10.1088/1126-6708/2008/04/063}}.
+\hrefCMSnoop {} {M.~Cacciari, G.~P. Salam, and G.~Soyez, ``The
+  anti-k$_\mathrm{t}$ jet clustering algorithm'',} \textit{ JHEP} \textbf{ 04}
+  (2008) 063,
+  \href{http://dx.doi.org/10.1088/1126-6708/2008/04/063}{\doi{10.1088/1126-6708/2008/04/063}},
+  \href{http://www.arXiv.org/abs/0802.1189}{\texttt{ arXiv:0802.1189}}.
 
 \bibitem{PFT-09-001}
-{CMS Collaboration}, \href{http://cdsweb.cern.ch/record/1194487}{Particle flow
-  event reconstruction in cms and performance for jets, taus and met}, CMS
-  Physics Analysis Summary CMS-PAS-PFT-09-001 (2009).
-\newline\urlprefix\url{http://cdsweb.cern.ch/record/1194487}
+\href {http://cdsweb.cern.ch/record/1194487} {{ CMS} Collaboration, ``Particle
+  Flow Event Reconstruction in CMS and Performance for Jets, Taus and MET'',}
+  CMS Physics Analysis Summary CMS-PAS-PFT-09-001, (2009).
 
 \bibitem{bib:Wdiscovery}
-G.~Arnison, et~al., {Experimental observation of isolated large transverse
-  energy electrons with associated missing energy at $\sqrt{s} = 540$~GeV},
-  Phys. Lett. B 122 (1983) 103--116.
-\newblock \href {http://dx.doi.org/10.1016/0370-2693(83) 91177-2}
-  {\path{doi:10.1016/0370-2693(83) 91177-2}}.
+\hrefCMSnoop {} {{
+  Aachen-Annecy-Birmingham-CERN-Helsinki-London(QMC)-Paris(CdF)-Riverside-Rome-Rutherford-Saclay(CEN)-Vienna
+  Collaboration} Collaboration, ``{Experimental observation of isolated large
+  transverse energy electrons with associated missing energy at $\sqrt{s} =
+  540$~GeV}'',} \textit{ Phys. Lett. B} \textbf{ 122} (Jan, 1983) 103--116,
+  \href{http://dx.doi.org/10.1016/0370-2693(83)
+  91177-2}{\doi{10.1016/0370-2693(83) 91177-2}}.
 
 \bibitem{Albajar:173124}
-C.~Albajar, et~al., {Events with large missing transverse energy at the CERN
-  collider: I. W $\rightarrow \tau \nu$ decay and test of $\tau - \mu - e$
-  universality at Q$^{2}$ = m$_{W}^{2}$}, Phys. Lett. B 185 (1986) 233--240.
-\newblock \href {http://dx.doi.org/10.1016/0370-2693(87) 91561-9}
-  {\path{doi:10.1016/0370-2693(87) 91561-9}}.
+\hrefCMSnoop {} {{ Vienna-Wisconsin Collaboration,
+  Aachen-Amsterdam(NIKHEF)-Annecy-Birmingham-CERN-Harvard-Helsinki-Kiel-London(IC)-London(QMC)-MIT-Padua-Paris(CdF)-Riverside-Rome-Rutherford-Saclay(CEN)-Victoria
+  Collaboration} Collaboration, ``{Events with large missing transverse energy
+  at the CERN collider: I. W $\rightarrow \tau \nu$ decay and test of $\tau -
+  \mu - e$ universality at Q$^{2}$ = m$_{W}^{2}$}'',} \textit{ Phys. Lett. B}
+  \textbf{ 185} (Nov, 1986) 233--240,
+  \href{http://dx.doi.org/10.1016/0370-2693(87)
+  91561-9}{\doi{10.1016/0370-2693(87) 91561-9}}.
 
 \bibitem{Albajar:173125}
-C.~Albajar, et~al., {Events with large missing transverse energy at the CERN
-  collider: II. Search for the decays of W+- into heavy leptons and of Z0 into
-  non-interacting particles}, Phys. Lett. B 185 (1986) 241--248.
-\newblock \href {http://dx.doi.org/10.1016/0370-2693(87) 91562-0}
-  {\path{doi:10.1016/0370-2693(87) 91562-0}}.
+\hrefCMSnoop {} {{ Vienna-Wisconsin Collaboration,
+  Aachen-Amsterdam(NIKHEF)-Annecy-Birmingham-CERN-Harvard-Helsinki-Kiel-London(IC)-London(QMC)-MIT-Padua-Paris(CdF)-Riverside-Rome-Rutherford-Saclay(CEN)-Victoria
+  Collaboration} Collaboration, ``{Events with large missing transverse energy
+  at the CERN collider: II. Search for the decays of W+- into heavy leptons and
+  of Z0 into non-interacting particles}'',} \textit{ Phys. Lett. B} \textbf{
+  185} (Nov, 1986) 241--248, \href{http://dx.doi.org/10.1016/0370-2693(87)
+  91562-0}{\doi{10.1016/0370-2693(87) 91562-0}}.
 
 \bibitem{Cittolin:578006}
-S.~Cittolin, A.~Rácz, P.~Sphicas, {CMS The TriDAS Project: Technical Design
-  Report, Volume 2: Data Acquisition and High-Level Trigger. CMS trigger and
-  data-acquisition project}, Tech. rep., Geneva (2002).
+\hrefCMSnoop {} {{ CMS} Collaboration, ``{CMS The TriDAS Project: Technical
+  Design Report, Volume 2: Data Acquisition and High-Level Trigger. CMS trigger
+  and data-acquisition project}'',} technical report, Geneva, (2002).
 
-\end{thebibliography}
+\bibitem{Aad:2012tfa}
+\hrefCMSnoop {} {{ ATLAS} Collaboration, ``{Observation of a new particle in
+  the search for the Standard Model Higgs boson with the ATLAS detector at the
+  LHC}'',} \textit{ Phys. Lett. B} \textbf{ 716} (2012) 1,
+  \href{http://dx.doi.org/10.1016/j.physletb.2012.08.020}{\doi{10.1016/j.physletb.2012.08.020}},
+\href{http://www.arXiv.org/abs/1207.7214}{\texttt{ arXiv:1207.7214}}.
+%%CITATION = ARXIV:1207.7214;%%.
+
+\bibitem{Chatrchyan:2012ufa}
+\hrefCMSnoop {} {{ CMS} Collaboration, ``{Observation of a new boson at a mass
+  of 125 GeV with the CMS experiment at the LHC}'',} \textit{ Phys. Lett. B}
+  \textbf{ 716} (2012) 30,
+  \href{http://dx.doi.org/10.1016/j.physletb.2012.08.021}{\doi{10.1016/j.physletb.2012.08.021}},
+\href{http://www.arXiv.org/abs/1207.7235}{\texttt{ arXiv:1207.7235}}.
+%%CITATION = ARXIV:1207.7235;%%.
+
+\bibitem{HiggsEvidence}
+\hrefCMSnoop {} {{ CMS} Collaboration, ``{Evidence for the direct decay of the
+  125 GeV Higgs boson to fermions}'',}
+\href{http://www.arXiv.org/abs/1401.6527}{\texttt{ arXiv:1401.6527}}.
+%%CITATION = ARXIV:1401.6527;%%.
+
+\bibitem{Tapper:1556311}
+\hrefCMSnoop {} {{ CMS} Collaboration, ``{CMS Technical Design Report for the
+  Level-1 Trigger Upgrade}'',} Technical Report CERN-LHCC-2013-011. CMS-TDR-12,
+  CERN, Geneva, (Jun, 2013).
+\newblock Additional contacts: Jeffrey Spalding, Fermilab,
+  Jeffrey.Spalding@cern.ch Didier Contardo, Universite Claude Bernard-Lyon I,
+  didier.claude.contardo@cern.ch.
+
+\bibitem{TMT_dem}
+\href {http://stacks.iop.org/1748-0221/7/i=01/a=C01060} {R.~Frazier, S.~Fayer,
+  G.~Hall{ et~al.}, ``A demonstration of a Time Multiplexed Trigger for the CMS
+  experiment'',} \textit{ Journal of Instrumentation} \textbf{ 7} (2012),
+  no.~01, C01060.
+
+\bibitem{1748-0221-9-01-C01006}
+\href {http://stacks.iop.org/1748-0221/9/i=01/a=C01006} {M.~Baber, M.~Blake,
+  J.~Brooke{ et~al.}, ``Development and testing of an upgrade to the CMS
+  level-1 calorimeter trigger'',} \textit{ Journal of Instrumentation} \textbf{
+  9} (2014), no.~01, C01006.
+
+\bibitem{rho_jetarea}
+\hrefCMSnoop {} {M.~Cacciari and G.~P. Salam, ``{Pileup subtraction using jet
+  areas}'',} \textit{ Phys.Lett.} \textbf{ B659} (2008) 119--126,
+  \href{http://dx.doi.org/10.1016/j.physletb.2007.09.077}{\doi{10.1016/j.physletb.2007.09.077}},
+\href{http://www.arXiv.org/abs/0707.1378}{\texttt{ arXiv:0707.1378}}.
+%%CITATION = ARXIV:0707.1378;%%.
+
+\bibitem{alphaT}
+\hrefCMSnoop {} {{ CMS Collaboration} Collaboration, ``{Search for
+  supersymmetry in hadronic final states with missing transverse energy using
+  the variables $\alpha_T$ and b-quark multiplicity in pp collisions at $\sqrt
+  s=8$ TeV}'',} \textit{ Eur.Phys.J.} \textbf{ C73} (2013) 2568,
+  \href{http://dx.doi.org/10.1140/epjc/s10052-013-2568-6}{\doi{10.1140/epjc/s10052-013-2568-6}},
+\href{http://www.arXiv.org/abs/1303.2985}{\texttt{ arXiv:1303.2985}}.
+%%CITATION = ARXIV:1303.2985;%%.
+
+\end{thebibliography}\endgroup

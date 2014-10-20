@@ -21,14 +21,24 @@
 \BOOKMARK [2][-]{subsection.3.4.1}{The L1 Trigger}{section.3.4}% 21
 \BOOKMARK [2][-]{subsection.3.4.2}{The High Level Trigger}{section.3.4}% 22
 \BOOKMARK [0][-]{chapter.4}{Jet Algorithms for the L1 Trigger Upgrade}{}% 23
-\BOOKMARK [1][-]{subsection.4.0.3}{Algorithms for L1 jet reconstruction}{chapter.4}% 24
-\BOOKMARK [2][-]{subsection.4.0.4}{Upgrade L1 Jet Algorithm Performance}{subsection.4.0.3}% 25
-\BOOKMARK [0][-]{chapter.5}{Searching for Compressed SUSY with monojet events}{}% 26
-\BOOKMARK [1][-]{section.5.1}{Analysis}{chapter.5}% 27
-\BOOKMARK [0][-]{appendix.A}{Pointless extras}{}% 28
-\BOOKMARK [1][-]{section.A.1}{Like, duh}{appendix.A}% 29
-\BOOKMARK [1][-]{section.A.2}{y = \040x2}{appendix.A}% 30
-\BOOKMARK [0][-]{appendix*.63}{Bibliography}{}% 31
-\BOOKMARK [0][-]{appendix*.64}{List of Figures}{}% 32
-\BOOKMARK [0][-]{appendix*.65}{List of Tables}{}% 33
-\BOOKMARK [1][-]{section.Alph0.1}{Acronyms}{appendix*.65}% 34
+\BOOKMARK [1][-]{section.4.1}{LHC Upgrade}{chapter.4}% 24
+\BOOKMARK [1][-]{section.4.2}{CMS Trigger Upgrade}{chapter.4}% 25
+\BOOKMARK [2][-]{subsection.4.2.1}{Calorimeter Trigger Upgrade}{section.4.2}% 26
+\BOOKMARK [1][-]{section.4.3}{Algorithm for jet reconstruction at L1}{chapter.4}% 27
+\BOOKMARK [2][-]{subsection.4.3.1}{Jet Reconstruction}{section.4.3}% 28
+\BOOKMARK [2][-]{subsection.4.3.2}{Jet Filtering}{section.4.3}% 29
+\BOOKMARK [2][-]{subsection.4.3.3}{Event-by-event estimation of pile-up}{section.4.3}% 30
+\BOOKMARK [2][-]{subsection.4.3.4}{Calibration to the jet energy scale }{section.4.3}% 31
+\BOOKMARK [1][-]{section.4.4}{Upgrade L1 Jet Algorithm Performance}{chapter.4}% 32
+\BOOKMARK [2][-]{subsection.4.4.1}{Angular and Energy Resolutions}{section.4.4}% 33
+\BOOKMARK [2][-]{subsection.4.4.2}{Trigger efficiencies}{section.4.4}% 34
+\BOOKMARK [2][-]{subsection.4.4.3}{Jet trigger rates}{section.4.4}% 35
+\BOOKMARK [2][-]{subsection.4.4.4}{Other jet variables}{section.4.4}% 36
+\BOOKMARK [1][-]{section.4.5}{Conclusion}{chapter.4}% 37
+\BOOKMARK [0][-]{chapter.5}{Searching for Compressed SUSY with monojet events}{}% 38
+\BOOKMARK [1][-]{section.5.1}{Analysis}{chapter.5}% 39
+\BOOKMARK [0][-]{chapter.6}{Searching for Compressed SUSY with monojet events in parked data}{}% 40
+\BOOKMARK [0][-]{appendix*.85}{Bibliography}{}% 41
+\BOOKMARK [0][-]{appendix*.86}{List of Figures}{}% 42
+\BOOKMARK [0][-]{appendix*.87}{List of Tables}{}% 43
+\BOOKMARK [1][-]{section.Alph0.1}{Acronyms}{appendix*.87}% 44

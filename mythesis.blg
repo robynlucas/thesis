@@ -1,54 +1,53 @@
 This is BibTeX, Version 0.99d (TeX Live 2012)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: mythesis.aux
-The style file: elsarticle-num.bst
+The style file: lucas_unsrt.bst
 Database file #1: mythesis.bib
-Warning--I didn't find a database entry for "TMT"
-Warning--I didn't find a database entry for "CMSdetector"
-Warning--I didn't find a database entry for "rho"
-Warning--I didn't find a database entry for "2007physics...3039H"
-Warning--empty journal in TDRVOL1
+Warning--I'm ignoring TDRVOL1's extra "collaboration" field
+--line 82 of file mythesis.bib
+Warning--I didn't find a database entry for "RoseTrig"
+Warning--I didn't find a database entry for "newL1jetWork"
 Warning--empty institution in PFT-09-001
 Warning--empty institution in Cittolin:578006
-You've used 11 entries,
-            2937 wiz_defined-function locations,
-            752 strings with 7097 characters,
-and the built_in function-call counts, 3087 in all, are:
-= -- 312
-> -- 80
-< -- 1
-+ -- 34
-- -- 23
-* -- 238
-:= -- 453
-add.period$ -- 19
-call.type$ -- 11
-change.case$ -- 12
+You've used 19 entries,
+            2517 wiz_defined-function locations,
+            773 strings with 9514 characters,
+and the built_in function-call counts, 5565 in all, are:
+= -- 602
+> -- 123
+< -- 2
++ -- 59
+- -- 40
+* -- 512
+:= -- 674
+add.period$ -- 29
+call.type$ -- 19
+change.case$ -- 1
 chr.to.int$ -- 0
-cite$ -- 14
-duplicate$ -- 88
-empty$ -- 331
-format.name$ -- 33
-if$ -- 790
+cite$ -- 21
+duplicate$ -- 360
+empty$ -- 551
+format.name$ -- 11
+if$ -- 1452
 int.to.chr$ -- 0
-int.to.str$ -- 11
-missing$ -- 9
-newline$ -- 50
-num.names$ -- 11
-pop$ -- 44
+int.to.str$ -- 19
+missing$ -- 48
+newline$ -- 83
+num.names$ -- 4
+pop$ -- 97
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 200
+skip$ -- 212
 stack$ -- 0
-substring$ -- 144
-swap$ -- 30
-text.length$ -- 1
+substring$ -- 204
+swap$ -- 159
+text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 3
-while$ -- 19
-width$ -- 13
-write$ -- 112
-(There were 7 warnings)
+warning$ -- 2
+while$ -- 22
+width$ -- 21
+write$ -- 235
+(There were 5 warnings)
