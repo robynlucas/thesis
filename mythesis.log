@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  20 OCT 2014 12:40
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  28 OCT 2014 13:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -964,7 +964,11 @@ LaTeX Info: Redefining \CERN on input line 33.
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 
-(./mythesis.aux)
+(./mythesis.aux
+
+LaTeX Warning: Label `lumiProgramme' multiply defined.
+
+)
 \openout1 = `mythesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
@@ -1365,7 +1369,7 @@ Chapter 4.
 [27
 
 ] [28]
-<Figures/l1jets/triggerThresholdCurrentL1Table.png, id=1081, 752.8125pt x 552.0
+<Figures/l1jets/triggerThresholdCurrentL1Table.png, id=1082, 752.8125pt x 552.0
 625pt>
 File: Figures/l1jets/triggerThresholdCurrentL1Table.png Graphic file (type png)
 
@@ -1377,7 +1381,7 @@ Package pdftex.def Info: Figures/l1jets/triggerThresholdCurrentL1Table.png used
 Package acronym Info: Label `acro:TMT' newly defined as it shall be overridden
 although it is yet undefined on input line 91.
  [30]
-<Figures/l1jets/TraditionalTrigger.png, id=1119, 330.5148pt x 262.0992pt>
+<Figures/l1jets/TraditionalTrigger.png, id=1120, 330.5148pt x 262.0992pt>
 File: Figures/l1jets/TraditionalTrigger.png Graphic file (type png)
 
 <use Figures/l1jets/TraditionalTrigger.png>
@@ -1394,7 +1398,7 @@ LaTeX Warning: Citation `RoseTrig' on page 31 undefined on input line 109.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[31] <Figures/l1jets/TMTrigger.png, id=1140, 330.5148pt x 262.0992pt>
+[31] <Figures/l1jets/TMTrigger.png, id=1141, 330.5148pt x 262.0992pt>
 File: Figures/l1jets/TMTrigger.png Graphic file (type png)
 
 <use Figures/l1jets/TMTrigger.png>
@@ -1408,7 +1412,7 @@ LaTeX Warning: Citation `RoseTrig' on page 32 undefined on input line 142.
 LaTeX Warning: Citation `RoseTrig' on page 32 undefined on input line 142.
 
 [32 <./Figures/l1jets/TraditionalTrigger.png>] [33 <./Figures/l1jets/TMTrigger.
-png>] <Figures/l1jets/towerGeometry.png, id=1176, 608.2725pt x 365.365pt>
+png>] <Figures/l1jets/towerGeometry.png, id=1177, 608.2725pt x 365.365pt>
 File: Figures/l1jets/towerGeometry.png Graphic file (type png)
 
 <use Figures/l1jets/towerGeometry.png>
@@ -1416,7 +1420,7 @@ Package pdftex.def Info: Figures/l1jets/towerGeometry.png used on input line 19
 0.
 (pdftex.def)             Requested size: 407.54047pt x 244.79327pt.
 
-<Figures/l1jets/CurrentL1Jet.jpg, id=1183, 515.526pt x 694.2738pt>
+<Figures/l1jets/CurrentL1Jet.jpg, id=1184, 515.526pt x 694.2738pt>
 File: Figures/l1jets/CurrentL1Jet.jpg Graphic file (type jpg)
 
 <use Figures/l1jets/CurrentL1Jet.jpg>
@@ -1424,14 +1428,14 @@ Package pdftex.def Info: Figures/l1jets/CurrentL1Jet.jpg used on input line 208
 .
 (pdftex.def)             Requested size: 175.27652pt x 236.04996pt.
 
-<Figures/l1jets/UpgradeJet.jpg, id=1184, 518.8986pt x 642.2394pt>
+<Figures/l1jets/UpgradeJet.jpg, id=1185, 518.8986pt x 642.2394pt>
 File: Figures/l1jets/UpgradeJet.jpg Graphic file (type jpg)
 
 <use Figures/l1jets/UpgradeJet.jpg>
 Package pdftex.def Info: Figures/l1jets/UpgradeJet.jpg used on input line 209.
 (pdftex.def)             Requested size: 191.98947pt x 237.62485pt.
  [34]
-<Figures/l1jets/jetoverlaps.pdf, id=1195, 714.887pt x 495.78386pt>
+<Figures/l1jets/jetoverlaps.pdf, id=1196, 714.887pt x 495.78386pt>
 File: Figures/l1jets/jetoverlaps.pdf Graphic file (type pdf)
 
 <use Figures/l1jets/jetoverlaps.pdf>
@@ -1449,14 +1453,14 @@ File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 236.
  [36 <./Figures/l1jets/jetoverlaps.pdf>] [37] [38]
-<Figures/l1jets/PreCalib.pdf, id=1264, 569.12625pt x 546.04pt>
+<Figures/l1jets/PreCalib.pdf, id=1265, 569.12625pt x 546.04pt>
 File: Figures/l1jets/PreCalib.pdf Graphic file (type pdf)
 
 <use Figures/l1jets/PreCalib.pdf>
 Package pdftex.def Info: Figures/l1jets/PreCalib.pdf used on input line 329.
 (pdftex.def)             Requested size: 182.12411pt x 174.73636pt.
 
-<Figures/l1jets/PostCalib.pdf, id=1265, 569.12625pt x 546.04pt>
+<Figures/l1jets/PostCalib.pdf, id=1266, 569.12625pt x 546.04pt>
 File: Figures/l1jets/PostCalib.pdf Graphic file (type pdf)
 
 <use Figures/l1jets/PostCalib.pdf>
@@ -1464,28 +1468,28 @@ Package pdftex.def Info: Figures/l1jets/PostCalib.pdf used on input line 330.
 (pdftex.def)             Requested size: 182.12411pt x 174.73636pt.
  [39 <./Figures/l1jets/PreCalib.pdf, page is rotated 90 degrees> <./Figures/l1j
 ets/PostCalib.pdf, page is rotated 90 degrees>] <Figures/l1jets//etaRes.pdf, id
-=1367, 569.12625pt x 385.44pt>
+=1368, 569.12625pt x 385.44pt>
 File: Figures/l1jets//etaRes.pdf Graphic file (type pdf)
 
 <use Figures/l1jets//etaRes.pdf>
 Package pdftex.def Info: Figures/l1jets//etaRes.pdf used on input line 358.
 (pdftex.def)             Requested size: 182.12411pt x 123.3433pt.
 
-<Figures/l1jets//phiRes.pdf, id=1368, 569.12625pt x 385.44pt>
+<Figures/l1jets//phiRes.pdf, id=1369, 569.12625pt x 385.44pt>
 File: Figures/l1jets//phiRes.pdf Graphic file (type pdf)
 
 <use Figures/l1jets//phiRes.pdf>
 Package pdftex.def Info: Figures/l1jets//phiRes.pdf used on input line 359.
 (pdftex.def)             Requested size: 182.12411pt x 123.3433pt.
 
-<Figures/l1jets//ptRes.pdf, id=1369, 569.12625pt x 385.44pt>
+<Figures/l1jets//ptRes.pdf, id=1370, 569.12625pt x 385.44pt>
 File: Figures/l1jets//ptRes.pdf Graphic file (type pdf)
 
 <use Figures/l1jets//ptRes.pdf>
 Package pdftex.def Info: Figures/l1jets//ptRes.pdf used on input line 360.
 (pdftex.def)             Requested size: 182.12411pt x 123.3433pt.
 
-<Figures/l1jets/Ptres_vsPU.pdf, id=1377, 569.12625pt x 385.44pt>
+<Figures/l1jets/Ptres_vsPU.pdf, id=1378, 569.12625pt x 385.44pt>
 File: Figures/l1jets/Ptres_vsPU.pdf Graphic file (type pdf)
 
 <use Figures/l1jets/Ptres_vsPU.pdf>
@@ -1495,7 +1499,7 @@ Package pdftex.def Info: Figures/l1jets/Ptres_vsPU.pdf used on input line 373.
 ts//phiRes.pdf, page is rotated 90 degrees> <./Figures/l1jets//ptRes.pdf, page 
 is rotated 90 degrees>] [41 <./Figures/l1jets/Ptres_vsPU.pdf, page is rotated 9
 0 degrees>]
-<Figures/l1jets//CurrentL1JetTriggers.pdf, id=1593, 569.12625pt x 385.44pt>
+<Figures/l1jets//CurrentL1JetTriggers.pdf, id=1594, 569.12625pt x 385.44pt>
 File: Figures/l1jets//CurrentL1JetTriggers.pdf Graphic file (type pdf)
 
 <use Figures/l1jets//CurrentL1JetTriggers.pdf>
@@ -1503,7 +1507,7 @@ Package pdftex.def Info: Figures/l1jets//CurrentL1JetTriggers.pdf used on input
  line 405.
 (pdftex.def)             Requested size: 210.57341pt x 142.61057pt.
 
-<Figures/l1jets//UpgradeL1JetTriggers.pdf, id=1594, 569.12625pt x 385.44pt>
+<Figures/l1jets//UpgradeL1JetTriggers.pdf, id=1595, 569.12625pt x 385.44pt>
 File: Figures/l1jets//UpgradeL1JetTriggers.pdf Graphic file (type pdf)
 
 <use Figures/l1jets//UpgradeL1JetTriggers.pdf>
@@ -1511,7 +1515,7 @@ Package pdftex.def Info: Figures/l1jets//UpgradeL1JetTriggers.pdf used on input
  line 406.
 (pdftex.def)             Requested size: 210.57341pt x 142.61057pt.
 
-<Figures/l1jets//CurrentL1JetTriggersHPU.pdf, id=1597, 569.12625pt x 385.44pt>
+<Figures/l1jets//CurrentL1JetTriggersHPU.pdf, id=1598, 569.12625pt x 385.44pt>
 File: Figures/l1jets//CurrentL1JetTriggersHPU.pdf Graphic file (type pdf)
 
 <use Figures/l1jets//CurrentL1JetTriggersHPU.pdf>
@@ -1519,7 +1523,7 @@ Package pdftex.def Info: Figures/l1jets//CurrentL1JetTriggersHPU.pdf used on in
 put line 414.
 (pdftex.def)             Requested size: 210.57341pt x 142.61057pt.
 
-<Figures/l1jets//UpgradeL1JetTriggersHPU.pdf, id=1598, 569.12625pt x 385.44pt>
+<Figures/l1jets//UpgradeL1JetTriggersHPU.pdf, id=1599, 569.12625pt x 385.44pt>
 File: Figures/l1jets//UpgradeL1JetTriggersHPU.pdf Graphic file (type pdf)
 
 <use Figures/l1jets//UpgradeL1JetTriggersHPU.pdf>
@@ -1530,7 +1534,7 @@ put line 415.
 ./Figures/l1jets//UpgradeL1JetTriggers.pdf, page is rotated 90 degrees>] [43 <.
 /Figures/l1jets//CurrentL1JetTriggersHPU.pdf, page is rotated 90 degrees> <./Fi
 gures/l1jets//UpgradeL1JetTriggersHPU.pdf, page is rotated 90 degrees>]
-<Figures/l1jets/singleJetRates_2e34.pdf, id=1818, 569.12625pt x 546.04pt>
+<Figures/l1jets/singleJetRates_2e34.pdf, id=1819, 569.12625pt x 546.04pt>
 File: Figures/l1jets/singleJetRates_2e34.pdf Graphic file (type pdf)
 
 <use Figures/l1jets/singleJetRates_2e34.pdf>
@@ -1538,7 +1542,7 @@ Package pdftex.def Info: Figures/l1jets/singleJetRates_2e34.pdf used on input l
 ine 479.
 (pdftex.def)             Requested size: 170.73918pt x 163.81326pt.
 
-<Figures/l1jets/quadJetRates_2e34.pdf, id=1819, 569.12625pt x 546.04pt>
+<Figures/l1jets/quadJetRates_2e34.pdf, id=1820, 569.12625pt x 546.04pt>
 File: Figures/l1jets/quadJetRates_2e34.pdf Graphic file (type pdf)
 
 <use Figures/l1jets/quadJetRates_2e34.pdf>
@@ -1546,7 +1550,7 @@ Package pdftex.def Info: Figures/l1jets/quadJetRates_2e34.pdf used on input lin
 e 480.
 (pdftex.def)             Requested size: 170.73918pt x 163.81326pt.
 
-<Figures/l1jets/makePlot/jet_95threshold_conv.pdf, id=1820, 569.12625pt x 385.4
+<Figures/l1jets/makePlot/jet_95threshold_conv.pdf, id=1821, 569.12625pt x 385.4
 4pt>
 File: Figures/l1jets/makePlot/jet_95threshold_conv.pdf Graphic file (type pdf)
  <use Figures/l1jets/makePlot/jet_95threshold_conv.pdf>
@@ -1554,7 +1558,7 @@ Package pdftex.def Info: Figures/l1jets/makePlot/jet_95threshold_conv.pdf used
 on input line 489.
 (pdftex.def)             Requested size: 210.57341pt x 142.61057pt.
 
-<Figures/l1jets/singleJetRates_95thresh_2e34.pdf, id=1825, 569.12625pt x 546.04
+<Figures/l1jets/singleJetRates_95thresh_2e34.pdf, id=1826, 569.12625pt x 546.04
 pt>
 File: Figures/l1jets/singleJetRates_95thresh_2e34.pdf Graphic file (type pdf)
  <use Figures/l1jets/singleJetRates_95thresh_2e34.pdf>
@@ -1562,7 +1566,7 @@ Package pdftex.def Info: Figures/l1jets/singleJetRates_95thresh_2e34.pdf used o
 n input line 498.
 (pdftex.def)             Requested size: 170.73918pt x 163.81326pt.
 
-<Figures/l1jets/quadJetRates_95thresh_2e34.pdf, id=1826, 569.12625pt x 546.04pt
+<Figures/l1jets/quadJetRates_95thresh_2e34.pdf, id=1827, 569.12625pt x 546.04pt
 >
 File: Figures/l1jets/quadJetRates_95thresh_2e34.pdf Graphic file (type pdf)
  <use Figures/l1jets/quadJetRates_95thresh_2e34.pdf>
@@ -1572,7 +1576,7 @@ input line 499.
  [44] [45 <./Figures/l1jets/singleJetRates_2e34.pdf, page is rotated 90 degrees
 > <./Figures/l1jets/quadJetRates_2e34.pdf, page is rotated 90 degrees> <./Figur
 es/l1jets/makePlot/jet_95threshold_conv.pdf, page is rotated 90 degrees>]
-<Figures/l1jets/UpgradeL1HTTriggersfixed.pdf, id=1981, 569.12625pt x 385.44pt>
+<Figures/l1jets/UpgradeL1HTTriggersfixed.pdf, id=1982, 569.12625pt x 385.44pt>
 File: Figures/l1jets/UpgradeL1HTTriggersfixed.pdf Graphic file (type pdf)
 
 <use Figures/l1jets/UpgradeL1HTTriggersfixed.pdf>
@@ -1580,7 +1584,7 @@ Package pdftex.def Info: Figures/l1jets/UpgradeL1HTTriggersfixed.pdf used on in
 put line 527.
 (pdftex.def)             Requested size: 210.57341pt x 142.61057pt.
 
-<Figures/l1jets/upgradeHTconv.pdf, id=1982, 569.12625pt x 385.44pt>
+<Figures/l1jets/upgradeHTconv.pdf, id=1983, 569.12625pt x 385.44pt>
 File: Figures/l1jets/upgradeHTconv.pdf Graphic file (type pdf)
 
 <use Figures/l1jets/upgradeHTconv.pdf>
@@ -1588,7 +1592,7 @@ Package pdftex.def Info: Figures/l1jets/upgradeHTconv.pdf used on input line 52
 8.
 (pdftex.def)             Requested size: 210.57341pt x 142.61057pt.
 
-<Figures/l1jets/HTRates_2e34.pdf, id=1985, 569.12625pt x 546.04pt>
+<Figures/l1jets/HTRates_2e34.pdf, id=1986, 569.12625pt x 546.04pt>
 File: Figures/l1jets/HTRates_2e34.pdf Graphic file (type pdf)
 
 <use Figures/l1jets/HTRates_2e34.pdf>
@@ -1596,7 +1600,7 @@ Package pdftex.def Info: Figures/l1jets/HTRates_2e34.pdf used on input line 537
 .
 (pdftex.def)             Requested size: 170.73918pt x 163.81326pt.
 
-<Figures/l1jets/HTRates_95thresh_2e34.pdf, id=1986, 569.12625pt x 546.04pt>
+<Figures/l1jets/HTRates_95thresh_2e34.pdf, id=1987, 569.12625pt x 546.04pt>
 File: Figures/l1jets/HTRates_95thresh_2e34.pdf Graphic file (type pdf)
 
 <use Figures/l1jets/HTRates_95thresh_2e34.pdf>
@@ -1606,18 +1610,19 @@ Package pdftex.def Info: Figures/l1jets/HTRates_95thresh_2e34.pdf used on input
  [46 <./Figures/l1jets/singleJetRates_95thresh_2e34.pdf, page is rotated 90 deg
 rees> <./Figures/l1jets/quadJetRates_95thresh_2e34.pdf, page is rotated 90 degr
 ees> <./Figures/l1jets/UpgradeL1HTTriggersfixed.pdf, page is rotated 90 degrees
-> <./Figures/l1jets/upgradeHTconv.pdf, page is rotated 90 degrees>]
-
-LaTeX Warning: Citation `newL1jetWork' on page 47 undefined on input line 559.
-
-) (./chap_compSUSY.tex [47 <./Figures/l1jets/HTRates_2e34.pdf, page is rotated 
-90 degrees> <./Figures/l1jets/HTRates_95thresh_2e34.pdf, page is rotated 90 deg
-rees>]
+> <./Figures/l1jets/upgradeHTconv.pdf, page is rotated 90 degrees>]) (./chap_co
+mpSUSY.tex [47 <./Figures/l1jets/HTRates_2e34.pdf, page is rotated 90 degrees> 
+<./Figures/l1jets/HTRates_95thresh_2e34.pdf, page is rotated 90 degrees>]
 Chapter 5.
 ) (./chap_parkedData.tex [48
 
 ]
 Chapter 6.
+
+Overfull \hbox (20.5421pt too wide) in paragraph at lines 7--18
+ [] 
+ []
+
 ))
 \openout3 = `comment.cut'.
 
@@ -1659,21 +1664,24 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 60.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 60.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 60.
 Package rerunfilecheck Info: File `mythesis.out' has not changed.
-(rerunfilecheck)             Checksum: FA6F1B37B9F7BB62949B00CF9D11BFA6;3110.
+(rerunfilecheck)             Checksum: DD08534A465B14529CBD3874CE573164;3110.
 
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 60.
  ) 
 Here is how much of TeX's memory you used:
- 24432 strings out of 493488
- 400120 string characters out of 3141326
- 551315 words of memory out of 3000000
- 26755 multiletter control sequences out of 15000+200000
+ 24436 strings out of 493488
+ 400172 string characters out of 3141326
+ 551406 words of memory out of 3000000
+ 26757 multiletter control sequences out of 15000+200000
  29163 words of font info for 165 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 72i,18n,73p,1348b,724s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 72i,18n,73p,1348b,763s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
@@ -1691,10 +1699,10 @@ ve/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texliv
 e/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/
 2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2
 012/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on mythesis.pdf (68 pages, 4220087 bytes).
+Output written on mythesis.pdf (68 pages, 4222893 bytes).
 PDF statistics:
- 2707 PDF objects out of 2984 (max. 8388607)
- 1871 compressed objects within 19 object streams
- 294 named destinations out of 1000 (max. 500000)
+ 2719 PDF objects out of 2984 (max. 8388607)
+ 1881 compressed objects within 19 object streams
+ 296 named destinations out of 1000 (max. 500000)
  20558 words of extra memory for PDF output out of 20736 (max. 10000000)
 

@@ -6,48 +6,51 @@ Database file #1: mythesis.bib
 Warning--I'm ignoring TDRVOL1's extra "collaboration" field
 --line 82 of file mythesis.bib
 Warning--I didn't find a database entry for "RoseTrig"
-Warning--I didn't find a database entry for "newL1jetWork"
 Warning--empty institution in PFT-09-001
 Warning--empty institution in Cittolin:578006
-You've used 19 entries,
+Warning--empty author in newL1jetWork
+Warning--empty title in newL1jetWork
+Warning--empty institution in newL1jetWork
+Warning--empty year in newL1jetWork
+You've used 20 entries,
             2517 wiz_defined-function locations,
             773 strings with 9514 characters,
-and the built_in function-call counts, 5565 in all, are:
-= -- 602
-> -- 123
+and the built_in function-call counts, 5677 in all, are:
+= -- 607
+> -- 124
 < -- 2
-+ -- 59
++ -- 60
 - -- 40
-* -- 512
-:= -- 674
-add.period$ -- 29
-call.type$ -- 19
-change.case$ -- 1
+* -- 529
+:= -- 685
+add.period$ -- 30
+call.type$ -- 20
+change.case$ -- 2
 chr.to.int$ -- 0
-cite$ -- 21
-duplicate$ -- 360
-empty$ -- 551
+cite$ -- 26
+duplicate$ -- 368
+empty$ -- 566
 format.name$ -- 11
-if$ -- 1452
+if$ -- 1473
 int.to.chr$ -- 0
-int.to.str$ -- 19
+int.to.str$ -- 20
 missing$ -- 48
-newline$ -- 83
+newline$ -- 86
 num.names$ -- 4
-pop$ -- 97
+pop$ -- 105
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 212
+skip$ -- 213
 stack$ -- 0
 substring$ -- 204
-swap$ -- 159
+swap$ -- 160
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 2
+warning$ -- 6
 while$ -- 22
-width$ -- 21
-write$ -- 235
-(There were 5 warnings)
+width$ -- 22
+write$ -- 241
+(There were 8 warnings)
