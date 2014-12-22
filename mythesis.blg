@@ -4,7 +4,7 @@ The top-level auxiliary file: mythesis.aux
 The style file: lucas_unsrt.bst
 Database file #1: mythesis.bib
 Warning--I'm ignoring TDRVOL1's extra "collaboration" field
---line 82 of file mythesis.bib
+--line 100 of file mythesis.bib
 Warning--I didn't find a database entry for "RoseTrig"
 Warning--empty institution in PFT-09-001
 Warning--empty institution in Cittolin:578006
@@ -12,45 +12,45 @@ Warning--empty author in newL1jetWork
 Warning--empty title in newL1jetWork
 Warning--empty institution in newL1jetWork
 Warning--empty year in newL1jetWork
-You've used 20 entries,
+You've used 33 entries,
             2517 wiz_defined-function locations,
-            773 strings with 9514 characters,
-and the built_in function-call counts, 5677 in all, are:
-= -- 607
-> -- 124
+            882 strings with 11820 characters,
+and the built_in function-call counts, 9346 in all, are:
+= -- 999
+> -- 200
 < -- 2
-+ -- 60
-- -- 40
-* -- 529
-:= -- 685
-add.period$ -- 30
-call.type$ -- 20
++ -- 88
+- -- 55
+* -- 834
+:= -- 1150
+add.period$ -- 50
+call.type$ -- 33
 change.case$ -- 2
 chr.to.int$ -- 0
-cite$ -- 26
-duplicate$ -- 368
-empty$ -- 566
-format.name$ -- 11
-if$ -- 1473
+cite$ -- 39
+duplicate$ -- 585
+empty$ -- 970
+format.name$ -- 26
+if$ -- 2419
 int.to.chr$ -- 0
-int.to.str$ -- 20
-missing$ -- 48
-newline$ -- 86
-num.names$ -- 4
-pop$ -- 105
+int.to.str$ -- 33
+missing$ -- 83
+newline$ -- 137
+num.names$ -- 15
+pop$ -- 190
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 213
+skip$ -- 320
 stack$ -- 0
-substring$ -- 204
-swap$ -- 160
+substring$ -- 404
+swap$ -- 233
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 6
-while$ -- 22
-width$ -- 22
-write$ -- 241
+while$ -- 49
+width$ -- 35
+write$ -- 386
 (There were 8 warnings)

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  28 OCT 2014 13:03
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  20 DEC 2014 15:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -839,7 +839,7 @@ File: pgfmodulematrix.code.tex 2010/08/24  (rcs-revision 1.4)
 (/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2008/06/17 v2.10 (rcs-revision 1.2)
-))))
+)))
 (/usr/local/texlive/2012/texmf-dist/tex/latex/acronym/acronym.sty
 Package: acronym 2010/09/08 v1.36 Support for acronyms (Tobias Oetiker)
 
@@ -847,6 +847,59 @@ Package: acronym 2010/09/08 v1.36 Support for acronyms (Tobias Oetiker)
 Package: suffix 2006/07/15 1.5 Variant command support
 )
 \AC@clearlist=\toks36
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen189
+))
+(/usr/local/texlive/2012/texmf-dist/tex/latex/ctable/ctable.sty
+Package: ctable 2012/05/28 v1.23 ctable package
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2008/08/13 v2.6a package option processing (HA)
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+\XKV@toks=\toks37
+\XKV@tempa@toks=\toks38
+\XKV@depth=\count166
+File: xkeyval.tex 2008/08/13 v2.6a key=value parser (HA)
+))
+(/usr/local/texlive/2012/texmf-dist/tex/latex/tools/array.sty
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen190
+\extrarowheight=\dimen191
+\NC@list=\toks39
+\extratabsurround=\skip88
+\backup@length=\skip89
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
+\TX@col@width=\dimen192
+\TX@old@table=\dimen193
+\TX@old@col=\dimen194
+\TX@target=\dimen195
+\TX@delta=\dimen196
+\TX@cols=\count167
+\TX@ftn=\toks40
+)
+\@ctblframesep=\dimen197
+\@defaultctblframesep=\dimen198
+\@ctblframerule=\dimen199
+\@defaultctblframerule=\dimen200
+\@ctblwidth=\dimen201
+\@defaultctblwidth=\dimen202
+\@ctblcaptionskip=\dimen203
+\@defaultctblcaptionskip=\dimen204
+\@ctblmaxwidth=\dimen205
+\@defaultctblmaxwidth=\dimen206
+\@ctblmincapwidth=\dimen207
+\@defaultctblmincapwidth=\dimen208
+\@ctblfooterwidth=\dimen209
+\@defaultctblfooterwidth=\dimen210
+\@ctblw=\dimen211
+\@ctblfloatwidth=\dimen212
+\@ctbloldsep=\dimen213
+\@ctbloldrule=\dimen214
+\ctbl@t=\box43
 )
 (./mythesis.sty
 
@@ -888,7 +941,7 @@ Package: SIunits 2007/12/02 v1.36 Support for the International System of units
  (MH)
 
 
-\@qskwidth=\skip88
+\@qskwidth=\skip90
 \symgreek=\mathgroup8
 (/usr/local/texlive/2012/texmf-dist/tex/latex/SIunits/SIunits.cfg)
 LaTeX Info: Redefining \usk on input line 576.
@@ -936,7 +989,7 @@ LaTeX Info: Redefining \Re on input line 179.
 LaTeX Info: Redefining \d on input line 240.
 LaTeX Info: Redefining \exclude on input line 247.
 )
-\CKMPairWidth=\skip89
+\CKMPairWidth=\skip91
 LaTeX Font Info:    Try loading font information for U+rsfs on input line 157.
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/jknapltx/ursfs.fd
@@ -1008,17 +1061,17 @@ File: mt-cmr.cfg 2009/11/09 v2.0 microtype config. file: Computer Modern Roman
 )
 (/usr/local/texlive/2012/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count166
-\scratchdimen=\dimen189
-\scratchbox=\box43
-\nofMPsegments=\count167
-\nofMParguments=\count168
-\everyMPshowfont=\toks37
-\MPscratchCnt=\count169
-\MPscratchDim=\dimen190
-\MPnumerator=\count170
-\makeMPintoPDFobject=\count171
-\everyMPtoPDFconversion=\toks38
+\scratchcounter=\count168
+\scratchdimen=\dimen215
+\scratchbox=\box44
+\nofMPsegments=\count169
+\nofMParguments=\count170
+\everyMPshowfont=\toks41
+\MPscratchCnt=\count171
+\MPscratchDim=\dimen216
+\MPnumerator=\count172
+\makeMPintoPDFobject=\count173
+\everyMPtoPDFconversion=\toks42
 ) (/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
@@ -1038,7 +1091,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\AtBeginShipoutBox=\box44
+\AtBeginShipoutBox=\box45
 Package hyperref Info: Link coloring ON on input line 27.
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/hyperref/nameref.sty
@@ -1047,7 +1100,7 @@ Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
 (/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count172
+\c@section@level=\count174
 )
 LaTeX Info: Redefining \ref on input line 27.
 LaTeX Info: Redefining \pageref on input line 27.
@@ -1064,7 +1117,7 @@ Option `squaren' provided!
 LaTeX Info: Redefining \micro on input line 27.
 \openout3 = `comment.cut'.
 
-\c@iterlist=\count173
+\c@iterlist=\count175
 (./comment.cut (./frontmatter.tex
 (/usr/local/texlive/2012/texmf-dist/tex/latex/microtype/mt-eur.cfg
 File: mt-eur.cfg 2006/07/31 v1.1 microtype config. file: AMS Euler Roman (RS)
@@ -1100,32 +1153,55 @@ Chapter 1.
 
 ]
 Chapter 2.
-) (./chap_detector.tex [3
+Package acronym Info: Label `acro:SM' newly defined as it shall be overridden
+although it is yet undefined on input line 18.
+Package acronym Info: Label `acro:QFT' newly defined as it shall be overridden
+although it is yet undefined on input line 18.
+Package acronym Info: Label `acro:SUSY' newly defined as it shall be overridden
 
-] [4]
+although it is yet undefined on input line 21.
+Package acronym Info: Label `acro:LHC' newly defined as it shall be overridden
+although it is yet undefined on input line 31.
+[3
+
+] <Figures/theory/SigmaNew_v0.pdf, id=302, 569.12625pt x 394.47375pt>
+File: Figures/theory/SigmaNew_v0.pdf Graphic file (type pdf)
+
+<use Figures/theory/SigmaNew_v0.pdf>
+Package pdftex.def Info: Figures/theory/SigmaNew_v0.pdf used on input line 40.
+(pdftex.def)             Requested size: 358.46039pt x 248.46559pt.
+Package acronym Info: Label `acro:CMS' newly defined as it shall be overridden
+although it is yet undefined on input line 42.
+ [4 <./Figures/theory/SigmaNew_v0.pdf, page is rotated 90 degrees>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+Package acronym Info: Label `acro:SLAC' newly defined as it shall be overridden
+
+although it is yet undefined on input line 127.
+Package acronym Info: Label `acro:FCNC' newly defined as it shall be overridden
+
+although it is yet undefined on input line 128.
+[5] [6]) (./chap_detector.tex [7]
 Chapter 3.
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
-Package acronym Info: Label `acro:SM' newly defined as it shall be overridden
-although it is yet undefined on input line 9.
 Package acronym Info: Label `acro:CERN' newly defined as it shall be overridden
 
 although it is yet undefined on input line 9.
-Package acronym Info: Label `acro:CMS' newly defined as it shall be overridden
-although it is yet undefined on input line 12.
-Package acronym Info: Label `acro:LHC' newly defined as it shall be overridden
-although it is yet undefined on input line 16.
 Package acronym Info: Label `acro:LEP' newly defined as it shall be overridden
 although it is yet undefined on input line 31.
-[5
-
-]
 Package acronym Info: Label `acro:SPS' newly defined as it shall be overridden
 although it is yet undefined on input line 39.
 Package acronym Info: Label `acro:PU' newly defined as it shall be overridden
 although it is yet undefined on input line 44.
- <Figures/detector/lhc.jpg, id=313, 481.8pt x 299.61937pt>
+[8
+
+] <Figures/detector/lhc.jpg, id=457, 481.8pt x 299.61937pt>
 File: Figures/detector/lhc.jpg Graphic file (type jpg)
 
 <use Figures/detector/lhc.jpg>
@@ -1140,7 +1216,7 @@ although it is yet undefined on input line 59.
 Package acronym Info: Label `acro:LHCb' newly defined as it shall be overridden
 
 although it is yet undefined on input line 61.
- [6 <./Figures/detector/lhc.jpg>]
+ [9 <./Figures/detector/lhc.jpg>]
 Package acronym Info: Label `acro:ECAL' newly defined as it shall be overridden
 
 although it is yet undefined on input line 98.
@@ -1148,17 +1224,17 @@ Package acronym Info: Label `acro:HCAL' newly defined as it shall be overridden
 
 although it is yet undefined on input line 98.
 
-<Figures/detector/CMSlabelled.jpg, id=354, 385.44pt x 275.1078pt>
+<Figures/detector/CMSlabelled.jpg, id=498, 385.44pt x 275.1078pt>
 File: Figures/detector/CMSlabelled.jpg Graphic file (type jpg)
 
 <use Figures/detector/CMSlabelled.jpg>
 Package pdftex.def Info: Figures/detector/CMSlabelled.jpg used on input line 14
 8.
 (pdftex.def)             Requested size: 358.46039pt x 255.85179pt.
- [7]
+ [10]
 Package acronym Info: Label `acro:DM' newly defined as it shall be overridden
 although it is yet undefined on input line 171.
- [8 <./Figures/detector/CMSlabelled.jpg>]
+ [11 <./Figures/detector/CMSlabelled.jpg>]
 Package acronym Info: Label `acro:TIB' newly defined as it shall be overridden
 although it is yet undefined on input line 193.
 Package acronym Info: Label `acro:TOB' newly defined as it shall be overridden
@@ -1167,15 +1243,16 @@ Package acronym Info: Label `acro:TID' newly defined as it shall be overridden
 although it is yet undefined on input line 193.
 Package acronym Info: Label `acro:TEC' newly defined as it shall be overridden
 although it is yet undefined on input line 193.
- <Figures/detector/fig_cmstracker.png, id=391, 1111.15125pt x 522.95375pt>
+
+<Figures/detector/fig_cmstracker.png, id=530, 1111.15125pt x 522.95375pt>
 File: Figures/detector/fig_cmstracker.png Graphic file (type png)
 
 <use Figures/detector/fig_cmstracker.png>
 Package pdftex.def Info: Figures/detector/fig_cmstracker.png used on input line
  198.
 (pdftex.def)             Requested size: 403.26366pt x 189.79529pt.
- [9]
-<Figures/detector/cmstrackerRes.png, id=408, 329.23pt x 306.14375pt>
+ [12]
+<Figures/detector/cmstrackerRes.png, id=551, 329.23pt x 306.14375pt>
 File: Figures/detector/cmstrackerRes.png Graphic file (type png)
 
 <use Figures/detector/cmstrackerRes.png>
@@ -1186,9 +1263,9 @@ Package acronym Info: Label `acro:EB' newly defined as it shall be overridden
 although it is yet undefined on input line 226.
 Package acronym Info: Label `acro:EE' newly defined as it shall be overridden
 although it is yet undefined on input line 227.
- [10 <./Figures/detector/fig_cmstracker.png (PNG copy)> <./Figures/detector/cms
+ [13 <./Figures/detector/fig_cmstracker.png (PNG copy)> <./Figures/detector/cms
 trackerRes.png>]
-<Figures/detector/cmsECAL.png, id=427, 1172.38pt x 803.0pt>
+<Figures/detector/cmsECAL.png, id=569, 1172.38pt x 803.0pt>
 File: Figures/detector/cmsECAL.png Graphic file (type png)
 
 <use Figures/detector/cmsECAL.png>
@@ -1198,8 +1275,8 @@ Package acronym Info: Label `acro:APD' newly defined as it shall be overridden
 although it is yet undefined on input line 250.
 Package acronym Info: Label `acro:VPT' newly defined as it shall be overridden
 although it is yet undefined on input line 250.
- [11 <./Figures/detector/cmsECAL.png (PNG copy)>] <Figures/detector/EcalRes.png
-, id=446, 403.5075pt x 385.44pt>
+ [14 <./Figures/detector/cmsECAL.png (PNG copy)>] <Figures/detector/EcalRes.png
+, id=588, 403.5075pt x 385.44pt>
 File: Figures/detector/EcalRes.png Graphic file (type png)
 
 <use Figures/detector/EcalRes.png>
@@ -1211,11 +1288,11 @@ Package acronym Info: Label `acro:HE' newly defined as it shall be overridden
 although it is yet undefined on input line 278.
 Package acronym Info: Label `acro:HF' newly defined as it shall be overridden
 although it is yet undefined on input line 279.
- [12 <./Figures/detector/EcalRes.png>]
+ [15 <./Figures/detector/EcalRes.png>]
 Package acronym Info: Label `acro:HO' newly defined as it shall be overridden
 although it is yet undefined on input line 283.
 
-<Figures/detector/cmsHCAL.png, id=472, 1307.88625pt x 768.8725pt>
+<Figures/detector/cmsHCAL.png, id=611, 1307.88625pt x 768.8725pt>
 File: Figures/detector/cmsHCAL.png Graphic file (type png)
 
 <use Figures/detector/cmsHCAL.png>
@@ -1223,16 +1300,15 @@ Package pdftex.def Info: Figures/detector/cmsHCAL.png used on input line 291.
 (pdftex.def)             Requested size: 403.26366pt x 237.06921pt.
 Package acronym Info: Label `acro:HPD' newly defined as it shall be overridden
 although it is yet undefined on input line 299.
- [13]
-<Figures/detector/HCALres.png, id=512, 693.59125pt x 227.85126pt>
+ [16 <./Figures/detector/cmsHCAL.png (PNG copy)>] <Figures/detector/HCALres.png
+, id=649, 693.59125pt x 227.85126pt>
 File: Figures/detector/HCALres.png Graphic file (type png)
 
 <use Figures/detector/HCALres.png>
 Package pdftex.def Info: Figures/detector/HCALres.png used on input line 317.
 (pdftex.def)             Requested size: 403.26366pt x 132.48062pt.
- [14 <./Figures/detector/cmsHCAL.png (PNG copy)> <./Figures/detector/HCALres.pn
-g>]
-<Figures/detector/muonSystems.png, id=520, 557.08125pt x 571.13374pt>
+ [17 <./Figures/detector/HCALres.png>]
+<Figures/detector/muonSystems.png, id=658, 557.08125pt x 571.13374pt>
 File: Figures/detector/muonSystems.png Graphic file (type png)
 
 <use Figures/detector/muonSystems.png>
@@ -1245,27 +1321,28 @@ Package acronym Info: Label `acro:CSC' newly defined as it shall be overridden
 although it is yet undefined on input line 352.
 Package acronym Info: Label `acro:RPC' newly defined as it shall be overridden
 although it is yet undefined on input line 355.
- [15 <./Figures/detector/muonSystems.png>] <Figures/detector/CMSmuonRes.png, id
-=541, 879.285pt x 575.14874pt>
+
+<Figures/detector/CMSmuonRes.png, id=673, 879.285pt x 575.14874pt>
 File: Figures/detector/CMSmuonRes.png Graphic file (type png)
 
 <use Figures/detector/CMSmuonRes.png>
 Package pdftex.def Info: Figures/detector/CMSmuonRes.png used on input line 365
 .
 (pdftex.def)             Requested size: 358.46039pt x 234.46977pt.
- [16 <./Figures/detector/CMSmuonRes.png>]
-<Figures/detector/CMS_Slice.pdf, id=556, 995.72pt x 507.8975pt>
+ [18 <./Figures/detector/muonSystems.png>] [19 <./Figures/detector/CMSmuonRes.p
+ng>]
+<Figures/detector/CMS_Slice.pdf, id=695, 995.72pt x 507.8975pt>
 File: Figures/detector/CMS_Slice.pdf Graphic file (type pdf)
 
 <use Figures/detector/CMS_Slice.pdf>
 Package pdftex.def Info: Figures/detector/CMS_Slice.pdf used on input line 396.
 
 (pdftex.def)             Requested size: 403.26366pt x 205.69736pt.
- [17 <./Figures/detector/CMS_Slice.pdf>]
+ [20 <./Figures/detector/CMS_Slice.pdf>]
 Package acronym Info: Label `acro:QCD' newly defined as it shall be overridden
 although it is yet undefined on input line 416.
 
-<Figures/detector/PUantiKT.png, id=586, 692.5875pt x 478.78876pt>
+<Figures/detector/PUantiKT.png, id=725, 692.5875pt x 478.78876pt>
 File: Figures/detector/PUantiKT.png Graphic file (type png)
 
 <use Figures/detector/PUantiKT.png>
@@ -1273,11 +1350,11 @@ Package pdftex.def Info: Figures/detector/PUantiKT.png used on input line 428.
 (pdftex.def)             Requested size: 313.65027pt x 216.83372pt.
 Package acronym Info: Label `acro:PF' newly defined as it shall be overridden
 although it is yet undefined on input line 439.
- [18]
+ [21]
 Package acronym Info: Label `acro:MC' newly defined as it shall be overridden
 although it is yet undefined on input line 454.
- [19 <./Figures/detector/PUantiKT.png>] <Figures/detector/PFjetvsCalo0p1.pdf, i
-d=630, 385.44pt x 569.12625pt>
+ [22 <./Figures/detector/PUantiKT.png>] <Figures/detector/PFjetvsCalo0p1.pdf, i
+d=768, 385.44pt x 569.12625pt>
 File: Figures/detector/PFjetvsCalo0p1.pdf Graphic file (type pdf)
 
 <use Figures/detector/PFjetvsCalo0p1.pdf>
@@ -1285,7 +1362,7 @@ Package pdftex.def Info: Figures/detector/PFjetvsCalo0p1.pdf used on input line
  463.
 (pdftex.def)             Requested size: 147.86516pt x 218.32837pt.
 
-<Figures/detector/PFjetvsCalo0p1end.pdf, id=631, 385.44pt x 569.12625pt>
+<Figures/detector/PFjetvsCalo0p1end.pdf, id=769, 385.44pt x 569.12625pt>
 File: Figures/detector/PFjetvsCalo0p1end.pdf Graphic file (type pdf)
 
 <use Figures/detector/PFjetvsCalo0p1end.pdf>
@@ -1293,39 +1370,36 @@ Package pdftex.def Info: Figures/detector/PFjetvsCalo0p1end.pdf used on input l
 ine 464.
 (pdftex.def)             Requested size: 147.86516pt x 218.32837pt.
 
-<Figures/detector/MomResPFjetCaloJet_lowPt.pdf, id=638, 385.44pt x 569.12625pt>
+<Figures/detector/MomResPFjetCaloJet_lowPt.pdf, id=776, 385.44pt x 569.12625pt>
 File: Figures/detector/MomResPFjetCaloJet_lowPt.pdf Graphic file (type pdf)
 <use Figures/detector/MomResPFjetCaloJet_lowPt.pdf>
 Package pdftex.def Info: Figures/detector/MomResPFjetCaloJet_lowPt.pdf used on 
 input line 473.
 (pdftex.def)             Requested size: 147.86516pt x 218.32837pt.
 
-<Figures/detector/MomResPFjetCaloJet_highPt.pdf, id=639, 385.44pt x 569.12625pt
+<Figures/detector/MomResPFjetCaloJet_highPt.pdf, id=777, 385.44pt x 569.12625pt
 >
 File: Figures/detector/MomResPFjetCaloJet_highPt.pdf Graphic file (type pdf)
  <use Figures/detector/MomResPFjetCaloJet_highPt.pdf>
 Package pdftex.def Info: Figures/detector/MomResPFjetCaloJet_highPt.pdf used on
  input line 474.
 (pdftex.def)             Requested size: 147.86516pt x 218.32837pt.
-Package acronym Info: Label `acro:SUSY' newly defined as it shall be overridden
-
-although it is yet undefined on input line 485.
 Package acronym Info: Label `acro:LSP' newly defined as it shall be overridden
 although it is yet undefined on input line 485.
- [20 <./Figures/detector/PFjetvsCalo0p1.pdf> <./Figures/detector/PFjetvsCalo0p1
+ [23 <./Figures/detector/PFjetvsCalo0p1.pdf> <./Figures/detector/PFjetvsCalo0p1
 end.pdf> <./Figures/detector/MomResPFjetCaloJet_lowPt.pdf> <./Figures/detector/
-MomResPFjetCaloJet_highPt.pdf>] <Figures/detector/METresPF.pdf, id=835, 365.365
+MomResPFjetCaloJet_highPt.pdf>] <Figures/detector/METresPF.pdf, id=972, 365.365
 pt x 569.12625pt>
 File: Figures/detector/METresPF.pdf Graphic file (type pdf)
 
 <use Figures/detector/METresPF.pdf>
 Package pdftex.def Info: Figures/detector/METresPF.pdf used on input line 499.
 (pdftex.def)             Requested size: 237.47855pt x 369.91899pt.
- [21]
+ [24]
 Package acronym Info: Label `acro:L1' newly defined as it shall be overridden
 although it is yet undefined on input line 512.
- [22 <./Figures/detector/METresPF.pdf>] <Figures/detector/ppCrossSections.png, 
-id=911, 429.605pt x 527.9725pt>
+ [25 <./Figures/detector/METresPF.pdf>] <Figures/detector/ppCrossSections.png, 
+id=1048, 429.605pt x 527.9725pt>
 File: Figures/detector/ppCrossSections.png Graphic file (type png)
 
 <use Figures/detector/ppCrossSections.png>
@@ -1336,7 +1410,7 @@ Package acronym Info: Label `acro:HLT' newly defined as it shall be overridden
 although it is yet undefined on input line 567.
 Package acronym Info: Label `acro:DAQ' newly defined as it shall be overridden
 although it is yet undefined on input line 568.
- [23 <./Figures/detector/ppCrossSections.png>]
+ [26 <./Figures/detector/ppCrossSections.png>]
 Package acronym Info: Label `acro:FPGA' newly defined as it shall be overridden
 
 although it is yet undefined on input line 575.
@@ -1353,23 +1427,23 @@ Package acronym Info: Label `acro:RMT' newly defined as it shall be overridden
 although it is yet undefined on input line 587.
 Package acronym Info: Label `acro:GMT' newly defined as it shall be overridden
 although it is yet undefined on input line 588.
- [24]
-<Figures/detector/L1TriggerArch.pdf, id=979, 917.4275pt x 717.68124pt>
+ [27]
+<Figures/detector/L1TriggerArch.pdf, id=1115, 917.4275pt x 717.68124pt>
 File: Figures/detector/L1TriggerArch.pdf Graphic file (type pdf)
 
 <use Figures/detector/L1TriggerArch.pdf>
 Package pdftex.def Info: Figures/detector/L1TriggerArch.pdf used on input line 
 602.
 (pdftex.def)             Requested size: 268.847pt x 210.31241pt.
- [25 <./Figures/detector/L1TriggerArch.pdf>]
+ [28 <./Figures/detector/L1TriggerArch.pdf>]
 Package acronym Info: Label `acro:CPU' newly defined as it shall be overridden
 although it is yet undefined on input line 645.
-) (./chap_l1jets.tex [26]
+) (./chap_l1jets.tex [29]
 Chapter 4.
-[27
+[30
 
-] [28]
-<Figures/l1jets/triggerThresholdCurrentL1Table.png, id=1082, 752.8125pt x 552.0
+] [31]
+<Figures/l1jets/triggerThresholdCurrentL1Table.png, id=1219, 752.8125pt x 552.0
 625pt>
 File: Figures/l1jets/triggerThresholdCurrentL1Table.png Graphic file (type png)
 
@@ -1377,42 +1451,42 @@ File: Figures/l1jets/triggerThresholdCurrentL1Table.png Graphic file (type png)
 Package pdftex.def Info: Figures/l1jets/triggerThresholdCurrentL1Table.png used
  on input line 56.
 (pdftex.def)             Requested size: 425.66872pt x 312.1686pt.
- [29 <./Figures/l1jets/triggerThresholdCurrentL1Table.png>]
+ [32 <./Figures/l1jets/triggerThresholdCurrentL1Table.png>]
 Package acronym Info: Label `acro:TMT' newly defined as it shall be overridden
-although it is yet undefined on input line 91.
- [30]
-<Figures/l1jets/TraditionalTrigger.png, id=1120, 330.5148pt x 262.0992pt>
+although it is yet undefined on input line 92.
+ [33]
+<Figures/l1jets/TraditionalTrigger.png, id=1257, 330.5148pt x 262.0992pt>
 File: Figures/l1jets/TraditionalTrigger.png Graphic file (type png)
 
 <use Figures/l1jets/TraditionalTrigger.png>
 Package pdftex.def Info: Figures/l1jets/TraditionalTrigger.png used on input li
-ne 108.
+ne 109.
 (pdftex.def)             Requested size: 257.80049pt x 204.43654pt.
 
 
-LaTeX Warning: Citation `RoseTrig' on page 31 undefined on input line 109.
+LaTeX Warning: Citation `RoseTrig' on page 34 undefined on input line 110.
 
 
-LaTeX Warning: Citation `RoseTrig' on page 31 undefined on input line 109.
+LaTeX Warning: Citation `RoseTrig' on page 34 undefined on input line 110.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[31] <Figures/l1jets/TMTrigger.png, id=1141, 330.5148pt x 262.0992pt>
+[34] <Figures/l1jets/TMTrigger.png, id=1277, 330.5148pt x 262.0992pt>
 File: Figures/l1jets/TMTrigger.png Graphic file (type png)
 
 <use Figures/l1jets/TMTrigger.png>
-Package pdftex.def Info: Figures/l1jets/TMTrigger.png used on input line 140.
+Package pdftex.def Info: Figures/l1jets/TMTrigger.png used on input line 141.
 (pdftex.def)             Requested size: 264.41219pt x 209.67963pt.
 
 
-LaTeX Warning: Citation `RoseTrig' on page 32 undefined on input line 142.
+LaTeX Warning: Citation `RoseTrig' on page 35 undefined on input line 143.
 
 
-LaTeX Warning: Citation `RoseTrig' on page 32 undefined on input line 142.
+LaTeX Warning: Citation `RoseTrig' on page 35 undefined on input line 143.
 
-[32 <./Figures/l1jets/TraditionalTrigger.png>] [33 <./Figures/l1jets/TMTrigger.
-png>] <Figures/l1jets/towerGeometry.png, id=1177, 608.2725pt x 365.365pt>
+[35 <./Figures/l1jets/TraditionalTrigger.png>] [36 <./Figures/l1jets/TMTrigger.
+png>] <Figures/l1jets/towerGeometry.png, id=1313, 608.2725pt x 365.365pt>
 File: Figures/l1jets/towerGeometry.png Graphic file (type png)
 
 <use Figures/l1jets/towerGeometry.png>
@@ -1420,7 +1494,7 @@ Package pdftex.def Info: Figures/l1jets/towerGeometry.png used on input line 19
 0.
 (pdftex.def)             Requested size: 407.54047pt x 244.79327pt.
 
-<Figures/l1jets/CurrentL1Jet.jpg, id=1184, 515.526pt x 694.2738pt>
+<Figures/l1jets/CurrentL1Jet.jpg, id=1320, 515.526pt x 694.2738pt>
 File: Figures/l1jets/CurrentL1Jet.jpg Graphic file (type jpg)
 
 <use Figures/l1jets/CurrentL1Jet.jpg>
@@ -1428,21 +1502,21 @@ Package pdftex.def Info: Figures/l1jets/CurrentL1Jet.jpg used on input line 208
 .
 (pdftex.def)             Requested size: 175.27652pt x 236.04996pt.
 
-<Figures/l1jets/UpgradeJet.jpg, id=1185, 518.8986pt x 642.2394pt>
+<Figures/l1jets/UpgradeJet.jpg, id=1321, 518.8986pt x 642.2394pt>
 File: Figures/l1jets/UpgradeJet.jpg Graphic file (type jpg)
 
 <use Figures/l1jets/UpgradeJet.jpg>
 Package pdftex.def Info: Figures/l1jets/UpgradeJet.jpg used on input line 209.
 (pdftex.def)             Requested size: 191.98947pt x 237.62485pt.
- [34]
-<Figures/l1jets/jetoverlaps.pdf, id=1196, 714.887pt x 495.78386pt>
+ [37]
+<Figures/l1jets/jetoverlaps.pdf, id=1333, 714.887pt x 495.78386pt>
 File: Figures/l1jets/jetoverlaps.pdf Graphic file (type pdf)
 
 <use Figures/l1jets/jetoverlaps.pdf>
 Package pdftex.def Info: Figures/l1jets/jetoverlaps.pdf used on input line 228.
 
 (pdftex.def)             Requested size: 264.50404pt x 183.43715pt.
- [35 <./Figures/l1jets/towerGeometry.png> <./Figures/l1jets/CurrentL1Jet.jpg> <
+ [38 <./Figures/l1jets/towerGeometry.png> <./Figures/l1jets/CurrentL1Jet.jpg> <
 ./Figures/l1jets/UpgradeJet.jpg>]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 236.
 
@@ -1452,174 +1526,173 @@ File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 236.
- [36 <./Figures/l1jets/jetoverlaps.pdf>] [37] [38]
-<Figures/l1jets/PreCalib.pdf, id=1265, 569.12625pt x 546.04pt>
+ [39 <./Figures/l1jets/jetoverlaps.pdf>] [40] [41]
+<Figures/l1jets/PreCalib.pdf, id=1401, 569.12625pt x 546.04pt>
 File: Figures/l1jets/PreCalib.pdf Graphic file (type pdf)
 
 <use Figures/l1jets/PreCalib.pdf>
 Package pdftex.def Info: Figures/l1jets/PreCalib.pdf used on input line 329.
 (pdftex.def)             Requested size: 182.12411pt x 174.73636pt.
 
-<Figures/l1jets/PostCalib.pdf, id=1266, 569.12625pt x 546.04pt>
+<Figures/l1jets/PostCalib.pdf, id=1402, 569.12625pt x 546.04pt>
 File: Figures/l1jets/PostCalib.pdf Graphic file (type pdf)
 
 <use Figures/l1jets/PostCalib.pdf>
 Package pdftex.def Info: Figures/l1jets/PostCalib.pdf used on input line 330.
 (pdftex.def)             Requested size: 182.12411pt x 174.73636pt.
- [39 <./Figures/l1jets/PreCalib.pdf, page is rotated 90 degrees> <./Figures/l1j
+ [42 <./Figures/l1jets/PreCalib.pdf, page is rotated 90 degrees> <./Figures/l1j
 ets/PostCalib.pdf, page is rotated 90 degrees>] <Figures/l1jets//etaRes.pdf, id
-=1368, 569.12625pt x 385.44pt>
+=1504, 569.12625pt x 385.44pt>
 File: Figures/l1jets//etaRes.pdf Graphic file (type pdf)
 
 <use Figures/l1jets//etaRes.pdf>
-Package pdftex.def Info: Figures/l1jets//etaRes.pdf used on input line 358.
+Package pdftex.def Info: Figures/l1jets//etaRes.pdf used on input line 359.
 (pdftex.def)             Requested size: 182.12411pt x 123.3433pt.
 
-<Figures/l1jets//phiRes.pdf, id=1369, 569.12625pt x 385.44pt>
+<Figures/l1jets//phiRes.pdf, id=1505, 569.12625pt x 385.44pt>
 File: Figures/l1jets//phiRes.pdf Graphic file (type pdf)
 
 <use Figures/l1jets//phiRes.pdf>
-Package pdftex.def Info: Figures/l1jets//phiRes.pdf used on input line 359.
+Package pdftex.def Info: Figures/l1jets//phiRes.pdf used on input line 360.
 (pdftex.def)             Requested size: 182.12411pt x 123.3433pt.
 
-<Figures/l1jets//ptRes.pdf, id=1370, 569.12625pt x 385.44pt>
+<Figures/l1jets//ptRes.pdf, id=1506, 569.12625pt x 385.44pt>
 File: Figures/l1jets//ptRes.pdf Graphic file (type pdf)
 
 <use Figures/l1jets//ptRes.pdf>
-Package pdftex.def Info: Figures/l1jets//ptRes.pdf used on input line 360.
+Package pdftex.def Info: Figures/l1jets//ptRes.pdf used on input line 361.
 (pdftex.def)             Requested size: 182.12411pt x 123.3433pt.
-
-<Figures/l1jets/Ptres_vsPU.pdf, id=1378, 569.12625pt x 385.44pt>
+ [43 <./Figures/l1jets//etaRes.pdf, page is rotated 90 degrees> <./Figures/l1je
+ts//phiRes.pdf, page is rotated 90 degrees> <./Figures/l1jets//ptRes.pdf, page 
+is rotated 90 degrees>]
+<Figures/l1jets/Ptres_vsPU.pdf, id=1652, 569.12625pt x 385.44pt>
 File: Figures/l1jets/Ptres_vsPU.pdf Graphic file (type pdf)
 
 <use Figures/l1jets/Ptres_vsPU.pdf>
-Package pdftex.def Info: Figures/l1jets/Ptres_vsPU.pdf used on input line 373.
+Package pdftex.def Info: Figures/l1jets/Ptres_vsPU.pdf used on input line 374.
 (pdftex.def)             Requested size: 295.94736pt x 200.42995pt.
- [40 <./Figures/l1jets//etaRes.pdf, page is rotated 90 degrees> <./Figures/l1je
-ts//phiRes.pdf, page is rotated 90 degrees> <./Figures/l1jets//ptRes.pdf, page 
-is rotated 90 degrees>] [41 <./Figures/l1jets/Ptres_vsPU.pdf, page is rotated 9
-0 degrees>]
-<Figures/l1jets//CurrentL1JetTriggers.pdf, id=1594, 569.12625pt x 385.44pt>
+ [44 <./Figures/l1jets/Ptres_vsPU.pdf, page is rotated 90 degrees>]
+<Figures/l1jets//CurrentL1JetTriggers.pdf, id=1731, 569.12625pt x 385.44pt>
 File: Figures/l1jets//CurrentL1JetTriggers.pdf Graphic file (type pdf)
 
 <use Figures/l1jets//CurrentL1JetTriggers.pdf>
 Package pdftex.def Info: Figures/l1jets//CurrentL1JetTriggers.pdf used on input
- line 405.
+ line 406.
 (pdftex.def)             Requested size: 210.57341pt x 142.61057pt.
 
-<Figures/l1jets//UpgradeL1JetTriggers.pdf, id=1595, 569.12625pt x 385.44pt>
+<Figures/l1jets//UpgradeL1JetTriggers.pdf, id=1732, 569.12625pt x 385.44pt>
 File: Figures/l1jets//UpgradeL1JetTriggers.pdf Graphic file (type pdf)
 
 <use Figures/l1jets//UpgradeL1JetTriggers.pdf>
 Package pdftex.def Info: Figures/l1jets//UpgradeL1JetTriggers.pdf used on input
- line 406.
+ line 407.
 (pdftex.def)             Requested size: 210.57341pt x 142.61057pt.
 
-<Figures/l1jets//CurrentL1JetTriggersHPU.pdf, id=1598, 569.12625pt x 385.44pt>
+<Figures/l1jets//CurrentL1JetTriggersHPU.pdf, id=1735, 569.12625pt x 385.44pt>
 File: Figures/l1jets//CurrentL1JetTriggersHPU.pdf Graphic file (type pdf)
 
 <use Figures/l1jets//CurrentL1JetTriggersHPU.pdf>
 Package pdftex.def Info: Figures/l1jets//CurrentL1JetTriggersHPU.pdf used on in
-put line 414.
+put line 415.
 (pdftex.def)             Requested size: 210.57341pt x 142.61057pt.
 
-<Figures/l1jets//UpgradeL1JetTriggersHPU.pdf, id=1599, 569.12625pt x 385.44pt>
+<Figures/l1jets//UpgradeL1JetTriggersHPU.pdf, id=1736, 569.12625pt x 385.44pt>
 File: Figures/l1jets//UpgradeL1JetTriggersHPU.pdf Graphic file (type pdf)
 
 <use Figures/l1jets//UpgradeL1JetTriggersHPU.pdf>
 Package pdftex.def Info: Figures/l1jets//UpgradeL1JetTriggersHPU.pdf used on in
-put line 415.
+put line 416.
 (pdftex.def)             Requested size: 210.57341pt x 142.61057pt.
- [42 <./Figures/l1jets//CurrentL1JetTriggers.pdf, page is rotated 90 degrees> <
-./Figures/l1jets//UpgradeL1JetTriggers.pdf, page is rotated 90 degrees>] [43 <.
+ [45 <./Figures/l1jets//CurrentL1JetTriggers.pdf, page is rotated 90 degrees> <
+./Figures/l1jets//UpgradeL1JetTriggers.pdf, page is rotated 90 degrees>] [46 <.
 /Figures/l1jets//CurrentL1JetTriggersHPU.pdf, page is rotated 90 degrees> <./Fi
 gures/l1jets//UpgradeL1JetTriggersHPU.pdf, page is rotated 90 degrees>]
-<Figures/l1jets/singleJetRates_2e34.pdf, id=1819, 569.12625pt x 546.04pt>
+<Figures/l1jets/singleJetRates_2e34.pdf, id=1954, 569.12625pt x 546.04pt>
 File: Figures/l1jets/singleJetRates_2e34.pdf Graphic file (type pdf)
 
 <use Figures/l1jets/singleJetRates_2e34.pdf>
 Package pdftex.def Info: Figures/l1jets/singleJetRates_2e34.pdf used on input l
-ine 479.
+ine 480.
 (pdftex.def)             Requested size: 170.73918pt x 163.81326pt.
 
-<Figures/l1jets/quadJetRates_2e34.pdf, id=1820, 569.12625pt x 546.04pt>
+<Figures/l1jets/quadJetRates_2e34.pdf, id=1955, 569.12625pt x 546.04pt>
 File: Figures/l1jets/quadJetRates_2e34.pdf Graphic file (type pdf)
 
 <use Figures/l1jets/quadJetRates_2e34.pdf>
 Package pdftex.def Info: Figures/l1jets/quadJetRates_2e34.pdf used on input lin
-e 480.
+e 481.
 (pdftex.def)             Requested size: 170.73918pt x 163.81326pt.
 
-<Figures/l1jets/makePlot/jet_95threshold_conv.pdf, id=1821, 569.12625pt x 385.4
+<Figures/l1jets/makePlot/jet_95threshold_conv.pdf, id=1956, 569.12625pt x 385.4
 4pt>
 File: Figures/l1jets/makePlot/jet_95threshold_conv.pdf Graphic file (type pdf)
  <use Figures/l1jets/makePlot/jet_95threshold_conv.pdf>
 Package pdftex.def Info: Figures/l1jets/makePlot/jet_95threshold_conv.pdf used 
-on input line 489.
+on input line 490.
 (pdftex.def)             Requested size: 210.57341pt x 142.61057pt.
 
-<Figures/l1jets/singleJetRates_95thresh_2e34.pdf, id=1826, 569.12625pt x 546.04
+<Figures/l1jets/singleJetRates_95thresh_2e34.pdf, id=1961, 569.12625pt x 546.04
 pt>
 File: Figures/l1jets/singleJetRates_95thresh_2e34.pdf Graphic file (type pdf)
  <use Figures/l1jets/singleJetRates_95thresh_2e34.pdf>
 Package pdftex.def Info: Figures/l1jets/singleJetRates_95thresh_2e34.pdf used o
-n input line 498.
+n input line 499.
 (pdftex.def)             Requested size: 170.73918pt x 163.81326pt.
 
-<Figures/l1jets/quadJetRates_95thresh_2e34.pdf, id=1827, 569.12625pt x 546.04pt
+<Figures/l1jets/quadJetRates_95thresh_2e34.pdf, id=1962, 569.12625pt x 546.04pt
 >
 File: Figures/l1jets/quadJetRates_95thresh_2e34.pdf Graphic file (type pdf)
  <use Figures/l1jets/quadJetRates_95thresh_2e34.pdf>
 Package pdftex.def Info: Figures/l1jets/quadJetRates_95thresh_2e34.pdf used on 
-input line 499.
+input line 500.
 (pdftex.def)             Requested size: 170.73918pt x 163.81326pt.
- [44] [45 <./Figures/l1jets/singleJetRates_2e34.pdf, page is rotated 90 degrees
+ [47] [48 <./Figures/l1jets/singleJetRates_2e34.pdf, page is rotated 90 degrees
 > <./Figures/l1jets/quadJetRates_2e34.pdf, page is rotated 90 degrees> <./Figur
 es/l1jets/makePlot/jet_95threshold_conv.pdf, page is rotated 90 degrees>]
-<Figures/l1jets/UpgradeL1HTTriggersfixed.pdf, id=1982, 569.12625pt x 385.44pt>
+<Figures/l1jets/UpgradeL1HTTriggersfixed.pdf, id=2118, 569.12625pt x 385.44pt>
 File: Figures/l1jets/UpgradeL1HTTriggersfixed.pdf Graphic file (type pdf)
 
 <use Figures/l1jets/UpgradeL1HTTriggersfixed.pdf>
 Package pdftex.def Info: Figures/l1jets/UpgradeL1HTTriggersfixed.pdf used on in
-put line 527.
+put line 528.
 (pdftex.def)             Requested size: 210.57341pt x 142.61057pt.
 
-<Figures/l1jets/upgradeHTconv.pdf, id=1983, 569.12625pt x 385.44pt>
+<Figures/l1jets/upgradeHTconv.pdf, id=2119, 569.12625pt x 385.44pt>
 File: Figures/l1jets/upgradeHTconv.pdf Graphic file (type pdf)
 
 <use Figures/l1jets/upgradeHTconv.pdf>
 Package pdftex.def Info: Figures/l1jets/upgradeHTconv.pdf used on input line 52
-8.
+9.
 (pdftex.def)             Requested size: 210.57341pt x 142.61057pt.
 
-<Figures/l1jets/HTRates_2e34.pdf, id=1986, 569.12625pt x 546.04pt>
+<Figures/l1jets/HTRates_2e34.pdf, id=2122, 569.12625pt x 546.04pt>
 File: Figures/l1jets/HTRates_2e34.pdf Graphic file (type pdf)
 
 <use Figures/l1jets/HTRates_2e34.pdf>
-Package pdftex.def Info: Figures/l1jets/HTRates_2e34.pdf used on input line 537
+Package pdftex.def Info: Figures/l1jets/HTRates_2e34.pdf used on input line 538
 .
 (pdftex.def)             Requested size: 170.73918pt x 163.81326pt.
 
-<Figures/l1jets/HTRates_95thresh_2e34.pdf, id=1987, 569.12625pt x 546.04pt>
+<Figures/l1jets/HTRates_95thresh_2e34.pdf, id=2123, 569.12625pt x 546.04pt>
 File: Figures/l1jets/HTRates_95thresh_2e34.pdf Graphic file (type pdf)
 
 <use Figures/l1jets/HTRates_95thresh_2e34.pdf>
 Package pdftex.def Info: Figures/l1jets/HTRates_95thresh_2e34.pdf used on input
- line 538.
+ line 539.
 (pdftex.def)             Requested size: 170.73918pt x 163.81326pt.
- [46 <./Figures/l1jets/singleJetRates_95thresh_2e34.pdf, page is rotated 90 deg
+ [49 <./Figures/l1jets/singleJetRates_95thresh_2e34.pdf, page is rotated 90 deg
 rees> <./Figures/l1jets/quadJetRates_95thresh_2e34.pdf, page is rotated 90 degr
 ees> <./Figures/l1jets/UpgradeL1HTTriggersfixed.pdf, page is rotated 90 degrees
 > <./Figures/l1jets/upgradeHTconv.pdf, page is rotated 90 degrees>]) (./chap_co
-mpSUSY.tex [47 <./Figures/l1jets/HTRates_2e34.pdf, page is rotated 90 degrees> 
-<./Figures/l1jets/HTRates_95thresh_2e34.pdf, page is rotated 90 degrees>]
+mpSUSY.tex [50 <./Figures/l1jets/HTRates_2e34.pdf, page is rotated 90 degrees> 
+<./Figures/l1jets/HTRates_95thresh_2e34.pdf, page is rotated 90 degrees>] [51]
 Chapter 5.
-) (./chap_parkedData.tex [48
+) (./chap_parkedData.tex [52
 
 ]
 Chapter 6.
 
-Overfull \hbox (20.5421pt too wide) in paragraph at lines 7--18
+Overfull \hbox (33.34209pt too wide) in paragraph at lines 7--18
  [] 
  []
 
@@ -1629,42 +1702,42 @@ Overfull \hbox (20.5421pt too wide) in paragraph at lines 7--18
  (./comment.cut (./appendices.tex))
 \openout3 = `comment.cut'.
 
- [49
+ [53
 
 ] (./comment.cut (./backmatter.tex
-(./mythesis.bbl [50
+(./mythesis.bbl [54
 
 
-] [51
+] [55
 
-] [52]) [53] (./mythesis.lof [54
+] [56] [57]) [58] (./mythesis.lof [59
 
-] [55]
+] [60]
 
-LaTeX Warning: Citation `RoseTrig' on page 56 undefined on input line 25.
+LaTeX Warning: Citation `RoseTrig' on page 61 undefined on input line 26.
 
 
-LaTeX Warning: Citation `RoseTrig' on page 56 undefined on input line 26.
+LaTeX Warning: Citation `RoseTrig' on page 61 undefined on input line 27.
 
-[56] [57])
+[61] [62])
 \tf@lof=\write7
 \openout7 = `mythesis.lof'.
 
- [58] (./mythesis.lot)
+ [63] (./mythesis.lot)
 \tf@lot=\write8
 \openout8 = `mythesis.lot'.
 
- [59
+ [64
 
-] [60] [61]))
+] [65] [66]))
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 60.
- [62]
+ [67]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 60.
  (./mythesis.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 60.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 60.
 Package rerunfilecheck Info: File `mythesis.out' has not changed.
-(rerunfilecheck)             Checksum: DD08534A465B14529CBD3874CE573164;3110.
+(rerunfilecheck)             Checksum: A3B266B5ACEF75FCAF6CD5438A5B3B56;3214.
 
 
 LaTeX Warning: There were undefined references.
@@ -1675,13 +1748,13 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 60.
  ) 
 Here is how much of TeX's memory you used:
- 24436 strings out of 493488
- 400172 string characters out of 3141326
- 551406 words of memory out of 3000000
- 26757 multiletter control sequences out of 15000+200000
- 29163 words of font info for 165 fonts, out of 3000000 for 9000
+ 25025 strings out of 493488
+ 409121 string characters out of 3141326
+ 562692 words of memory out of 3000000
+ 27289 multiletter control sequences out of 15000+200000
+ 29541 words of font info for 169 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 72i,18n,73p,1348b,763s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 72i,18n,74p,1348b,913s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
@@ -1699,10 +1772,10 @@ ve/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texliv
 e/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/
 2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2
 012/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on mythesis.pdf (68 pages, 4222893 bytes).
+Output written on mythesis.pdf (73 pages, 4270599 bytes).
 PDF statistics:
- 2719 PDF objects out of 2984 (max. 8388607)
- 1881 compressed objects within 19 object streams
- 296 named destinations out of 1000 (max. 500000)
- 20558 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 2899 PDF objects out of 2984 (max. 8388607)
+ 2021 compressed objects within 21 object streams
+ 323 named destinations out of 1000 (max. 500000)
+ 20571 words of extra memory for PDF output out of 20736 (max. 10000000)
 

@@ -33,3 +33,5 @@
 \RequirePackage{tikz}
 
 \usepackage{acronym}
+\usepackage{multirow}
+\usepackage{ctable}

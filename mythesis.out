@@ -1,44 +1,45 @@
 \BOOKMARK [0][-]{chapter.1}{Introduction}{}% 1
 \BOOKMARK [0][-]{chapter.2}{Theory and Motivations}{}% 2
 \BOOKMARK [1][-]{section.2.1}{The Standard Model of Particle Physics }{chapter.2}% 3
-\BOOKMARK [2][-]{subsection.2.1.1}{Gauge Symmetries }{section.2.1}% 4
-\BOOKMARK [2][-]{subsection.2.1.2}{Electoweak Symmetry Breaking }{section.2.1}% 5
-\BOOKMARK [1][-]{section.2.2}{Motivation for Physics Beyond the Standard Model }{chapter.2}% 6
-\BOOKMARK [1][-]{section.2.3}{Supersymmetry }{chapter.2}% 7
-\BOOKMARK [2][-]{subsection.2.3.1}{Compressed Supersymmetry }{section.2.3}% 8
-\BOOKMARK [0][-]{chapter.3}{The LHC and CMS experiment}{}% 9
-\BOOKMARK [1][-]{section.3.1}{The LHC}{chapter.3}% 10
-\BOOKMARK [1][-]{section.3.2}{The CMS Detector}{chapter.3}% 11
-\BOOKMARK [2][-]{subsection.3.2.1}{The Tracking System}{section.3.2}% 12
-\BOOKMARK [2][-]{subsection.3.2.2}{The Electromagnetic Calorimeter}{section.3.2}% 13
-\BOOKMARK [2][-]{subsection.3.2.3}{The Hadronic Calorimeter}{section.3.2}% 14
-\BOOKMARK [2][-]{subsection.3.2.4}{The Muon System}{section.3.2}% 15
-\BOOKMARK [1][-]{section.3.3}{Event Reconstruction}{chapter.3}% 16
-\BOOKMARK [2][-]{subsection.3.3.1}{Jets}{section.3.3}% 17
-\BOOKMARK [2][-]{subsection.3.3.2}{Missing Transverse Energy}{section.3.3}% 18
-\BOOKMARK [2][-]{subsection.3.3.3}{Muons}{section.3.3}% 19
-\BOOKMARK [1][-]{section.3.4}{The Trigger}{chapter.3}% 20
-\BOOKMARK [2][-]{subsection.3.4.1}{The L1 Trigger}{section.3.4}% 21
-\BOOKMARK [2][-]{subsection.3.4.2}{The High Level Trigger}{section.3.4}% 22
-\BOOKMARK [0][-]{chapter.4}{Jet Algorithms for the L1 Trigger Upgrade}{}% 23
-\BOOKMARK [1][-]{section.4.1}{LHC Upgrade}{chapter.4}% 24
-\BOOKMARK [1][-]{section.4.2}{CMS Trigger Upgrade}{chapter.4}% 25
-\BOOKMARK [2][-]{subsection.4.2.1}{Calorimeter Trigger Upgrade}{section.4.2}% 26
-\BOOKMARK [1][-]{section.4.3}{Algorithm for jet reconstruction at L1}{chapter.4}% 27
-\BOOKMARK [2][-]{subsection.4.3.1}{Jet Reconstruction}{section.4.3}% 28
-\BOOKMARK [2][-]{subsection.4.3.2}{Jet Filtering}{section.4.3}% 29
-\BOOKMARK [2][-]{subsection.4.3.3}{Event-by-event estimation of pile-up}{section.4.3}% 30
-\BOOKMARK [2][-]{subsection.4.3.4}{Calibration to the jet energy scale }{section.4.3}% 31
-\BOOKMARK [1][-]{section.4.4}{Upgrade L1 Jet Algorithm Performance}{chapter.4}% 32
-\BOOKMARK [2][-]{subsection.4.4.1}{Angular and Energy Resolutions}{section.4.4}% 33
-\BOOKMARK [2][-]{subsection.4.4.2}{Trigger efficiencies}{section.4.4}% 34
-\BOOKMARK [2][-]{subsection.4.4.3}{Jet trigger rates}{section.4.4}% 35
-\BOOKMARK [2][-]{subsection.4.4.4}{Other jet variables}{section.4.4}% 36
-\BOOKMARK [1][-]{section.4.5}{Conclusion}{chapter.4}% 37
-\BOOKMARK [0][-]{chapter.5}{Searching for Compressed SUSY with monojet events}{}% 38
-\BOOKMARK [1][-]{section.5.1}{Analysis}{chapter.5}% 39
-\BOOKMARK [0][-]{chapter.6}{Searching for Compressed SUSY with monojet events in parked data}{}% 40
-\BOOKMARK [0][-]{appendix*.86}{Bibliography}{}% 41
-\BOOKMARK [0][-]{appendix*.87}{List of Figures}{}% 42
-\BOOKMARK [0][-]{appendix*.88}{List of Tables}{}% 43
-\BOOKMARK [1][-]{section.Alph0.1}{Acronyms}{appendix*.88}% 44
+\BOOKMARK [2][-]{subsection.2.1.1}{Fundamental particles and forces}{section.2.1}% 4
+\BOOKMARK [2][-]{subsection.2.1.2}{Gauge Symmetries }{section.2.1}% 5
+\BOOKMARK [2][-]{subsection.2.1.3}{Electroweak Symmetry Breaking and the Higgs}{section.2.1}% 6
+\BOOKMARK [1][-]{section.2.2}{Motivation for Physics Beyond the Standard Model }{chapter.2}% 7
+\BOOKMARK [1][-]{section.2.3}{Supersymmetry }{chapter.2}% 8
+\BOOKMARK [2][-]{subsection.2.3.1}{Compressed Supersymmetry }{section.2.3}% 9
+\BOOKMARK [0][-]{chapter.3}{The LHC and CMS experiment}{}% 10
+\BOOKMARK [1][-]{section.3.1}{The LHC}{chapter.3}% 11
+\BOOKMARK [1][-]{section.3.2}{The CMS Detector}{chapter.3}% 12
+\BOOKMARK [2][-]{subsection.3.2.1}{The Tracking System}{section.3.2}% 13
+\BOOKMARK [2][-]{subsection.3.2.2}{The Electromagnetic Calorimeter}{section.3.2}% 14
+\BOOKMARK [2][-]{subsection.3.2.3}{The Hadronic Calorimeter}{section.3.2}% 15
+\BOOKMARK [2][-]{subsection.3.2.4}{The Muon System}{section.3.2}% 16
+\BOOKMARK [1][-]{section.3.3}{Event Reconstruction}{chapter.3}% 17
+\BOOKMARK [2][-]{subsection.3.3.1}{Jets}{section.3.3}% 18
+\BOOKMARK [2][-]{subsection.3.3.2}{Missing Transverse Energy}{section.3.3}% 19
+\BOOKMARK [2][-]{subsection.3.3.3}{Muons}{section.3.3}% 20
+\BOOKMARK [1][-]{section.3.4}{The Trigger}{chapter.3}% 21
+\BOOKMARK [2][-]{subsection.3.4.1}{The L1 Trigger}{section.3.4}% 22
+\BOOKMARK [2][-]{subsection.3.4.2}{The High Level Trigger}{section.3.4}% 23
+\BOOKMARK [0][-]{chapter.4}{Jet Algorithms for the L1 Trigger Upgrade}{}% 24
+\BOOKMARK [1][-]{section.4.1}{The LHC Upgrade}{chapter.4}% 25
+\BOOKMARK [1][-]{section.4.2}{CMS Trigger Upgrade}{chapter.4}% 26
+\BOOKMARK [2][-]{subsection.4.2.1}{Calorimeter Trigger Upgrade}{section.4.2}% 27
+\BOOKMARK [1][-]{section.4.3}{Algorithm for jet reconstruction at L1}{chapter.4}% 28
+\BOOKMARK [2][-]{subsection.4.3.1}{Jet Reconstruction}{section.4.3}% 29
+\BOOKMARK [2][-]{subsection.4.3.2}{Jet Filtering}{section.4.3}% 30
+\BOOKMARK [2][-]{subsection.4.3.3}{Event-by-event estimation of pile-up}{section.4.3}% 31
+\BOOKMARK [2][-]{subsection.4.3.4}{Calibration to the jet energy scale }{section.4.3}% 32
+\BOOKMARK [1][-]{section.4.4}{Upgrade L1 Jet Algorithm Performance}{chapter.4}% 33
+\BOOKMARK [2][-]{subsection.4.4.1}{Angular and Energy Resolutions}{section.4.4}% 34
+\BOOKMARK [2][-]{subsection.4.4.2}{Trigger efficiencies}{section.4.4}% 35
+\BOOKMARK [2][-]{subsection.4.4.3}{Jet trigger rates}{section.4.4}% 36
+\BOOKMARK [2][-]{subsection.4.4.4}{Other jet variables}{section.4.4}% 37
+\BOOKMARK [1][-]{section.4.5}{Conclusion}{chapter.4}% 38
+\BOOKMARK [0][-]{chapter.5}{Searching for Compressed SUSY with monojet events}{}% 39
+\BOOKMARK [1][-]{section.5.1}{Analysis}{chapter.5}% 40
+\BOOKMARK [0][-]{chapter.6}{Searching for Compressed SUSY with monojet events in parked data}{}% 41
+\BOOKMARK [0][-]{appendix*.92}{Bibliography}{}% 42
+\BOOKMARK [0][-]{appendix*.93}{List of Figures}{}% 43
+\BOOKMARK [0][-]{appendix*.94}{List of Tables}{}% 44
+\BOOKMARK [1][-]{section.Alph0.1}{Acronyms}{appendix*.94}% 45
