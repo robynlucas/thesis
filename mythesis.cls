@@ -3,7 +3,7 @@
 \LoadClass[hyperpdf,nobind,draft,oneside,rmtitles]{hepthesis}
 %\LoadClass[hyperpdf,nobind,draft,twoside]{hepthesis}
 %% For short draft builds (breaks citations by necessity)
-%\LoadClass[hyperpdf,nobind,draft,hidefrontback]{hepthesis}
+%\LoadClass[hyperpdf,nobind,draft,oneside,rmtitles,hidefrontback]{hepthesis}
 %% For Cambridge soft-bound version
 %\LoadClass[hyperpdf,bindnopdf]{hepthesis}
 %% For Cambridge hard-bound version (must be one-sided)
@@ -35,3 +35,5 @@
 \usepackage{acronym}
 \usepackage{multirow}
 \usepackage{ctable}
+\usepackage{array}
+\usepackage{amsmath}

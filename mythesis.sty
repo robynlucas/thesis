@@ -1,7 +1,6 @@
 \ProvidesPackage{thesis}[2005/07/28]
 %\RequirePackage{timing}
 \RequirePackage{hepnicenames,hepunits,abhep}
-\usepackage{multirow}
 %% Citation spacing hack to bring the citation
 %% number a little closer to the referring text
 \let\@OldCite\cite
@@ -31,6 +30,11 @@
 \DeclareRobustCommand{\LHC}{LHC\xspace}
 \DeclareRobustCommand{\LEP}{LEP\xspace}
 \DeclareRobustCommand{\CERN}{CERN\xspace}
+\newcommand{\MADGRAPH}{{\sc Madgraph}\xspace}
+\newcommand{\PYTHIA}{{\sc Pythia}\xspace}
+\newcommand{\GEANTfour}{{\sc Geant}4\xspace}
+\newcommand{\TAUOLA}{{\sc Tauloa}\xspace}
+\newcommand{\POWHEG}{{\sc Powheg}\xspace}
 
 %% Basic rate formalisms
 \DeclareRobustCommand{\Rate}{\thesismath{\Gamma}\xspace}
@@ -72,6 +76,7 @@
 \renewcommand{\cm}{\ensuremath{\mathrm{cm}}\xspace}
 \newcommand{\designLumi}{\ensuremath{10^{34}\mathrm{cm}^{-2}\mathrm{s}^{-1}}\xspace}
 \newcommand{\fbinv}{\ensuremath{\mathrm{fb}^{-1}}\xspace}
+\newcommand{\pbinv}{\ensuremath{\mathrm{pb}^{-1}}\xspace}
 
 %quantities
 \newcommand{\njets}{\ensuremath{N_{\text{jets}}}\xspace}
@@ -83,6 +88,7 @@
 \newcommand{\METv}{\ensuremath{\vec{E}_{\text{T}}^{\text{miss}}}\xspace}
 \newcommand{\ETv}{\ensuremath{\vec{E}_{\text{T}}}\xspace}
 \newcommand{\ptv}{\ensuremath{\vec{p}_{\text{T}}}\xspace}
+\newcommand{\met}{\MET}
 
 % particles
 \def\antibar#1{\ensuremath{#1\bar{#1}}}
@@ -96,8 +102,10 @@
 \renewcommand{\mm}{\ensuremath{\mathrm{mm}}\xspace}
 
 \newcommand\defRTDR{\ensuremath{ R2 = \sqrt{[\pi-\Delta\phi(J_{1},\mht) ]^2 +[\Delta\phi(J_{2},\mht) ]^2}    }}
-\newcommand\wpj{\ensuremath{\W + {\rm jets}}\xspace}
-\newcommand\zpj{\ensuremath{\Z + {\rm jets}}\xspace}
+%\newcommand{\wpj}{\ensuremath{\W + {\rm jets}
+\newcommand{\wpj}{\W+\,jets\xspace{}}
+%\newcommand{\zpj}{\ensuremath{\Z + {\rm jets}}\xspace}
+\newcommand{\zpj}{\Z+\,jets\xspace{}}
 \newcommand{\ttbar}{\ensuremath{{\rm t\bar{t}}}\xspace}
 \newcommand\qqbar{\ensuremath{{\rm q\bar{q}}}\xspace}
 \newcommand\ttbarMuNu{\ensuremath{\ttbar ( \mu \nu ) {\rm +jets}}\xspace}
@@ -136,20 +144,99 @@
 \newcommand{\Wboson}{\ensuremath{{\rm W}}\xspace}
 
 \newcommand{\susy}{{\sc susy}\xspace}
-\newcommand{\squark}{\sQua}
-\newcommand{\gluino}{\sGlu}
+\newcommand{\squark}{\ensuremath{\tilde{{q}}}\xspace}
+\newcommand{\gluino}{\ensuremath{\tilde{{g}}}\xspace}
 \newcommand{\supq}{\sUp}
 \newcommand{\sdown}{\sDw}
-\newcommand{\sstrange}{\ensuremath{\tilde{s}}\xspace}
-\newcommand{\scharm}{\ensuremath{\tilde{c}}\xspace}
-\newcommand{\sbottom}{\sBot}
-\newcommand{\sbottompair}{\ensuremath{\tilde{{\mathrm b}}\tilde{{\mathrm b}}^\ast}\xspace}
-\newcommand{\chiOneZero}{\ensuremath{\tilde{\chi}^{0}_{1}}\xspace}
-\newcommand{\chiOnePlus}{\ensuremath{\tilde{\chi}^{\pm}_{1}}\xspace}
+\newcommand{\sstrange}{\ensuremath{\widetilde{s}}\xspace}
+\newcommand{\scharm}{\ensuremath{\widetilde{c}}\xspace}
+\newcommand{\sbottom}{\ensuremath{\widetilde{{b}}}\xspace}
+\newcommand{\sbottompair}{\ensuremath{\widetilde{{\mathrm b}}\widetilde{{\mathrm b}}^\ast}\xspace}
+\newcommand{\chiOneZero}{\ensuremath{\widetilde{\chi}^{0}_{1}}\xspace}
+\newcommand{\chiTwoZero}{\ensuremath{\widetilde{\chi}^{0}_{2}}\xspace}
+\newcommand{\chiOnePlus}{\ensuremath{\widetilde{\chi}^{\pm}_{1}}\xspace}
 
-\newcommand{\sTop}{\ensuremath{\tilde{{\mathrm t}}}\xspace}
-\newcommand{\santiTop}{\ensuremath{\tilde{{\mathrm t}}^\ast}\xspace}
-\newcommand{\stopair}{\ensuremath{\tilde{{\mathrm t}}\tilde{{\mathrm t}}^\ast}\xspace}
+\newcommand{\sTop}{\ensuremath{\widetilde{{\rm t}}}\xspace}
+\newcommand{\sBot}{\ensuremath{\widetilde{{\rm b}}}\xspace}
+\renewcommand{\sbottom}{\sBot}
+\renewcommand{\squark}{\ensuremath{\widetilde{{\rm q}}}\xspace}
+\newcommand{\santiTop}{\ensuremath{\widetilde{\bar{\mathrm{t}}}}\xspace}
+\newcommand{\santiBot}{\ensuremath{\widetilde{\bar{\mathrm{b}}}}\xspace}
+\newcommand{\sToppair}{\sTop \santiTop}
+\newcommand{\sBotpair}{\sBot \santiBot}
+
+\renewcommand{\topquark}{\ensuremath{{\rm t}}\xspace}
+\renewcommand{\bottomquark}{\ensuremath{{\rm b}}\xspace}
+\renewcommand{\charmquark}{\ensuremath{{\rm c}}\xspace}
+
+\newcommand{\ccbar}{\ensuremath{\rm c \bar{\rm c}}\xspace}
+\newcommand{\bbbar}{\ensuremath{\rm b \bar{\rm b}}\xspace}
+
+\renewcommand{\xspace}{\,}
+
+\newcommand{\ttwott}{
+\sTop 
+\,
+\santiTop
+\xspace 
+\ensuremath{\rightarrow}
+\xspace 
+\ensuremath{{\rm t}}
+\xspace 
+\ensuremath{{\rm \bar{t}}}
+\xspace 
+\chiOneZero
+\xspace
+\chiOneZero
+}
+
+\newcommand{\ttwotb}{
+\sTop 
+\,
+\santiTop
+\xspace 
+\ensuremath{\rightarrow}
+\xspace 
+\ensuremath{{\rm t}}
+\xspace 
+\chiOneZero
+\xspace
+\ensuremath{{\rm \bar{b}}}
+\xspace
+\ensuremath{\widetilde{\chi}^{\pm}_{1}}
+\xspace
+\ensuremath{\rightarrow}
+\xspace 
+\ensuremath{{\rm t}}
+\xspace
+\ensuremath{{\rm \bar{b}}}
+\xspace
+\ensuremath{{\rm W^{\pm}}}
+\xspace 
+\chiOneZero
+\xspace 
+\chiOneZero
+}
+
+\newcommand{\ttwocc}{
+\sTop 
+\santiTop
+\ensuremath{\rightarrow}
+\ccbar
+\chiOneZero
+\chiOneZero
+\,
+}
+
+\newcommand{\ttwobb}{
+\sBot 
+\santiBot
+\ensuremath{\rightarrow}
+\bbbar
+\chiOneZero
+\chiOneZero
+\xspace
+}
 
 % Fix hyperref labels in PDFTeX
 \@ifpackageloaded{hyperref}{%
