@@ -4,8 +4,6 @@ The top-level auxiliary file: mythesis.aux
 The style file: lucas_unsrt.bst
 Database file #1: mythesis.bib
 Warning--I didn't find a database entry for "RoseTrig"
-Warning--I didn't find a database entry for "bib:ANA_JME-10-010"
-Warning--I didn't find a database entry for "bib:BKG_PDG"
 Warning--empty note in GUTpic
 Warning--empty institution in PFT-09-001
 Warning--empty institution in Cittolin:578006
@@ -13,45 +11,45 @@ Warning--empty author in newL1jetWork
 Warning--empty title in newL1jetWork
 Warning--empty institution in newL1jetWork
 Warning--empty year in newL1jetWork
-You've used 151 entries,
+You've used 159 entries,
             2517 wiz_defined-function locations,
-            1816 strings with 38113 characters,
-and the built_in function-call counts, 47890 in all, are:
-= -- 5189
-> -- 1225
-< -- 3
-+ -- 495
-- -- 344
-* -- 4382
-:= -- 5937
-add.period$ -- 248
-call.type$ -- 151
+            1862 strings with 39596 characters,
+and the built_in function-call counts, 49775 in all, are:
+= -- 5403
+> -- 1264
+< -- 4
++ -- 511
+- -- 352
+* -- 4576
+:= -- 6166
+add.period$ -- 263
+call.type$ -- 159
 change.case$ -- 3
 chr.to.int$ -- 0
-cite$ -- 158
-duplicate$ -- 3011
-empty$ -- 4752
-format.name$ -- 176
-if$ -- 12539
+cite$ -- 166
+duplicate$ -- 3133
+empty$ -- 4944
+format.name$ -- 183
+if$ -- 13034
 int.to.chr$ -- 0
-int.to.str$ -- 151
-missing$ -- 411
-newline$ -- 636
-num.names$ -- 79
-pop$ -- 838
+int.to.str$ -- 159
+missing$ -- 429
+newline$ -- 670
+num.names$ -- 82
+pop$ -- 876
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1768
+skip$ -- 1821
 stack$ -- 0
-substring$ -- 1770
-swap$ -- 1298
-text.length$ -- 3
+substring$ -- 1800
+swap$ -- 1341
+text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 7
-while$ -- 249
-width$ -- 154
-write$ -- 1912
-(There were 10 warnings)
+while$ -- 256
+width$ -- 162
+write$ -- 2006
+(There were 8 warnings)

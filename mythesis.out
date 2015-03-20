@@ -52,19 +52,24 @@
 \BOOKMARK [1][-]{section.5.5}{Event selection}{chapter.5}% 52
 \BOOKMARK [2][-]{subsection.5.5.1}{Event Cleaning}{section.5.5}% 53
 \BOOKMARK [2][-]{subsection.5.5.2}{Signal region event selection}{section.5.5}% 54
-\BOOKMARK [2][-]{subsection.5.5.3}{Control region event selection}{section.5.5}% 55
-\BOOKMARK [1][-]{section.5.6}{Data driven background estimation}{chapter.5}% 56
-\BOOKMARK [2][-]{subsection.5.6.1}{Estimation of Z \040background}{section.5.6}% 57
-\BOOKMARK [2][-]{subsection.5.6.2}{Estimation of W+jets background}{section.5.6}% 58
-\BOOKMARK [2][-]{subsection.5.6.3}{QCD Background Estimation}{section.5.6}% 59
-\BOOKMARK [2][-]{subsection.5.6.4}{Diboson background estimation}{section.5.6}% 60
-\BOOKMARK [0][-]{chapter.6}{Results and Interpretation}{}% 61
-\BOOKMARK [1][-]{section.6.1}{Signal MC simulation}{chapter.6}% 62
-\BOOKMARK [1][-]{section.6.2}{Results}{chapter.6}% 63
-\BOOKMARK [1][-]{section.6.3}{Systematic Uncertainties on Signal}{chapter.6}% 64
-\BOOKMARK [1][-]{section.6.4}{Interpretation and exclusion limits}{chapter.6}% 65
-\BOOKMARK [0][-]{chapter.7}{Searching for Compressed SUSY with monojet events in parked data}{}% 66
-\BOOKMARK [0][-]{appendix*.154}{Bibliography}{}% 67
-\BOOKMARK [0][-]{appendix*.155}{List of Figures}{}% 68
-\BOOKMARK [0][-]{appendix*.156}{List of Tables}{}% 69
-\BOOKMARK [1][-]{section.Alph0.1}{Acronyms}{appendix*.156}% 70
+\BOOKMARK [1][-]{section.5.6}{Background estimation and systematic uncertainties}{chapter.5}% 55
+\BOOKMARK [2][-]{subsection.5.6.1}{Data-driven Z \( \040\) +jets background estimation}{section.5.6}% 56
+\BOOKMARK [2][-]{subsection.5.6.2}{Data-driven W \(\) +jets background estimation}{section.5.6}% 57
+\BOOKMARK [2][-]{subsection.5.6.3}{QCD Background Estimation}{section.5.6}% 58
+\BOOKMARK [2][-]{subsection.5.6.4}{t background estimation}{section.5.6}% 59
+\BOOKMARK [2][-]{subsection.5.6.5}{Diboson background estimation}{section.5.6}% 60
+\BOOKMARK [2][-]{subsection.5.6.6}{Single top quark and Drell\205Yan background estimations}{section.5.6}% 61
+\BOOKMARK [1][-]{section.5.7}{Summary}{chapter.5}% 62
+\BOOKMARK [0][-]{chapter.6}{Results and Interpretation}{}% 63
+\BOOKMARK [1][-]{section.6.1}{Results}{chapter.6}% 64
+\BOOKMARK [1][-]{section.6.2}{Interpretation}{chapter.6}% 65
+\BOOKMARK [2][-]{subsection.6.2.1}{Simulation of signal events}{section.6.2}% 66
+\BOOKMARK [1][-]{section.6.3}{Signal acceptance}{chapter.6}% 67
+\BOOKMARK [2][-]{subsection.6.3.1}{Signal acceptance in 2- and 3-parton simulation}{section.6.3}% 68
+\BOOKMARK [2][-]{subsection.6.3.2}{Systematic Uncertainties on Signal}{section.6.3}% 69
+\BOOKMARK [1][-]{section.6.4}{Exclusion limits}{chapter.6}% 70
+\BOOKMARK [1][-]{section.6.5}{Summary}{chapter.6}% 71
+\BOOKMARK [0][-]{appendix*.179}{Bibliography}{}% 72
+\BOOKMARK [0][-]{appendix*.180}{List of Figures}{}% 73
+\BOOKMARK [0][-]{appendix*.181}{List of Tables}{}% 74
+\BOOKMARK [1][-]{section.Alph0.1}{Acronyms}{appendix*.181}% 75

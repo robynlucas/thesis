@@ -4,6 +4,39 @@
 \makeatother
 \providecommand{\doi}{\texttt{doi:}\begingroup \urlstyle{tt}\Url}
 
+\bibitem{PDG}
+\hrefCMSnoop {} {{ Particle Data Group} Collaboration, ``{Review of Particle
+  Physics}'',} \textit{ Chin. Phys. C} \textbf{ 38} (2014) 090001,
+\href{http://dx.doi.org/10.1088/1674-1137/38/9/090001}{\doi{10.1088/1674-1137/38/9/090001}}.
+%%CITATION = CHPHD,C38,090001;%%.
+
+\bibitem{Aad:2012tfa}
+\hrefCMSnoop {} {{ ATLAS} Collaboration, ``{Observation of a new particle in
+  the search for the Standard Model Higgs boson with the ATLAS detector at the
+  LHC}'',} \textit{ Phys. Lett. B} \textbf{ 716} (2012) 1,
+  \href{http://dx.doi.org/10.1016/j.physletb.2012.08.020}{\doi{10.1016/j.physletb.2012.08.020}},
+\href{http://www.arXiv.org/abs/1207.7214}{\texttt{ arXiv:1207.7214}}.
+%%CITATION = ARXIV:1207.7214;%%.
+
+\bibitem{Chatrchyan:2012ufa}
+\hrefCMSnoop {} {{ CMS} Collaboration, ``{Observation of a new boson at a mass
+  of 125 GeV with the CMS experiment at the LHC}'',} \textit{ Phys. Lett. B}
+  \textbf{ 716} (2012) 30,
+  \href{http://dx.doi.org/10.1016/j.physletb.2012.08.021}{\doi{10.1016/j.physletb.2012.08.021}},
+\href{http://www.arXiv.org/abs/1207.7235}{\texttt{ arXiv:1207.7235}}.
+%%CITATION = ARXIV:1207.7235;%%.
+
+\bibitem{sus13009}
+\hrefCMSnoop {} {{ CMS Collaboration} Collaboration, ``{Search for top squarks
+  decaying to a charm quark and a neutralino in events with a jet and missing
+  transverse momentum}'',} Technical Report CMS-PAS-SUS-13-009, CERN, Geneva,
+  (2014).
+
+\bibitem{sus14001}
+\hrefCMSnoop {} {{ CMS} Collaboration, ``Searches for third-generation squark
+  production in fully hadronic final states in proton-proton collisions at
+  $\sqrt s=8$~TeV'',} (2015). Submitted to JHEP.
+
 \bibitem{BSmumuCombo}
 \hrefCMSnoop {} {{ CMS, LHCb} Collaboration, ``{Observation of the rare
   $B^0_s\to\mu^+\mu^-$ decay from the combined analysis of CMS and LHCb
@@ -44,32 +77,10 @@
   Bosons'',} \textit{ Phys. Rev. Lett.} \textbf{ 13} (Oct, 1964) 508--509,
   \href{http://dx.doi.org/10.1103/PhysRevLett.13.508}{\doi{10.1103/PhysRevLett.13.508}}.
 
-\bibitem{Aad:2012tfa}
-\hrefCMSnoop {} {{ ATLAS} Collaboration, ``{Observation of a new particle in
-  the search for the Standard Model Higgs boson with the ATLAS detector at the
-  LHC}'',} \textit{ Phys. Lett. B} \textbf{ 716} (2012) 1,
-  \href{http://dx.doi.org/10.1016/j.physletb.2012.08.020}{\doi{10.1016/j.physletb.2012.08.020}},
-\href{http://www.arXiv.org/abs/1207.7214}{\texttt{ arXiv:1207.7214}}.
-%%CITATION = ARXIV:1207.7214;%%.
-
-\bibitem{Chatrchyan:2012ufa}
-\hrefCMSnoop {} {{ CMS} Collaboration, ``{Observation of a new boson at a mass
-  of 125 GeV with the CMS experiment at the LHC}'',} \textit{ Phys. Lett. B}
-  \textbf{ 716} (2012) 30,
-  \href{http://dx.doi.org/10.1016/j.physletb.2012.08.021}{\doi{10.1016/j.physletb.2012.08.021}},
-\href{http://www.arXiv.org/abs/1207.7235}{\texttt{ arXiv:1207.7235}}.
-%%CITATION = ARXIV:1207.7235;%%.
-
 \bibitem{HalzenMartin}
 A.~D.~M. F.~Halzen, ``Quarks and Leptons: An Introductory Course in Modern
   Particle Physics''.
 \newblock John Wiley and Sons, Philadelphia, 1984.
-
-\bibitem{PDG}
-\hrefCMSnoop {} {{ Particle Data Group} Collaboration, ``{Review of Particle
-  Physics}'',} \textit{ Chin. Phys. C} \textbf{ 38} (2014) 090001,
-\href{http://dx.doi.org/10.1088/1674-1137/38/9/090001}{\doi{10.1088/1674-1137/38/9/090001}}.
-%%CITATION = CHPHD,C38,090001;%%.
 
 \bibitem{superK}
 \hrefCMSnoop {} {Y.~Fukuda, T.~Hayakawa, {et~al.}, ``Measurements of the Solar
@@ -996,6 +1007,14 @@ A.~D.~M. F.~Halzen, ``Quarks and Leptons: An Introductory Course in Modern
   Workshop on the Implications of HERA for LHC Physics: CERN - DESY Workshop
   2004/2005'.
 
+\bibitem{JETJINST}
+\hrefCMSnoop {} {{ CMS} Collaboration, ``{Determination of jet energy
+  calibration and transverse momentum resolution in CMS}'',} \textit{ JINST}
+  \textbf{ 6} (2011) P11002,
+  \href{http://dx.doi.org/10.1088/1748-0221/6/11/P11002}{\doi{10.1088/1748-0221/6/11/P11002}},
+\href{http://www.arXiv.org/abs/1107.4277}{\texttt{ arXiv:1107.4277}}.
+%%CITATION = 1107.4277;%%.
+
 \bibitem{CMS-PAPER-MUO-10-004}
 \hrefCMSnoop {} {{ CMS} Collaboration, ``{Performance of CMS muon
   reconstruction in pp collision events at $\sqrt{s}$ = 7 TeV}'',} \textit{ J.
@@ -1039,11 +1058,41 @@ Submitted to \textit{JINST}.
   2.36 {TeV}'',} \textit{ JHEP} \textbf{ 02} (2010) 041,
   \href{http://dx.doi.org/10.1007/JHEP02(2010)041}{\doi{10.1007/JHEP02(2010)041}}.
 
+\bibitem{CMS:exoDijetRes}
+\hrefCMSnoop {} {{ CMS} Collaboration, ``{Search for narrow resonances and
+  quantum black holes in inclusive and $b$-tagged dijet mass spectra from $pp$
+  collisions at $\sqrt{s}=7$ TeV}'',} \textit{ JHEP} \textbf{ 1301} (2013) 013,
+  \href{http://dx.doi.org/10.1007/JHEP01(2013)013}{\doi{10.1007/JHEP01(2013)013}},
+\href{http://www.arXiv.org/abs/1210.2387}{\texttt{ arXiv:1210.2387}}.
+%%CITATION = ARXIV:1210.2387;%%.
+
+\bibitem{ttbarxs}
+\hrefCMSnoop {} {N.~Kidonakis, ``{Differential and total cross sections for top
+  pair and single top production}'',}
+  \href{http://dx.doi.org/10.3204/DESY-PROC-2012-02/251}{\doi{10.3204/DESY-PROC-2012-02/251}},
+\href{http://www.arXiv.org/abs/1205.3453}{\texttt{ arXiv:1205.3453}}.
+%%CITATION = ARXIV:1205.3453;%%.
+
+\bibitem{MCFM:diboson}
+\hrefCMSnoop {} {J.~M. Campbell, R.~K. Ellis, and C.~Williams, ``{Vector boson
+  pair production at the LHC}'',} \textit{ JHEP} \textbf{ 1107} (2011) 018,
+  \href{http://dx.doi.org/10.1007/JHEP07(2011)018}{\doi{10.1007/JHEP07(2011)018}},
+\href{http://www.arXiv.org/abs/1105.0020}{\texttt{ arXiv:1105.0020}}.
+%%CITATION = ARXIV:1105.0020;%%.
+
 \bibitem{bib:SMS}
 \hrefCMSnoop {} {{ CMS} Collaboration, ``{Interpretation of Searches for
   Supersymmetry with simplified Models}'',}
 \href{http://www.arXiv.org/abs/1301.2175}{\texttt{ arXiv:1301.2175}}.
 %%CITATION = ARXIV:1301.2175;%%.
+
+\bibitem{MLMmatching}
+\hrefCMSnoop {} {M.~L. Mangano, M.~Moretti, F.~Piccinini{ et~al.}, ``{Matching
+  matrix elements and shower evolution for top-quark production in hadronic
+  collisions}'',} \textit{ JHEP} \textbf{ 0701} (2007) 013,
+  \href{http://dx.doi.org/10.1088/1126-6708/2007/01/013}{\doi{10.1088/1126-6708/2007/01/013}},
+\href{http://www.arXiv.org/abs/hep-ph/0611129}{\texttt{ arXiv:hep-ph/0611129}}.
+%%CITATION = HEP-PH/0611129;%%.
 
 \bibitem{bib:SUSYxs}
 \hrefCMSnoop {} {M.~Kr{\"a}mer, A.~Kulesza, R.~van~der Leeuw{ et~al.},
@@ -1064,5 +1113,10 @@ Submitted to \textit{JINST}.
   and Analysis Techniques in Physics Research (ACAT2010)}.
 \newblock SISSA, 2010.
 \newblock \href{http://www.arXiv.org/abs/1009.1003}{\texttt{ arXiv:1009.1003}}.
+
+\bibitem{stopsbottomxs}
+\hrefCMSnoop {} {{ ATLAS, CMS, LPCC} Collaboration, ``SUSY Cross sections for
+  stop and sbottom quarks at 8 TeV'',}.
+  {https://twiki.cern.ch/twiki/bin/view/LHCPhysics/SUSYCrossSections8TeVstopsbottom}.
 
 \end{thebibliography}\endgroup

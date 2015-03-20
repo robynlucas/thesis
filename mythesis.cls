@@ -37,3 +37,4 @@
 \usepackage{ctable}
 \usepackage{array}
 \usepackage{amsmath}
+\usepackage{amssymb}
