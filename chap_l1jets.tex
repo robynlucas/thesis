@@ -1,7 +1,7 @@
 \chapter{Jet Algorithms for the L1 Trigger Upgrade}
 \label{chap:l1jets}
 
-In the  hadron rich environment of the \ac{LHC}, the hadronisation of quarks and gluons into jets is a major component of the physics programme of \ac{CMS}. 
+In the hadron rich environment of the \ac{LHC}, the hadronization of quarks and gluons into jets is a major component of the physics programme of \ac{CMS}. 
 Whether for standard model analyses, Higgs searches, \ac{SUSY} searches or exotic analyses,
 jet reconstruction is vital for both event selection and offline analysis, for a wide range of jet kinematic requirements.
 Efficient and reliable triggering on jets is therefore of key importance
@@ -9,19 +9,19 @@ and the first stage of event selection, the \ac{L1} trigger, must have an effect
 This is of particular significance as we look towards the \ac{LHC} upgrade, when running conditions become increasingly challenging. 
 Up to double the instantaneous luminosity and centre-of-mass energy lead to an increase of \ac{PU} up to $\sim 70$ and far higher detector occupancies.
 Jet algorithms must maintain a similar performance in this next phase of \ac{LHC} running as exhibited in the previous period of data collection.
-A new L1 jet algorithm is proposed, which exploits the full granularity of the calorimeter and uses event-by-event \ac{PU} subtraction. 
+A new \ac{L1} jet algorithm is proposed, which exploits the full granularity of the calorimeter and uses event-by-event \ac{PU} subtraction. 
 
 \section{The LHC Upgrade\label{sec:LHCupgrade}}
 
 Following the tremendously successful operation during Run I in 2010-2012, where the \ac{CMS} and \ac{ATLAS}
 experiments collected around 5~\fbinv at 7~\TeV and 20~\fbinv at 8~\TeV,
-the \ac{LHC} is currently in a period of shut-down, termed ``Long Shutdown 1'' (LS1). 
+the \ac{LHC} is currently in a period of shut-down, termed \ac{LS1}. 
 Magnet interconnections are being replaced and the dipole magnets are undergoing a quench training programme. 
 These improvements to the \ac{LHC} magnets will allow safe acceleration of protons up to 7~\TeV in each beam, and sustained operation at $\sqrt{s}=13~\TeV$, eventually to achieve the design energy of 14~\TeV.
 This will nearly double the available centre-of-mass energy as compared to Run I, potentially making Run II a discovery run --- opening up more phase space and therefore opportunities for finding new physics.
 Instantaneous luminosity will also increase, with the aim of providing the number of events to give the statistical precision required to search for the rarest processes, as well as shed more light on the properties of the boson discovered during Run 1~\cite{Aad:2012tfa,Chatrchyan:2012ufa,HiggsEvidence}. 
-After a period of a year or so of running after LS1 termed ``Run II'', the \ac{LHC} will again undergo a period of shutdown, 
-``Long Shutdown 2'' (LS2), in which improvements to the accelerator injector chain will be made --- with the aim of providing much greater instantaneous luminosities. 
+After a period of a year or so of running after \ac{LS1} termed ``Run II'', the \ac{LHC} will again undergo a period of shutdown, 
+\ac{LS2}, in which improvements to the accelerator injector chain will be made --- with the aim of providing much greater instantaneous luminosities. 
 The potential luminosity performance of two scenarios for future running of the \ac{LHC} is shown in Table~\ref{lumiProgramme}. 
 
 \begin{table}[h]
@@ -76,9 +76,9 @@ In Run I, the ability to adapt the trigger algorithms and menu to evolving \ac{L
 Increasing the flexibility by making more of the system adaptable, and more of the cards standardised, will only improve the trigger and enhance its longevity. 
 Having the ability to easily update software and firmware, as well as trigger architecture, in response to unforeseen circumstances --- not just in the planned \ac{LHC} upgrades to 2016 but far beyond --- will put \ac{CMS} in an excellent position for data collection.
 
-The new \ac{L1} trigger is being installed during LS1, and will be commissioned and run concurrently with the existing trigger during Run II. 
+The new \ac{L1} trigger is being installed during \ac{LS1}, and will be commissioned and run concurrently with the existing trigger during Run II. 
 %Once it's performance has been tested and verified, 
-The upgraded system will be available for physics in 2016.%, and after LS2 at which point the existing system will no longer be operable.
+The upgraded system will be available for physics in 2016. %, and after LS2 at which point the existing system will no longer be operable.
 Here, I discuss in detail the calorimeter trigger upgrade, as this is what the proposed jet algorithm, detailed in this chapter, relies upon.
 More information on the muon trigger and global trigger upgrade can be found in~\cite{Tapper:1556311}.
 
@@ -140,7 +140,7 @@ The system latency, $N+X$, is now small enough, due to the increased processing 
 \begin{center}
   \includegraphics[scale=0.8]{Figures/l1jets/TMTrigger.png}
 
-\caption{Time-multiplexed trigger architecture, showing data pipelining to different processing nodes. Taken from~\cite{RoseTrig}.}
+\caption{Time-multiplexed trigger architecture, showing data pipe-lining to different processing nodes. Taken from~\cite{RoseTrig}.}
 \label{fig:TMTrig}
 \end{center}
 \end{figure}
@@ -167,11 +167,11 @@ More detail on the CMS \ac{L1} calorimeter trigger upgrade can be found in Ref.~
 \label{Sec:Algo}
 A jet algorithm to reconstruct, filter and calibrate \ac{L1} jets is proposed, for the upgraded \ac{CMS} calorimeter trigger.
 It is assumed that all of the \ac{L1} calorimetric information for a single event streams through a single processor; that is, all of the information from a single bunch crossing can be processed in one single chip.
-This is compatible with the \ac{TMT} architecture which will be available after LS2 at \ac{CMS}. 
+This is compatible with the \ac{TMT} architecture which will be available after \ac{LS2} at \ac{CMS}. 
 
 Using tower level information, the algorithm creates a tunable sized jet at each site on the calorimeter, filters out zero-energy jets and repeats, to get the `best' 13 jet candidates per event. The average jet energy density for each event is calculated, and subtracted from the energy deposited across the calorimeter in order to perform \ac{PU} subtraction on an event-by-event basis. 
 The 13 jet candidates are then calibrated to offline energy. 
-This algorithm is compared to the current L1 jet algorithm.% and the `best' possible algorithm, which is taken to be the \ac{PF} algorithm with towers used as inputs.
+This algorithm is compared to the current \ac{L1} jet algorithm.% and the `best' possible algorithm, which is taken to be the \ac{PF} algorithm with towers used as inputs.
 A much improved spatial resolution is seen, as well as enhanced, and crucially, more \ac{PU} independent energy resolution. 
 The resulting trigger turn-on curves for various jet energy thresholds, and trigger rates for single and multijet triggers are improved compared to the current algorithm, as well as the global variable \HT.
 This jet algorithm was the proposed jet algorithm in the \ac{CMS} \ac{L1} Trigger Upgrade Technical Design Review, Ref.~\cite{Tapper:1556311}.
@@ -341,7 +341,7 @@ The \ac{LHC} run used for the study had an average of 45 primary vertices per bu
 \subsection{Angular and Energy Resolutions}
 
 Resolutions are measured as compared to offline AK5 Calo jets, as described in Section~\ref{jet_calib}. 
-The leading offline jet (which must have $\pt > 20$~\GeV) is matched to a L1 jet within $\Delta R < 0.5$, and the resolutions are defined as:
+The leading offline jet (which must have $\pt > 20$~\GeV) is matched to a  \ac{L1} jet within $\Delta R < 0.5$, and the resolutions are defined as:
 \begin{eqnarray}
 \sigma_{\eta} &=& \eta_{offline} - \eta_{L1} \\
 \sigma_{\phi} &=& \phi_{offline} - \phi_{L1}\\
@@ -351,7 +351,7 @@ The leading offline jet (which must have $\pt > 20$~\GeV) is matched to a L1 jet
 
 Angular and energy resolutions of the proposed upgrade algorithm compared to the current system are shown in Figure \ref{JetRes}.
 There is a much improved angular resolution as the upgrade jets take advantage of the full granularity of the calorimeter. In high PU data, the energy resolution is improved due to the PU subtraction. 
-With the current \ac{L1} jet algorithm, there are a significant number events in which the leading offline jet has been matched to low energy PU L1 jets, giving a negative value of $\sigma_{\pt}$ and giving rise to the significant negative tail in the distribution.
+With the current \ac{L1} jet algorithm, there are a significant number events in which the leading offline jet has been matched to low energy \ac{PU} \ac{L1} jets, giving a negative value of $\sigma_{\pt}$ and giving rise to the significant negative tail in the distribution.
 
 \begin{figure}[t!]
 \begin{center}
@@ -377,7 +377,7 @@ and the upgrade jet algorithm is therefore is expected to show a reduction in ra
 \end{figure}
 
 \subsection{Trigger efficiencies}
-The trigger efficiencies for various L1 jet transverse energy thresholds are measured, as compared to AK5 Calo jets, to show the effectiveness of the proposed algorithm at reconstructing jets which have been measured offline, which are treated as the ``truth''.
+The trigger efficiencies for various \ac{L1} jet transverse energy thresholds are measured, as compared to AK5 Calo jets, to show the effectiveness of the proposed algorithm at reconstructing jets which have been measured offline, which are treated as the ``truth''.
 If the leading \ac{L1} jet in each event above a certain energy threshold is matched to an offline jet, the energy of the matched offline jet is plotted. 
 All matched offline jet energies are also plotted. 
 By taking the ratio between these two distributions we attain trigger turn on curves, shown in Figures~\ref{JetTO_lowPU} and \ref{JetTO_highPU}.
@@ -391,7 +391,7 @@ The plateau efficiency of the turn on is dictated by the matching efficiency of 
 If all \ac{L1} jets are perfectly matched to offline jets then the algorithm is fully efficient at reconstructing jets at \ac{L1} and the plateau efficiency is 1.
 
 The turn on curves shown in Figure~\ref{JetTO_lowPU} are taken from data taken using the same single muon trigger as was used for jet calibration, where the presence of at least one muon in each event implies there is often hadronic activity in the opposite hemisphere of the detector to the muon. 
-This is a relatively low \ac{PU} set of events, with approximately 20 p-p interactions per bunch crossing. 
+This is a relatively low \ac{PU} set of events, with approximately 20 pp interactions per bunch crossing. 
 Figure~\ref{JetTO_highPU} shows the performance at \ac{PU} of approximately 45, a data sample which has lower statistical precision, hence the larger error bars.
 The sizeable negative tail shown in the momentum resolution for the current algorithm in Figure~\ref{JetRes} is 
 evident in the bump at low momentum in the left hand plot.
@@ -513,7 +513,7 @@ They therefore also will also benefit from the upgraded calorimeter trigger, and
 \end{eqnarray}  
 where the sum is over all jets in each event.
 \HT is commonly used for analysis which search for \ac{SUSY}, for example in Ref.~\cite{alphaT}.
-It gives a good indication of the amount of hadronic energy in an event and so the energy transfer in the original inelastic p-p collision, which should be high for new physics processes to occur.
+It gives a good indication of the amount of hadronic energy in an event and so the energy transfer in the original inelastic pp collision, which should be high for new physics processes to occur.
 It is particularly sensitive to the number of primary vertices in each bunch crossing, as soft \ac{PU} jets are included in the sum.
 The addition of \ac{PU} subtraction on an event-by-event basis in the proposed upgrade jet algorithm therefore has the potential to lead to significant improvements in the rate.
 The trigger turn on curves for various \HT thresholds using the upgrade jet algorithm are shown in Figure~\ref{HTRate_conv} together with the conversion between the \ac{L1} threshold and the 95\% offline efficiency. 
@@ -536,7 +536,7 @@ This is a much fairer comparison between the two algorithms than the rate in ter
 \begin{center}
   \includegraphics[scale=0.3]{Figures/l1jets/HTRates_2e34.pdf}
     \includegraphics[scale=0.3]{Figures/l1jets/HTRates_95thresh_2e34.pdf}
-\caption{Rates of \HT triggers, vs L1 threshold (left) and 95\% offline threshold (right), where the conversion between L1 threshold and 95\% efficiency is taken from Figure~\ref{HTRate_conv}. There is a significant reduction in rates with the proposed upgrade algorithm.}
+\caption{Rates of \HT triggers, vs \ac{L1} threshold (left) and 95\% offline threshold (right), where the conversion between \ac{L1} threshold and 95\% efficiency is taken from Figure~\ref{HTRate_conv}. There is a significant reduction in rates with the proposed upgrade algorithm.}
 \label{HTRate}
 \end{center}
 \end{figure}
@@ -557,5 +557,5 @@ These rate reductions will allow lower energy thresholds in the upgraded \ac{CMS
 
 This upgrade jet algorithm was proposed in Ref.~\cite{Tapper:1556311}, and the majority work was done during 2012. 
 Many improvements to the algorithm are possible, using different \ac{PU} subtraction techniques, different jet shapes, and additional parameters such as jet substructure variables.
-Indeed, since this work was completed improvements have been made, and documented elsewhere~\cite{newL1jetWork}.
+Indeed, since this work was completed improvements have been made, and documented elsewhere~\cite{recentL1jetWork}.
 

@@ -78,6 +78,8 @@
 \newcommand{\fbinv}{\ensuremath{\mathrm{fb}^{-1}}\xspace}
 \newcommand{\pbinv}{\ensuremath{\mathrm{pb}^{-1}}\xspace}
 
+%\renewcommand{\xspace}{\,}
+
 %quantities
 \newcommand{\njets}{\ensuremath{N_{\text{jets}}}\xspace}
 \newcommand{\pt}{\ensuremath{p_{\text{T}}}\xspace}
@@ -98,7 +100,7 @@
 \def\antibar#1{\ensuremath{#1\bar{#1}}}
 \newcommand{\ppbar}{\antibar{\mathrm{p}}\xspace}
 \newcommand{\pp}{\ensuremath{\mathrm{pp}}\xspace}
-\newcommand{\e}{\ensuremath{\mathrm{e}}\xspace}
+\newcommand{\e}{\ensuremath{e}\xspace}
 \newcommand{\epm}{\ensuremath{\mathrm{e^{\pm}}}\xspace}
 \newcommand{\W}{\ensuremath{\mathrm{W}}\xspace}
 \newcommand{\Z}{\ensuremath{\mathrm{Z}}\xspace}
@@ -107,7 +109,7 @@
 
 \newcommand\defRTDR{\ensuremath{ R2 = \sqrt{[\pi-\Delta\phi(J_{1},\mht) ]^2 +[\Delta\phi(J_{2},\mht) ]^2}    }}
 %\newcommand{\wpj}{\ensuremath{\W + {\rm jets}
-\newcommand{\wpj}{\W+\,jets\xspace{}}
+\newcommand{\wpj}{\W{}\,+\,jets{}}
 %\newcommand{\zpj}{\ensuremath{\Z + {\rm jets}}\xspace}
 \newcommand{\zpj}{\Z+\,jets\xspace{}}
 \newcommand{\ttbar}{\ensuremath{{\rm t\bar{t}}}\xspace}
@@ -161,8 +163,8 @@
 \newcommand{\chiTwoZero}{\ensuremath{\widetilde{\chi}^{0}_{2}}\xspace}
 \newcommand{\chiOnePlus}{\ensuremath{\widetilde{\chi}^{\pm}_{1}}\xspace}
 
-\newcommand{\sTop}{\ensuremath{\widetilde{{\rm t}}}\xspace}
-\newcommand{\sBot}{\ensuremath{\widetilde{{\rm b}}}\xspace}
+\newcommand{\sTop}{\ensuremath{\widetilde{{\rm t}}}}
+\newcommand{\sBot}{\ensuremath{\widetilde{{\rm b}}}}
 \renewcommand{\sbottom}{\sBot}
 \renewcommand{\squark}{\ensuremath{\widetilde{{\rm q}}}\xspace}
 \newcommand{\santiTop}{\ensuremath{\widetilde{\bar{\mathrm{t}}}}\xspace}
@@ -182,7 +184,7 @@
 \newcommand{\dmstop}{\ensuremath{\Delta m_{\sTop}}}
 \newcommand{\dmsbot}{\ensuremath{\Delta m_{\sBot}}}
 
-\renewcommand{\xspace}{\,}
+
 
 \newcommand{\ttwott}{
 \sTop 
@@ -198,6 +200,7 @@
 \chiOneZero
 \xspace
 \chiOneZero
+\xspace
 }
 
 \newcommand{\ttwotb}{
@@ -235,7 +238,6 @@
 \ccbar
 \chiOneZero
 \chiOneZero
-\,
 }
 
 \newcommand{\ttwobb}{
@@ -245,7 +247,6 @@
 \bbbar
 \chiOneZero
 \chiOneZero
-\xspace
 }
 
 % Fix hyperref labels in PDFTeX

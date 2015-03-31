@@ -3,53 +3,48 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: mythesis.aux
 The style file: lucas_unsrt.bst
 Database file #1: mythesis.bib
-Warning--I didn't find a database entry for "RoseTrig"
 Warning--empty note in GUTpic
 Warning--empty institution in PFT-09-001
 Warning--empty institution in Cittolin:578006
-Warning--empty author in newL1jetWork
-Warning--empty title in newL1jetWork
-Warning--empty institution in newL1jetWork
-Warning--empty year in newL1jetWork
-You've used 159 entries,
+You've used 160 entries,
             2517 wiz_defined-function locations,
-            1862 strings with 39596 characters,
-and the built_in function-call counts, 49775 in all, are:
-= -- 5403
-> -- 1264
+            1867 strings with 39695 characters,
+and the built_in function-call counts, 50025 in all, are:
+= -- 5445
+> -- 1279
 < -- 4
-+ -- 511
-- -- 352
-* -- 4576
-:= -- 6166
-add.period$ -- 263
-call.type$ -- 159
-change.case$ -- 3
++ -- 516
+- -- 356
+* -- 4596
+:= -- 6207
+add.period$ -- 267
+call.type$ -- 160
+change.case$ -- 2
 chr.to.int$ -- 0
-cite$ -- 166
-duplicate$ -- 3133
-empty$ -- 4944
-format.name$ -- 183
-if$ -- 13034
+cite$ -- 163
+duplicate$ -- 3143
+empty$ -- 4963
+format.name$ -- 186
+if$ -- 13105
 int.to.chr$ -- 0
-int.to.str$ -- 159
+int.to.str$ -- 160
 missing$ -- 429
-newline$ -- 670
-num.names$ -- 82
-pop$ -- 876
+newline$ -- 674
+num.names$ -- 83
+pop$ -- 877
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1821
+skip$ -- 1822
 stack$ -- 0
 substring$ -- 1800
-swap$ -- 1341
+swap$ -- 1342
 text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 7
-while$ -- 256
-width$ -- 162
-write$ -- 2006
-(There were 8 warnings)
+warning$ -- 3
+while$ -- 257
+width$ -- 163
+write$ -- 2018
+(There were 3 warnings)

@@ -33,9 +33,12 @@
   (2014).
 
 \bibitem{sus14001}
-\hrefCMSnoop {} {{ CMS} Collaboration, ``Searches for third-generation squark
+\hrefCMSnoop {} {{ CMS} Collaboration, ``{Searches for third generation squark
   production in fully hadronic final states in proton-proton collisions at
-  $\sqrt s=8$~TeV'',} (2015). Submitted to JHEP.
+  sqrt(s)=8 TeV}'',} (2015).
+  \href{http://www.arXiv.org/abs/1503.08037}{\texttt{ arXiv:1503.08037}}.
+Submitted to {\it JHEP}.
+%%CITATION = ARXIV:1503.08037;%%.
 
 \bibitem{BSmumuCombo}
 \hrefCMSnoop {} {{ CMS, LHCb} Collaboration, ``{Observation of the rare
@@ -750,9 +753,10 @@ A.~D.~M. F.~Halzen, ``Quarks and Leptons: An Introductory Course in Modern
 \hrefCMSnoop {} {{ CMS} Collaboration, ``{CMS Technical Design Report for the
   Level-1 Trigger Upgrade}'',} Technical Report CERN-LHCC-2013-011. CMS-TDR-12,
   CERN, Geneva, (Jun, 2013).
-\newblock Additional contacts: Jeffrey Spalding, Fermilab,
-  Jeffrey.Spalding@cern.ch Didier Contardo, Universite Claude Bernard-Lyon I,
-  didier.claude.contardo@cern.ch.
+
+\bibitem{RoseTrig}
+\hrefCMSnoop {} {A.~Rose, G.~Iles, A.~Tapper{ et~al.}, ``Calorimeter Trigger
+  Layer 2 Design and Status'',} (2013). EDR Presentation.
 
 \bibitem{TMT_dem}
 \href {http://stacks.iop.org/1748-0221/7/i=01/a=C01060} {R.~Frazier, S.~Fayer,
@@ -773,7 +777,7 @@ A.~D.~M. F.~Halzen, ``Quarks and Leptons: An Introductory Course in Modern
 %%CITATION = ARXIV:0707.1378;%%.
 
 \bibitem{alphaT}
-\hrefCMSnoop {} {{ CM} Collaboration, ``{Search for supersymmetry in hadronic
+\hrefCMSnoop {} {{ CMS} Collaboration, ``{Search for supersymmetry in hadronic
   final states with missing transverse energy using the variables $\alpha_T$
   and b-quark multiplicity in pp collisions at $\sqrt s=8$ TeV}'',} \textit{
   Eur. Phys. J. C} \textbf{ 73} (2013) 2568,
@@ -781,8 +785,9 @@ A.~D.~M. F.~Halzen, ``Quarks and Leptons: An Introductory Course in Modern
 \href{http://www.arXiv.org/abs/1303.2985}{\texttt{ arXiv:1303.2985}}.
 %%CITATION = ARXIV:1303.2985;%%.
 
-\bibitem{newL1jetWork}
-\hrefCMSnoop {} {} technical report.
+\bibitem{recentL1jetWork}
+\hrefCMSnoop {} {{ CMS} Collaboration, ``{Level-1 Calorimeter Trigger Upgrade:
+  Jet and Energy Sum Algorithms and Performance}'',} (2014). Internal Note.
 
 \bibitem{bib:Delgado}
 \hrefCMSnoop {} {A.~Delgado and M.~Strassler, ``A Simple-Minded Unitarity

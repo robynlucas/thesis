@@ -4,7 +4,7 @@
 \label{chap:detector}
 
 \chapterquote{Insanity: doing the same thing over and over again and expecting different results.}
-{Albert Einstein, 1879 –- 1955}
+{Albert Einstein, 1879–-1955}
 
 Probing the physics of the \ac{SM} and beyond at the~\TeV scale is only possible with the technologically unparalleled apparatus situated at the \ac{CERN}.
 This chapter will introduce the hugely complex machinery of the \LHC, 
@@ -13,7 +13,7 @@ and outline the main features of the \ac{CMS} experiment, of which the author is
 with particular focus on those features relevant to the material presented in this thesis.
 %exploited in the search for new physics using monojet events.
 %
-Section~\ref{sec:LHC} presents the main features of the \ac{LHC}, and Section~\ref{sec:CMS} provides an overview of the \ac{CMS} detector. Physics bject reconstruction is described in Section~\ref{sec:CMSreco} and the \ac{CMS} trigger system is discussed in Section~\ref{sec:CMStrig}. 
+Section~\ref{sec:LHC} presents the main features of the \ac{LHC}, and Section~\ref{sec:CMS} provides an overview of the \ac{CMS} detector. Physics object reconstruction is described in Section~\ref{sec:CMSreco} and the \ac{CMS} trigger system is discussed in Section~\ref{sec:CMStrig}. 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 %  _      _    _  _____ 
@@ -25,7 +25,7 @@ Section~\ref{sec:LHC} presents the main features of the \ac{LHC}, and Section~\r
 %                                                                  
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{The \LHC}
+\section{The \ac{LHC}}
 \label{sec:LHC}
 The \ac{LHC} is the world's largest and most energetic synchrotron particle collider. 
 Housed in the tunnel built for the \ac{LEP} collider that operated during the 1990's at \ac{CERN}, 
@@ -93,7 +93,7 @@ The different sub-detectors are arranged in an onion structure.
 %
 Closest to the beam line is the silicon tracking system.
 A very highly resolution pixel detector lies closest to the interaction region, followed by a granular strip detector.
-Charged particle momenta measurements are made using the curvature of tracks in the uniform magnetic field provided by the solenoid, as well as measurements of displaced vertices and impact parameters which are essential for identifying heavy flavor decays. 
+Charged particle momenta measurements are made using the curvature of tracks in the uniform magnetic field provided by the solenoid, as well as measurements of displaced vertices and impact parameters which are essential for identifying heavy flavour decays. 
 %
 Energy measurements are provided by the calorimeters, which lie outside the tracker; the \ac{ECAL} and \ac{HCAL}. 
 The highly granular \ac{ECAL} consists of 70,000 transparent lead tungstate crystals. 
@@ -175,7 +175,7 @@ A nearly hermetic detector (with close to 4\pi coverage in solid angle) allow ex
 
 \subsection{The Tracking System}
 The tracker is designed for precise and efficient measurement of charged particle trajectories (and therefore position and momentum) as they emerge from the interaction point.
-Additionally, reconstruction of any secondary vertices is crucial for identifying heavy flavor decays such as jets that originate from b-quarks.
+Additionally, reconstruction of any secondary vertices is crucial for identifying heavy flavour decays such as jets that originate from b-quarks.
 
 The \ac{LHC} provides bunch crossings every 25 or 50~\ns, resulting in $\sim$ 20 pp interactions, giving rise to of order 1000 particles. 
 All of these traverse the tracker. 
@@ -222,7 +222,7 @@ Lower momentum objects have a better energy resolution as their tracks have incr
 
 
 \subsection{The Electromagnetic Calorimeter}
-High resolution photon and electron position and energy measurements are provided by the lead tungstate (PbWO$_{4}$) crystal \ac{ECAL}, which covers pseudorapidty up to $|\eta|<3$.
+High resolution photon and electron position and energy measurements are provided by the lead tungstate (PbWO$_{4}$) crystal \ac{ECAL}, which covers pseudorapidity up to $|\eta|<3$.
 It is made up of the \ac{EB}, covering the range $0<|\eta|<1.479$,
 and the \ac{EE}, covering the range $1.479<|\eta|<3$.
 
@@ -414,7 +414,7 @@ More information can be found in Ref.~\cite{TDRVOL1}.
 
 \subsection{Jets}
 Copious numbers of quarks and gluons are produced during pp collisions in \ac{CMS}, a consequence of the huge \ac{QCD} cross section.
-Through the strong interaction they fragment and immediately hadronise, and a spray of hadrons is produced in the direction of an initial quark or gluon.
+Through the strong interaction they fragment and immediately hadronize, and a spray of hadrons is produced in the direction of an initial quark or gluon.
 Various algorithms have been developed in order to group the spray of hadrons into a ``jet'', and assign an energy, direction and transverse momentum to it.
 
 In the analysis presented in this thesis (and in general at \ac{CMS}), the anti-k$_{\mathrm{t}}$ algorithm~\cite{bib:akjets} is used with a distance parameter, $R = 0.5$.
@@ -592,7 +592,7 @@ The architecture of the L1 trigger is shown in Figure~\ref{fig:L1triggerArch}.
 
 There is an inbuilt latency of 3.2~$\mu$s in the \ac{L1} trigger, meaning that on the first bunch crossing, it takes up to 3.2~$\mu$s to transmit the necessary information, and make a decision. 
 This is driven by the data storage available for information from the tracker and preshower detectors; 
-they need so much data storage that it must be saved before a L1 accept decision, and subsequent event read out, can be made.
+they need so much data storage that it must be saved before a \ac{L1} accept decision, and subsequent event read out, can be made.
 The decisions on the rest of the bunch crossings follow at the rate of collisions, and the architecture is ready to accept another event every 25~\ns.
 
 
@@ -610,13 +610,13 @@ A \ac{L1} accept decision is based upon the results of the various physics objec
 Typically, every physics analysis has a type of event it is searching for; a particular topology. 
 For example, the monojet analysis looks for events with a final state of one high \pt jet and large missing transverse energy. 
 At L1, it requires the global variable of an event, total missing transverse energy, above 36, 40 or 50 in \ac{L1} units of energy.
-A L1 trigger menu, comprised of all of the required L1 seeds for the whole physics programme at \ac{CMS}, gives a certain bandwidth to each of the seeds. A low threshold seed will typically demand a large amount of bandwidth as more events are likely to be lower in energy, whereas a high threshold will require a lower bandwidth. 
-Combined, the output to the \ac{HLT} of all of the L1 seeds in the trigger menu must not exceed the design rate of 100~\kHz.%, limited by the amount of data the \ac{HLT} can process.
+A L1 trigger menu, comprised of all of the required \ac{L1} seeds for the whole physics programme at \ac{CMS}, gives a certain bandwidth to each of the seeds. A low threshold seed will typically demand a large amount of bandwidth as more events are likely to be lower in energy, whereas a high threshold will require a lower bandwidth. 
+Combined, the output to the \ac{HLT} of all of the \ac{L1} seeds in the trigger menu must not exceed the design rate of 100~\kHz.%, limited by the amount of data the \ac{HLT} can process.
 
 
 \subsection{The High Level Trigger}
 
-When an event is accepted by the L1 trigger, the full detector information for that event (consisting of around 1~MB of data) is passed onto the \ac{HLT}.
+When an event is accepted by the \ac{L1} trigger, the full detector information for that event (consisting of around 1~MB of data) is passed onto the \ac{HLT}.
 On the event filter farm, which consists of over 1000 PC's, all of the detector information for each event is processed.
 Information not available at \ac{L1} becomes available. 
 The additional computing power and longer time scales mean the full granularity of the calorimeter and tracker information 
@@ -640,7 +640,7 @@ This allows events with a monojet topology to be selected efficiently; further k
 Similarly, every physics analysis uses a trigger (or triggers) suited to the topology under investigation.
 
 
-In the same way that there is a L1 trigger menu, there is also a \ac{HLT} menu 
+In the same way that there is a \ac{L1} trigger menu, there is also a \ac{HLT} menu 
 comprised of all of the \ac{HLT} trigger paths, and the bandwidths they require, which meets the needs of all of the physics analyses at \ac{CMS}.
 The total bandwidth of the \ac{HLT} menu must not exceed 100~\Hz or 100 events saved offline per second, limited by the resources necessary to process and store events; namely \ac{CPU}s and disk space available.
 
