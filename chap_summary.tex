@@ -1,0 +1,57 @@
+\chapter{Conclusions and Future Outlook \label{chap_concl}}
+
+\section{Upgrade L1 Jet Algorithm}
+
+The upgrade \ac{L1} jet algorithm presented in Chapter~\ref{chap:l1jets} showed a marked improvement in spatial and energy resolutions
+and trigger rates in high \ac{PU} data, as compared to the current jet algorithm. 
+It is being implemented in the upgraded \ac{TMT} trigger system installed at \ac{CMS} during LS1, and will be commissioned this year (2015) ready to come online and replace the current system in 2016. 
+The new trigger is \ac{FPGA} based, meaning algorithms are flexible to respond to new ideas, algorithm development, physics needs, and changing run conditions. 
+Improvements to the algorithm have already been made, and continue to be worked on.
+
+A better method of calibrating jets to give a uniform response across the calorimeter is necessary, compared to that discussed in Chapter~\ref{chap:l1jets}, in order to give sharper turn-on curves than the current algorithm.
+A better \ac{PU} subtraction method has been developed, which uses a doughnut ring subtraction, rather than the median jet energy. 
+Instead of allowing the somewhat arbitrary 13 jets per event, many more jets (256) are now kept, better taking advantage of the memory storage of new trigger. The jet size has been increased to a diameter of 9 towers, rather than 8, which makes calculating the asymmetry parameters much simpler as there are now an odd number of towers (and so a central one).
+Alternate clustering algorithms, sub-jets, ratios between hadronic energy and electromagnetic energy deposits, and many other refinements and developments are possible. 
+The jet algorithm will continue to evolve as instantaneous luminosity and \ac{PU} increase, to enable \ac{CMS} to maintain and evolve its physics programme.
+
+
+\section{Search for Compressed \ac{SUSY} in Monojet Events}
+
+The search presented in Chapters~\ref{chap:sus13009} and~\ref{chap:sus13009results} used 20~\fbinv of integrated luminosity at $\sqrt{s}=8~\TeV$ to set limits in a `gap' in the phase space region of third generation squark vs neutralino mass. 
+Future searches will be able to take advantage of the increased centre-of-mass energy of the \ac{LHC}, at 13 and 14~\TeV{}, as well as much increased integrated luminosities. 
+As a result, the production cross sections of squarks will be increased, increasing signal acceptance, as well as increasing the mass reach of the search, which is currently limited to 260~\GeV or so. 
+The higher statistics will enable lower statistical uncertainties on background estimations as well as open up the possibilities of alternative background estimations.
+
+The dominant uncertainty in the search is due to the statistical uncertainty on the number of \zmumubr{}\,+\,jets events, which is used to estimate the number of \znunubr{}\,+\,jets events --- the dominant background. 
+In the $\pt(\,\mathrm{j}_1)>450~\GeV$ search region, the uncertainty on the number of \znunubr{}\,+\,jets events accounts for 85\% of the total background uncertainty, and the statistical uncertainty on the \zmumubr{}\,+\,jets event yield accounts for 80\% of it. These percentages increase with increasing leading jet threshold.
+While the increased integrated luminosity will lower this statistical uncertainty, it will also allow alternative methods of estimating the dominant background to be developed.
+Work is ongoing to probe the effect of using \wmunubr\,+\,jets events, \wenubr\,+\,jets events, or $\gamma$+jets events, which are not so statistics limited, to estimate the \znunubr{}\,+\,jets background. 
+With these, the systematic uncertainties associated with merging data samples originating from different triggers, and accounting for the various different object reconstruction efficiencies and transfer factors may be less than the statistical uncertainty associated with using \zmumubr{}\,+\,jets events --- where the method is much simpler and the same trigger is used for both data and control samples. 
+
+Another analysis improvement could be to move to search regions which are binned exclusively, rather than inclusively. 
+In this analysis, it was not clear that doing this gave much advantage in terms of the limits we could set. 
+However, in future, with alternative signal models where different exclusive regions of leading jet \pt may provide more sensitivity, it could be give advantage.
+
+The search presented here was optimized and interpreted in terms of compressed models of \ac{SUSY} in the third generation. 
+It could similarly be interpreted in many other \ac{BSM} new physics models, which give similar final states involving boosted systems and large \MET. 
+An obvious re-interpretation is for compressed \ac{SUSY} more generally, where we do not assume that the third generation is decoupled from the rest, and set limits on the more general $\squark$ mass. 
+Production cross sections will be much higher, leading to better limits. 
+It is worth mentioning that in order to be as sensitive as possible in the phase space we have probed, the \MET requirement should be kept as low as possible. 
+Work was undertaken to understand if signal regions in \MET rather than leading jet \pt, as in the more usual `monojet' searches, would give comparable limits. 
+The lowest \MET bin always gave the best limit, and the mass reach of the search is determined by how low (or high) the \MET requirement is --- which is set by the trigger. 
+Efficient triggering of \MET both at \ac{L1} and the \ac{HLT}, enabling low rates at the lower \MET cuts, will therefore allow a good mass reach, for the larger mass differences as well as the most compressed spectra. 
+
+
+The monojet signature is usually employed to search for evidence of \ac{DM} production. While the traditional searches, with signal regions binned in \MET, give the best sensitivity to standard \ac{DM} models, the slightly 
+different topology probed here may be advantageous for alternative \ac{DM} 
+models, where perhaps a heavier intermediate new particle decays to a 
+\ac{DM} candidate plus jets. 
+Having as many possible, plausible search regions in which a dark sector may exist is vital if we are to discover what \ac{DM} is.
+
+
+The dominant signal uncertainty in the analysis is due to the mismodelling of high \pt \ac{ISR} jets in \MADGRAPH, which contributes 20\% to the systematic uncertainty on the signal acceptance. 
+Better modelling of \ac{ISR} will decrease this factor.
+
+These factors will allow better search reaches. Better, higher mass limits could be set, with smaller uncertainties --- or, possibly, allow for a discovery of new physics in this boosted region of phase space. The search is generic, and model independent, and as the discovery frontier opens up with the \ac{LHC} providing collisions at increased $\sqrt{s}$, could be the discovery channel for a whole host of new physics models.
+
+
