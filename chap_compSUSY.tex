@@ -20,7 +20,8 @@ The monojet signature of a high \pt jet and an imbalance of momentum in the tran
 Searches for Large Extra Dimensions in the framework of the \ac{ADD} model~\cite{ADDextraDimensions}, 
 for \ac{DM} using effective field theory and simplified models, 
 and Unparticle production~\cite{bib:Delgado} have been presented in previous searches both at the LHC and the Tevatron~\cite{Abazov:2008kp,Aaltonen:2008hh,Aaltonen:2012jb,Aad:2011xw,ATLAS:2012ky,bib:CMS_EXO11003,bib:CMSEXO11059,bib:CMSEXO12048}
-using the monojet channel.
+using the monojet channel. 
+\deleted{Note to Gavin: UED models typically produced KK excitations in pairs, so don't give rise to monojet final states.  arXiv:hep-ph/0510350 gives a special case where monojets can be formed, but I can't see any theory re-interpretations of results from monojet LHC data in UED - ATLAS diphoton paper and trilepton theory paper is all I can find so I won't mention about UED here!} 
 Signals are commonly invisible; for example the theorized \ac{DM} is a \ac{WIMP} candidate, and as such, does not interact with any part of the detector.
 It therefore leaves no signal but an imbalance of momentum in the transverse plane, which is balanced by an \ac{ISR} particle. 
 In this case, the \ac{ISR} particle is a quark or gluon, leading to a high \pt{} jet. 
@@ -32,21 +33,25 @@ A search for compressed \ac{SUSY} in the third generation is motivated in Chapte
 The final state does not just consist of missing transverse momentum balanced by an ISR jet; 
 there are also sparticle decay products.
 These are therefore not pure monojet signals.
-However, when the mass difference between the parent sparticle and the \ac{LSP} decreases below 80~\GeV, decay products have increasingly low \pt, are very soft, 
+However, when the mass difference between the parent sparticle and the \ac{LSP} decreases below 80~\GeV \added{(the mass of the W boson)}, decay products have increasingly low \pt, are very soft, 
 and become indistinguishable from \ac{SM} backgrounds.
 Events that have an energetic \ac{ISR} jet produced in association with parent sparticles, which recoils against the missing transverse momentum due to the LSP leaving the detector (``boosted events''),
 provide a clear signature in such scenarios.
 One high \pt{} jet alongside large \MET gives rise to a monojet final state, in events where the sparticle decay products are too soft to observe.
 
 
-Searches are for the pair production of 
+Searches are interpreted in the context of pair production of 
 third generation squarks followed by their decay to jets and the LSP, where the LSP is taken to be the lightest neutralino \chiOneZero, 
 and the LSP is close in mass to the parent squark.
 Top squarks, \sTop, are assumed to undergo the \ac{FCNC} loop-induced decay $\sTop \rightarrow \charmquark \chiOneZero$ with 100\% branching fraction, and
 bottom squarks, \sBot, are assumed to decay via 
 $\sBot \rightarrow \bottomquark \chiOneZero$ with 100\% branching fraction.
 By selecting events using particles produced alongside the $\sTop\santiTop$ or $\sBot\santiBot$ pair, and being independent of the soft final-state jets, the search is sensitive to mass differences of less than 10~\GeV.
-The search presented here is an optimization of the well-established search detailed in Refs.~\cite{bib:CMSEXO12048,bib:CMS_EXO11003,bib:CMSEXO11059}, performed by the author as part of the CMS monojet group.
+The search presented here is a
+\added{simple counting experiment conducted in multiple inclusive search regions. 
+It was conducted by the author as part of the CMS monojet group and loosely follows the well-established searches in Refs.~\cite{bib:CMSEXO12048,bib:CMS_EXO11003,bib:CMSEXO11059}. 
+The author was responsible for all of the analysis; including developing the alternative event selection in order to be sensitive to \ac{SUSY} signatures, developing techniques to improve the \znunubr\,+\,jets, \ttbar, QCD, and diboson background estimations, as well as setting limits in the \ac{SUSY} parameter space. 
+Here, we have increased the jet counting threshold and bin signal regions in leading jet threshold, rather than \MET, as compared to the standard CMS monojet search.}
 
 
 \begin{figure}[!Hhtb]
@@ -54,7 +59,7 @@ The search presented here is an optimization of the well-established search deta
  \includegraphics[scale=0.4]{Figures/sus13009/t2cc.pdf}
  \includegraphics[scale=0.4]{Figures/sus13009/t2bb.pdf}
   \caption{Feynman diagrams of the signals probed. The top diagram shows the \ac{FCNC} process \ttwocc and the bottom diagram shows the process \ttwobb. In both cases, an \ac{ISR} gluon leads to an energetic jet, and balances the \MET due to \ac{LSP}s escaping the detector leaving no trace.}
-	         \label{fig:feynmandiagrams}
+           \label{fig:feynmandiagrams}
   \end{center}
 \end{figure}
 
@@ -64,33 +69,37 @@ The search presented here is an optimization of the well-established search deta
 \section{Data samples}
 \label{sec:data}
 
-The data for this search were collected using a combination of two triggers at the \ac{HLT}. 
+The data for this search were collected using a combination of \replaced{three}{two} triggers at the \ac{HLT}. 
 The first requires events to have $\MET>120$~\GeV.
 The second, a dedicated monojet trigger, requires a central jet ($|\eta|<2.6$) with $\pt>80~\GeV$ and \MET 
 (calculated without muons) to be greater than 95 or 105~\GeV. 
 These triggers also have coarse noise cleaning filters applied. 
-The first has various requirements on the energy deposits in the \ac{HCAL} to cut out noisy events, 
-and the second demands that the neutral energy deposited in the \ac{ECAL} is less than 95\% of the total energy deposited.
-They are seeded by \ac{L1} triggers which require the missing transverse momentum, calculated using the coarse inputs available at \ac{L1}, to be greater than 36, 40 or 50~\GeV{} for the first trigger, or greater than 40~\GeV{} for the second trigger. 
+The first \added{trigger} has various requirements on the energy deposits in the \ac{HCAL} to cut out noisy events, 
+and the \replaced{latter two}{second} demand that the neutral energy deposited in the \ac{ECAL} is less than 95\% of the total energy deposited.
+They are seeded by \ac{L1} triggers which require the missing transverse momentum, calculated using the coarse inputs available at \ac{L1}, to be greater than 36, 40 or 50~\GeV{} for the first trigger, or greater than 40~\GeV{} for the second \added{and third} triggers. 
 
 
 Very few events with \MET{} below 100 GeV, where it is calculated offline using optimal object reconstruction,  will pass the analysis triggers described above that require \MET calculated online to be above 120~\GeV, or to be above 95 or 105~\GeV{} without muons. 
 However, most events with \MET (reconstructed offline) above 200~\GeV{} will pass the same analysis triggers. 
 It is therefore necessary to calculate the efficiency of these triggers in terms of the key analysis variables, \MET and the \pt of the leading jet, in order to find where best to place offline analysis cuts. 
 An independent sample of events collected using a trigger requiring a single isolated muon with $\pt > 24$ and $|\eta|<2.4$ is used.
-The efficiency is given by the ratio of the number events passing the analysis triggers to the number of events passing the reference trigger. 
+The efficiency is given by the ratio of the number of events passing the analysis triggers to the number of events passing the reference trigger. 
 Efficiencies are shown in the trigger turn-on curves in Figure~\ref{fig:trigger-1D} as a function of \MET\ and the \pt\ of the leading jet, as reconstructed offline. 
 Here, the different colours show the different runs (A--D) of the \ac{LHC} during Run I.
 The dedicated monojet trigger described above was introduced for Run C, which increased the efficiency of the combination of the triggers for lower values of \MET and leading jet \pt as compared to Runs A and B. 
 %A two-dimensional plot of the trigger efficiency is shown as a function of the \MET\ and leading jet \pt\ in Figure~\ref{fig:trigger-2D}. 
-The plots in Figure~\ref{fig:trigger-1D} show that the trigger paths become almost 100\% efficient at $\pt(j_{1})\sim110~\GeV$ and $\MET\sim220~\GeV$.
+The plots in Figure~\ref{fig:trigger-1D} show that the trigger paths become almost 100\% efficient at $\pt(j_{1})\sim110~\GeV$ and $\MET\sim220~\GeV$. \added{
+The fluctuations evident in the low \MET region of the 
+left-hand plot arise from low statistical precision in these bins with data from the new trigger, evident only in Runs C and D. 
+These events are removed from the dataset as the offline analysis cut is placed at $\MET>250~\GeV$.
+}
 
 \begin{figure}%[!Hhtb]
   \begin{center}
  \includegraphics[scale=0.35]{Figures/sus13009/MET_OR.pdf}
  \includegraphics[scale=0.35]{Figures/sus13009/Jet1_OR.pdf}
   \caption{The trigger efficiency as a function of the \MET (left) and \pt of the leading jet (right).}
-	         \label{fig:trigger-1D}
+           \label{fig:trigger-1D}
   \end{center}
 \end{figure}
 
@@ -125,7 +134,9 @@ The \ac{SM} processes considered are;  \W or \Z bosons produced in association w
 
 The simulation of each sample follows a similar procedure.
 Events are generated using a matrix element event generator such as \MADGRAPH{}~\cite{madgraph,madgraph2}, which simulates the underlying process at parton level. 
-The event is then passed through a parton showering programme, usually \PYTHIA{}~\cite{pythia,pythia8,pythia-z2} in which partons undergo hadronization: quarks hadronize into jets.
+The event is then passed through a parton showering programme, usually \PYTHIA{}~\cite{pythia,pythia8} 
+\added{with tune Z2$^{*}$~\cite{pythia-z2}. 
+Partons are showered -- QCD processes are simulated and cascades of quarks and gluons are produced from individual partons, which then hadronize and form jets.}
 It is finally passed through a simulation of the CMS detector in order to mimic the detector's response to the event.
 All simulated \ac{SM} background events have gone through a \GEANTfour~\cite{Geant4-1,Geant4-2} simulation of the detector. 
 This is a `full' simulation, computationally expensive and providing accurate responses to the simulated physics objects.  
@@ -133,14 +144,17 @@ For simulation of signal (detailed later), a `fast' simulation~\cite{FASTSIM} is
 
 Samples of \Z bosons decaying invisibly (\znunubr{}\,+\,jets), \ttbar, and diboson events 
 are simulated using \MADGRAPH{}5 interfaced with \PYTHIA{}6.4.24. 
-To evaluate the content of the proton in the initial state, the CTEQ6L \ac{PDFs} are used~\cite{CTEQ6}. 
+To evaluate the content of the proton in the initial state, the \replaced{CTEQ 6L1}{CTEQ6L} \ac{PDFs} are used~\cite{CTEQ6}. 
 %Samples are simulated using the custom CMS event tune Z2$^{*}$, which is derived from the Z1 tune~\cite{pythia-z2} which uses the CTEQ5L \ac{PDFs}, whereas the Z2$^{*}$ uses the CTEQ6L set.
 Simulated Drell--Yan (\zellellbr{}\,+\,jets) and \wpj{} events are generated in the same way, where a cut has been placed on the transverse momentum of the boson, $\pt > 100$~\GeV, in order to increase the number of generated events that pass offline selection requirements (and where the production cross section has been modified accordingly).
 QCD multijet events are generated with \PYTHIA{}6.4.24, using the CTEQ~6L1~\ac{PDFs}. 
-Single top quark processes (s-channel, t-channel and tW-channel production) are generated using \POWHEG~\cite{powheg_st,powheg_tw}.
+Single top quark processes (s-channel, t-channel and tW-channel production) are generated using \POWHEG~\cite{powheg_st,powheg_tw} \added{interfaced with \PYTHIA{}6.4.24 and CTEQ 6.6M \ac{PDFs}}.
 Decays of the $\tau$ lepton are simulated using the \TAUOLA{} 27.121.5 package~\cite{TAUOLA}. 
 
-To ensure no double counting in phase space between the underlying event and the fragmentation and hadronization process, the MLM shower matching prescription~\cite{bib:GEN_MLM} is used, in which partons from the matrix element calculation are matched to jets resulting from the hadron shower.
+To ensure no double counting in phase space between the 
+\added{matrix element and the parton shower,}
+\deleted{underlying event and the fragmentation and hadronization process,} 
+the MLM shower matching prescription~\cite{bib:GEN_MLM} is used, in which partons from the matrix element calculation are matched to jets resulting from the parton shower.
 In order to avoid double counting photons from the \PYTHIA shower in \wpj{} and $\W\gamma${} samples (and similarly for \zellellbr{}\,+\,jets and $\Z\gamma${} samples), 
 events from the \wpj{} and \zellellbr{}\,+\,jets simulation which have a photon from \ac{ISR} or \ac{FSR}, of $\pt(\gamma)>5$~\GeV, are removed.
 
@@ -159,7 +173,7 @@ of particles in each event, using the combined information from all
 CMS subdetectors. This list is then used as input to the jet 
 clustering, which reconstructs jets using the anti-k$_{\mathrm{t}}$
 algorithm~\cite{bib:akjets} with a distance parameter of 0.5.  
-The missing transverse energy vector \METv is computed as the negative vector 
+The missing transverse momentum vector \METv is computed as the negative vector 
 sum of the transverse momenta of all particles reconstructed in the 
 event.
 Its magnitude is referred to as \MET.
@@ -176,6 +190,13 @@ To resolve any ambiguity in the reconstruction of jets and leptons, a jet is rem
 
 \subsection{Leptons}
 \label{sec:objectReco:lep}
+
+\added{Lepton reconstruction is used at various stages in the analysis. 
+We identify events with leptons --- electrons, muons, and hadronically decaying $\tau$ leptons --- in order to veto these events and reduce the electroweak backgrounds. 
+The identifications used for this purpose are ``loose'', that is, satisfying basic selection criteria, in order to reject as much of these backgrounds as possible. 
+Muon control samples are also used to estimate the electroweak --- \znunubr{}\,+\,jets and \W\,+\,jets --- backgrounds. The identifications used here are both ``loose'' and ``tight'', where muons satisfying the tight requirement satisfy more extensive selection criteria. 
+A data control sample of $\Z(\mu\mu)$\,+\,jets events is selected using one loose and one tight muon, and a data control sample of $\W(\mu\nu)$\,+\,jets events is selected using one tight muon.   
+We further use a data control sample consisting of loose muons and tight electrons to provide a data-driven estimate for the \ttbar background.}
 
 Leptons are also reconstructed using the \ac{PF} algorithm and the definitions of objects are in accordance with the \ac{CMS} recommendations.
 In addition to muons, electrons and $\tau$ leptons are also used in the analysis.
@@ -194,9 +215,11 @@ Requiring the longitudinal impact parameter ($d_{z}$) to be less than 5~mm has a
 Additional demands on the number of hits in the pixel system ($>0$) and the number of tracker layers with hits ($>5$) further suppress in-flight muon decays, and guarantee a good measurement of the muon \pt{}.
 
 The electron identification used in the analysis is loose. To be classified as an electron, a track in the tracker must match to a supercluster in the \ac{ECAL}. 
-The electron \pt must be greater than 10~\GeV{}, 
-and the electron reconstruction avoids the gap between the \ac{ECAL} barrel and endcap where there is no instrumentation (and thus reconstruction is far from optimal): 
-$1.44< |\eta| < 1.56 $. 
+The electron \pt must be greater than 10~\GeV{}. 
+\added{If the electron originates in the gap between the \ac{ECAL} barrel and endcap, where there is no instrumentation (and thus reconstruction is far from optimal): 
+$1.44< |\eta| < 1.56 $, the event is rejected. } 
+\deleted{and the electron reconstruction avoids the gap between the \ac{ECAL} barrel and endcap where there is no instrumentation (and thus reconstruction is far from optimal): 
+$1.44< |\eta| < 1.56 $. } 
 In addition, various simple parameters regarding the supercluster shower shape, matching between the \ac{ECAL} cluster and track, 
 the ratio of energy deposited in the \ac{ECAL} and \ac{HCAL}, and impact parameters distinguish between primary electrons and those originating from bremsstrahlung and photon conversion. More information can be found in Ref.~\cite{CMS:elecReco}.
 
@@ -207,12 +230,12 @@ Iso = \frac{\sum{\ET^{\text{charged hadrons}}}+ \sum{\ET^{\text{neutral hadrons}
 where the hadrons and photons are considered in a cone with radius $\Delta R=\sqrt{\Delta \phi ^{2} + \Delta \eta ^{2}}=0.4$ around the lepton direction.
 Tight muons must have $Iso<0.12$, and loose muons must have $Iso<0.2$. 
 Loose electrons must also have $Iso<0.2$.
-Isolations are corrected for the effect of \ac{PU}. 
+The effect of \ac{PU} is corrected for. 
 For charged particles, only those which are associated with the primary vertex in the event are considered, where this primary vertex is defined as that which has the largest sum of $\pt^{2}$ of all the tracks associated with it. 
 The hadronization of \ac{PU} vertices leads to approximately twice 
-the number of charged hadrons than neutral hadrons, 
+the number of charged hadrons than neutral hadrons~\cite{deltabeta_htautau7tev}, 
 so the energy within the isolation cone deposited by charged particles 
-from \ac{PU} vertices is multiplied by 0.5 and subtracted from the neutral component~\cite{deltabeta_htautau7tev}.
+from \ac{PU} vertices is multiplied by 0.5 and subtracted from the neutral component.
 
 
 The $\tau$ lepton decays hadronically 65\% of the time, with the dominant decay modes consisting of one or three charged $\pi^{\pm}$ mesons, and up to two neutral $\pi^{0}$ mesons.
@@ -274,7 +297,6 @@ In addition, jets are also required to pass a loose identification criterion whi
 The distributions for the neutral and charged energy fractions of the first and second jet in events (where jets are \pt{} ordered) before and after these noise cleaning cuts are applied are shown in Figures~\ref{fig:ANA_energy_fraction_cleanup} and~\ref{fig:ANA_energy_fraction_cleanup_cut}. 
 They are very effective at removing noisy events, with good data/MC agreement after the cuts have been applied.
 
-%The application of all event cleaning criteria results in the loss of 4.2\% of the events for a representative ADD signal, 1.8\% of events for a representative dark matter model and 6.7\% for a representative Unparticle signal.
 
 \begin{figure}[!Hhtb]%[tb]
   \begin{center}
@@ -284,12 +306,14 @@ They are very effective at removing noisy events, with good data/MC agreement af
   \includegraphics[scale=0.31]     {Figures/sus13009/nocut/prelimLabels/PFAK5JetNeuHadEngFrac.pdf}
   \includegraphics[scale=0.31]     {Figures/sus13009/nocut/prelimLabels/PFAK5JetNeuEmEngFrac2.pdf}
   \includegraphics[scale=0.31]     {Figures/sus13009/nocut/prelimLabels/PFAK5JetNeuHadEngFrac2.pdf}
-  \caption{Hadronic and electromagnetic energy fractions from charged 
+  \caption{Hadronic and EM energy fractions from charged 
 and neutral particles, before clean-up cuts on these quantities are 
-applied. We require the charged 
-hadronic fraction of the jet to be above 20\% and the neutral electromagnetic and hadronic energy fractions to be below 70\% of the total leading jet energy.
-We require the neutral electromagnetic energy to be below 90\% and the neutral hadronic energy of the second jet to be below 70\% of the total second leading jet energy. }
-         \label{fig:ANA_energy_fraction_cleanup}
+applied. 
+In the leading jet, the charged hadronic energy fraction is required to be $>20\%$ and the neutral EM and hadronic energy fractions must be $<70\%$.
+In the second leading jet, the neutral EM energy fraction is required to be $<90\%$ and the 
+neutral hadronic energy fraction must be $<70\%$. 
+The shaded band in the ratio plot shows the statistical uncertainty and all distributions are normalized to the cross sections shown in Table 5.2.
+         \label{fig:ANA_energy_fraction_cleanup}}
   \end{center}
 \end{figure}
 %
@@ -301,9 +325,11 @@ We require the neutral electromagnetic energy to be below 90\% and the neutral h
   \includegraphics[scale=0.31]     {Figures/sus13009/nocut/prelimLabels/cut/PFAK5JetNeuHadEngFrac.pdf}
   \includegraphics[scale=0.31]     {Figures/sus13009/nocut/prelimLabels/cut/PFAK5JetNeuEmEngFrac2.pdf}
   \includegraphics[scale=0.31]     {Figures/sus13009/nocut/prelimLabels/cut/PFAK5JetNeuHadEngFrac2.pdf}
-  \caption{Hadronic and electromagnetic energy fractions from charged 
+  \caption{Hadronic and EM energy fractions from charged 
 and neutral particles, after clean-up cuts on these quantities are 
-applied.}
+applied. 
+The shaded band in the ratio plot shows the statistical uncertainty and all distributions are normalized to the cross sections shown in Table 5.2.
+}
          \label{fig:ANA_energy_fraction_cleanup_cut}
   \end{center}
 \end{figure}
@@ -329,7 +355,7 @@ the soft-hadronic (signal) decay products
 fall below it for a good range of signal phase space 
 %(and therefore remain invisible in the event selection), 
 while keeping the QCD multijet background at a manageable level.
-%
+
 Figure~\ref{stopj2pT} shows the \pt{} distribution of charm quarks, taken from simulation, 
 for a few representative mass hypotheses in the process $\ttwocc$.
 %
@@ -355,11 +381,11 @@ To reduce the \ac{QCD} dijet background, if two jets are present in the event, t
 $\Delta \phi (\jet_1,\jet_2) < 2.5$. 
 The multijet background is largely rejected by the \njets$\le2$ requirement.
 
-Electroweak backgrounds in which a \W{} or \Z{}-boson is produced in association with a jet can lead to large \MET as leptonic decays can lead to neutrinos or to mismeasured energy.
+Electroweak backgrounds in which a \W{} or \Z{}-boson is produced in association with a jet can lead to large \MET as leptonic decays can lead to neutrinos and/r to mismeasured energy.
 In order to reduce the background from such \Z{} and \W-boson decays in the search regions, events
 with leptons are rejected. 
-Events containing one or more loose electrons with $\pt > 10$~\GeV{} (where loose requirements are detailed in Section~\ref{sec:objectReco}) are rejected. 
-Similarly, events containing any loose muons with $\pt > 10$ \GeV{} are also rejected. 
+Events containing one or more loose electrons \deleted{with $\pt > 10$~\GeV{}} (where the loose requirements are detailed in Section~\ref{sec:objectReco}) are rejected. 
+Similarly, events containing any loose muons \deleted{with $\pt > 10$ \GeV{}} are also rejected. 
 In addition, events containing hadronically decaying $\tau$ leptons are vetoed, where $\tauh$ are reconstructed using the \ac{HPS} algorithm as described in Section~\ref{sec:objectReco}.
 The vetoes here use loose requirements of object reconstruction, to reject as many leptons --- and as much of the electroweak background --- as possible.
 
@@ -380,19 +406,22 @@ The baseline search region is defined by the above selection requirements and a 
 
 Various kinematic distributions are shown in Figure~\ref{fig:n-1plots}, before selection cuts are applied to that variable.
 The corresponding distribution after the cut has been applied is shown in Figure~\ref{fig:nplots}.
-Superimposed on the plots in Figure~\ref{fig:nplots} are signal distributions for $\ttwocc$ where $m_{\sTop} = 250~\GeV$ and $m_{\sTop} = 240~\GeV$.
-Table \ref{tab:SEL_TabDataMC200} lists the event yields from the various \ac{SM} backgrounds at each step of the analysis, where numbers are taken from simulation and normalized to the integrated luminosity of the data. The cross section used to normalize each background is also listed.
+Superimposed on the plots in Figure~\ref{fig:nplots} are signal distributions for $\ttwocc$ where $m_{\sTop} = 250~\GeV$ and $m_{\chiOneZero} = 240~\GeV$.
+Table \ref{tab:SEL_TabDataMC200} lists the event yields from the various \ac{SM} backgrounds at each step of the analysis, where numbers are taken from simulation and normalized to the integrated luminosity of the data. The cross section used to normalize each background is also listed~\cite{Kidonakis:2010dk,Melnikov:2006kv,Kidonakis:2011wy,xsec_WZ,Kidonakis:2010tc,Kidonakis:2010ux}. 
+\added{The total background yield is seen to be dominated by \znunubr{}\,+\,jets and \wpj{} events.}
+
 
 \begin{figure}%[!Hhtb]
   \begin{center}
   \includegraphics[scale=0.32]     {Figures/sus13009/nocut/Jet1Pt.pdf}
   \includegraphics[scale=0.32]     {Figures/sus13009/nocut/Jet1Eta.pdf}
-  \includegraphics[scale=0.32]     {Figures/sus13009/nocut/Jet2Pt.pdf}
-  \includegraphics[scale=0.32]     {Figures/sus13009/nocut/Jet2Eta.pdf}
+  \includegraphics[scale=0.32]     {Figures/sus13009/nocut/Jet2Pt_mod.pdf}
+  \includegraphics[scale=0.32]     {Figures/sus13009/nocut/Jet2Eta_mod.pdf}
   \includegraphics[scale=0.32]     {Figures/sus13009/nocut/NJet.pdf}
   \includegraphics[scale=0.32]     {Figures/sus13009/nocut/dPhi_Jet1_Jet2.pdf}
   \caption{Plots of basic selection variables.  All figures except for the \pt{} and $\eta$ of the second leading jet 
-show distributions after all cuts are applied except the one being plotted (the leading jet $\pt$ cut for all plots except the jet $\pt$ and jet $\eta$ is set to 110~\GeV{}). \ac{SM} backgrounds are taken from simulation and normalized to the integrated luminosity using the cross sections shown in Table~\ref{tab:SEL_TabDataMC200}.
+show distributions after all cuts are applied except the one being plotted (the leading jet $\pt$ cut for all plots except the jet $\pt$ and jet $\eta$ is set to 110~\GeV{}). \ac{SM} backgrounds are taken from simulation and normalized to the integrated luminosity using the cross sections shown in Table 5.2. 
+The error bars in the ratio plots show the statistical uncertainties.
   \label{fig:n-1plots}}
   \end{center}
 \end{figure}
@@ -405,27 +434,15 @@ show distributions after all cuts are applied except the one being plotted (the 
   \includegraphics[scale=0.32]     {Figures/sus13009/cut/Jet2Eta.pdf}
    \includegraphics[scale=0.32]     {Figures/sus13009/cut/NJet.pdf}
    \includegraphics[scale=0.32]     {Figures/sus13009/cut/dPhi_Jet1_Jet2.pdf}
-   \caption{Plots of selection variables in the baseline search region, where $\pt(\jet_1)>250~\GeV$. \ac{SM} backgrounds are taken from simulation. Superimposed are kinematic distributions for the signal $\ttwocc$ where $m_{\sTop} = 250~\GeV$ and $m_{\sTop} = 240~\GeV$. 
-   Distributions of \ac{SM} processes and signal are taken from simulation and normalised to the integrated luminosity of the dataset.
+   \caption{Plots of selection variables in the baseline search region, where $\pt(\jet_1)>250~\GeV$. 
+   Superimposed are kinematic distributions for the signal $\ttwocc$ where $m_{\sTop} = 250~\GeV$ and $m_{\chiOneZero} = 240~\GeV$. 
+   \ac{SM} backgrounds are taken from simulation and normalized to the integrated luminosity using the cross sections shown in Table 5.2. 
+The error bars in the ratio plots show the statistical uncertainties.
          \label{fig:nplots}}
   \end{center}
 \end{figure}
 
 
-%Fig.~\ref{fig:ANA_Jet_selection_plots} where the full monojet selection has been applied with a $\MET$ cut of 250 \GeV. All the distributions have been normalised as described in Appendix~\ref{app:normalisation}.
-
-%The distribution of \MET for data and background after selecting monojet events and for a \MET cut of 250 \GeV{} is shown in Figure~\ref{fig:ANA_MET_plots}.
-
-%We define the above described event selection with the \MET cut of 200 GeV as the baseline selection and subsequently apply tighter \MET\ selections of $\MET = 250, 300, 350, 400$ to obtain our search regions. 
-%Optimisation studies have been performed for each of our signal samples to find the value of the \MET\ cut that gives the best expected limit. The study is documented in Appendix~\ref{app:opt_limit}. For both the ADD and dark matter signal points, the optimal \MET\ cut is found to be 350 \GeV. For Unparticles, the optimal \MET cut is found to be 300 \GeV{} or 350 \GeV, depending on the values of $d_U$. However the difference in expected limit is small and therefore a \MET\ cut of 350 \GeV{} is used for calculating limits, consistent with what is used for the ADD and dark matter signals.
-%
-%\begin{figure}[tb]
-%  \begin{center}
-%  \includegraphics[scale=0.45]{cut/Met.pdf}
-%  \caption{The $\MET$ distribution after all selection cuts are applied for data and backgrounds.Representative signal distributions for dark matter, ADD and Unparticles are also overlaid. Events with $\MET > 1 \TeV$ are included in the overflow bin.}
-%         \label{fig:ANA_MET_plots}  
-%  \end{center}
-%\end{figure}
 
 \newsavebox{\cutflowBoxa}
 \begin{table*}[htb] %table 7 v04 110811:05  
@@ -443,7 +460,7 @@ Event cleaning                 & 2514352 &  190332   & 4337526 &  65666  & 46141
 $\METmu >200$ \GeV{}               & 317656  &  30242    & 134578  &  9572   & 63174  & 9289  &  87605   &  652117   \\
 Noise cleaning                 & 292550  &  27880    & 123420  &  8706   & 59412  & 8525  &  81668   &  602162   \\
 $\pt(\,\mathrm{j}_1)>$110~\GeV{} & 279323  &  26652    & 117513  &  8045   & 53353  & 7752  &  80844   &  573484   \\ 
-$\njets \le 2$      	         & 254058  &  24413    & 109313  &  7287   & 29364  & 5596  &  44247   &  474278   \\ 
+$\njets \le 2$                 & 254058  &  24413    & 109313  &  7287   & 29364  & 5596  &  44247   &  474278   \\ 
 $\Delta\phi(\jet_1,\jet_2)<2.5$& 237533  &  22947    & 104158  &  6984   & 25312  & 4815  &  8433    &  410181   \\ 
 $\mu$ veto                     & 106236  &  1511     & 104152  &  4051   & 9826   & 1892  &  7444    &  235112   \\ 
 $e$ veto                       & 79407   &  1004     & 104065  &  3459   & 6557   & 1325  &  7401    &  203218   \\ 
@@ -486,7 +503,7 @@ Very small contributions from single top quark and Drell--Yan processes are take
 
 The control sample of $\mu$\,+\,jets events used to estimate the electroweak background is 
 obtained by applying the full monojet selection with the exception of the muon veto.
-The definition of \METmu to exclude muons and therefore allow muons to mimic neutrinos or missing leptons at both the trigger level and in reconstructed events allows the use of the same trigger for both the search and control regions. 
+The definition of \METmu to exclude muons and therefore allowing muons to mimic neutrinos or missing leptons at both the trigger level and in reconstructed events, allows the use of the same trigger for both the search and control regions. 
 As well as being rather simple, this has the advantage of reducing the systematic uncertainties associated with combining two data samples.
 %Well-reconstructed 
 %and isolated muons with $\pt(\mu)>20\GeV$  are selected following 
@@ -569,12 +586,12 @@ where $N^{\rm obs}_{\mu\mu}$ is the number of observed dimuon events, $N^{\rm bg
 
 \item $A$ : The acceptance $A$ is defined as the fraction of all generated events, prior to hadronization and reconstruction 
 (i.e. at quark and lepton level as described by the event generator), that satisfy the requirements of the control sample. 
-One muon must satisfy $\pt > 20$~\GeV{} and $|\eta| < 2.1$, and the other, of opposite sign, must satisfy $\pt > 10$~\GeV{}. The invariant mass of these muons must lie within 60 \GeV{} and 120~\GeV{}. This is obtained from $\Z${}\,+\,jets simulation;
+One muon must satisfy $\pt > 20$~\GeV{} and $|\eta| < 2.1$, and the other, of opposite sign, must satisfy $\pt > 10$~\GeV{}. The invariant mass of these muons must lie between 60 \GeV{} and 120~\GeV{}. This is obtained from $\Z${}\,+\,jets simulation;
 
 \item $\epsilon$ : The event selection efficiency $\epsilon$ is defined as the efficiency of reconstructing two muons passing all the identification and isolation criteria that have a reconstructed invariant mass between 60 and 120 $\GeV$, given that they are within the detector acceptance $A$. 
 The efficiency is taken from simulation, once it has passed through the hadronization and reconstruction stages (unlike for $A$).
 %
-The efficiency of reconstructing a \zmumubr{} event with two tight muons is calculated in both data and simulation (for all MC simulated samples) in the \zmumu{} control sample. The difference in efficiencies is averaged across the search region jet \pt{} thresholds, and the resulting correction factor of 1.005 is applied to $\epsilon$ to account for the difference in muon selection efficiency between data and MC;
+The efficiency of reconstructing a \zmumubr{} event with \replaced{one tight and one loose muon}{two tight muons} is calculated in both data and simulation (for all MC simulated samples) in the \zmumu{} control sample. The difference in efficiencies is averaged across the search region jet \pt{} thresholds, and the resulting correction factor of 1.005 is applied to $\epsilon$ to account for the difference in muon selection efficiency between data and MC;
 
 \item $R$ : The ratio of the branching fraction $R = (\frac{BF(\znunubr)}{BF(\zellellbr)})$ is obtained from Ref.~\cite{PDG} and 
    is $5.942\pm 0.019$ when $l=\mu$. 
@@ -583,7 +600,7 @@ The efficiency of reconstructing a \zmumubr{} event with two tight muons is calc
 The prediction of the \znunubr{}\,+\,jets background in the search regions relies on counting the number of 
 \zmumubr{}\,+\,jets events at each $\pt(\,\mathrm{j}_1)$ threshold, which is in turn
 correlated to the \METmu requirement.
-In the definition of \METmu, we interpret muons as missing energy: 
+In the definition of \METmu, we interpret the muons as missing energy: 
 muon \ptv is added into the \METv to calculate \METvmu.
 As the \METvmu in an event is largely balanced by $\ptv(\,\mathrm{j}_1)$, 
 the values of \METmu and $\pt(\,\mathrm{j}_1)$ thus rely on successfully 
@@ -617,11 +634,12 @@ In order to correct for this effect we count the number of events in simulation 
 The value of 0.7 is chosen because the resolution of the \Z{} boson mass peak is $\sim 0.3$, and we wish to count events in the tail of the spectrum.
 This gives an estimation of the number of events where we have not properly measured or identified one or two of the muons. 
 The ratio in each search region is shown in Table~\ref{tab:Zinv_genZMETmu_SF}. 
-This correction factor is combined with the difference in data and simulation for muon selection efficiency (1.005, described above), and applied to $\epsilon$ in each search region.
+This correction factor is summed with the difference in data and simulation for muon selection efficiency (1.005, described above), and applied to $\epsilon$ in each search region. 
+\added{For example, for $\pt(\,\mathrm{j}_1)>$ 250~\GeV, the correction factor for $\epsilon$ becomes $0.037+1.005 = 1.042$.  }
 
 \begin{table*}%[!Hhtb]  %table 8   110811:05  
         \begin{center}
-\caption{Summary of the \zmumu event yields and the efficiency factors used to predict the \znunu\,+\,jets background.}
+\caption{The fraction of events that sit in the tail of the $\METmu/\pt(\Z)$ spectrum, which give correction factors used to predict the \znunu\,+\,jets background.}
 \label{tab:Zinv_genZMETmu_SF}
        \begin{tabular}{l|ccccccc} \hline
 %& & & & \MET\ cut&  & &  \\
@@ -645,7 +663,7 @@ the $\gamma^{*}$ contamination $R^{\gamma^{*}}$ can be estimated using
    \end{equation}
 where $\alpha$ is the difference in the normalized yield of \zmumubr{}\,+\,jets and \znunubr{}\,+\,jets events in the Z mass window, $60< m_{\Z{}} < 120~\GeV$, and
    $\beta$ is the fraction of events lying outside the Z mass window in \znunubr{}\,+\,jets simulation.
-Normalized across all $\pt(\,\mathrm{j}_1)$ bins, we find a correction factor of 1.017.
+\added{Because this factor has no dependence on $\pt(\,\mathrm{j}_1)$, we} normalize across all $\pt(\,\mathrm{j}_1)$ bins, and find a correction factor of 1.017.
 
 
 Table~\ref{tab:Zinv_factors} shows the observed dimuon event yields, non-\zmumubr event yields, the acceptance $A$ and efficiency $\epsilon$. The ratio of branching fractions $R$ is corrected by $R^{\gamma^{*}}$, and given (it is the same for each threshold). 
@@ -692,9 +710,10 @@ As the total contribution from non-\zmumubr processes in the control region is s
 
 The total uncertainty on $A$ arises from both statistical and systematic sources. 
 The statistical uncertainty is due the number of simulated events used to derive the ratio. 
-A 2\% systematic uncertainty is added to this, to incorporate the uncertainty on the \ac{PDFs} used to describe the colliding protons.
+A 2\% systematic uncertainty is added to this, 
+\added{calculated using the PDF4LHC recommendations~\cite{bib:PDF4LHC}, }to incorporate the uncertainty on the \ac{PDFs} used to describe the colliding protons.
 Similarly, the total uncertainty on $\epsilon$ is due to the statistics of the simulation and incorporates a 2\% systematic uncertainty on the hadronization process. 
-These systematics dominate over the statistical uncertainties, where the total uncertainty on $A$ varies from 2.0--2.9\%, and on $\epsilon$ from 2.1--5.5\%. 
+\added{For $\epsilon$ in the lower jet threshold bins, and for $A$ in all search regions, }these systematics dominate over the statistical uncertainties, where the total uncertainty on $A$ varies from 2.0--2.9\%, and on $\epsilon$ from 2.1--5.5\%. 
 There are fewer events with muons reconstructed within the kinematic acceptance of the control sample than are generated within the kinematic acceptance, hence the statistical uncertainty - and therefore total uncertainty - on $\epsilon$ is larger than the uncertainty on $A$.
 
 A 2\% systematic uncertainty is assigned to $R$, in order to incorporate the uncertainties on the 
@@ -708,7 +727,7 @@ The total uncertainty varies between 5.3 and 19\%.
 
 \begin{table*}%[!Hhtb]  %table 8   110811:05  
         \begin{center}
-\caption{Summary of the contributions to the total uncertainty on \znunu\,+\,jets background from the various factors used in the data-driven estimation.}
+\caption{Summary of the contributions, \added{in \%,} to the total uncertainty on \znunu\,+\,jets background from the various factors used in the data-driven estimation.}
 \label{tab:Z_jets_sys}
                 \begin{tabular}{l|ccccccc} \hline
 $\pt(\,\mathrm{j}_1)$ (\GeV) & $>$ 250 & $>$ 300 & $>$ 350 & $>$ 400& $>$ 450  & $>$ 500 & $>$ 550 \\ \hline 
@@ -727,7 +746,7 @@ The final data-driven evaluation of the \znunubr{}\,+\,jets background using the
 \newsavebox{\cutflowBoxd}
 \begin{table*}%[!Hhtb]  %table 8   110811:05  
         \begin{center}
-\caption{Observed yields in the dimuon control sample, background yields from non-\zmumubr{} processes, $A$ and $\epsilon$ of control sample requirements and the corrected ratio of branching fractions in each of the search regions. }
+\caption{\added{The predicted \znunubr{}\,+\,jets event yield in each of the search regions, calculated as detailed in the text. The uncertainty contains both systematic and statistical sources. }}
 %The data-driven \znunubr{}\,+\,jets background prediction is given in the final row.}
 \label{tab:finalznunu}
          \begin{lrbox}{\cutflowBoxd}
@@ -754,6 +773,7 @@ The contributions in the search regions from lost-lepton events are evaluated in
 
 From the muon control sample defined using the same triggers as the search regions with the exception of the muon veto, a sample enriched in \wmunubr{}\,+\,jets events is obtained by requiring one muon satisfying the tight muon criteria with a reconstructed \W{}-boson transverse mass $m_{T} = \sqrt{2 \pt^{mu} \met (1 - \cos{\Delta \phi}) }$ that lies between 50 and 100~GeV, where $\Delta\phi$ is the azimuthal angle between the \metvmu and $\ptv^{\mu}$ vectors.
 Event yields in the \wmunubr{}\,+\,jets-enriched single muon control sample are listed in Table~\ref{tab:Wmuontable} with the predicted SM processes from simulation. 
+\added{Here, as in Table~\ref{tab:Zmuontable}, simulation is greater than data across all search regions. We do not expect MC to model the data very well in this very boosted corner of phase space, hence why we use data to estimate these backgrounds.}
 A comparison between data and MC for the transverse mass and momentum of the \W{} boson after the full selection and for $\pt(\,\mathrm{j}_1) > 250~\GeV$ is shown in Figure~\ref{fig:BKGR_W_mass}.
 
 \begin{table*}[!Hhtb]
@@ -795,7 +815,7 @@ Data                & 11371  & 5477  & 2547  & 1258  & 668  & 352  & 184  \\
 
 The total number of \wmunubr{}\,+\,jets events is estimated in an analogous way to the \znunubr{}\,+\,jets background,
 correcting the observed number of single muon events in the control sample $N^{\rm obs}_{\mu}$ by events due to non-\wpj{} processes $N^{\rm bgd}_{\mu}$.  
-The resulting \wmunu events are then corrected for the kinematic acceptance $A'$ of the control sample, and the efficiency $\epsilon'$ of reconstructing events within the acceptance in the detector to obtain the total number of generated events ($N^{\rm tot}_{\mu}$):
+The resulting \wmunu events are then corrected for the kinematic acceptance $A'$ of the control sample, and the efficiency $\epsilon'$ of reconstructing events within the acceptance of the detector to obtain the total number of generated events ($N^{\rm tot}_{\mu}$):
 \begin{equation}
 N^{\rm tot}_{\mu} = \frac{N^{\rm obs}_{\mu} - N^{\rm bgd}_{\mu}}{A'\epsilon'}.\label{eqn:Ntot}
 \end{equation}
@@ -815,7 +835,7 @@ and $\epsilon_{\mu}$ is the efficiency of the reconstruction for muons satisfyin
 $A_{\mu}$ and $\epsilon_{\mu}$ are estimated using simulation, and $\epsilon_{\mu}$ is corrected for differences in muon selection efficiency between data and MC in the same way as for $\epsilon$ in the \znunubr{}\,+\,jets background estimation.
 
 To estimate the lost electron background, we begin by finding the total number of \wenu events produced $N^{\rm tot}_{\e}$.
-The ratio of the number of \wmunubr{}\,+\,jets to \wenubr\,+\,jets events produced, before any reconstruction has taken place, is taken from simulation and labelled $f_{\e}$.  
+The ratio of the number of \wenubr\,+\,jets to \wmunubr{}\,+\,jets events produced, before any reconstruction has taken place, is taken from simulation and labelled $f_{\e}$.  
 Then, $N^{\rm tot}_{\e} = N^{\rm tot}_{\mu}  f_{\e}$. 
 The number of lost \wenu events can subsequently be found by correcting for the electron veto inefficiency factor:
 \begin{eqnarray}
@@ -823,7 +843,7 @@ N^{\rm lost}_{\e} &=& N^{\rm tot}_{\e}(1 - A_{\e}\epsilon_{\e}).
 \end{eqnarray}
 Both the $A_{\e}$ and $\epsilon_{\e}$ factors are obtained using simulation, where $A_{\e}$ is the acceptance of the loose electron selection requirements (used in the electron veto) before any reconstruction has taken place, 
 and $\epsilon_{\e}$ is the efficiency of reconstruction for electrons satisfying selection requirements when produced (i.e. for electrons within the acceptance $A_{\e}$).
-A data/MC scale factor of 1.0 is assumed. % with an assigned systematic that covers the variation in efficiency between data and MC.
+A data/MC scale factor of 1.0 is assumed \added{with an assigned systematic that covers the variation in efficiency between data and MC.}
 %Table~\ref{tab:wjetslost} summarises the estimated lost muon and electron background.
 %A detailed table showing the various factors that are used to estimate this background is shown in Table~\ref{tab:wjets-summary}.
 
@@ -897,7 +917,7 @@ The extra systematic uncertainties associated with combining the triggers mean t
 The uncertainty on the non-\wpj{} processes in the single muon control sample contributes 3.3--4.4\% to the total uncertainty. 
 It is taken to be 50\% of each individual contribution added quadratically, in the same way as for the \znunubr{}\,+\,jets background estimation --- here there is a larger yield from background processes, hence this uncertainty is larger than the similar numbers in Table~\ref{tab:Z_jets_sys}.
 
-Systematic uncertainties due to hadronization, 2\%, (PDF, 2\%) uncertainties are absorbed into the uncertainties on $A'$, $A_{\e}$ and $A_{\tauh}$ ($\epsilon'$, $\epsilon_{\e}$ and $\epsilon_{\tauh}$).
+Systematic uncertainties due to PDF, 2\%, (hadronization, 2\%) uncertainties are absorbed into the uncertainties on $A'$, $A_{\e}$ and $A_{\tauh}$ ($\epsilon'$, $\epsilon_{\e}$ and $\epsilon_{\tauh}$).
 No factor is added into $A_{\mu}$ and $\epsilon_{\mu}$ to avoid double-counting --- these 
 uncertainties, related to the generation and reconstruction of simulated muon events, have already been considered in the calculation of $N^{\rm tot}_{\mu}$. 
 They are reconsidered in the case of the lost electron and \tauh lepton events in order to account for any differences in their generation as compared to muon events.
@@ -1011,17 +1031,19 @@ The event yields for data and MC in this region are shown in Table~\ref{QCDtable
 The scale factor $R^{\rm QCD}$ is defined as
 \begin{equation}
 \label{qcdSF}
-R^{\rm QCD} = \frac{ N^{\rm obs}_{\rm QCD} - N^{\rm bgd}_{\rm QCD} }{ N^{\rm pred}_{\rm QCD} },
+R^{\rm QCD} = \frac{ N^{\rm obs}_{\rm QCD} - N^{\rm MC non-QCD}_{\rm QCD} }{ N^{\rm pred}_{\rm QCD} },
 \end{equation}
-where $N^{\rm obs}_{\rm QCD}$ is the observed number if events in the QCD control region and $N^{\rm bgd}_{\rm QCD}$ is the sum of the non-QCD events, taken from simulation and corrected with data/MC scale factors according to the data-driven estimations given in Section~\ref{sec:znunu} and \ref{sec:wjets} where applicable.
-
+where $N^{\rm obs}_{\rm QCD}$ is the observed number of events in the QCD control region and $N^{\rm MC non-QCD}_{\rm QCD}$ is the sum of the non-QCD events, taken from simulation and corrected with data/MC scale factors according to the data-driven estimations given in Section~\ref{sec:znunu} and \ref{sec:wjets} where applicable.
+\added{$N^{\rm pred}_{\rm QCD}$ is the predicted number of QCD events in the control region, taken from simulation. $R^{QCD}$ then estimates the ratio of QCD events in data to QCD events in simulation to give a data/MC scale factor for the QCD prediction from simulation in the search regions. }
 
 \begin{table}[htdp]
-\caption{Event yields from MC and data for $\pt(\,\mathrm{j}_1)>250$~\GeV{} and for different values of the $\pt$ threshold used for jet counting in the QCD rich region $\Delta \phi (\MET, j_{2}) < 0.3 $. Relative uncertainty on a scale factor derived from the data is also shown.
+\caption{Event yields from MC and data for $\pt(\,\mathrm{j}_1)>250$~\GeV{} and for different values of the $\pt$ threshold used for jet counting in the QCD rich region $\Delta \phi (\MET, j_{2}) < 0.3 $. 
+%\added{`Data' lists the event yields in data, `MC' lists the total event yield in simulation summed across all of the SM processes considered, and  `QCD' lists the event yield from QCD simulation. }
+Relative uncertainty on a scale factor derived from the data is also shown.
 }
 \begin{center}
 \begin{tabular}{c|cccc|cc} \hline
-Jet \pt{} (\GeV)&  Data & Total Bkg  & QCD  & Total Data/MC &   $R^{\rm QCD}$ & Uncertainty\\ \hline
+Jet \pt{} (\GeV)&  Data & MC  & QCD  & Total Data/MC &   $R^{\rm QCD}$ & Uncertainty\\ \hline
 $>$ 20 & 21428 &  15987 &  10110& 1.340  & 1.538 & 0.321 \\ 
 $>$ 30 & 20568 &  15141 &  10089& 1.358  & 1.538 & 0.325 \\
 $>$ 40 & 19938 &  14543 &  10057& 1.371  & 1.536 & 0.329 \\
@@ -1039,11 +1061,11 @@ $>$ 80 & 17435 &  12485 &  9455 & 1.397  & 1.523 & 0.354 \\ \hline
 The QCD scale factor $R^{\rm QCD}$ in each search region is found by taking the mean scale factor from all the jet counting thresholds.
 The scale factors applied to the QCD multijet event yield, from simulation, in search region are shown in Table~\ref{tab:QCDFinaltable}.
 A correction factor of 1.53 at $\pt(\,\mathrm{j}_1) > 250~\GeV$ is required, decreasing to 1.35 at $\pt(\,\mathrm{j}_1) > 550~\GeV$. 
-This is greater than the factor from the dijet resonance analysis of 1.22~\cite{CMS:exoDijetRes}, 
+This is greater than the factor from the dijet resonance analysis of $1.22$~\cite{CMS:exoDijetRes}, 
 but the search regions here are in a different region of phase space so it is not unexpected.
 
 \begin{table}[htdp]
-\caption{QCD scale factor derived from QCD rich control region for each inclusive $\pt(\,\mathrm{j}_1)$ bin with relative error
+\caption{QCD scale factor derived from QCD rich control region for each inclusive $\pt(\,\mathrm{j}_1)$ bin with relative error. 
 }
 \begin{center}
 \begin{tabular}{c|cccccc} \hline
@@ -1061,18 +1083,18 @@ $\pt(\,\mathrm{j}_1)$ (\GeV) & QCD$_{s.f.}$ & Relative Error \\ \hline
 \end{table}%
 
 
-The total relative uncertainties on $R^{\rm QCD}$ are shown in Table~\ref{tab:QCDFinaltable}.
+The total relative uncertainties on $R^{\rm QCD}$ are shown in Table~\ref{tab:QCDFinaltable}\footnote{\added{The statistical precision listed in this table is arguably too high, as all the numbers are consistent with one another within the errors quoted. In future analyses, perhaps a non-\pt dependent scale factor of 1.4$\pm$0.4 would be more appropriate. }}.
 They are due to the statistical uncertainty on the number of events in data (which is negligible)
-and the systematic uncertainty on the number of non-QCD events in the control regions. 
-A relative uncertainty of 50\% is assigned to each non-QCD background, and contributions are added quadratically. 
-To ensure we give a conservative estimation for the QCD multijet background, a relative uncertainty of 50\% is assigned to the yield taken from simulation, and this is combined in quadrature with the uncertainty on $R^{\rm QCD}$: total relative uncertainty on the multijet prediction is of order 60\%.  
+and the systematic uncertainty on the number of non-QCD events in the control regions ---
+a relative uncertainty of 50\% is assigned to each non-QCD background. 
+To ensure we give a conservative estimation for the QCD multijet background, a 50\% uncertainty on the raw QCD yield from simulation is combined in quadrature with the uncertainty on $R^{\rm QCD}$: total relative uncertainty on the multijet prediction is of order 60\%.  
 The final QCD background estimation in the search regions is shown in Table~\ref{tab:QCDpred}.
 
 
 \newsavebox{\cutflowBoxh}
 \begin{table*}[!Hhtb] 
         \begin{center}
-\caption{Summary of the estimated total remaining W\,+\,jets background.}% and its comparison with the MC prediction.}
+\caption{Summary of the estimated total remaining QCD background.}% and its comparison with the MC prediction.}
 \label{tab:QCDpred}
 \begin{lrbox}{\cutflowBoxh}
  \begin{tabular}{l|ccccccc} \hline
@@ -1113,11 +1135,12 @@ The distributions of the invariant mass and \pt{} of the electron-muon system ar
 The event yields from data and simulation are shown in 
 Table~\ref{ttbartable}, before and after the invariant mass cut.  
 Data and simulation are seen to agree well with one another.
-The scale factor $R^{\ttbar}$ is extracted using an analogous method as for $R^{\rm QCD}$, and has a value of 0.97$\pm$0.3, where the uncertainty is dominated by the systematic uncertainty in the non-\ttbar processes in the control sample, 
+The scale factor $R^{\ttbar}$ is extracted using an analogous method as for $R^{\rm QCD}$, and has a value of 0.97$\pm$0.30, where the uncertainty is dominated by the systematic uncertainty in the non-\ttbar processes in the control sample, 
 which are taken as 50\% of each.
 We therefore find that the \ac{NNLO} cross section used to normalize the \ttbar simulation describes the data well, and apply a data/MC scaling factor of 1.0.
 
 Although probably over-conservative, the uncertainty on the \ttbar background is taken to be 50\% to be consistent with the other background estimations taken from simulation. 
+\added{The 50\% relative uncertainty used throughout the analysis is designed to cover any uncertainty in the statistical precision, data/MC scale factors, \ac{PDFs}, parton showering etc. The exact number is somewhat arbitrary, and is taken to be 50\%, but the overall difference to the result by varying the number is negligible. These are all small backgrounds so the uncertainty on them, be it 50 or 100 or even 200\% makes very little difference overall. }
 % it covers uncertainties in the \ac{PDF}s, hadronization modelling,  
 
 \newsavebox{\cutflowBoxj}
@@ -1204,14 +1227,26 @@ Data / MC       & 0.99 & 0.97 & 0.96 & 0.97 & 0.92 & 1.00 & 1.09 \\ \hline
 
 A fluctuation in the ratio of data to MC simulation is observed in the estimation of $\znunubr \gamma$\,+\,jets, for $\pt(j1) > 400$ GeV.
 This is due to a statistical upward fluctuation in the $\znunubr \gamma$ simulation around $\pt=400$~\GeV.
-Fitting the data/MC numbers in each $\pt(\,\mathrm{j}_1)$ search region with a straight line, 
-such a fluctuation is not observed and the data/MC ratio at $\pt(j1) > 400$ GeV becomes 0.9.
+\deleted{Fitting the data/MC numbers in each $\pt(\,\mathrm{j}_1)$ search region with a straight line, 
+such a fluctuation is not observed and the data/MC ratio at $\pt(j1) > 400$ GeV becomes 0.9.}
+\added{This is evident in Figure~\ref{fig:zvvG_bump} (left); fitting the curve with an exponential function fits the rest of the data points well and smooths out this small excess (right). 
+The simulation is not used at all in the results, and is compared to the number from data purely as a cross check to see that the method of treating the background exclusively and inclusively provides reasonable results. 
+The data/MC ratio is close to one for all of the other search regions, so we are satisfied the method works and proceed to treat the V$\gamma$ background inclusively. }
 
+
+\begin{figure}[htbp!]
+\begin{center}
+  \includegraphics[width=0.4\textwidth]{Figures/sus13009/j1pt_zvvG_simulation.pdf} 
+  \includegraphics[width=0.4\textwidth]{Figures/sus13009/j1pt_zvvG_simulation_fit.pdf} 
+\caption{The leading jet \pt spectrum from the $\znunubr \gamma$ simulation, in the baseline search region; the small increase in events above 400~\GeV is evident. The right hand plot shows the zoomed in region which is fitted with an exponential curve in red.}
+\label{fig:zvvG_bump}
+\end{center}
+\end{figure}
 
 
 By absorbing $\W\gamma$ and $\znunubr \gamma$ events into the dominant data driven backgrounds 
 we not only get a better estimation of these backgrounds as we do not rely on the simulation 
-(which does not necessary represent the data accurately in this area of phase space), 
+(which does not necessarily represent the data accurately in this area of phase space), 
 we also reduce the uncertainty on the estimations, 
 and in doing so reduce the total uncertainties of the analysis.
 This is because the yields (in simulation) of $\W\gamma$ and $\znunubr \gamma$ no longer contribute to $N^{\rm bkg}_{\mu\mu}$ and $N^{\rm bkg}_{\mu}$, so the 50\% uncertainties on the yields are also no longer included in the uncertainty calculation on these numbers. 
@@ -1229,7 +1264,7 @@ An uncertainty of 50\% is assigned to these predictions.
 
 
 \section{Summary}
-Selection has been presented to reduce \ac{SM} background contribution and maximise possible signal acceptance. 
+The selection to reduce \ac{SM} background contribution and maximise possible signal acceptance has been presented. 
 The contribution of SM \ttbar and multijet events in the search regions is reduced using topological selections. The dominant backgrounds after the complete event selection are from \znunubr{}\,+\,jets and \wpj{} events. These are estimated using muon data control samples enriched in \zmumubr and \wmunubr events. Remaining background from \ttbar and multijet processes are estimated using simulation normalized in data control samples, and small contributions of diboson, \zellellbr, and single top quark events are taken from simulation.
 
-
+\clearpage

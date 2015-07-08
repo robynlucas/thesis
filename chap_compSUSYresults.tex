@@ -11,7 +11,9 @@ could be in: these being Alive, Dead, and Bloody Furious.}
 
 In this chapter, we show the results and interpretations of a search for events containing a single energetic jet and missing transverse momentum, 
 using a data sample collected at 8~\TeV by the \ac{CMS} detector at the \ac{LHC} and corresponding to an integrated luminosity of 19.7~\fbinv.
-The search described in Chapter~\ref{chap:sus13009} is interpreted in the context of \ac{SMS} of \ac{SUSY} in the third generation.
+\added{Here, the results from the search described in Chapter~\ref{chap:sus13009} are shown, and interpreted in terms of simplified models of supersymmetry, particularly for compressed \ac{SUSY} in the third generation. 
+The results from this counting experiment could similarly be interpreted for many other \ac{BSM} models. }
+
 
 
 \section{Results}
@@ -47,7 +49,7 @@ Data                              &36582           & 17646           & 8119     
   \begin{center}
   \includegraphics[scale=0.39]{Figures/sus13009/MetLep1mu.pdf}
    \includegraphics[scale=0.39]{Figures/sus13009/Jet1Pt.pdf}
-  \caption{Distributions of (left) \METmu and (right) leading jet $\pt$ in the baseline monojet search region, $\pt(\jet_1) > 250$~\GeV, for data and \ac{SM} backgrounds. Background distributions are taken from simulation, and normalized to an integrated luminosity of 19.7~\fbinv. A representative signal distribution for $\sTop \rightarrow \mathrm{c} \chiOneZero$ is also shown (in the dotted line), where $m_{\sTop} = 250~\GeV$ and $m_{\chiOneZero} = 240~\GeV$.  Statistical uncertainties are shown for the data.
+  \caption{Distributions of (left) \METmu and (right) leading jet $\pt$ in the baseline monojet search region, $\pt(\jet_1) > 250$~\GeV, for data and \ac{SM} backgrounds. Background distributions are taken from simulation, and normalized to an integrated luminosity of 19.7~\fbinv \added{using the cross sections shown in Table~\ref{tab:SEL_TabDataMC200}}. A representative signal distribution for $\sTop \rightarrow \mathrm{c} \chiOneZero$ is also shown (in the dotted line), where $m_{\sTop} = 250~\GeV$ and $m_{\chiOneZero} = 240~\GeV$.  Statistical uncertainties are shown for the data.
   Taken from Ref.~\cite{sus14001}.
 \label{fig:ANA_MET_plots}}
   \end{center}
@@ -76,12 +78,15 @@ In addition, scans consist of many points in the ($m_{\sTop}, m_{\chiOneZero}$) 
 As a result, millions of events are required and the signal MC simulation samples are huge - for example, the $\sTop \rightarrow \charmquark \chiOneZero$ sample takes up disk-space of order 1~TB.
 Generating these samples is then a computational challenge: 
 it is impractical to use a vast number of computing hours. 
-So, an alternative method of MC generation has been developed, as compared to the \ac{SM} background samples detailed in Section~\ref{sec:GEN}.
+\added{A faster way to produce \ac{MC} samples, particularly for signal, was therefore developed in the \ac{SUSY} group at \ac{CMS}. }
+\deleted{So, an alternative method of MC generation has been developed, as compared to the \ac{SM} background samples detailed in Section~\ref{sec:GEN}.}
 
 Events are generated using \MADGRAPH{}5 and showered with \PYTHIA{}6.4.24 with up to 2 partons. To speed up the generation process, the CMS detector response is simulated using the CMSSW FastSim prescription~\cite{FASTSIM}. 
 It gives an accurate detector response to the physics objects, but takes less than 1/100$^{\rm th}$ of the time that the full \GEANTfour detector simulation takes. 
 The rate of production is therefore increased by a factor 100, allowing the large samples necessary to be generated.
-The MLM matching prescription~\cite{MLMmatching}, which matches hard partons from the first stage of simulation to jets produced after hadronization, is used to avoid double counting between the matrix element calculations and parton showering.
+The MLM matching prescription~\cite{MLMmatching}, 
+\added{in which partons from the matrix element calculation are matched to jets resulting from the parton shower in order to avoid double counting is used.}
+\deleted{which matches hard partons from the first stage of simulation to jets produced after hadronization, is used to avoid double counting between the matrix element calculations and parton showering.}
 Top and bottom squark production cross sections are taken from the LHC SUSY Cross Section Working Group~\cite{bib:SUSYxs}.
 
 Top squark signal simulation 
@@ -97,10 +102,13 @@ Bottom squark signal simulation
 contains events where pair produced bottom squarks decay via $\sBot\rightarrow\bottomquark\chiOneZero$ with 100\% branching fraction
 in the ($m_{\sBot}, m_{\chiOneZero}$) mass plane.
 The scan is less granular, and covers a wider phase space range: 
-$m_{\sBot} =$100~\GeV to 450~\GeV in steps of 25~\GeV, and 
-$m_{\chiOneZero} = $ 1, 50, 100...~\GeV, for $m_{\chiOneZero} < m_{\sBot}$.
+$m_{\sBot} =$100~\GeV to 450~\GeV in steps of 25~\GeV, 
+\added{ so $m_{\sBot} =$100, 125, 150, 175...450~\GeV.
+In the mass plane of the \chiOneZero,}
+$m_{\chiOneZero} = $ 1, 50, 100...~\GeV, \added{in steps of 50~\GeV,} for $m_{\chiOneZero} < m_{\sBot}$: the \chiOneZero is clearly always less massive than the \sBot. 
+\added{For example, for $m_{\sBot} = 250$~\GeV, $m_{\chiOneZero} = $ 1, 50, 100, 150, 200~\GeV. }
 There are also points generated close to the degeneracy line, at 
-$\dmsbot = m_{\sBot} - m_{\chiOneZero} = 10$~\GeV.
+$\dmsbot = m_{\sBot} - m_{\chiOneZero} = 10$~\GeV, \added{so for the example where $m_{\sBot} = 250$~\GeV, there is an additional mass point at $m_{\chiOneZero} = 240$~\GeV.}
 
 
 \section{Signal acceptance}
@@ -148,7 +156,7 @@ Acceptance is no longer dependent on energetic \ac{ISR} jets with the associated
   \includegraphics[scale=0.35]{Figures/sus13009/limitplots/plots/sbottom/acceptance_300.pdf} 
   \includegraphics[scale=0.35]{Figures/sus13009/limitplots/plots/sbottom/acceptance_350.pdf} 
   \includegraphics[scale=0.35]{Figures/sus13009/limitplots/plots/sbottom/acceptance_400.pdf}     
-  \caption{Signal acceptances in the search regions, at each $\pt(\jet_1)$ threshold for the process $\ttwobb$. Each plot shows a different value of $m_{\sBot}$, and various masses of the LSP, $m_{\chiOneZero}$. Signal acceptance is greatest when $m_{\sBot}$ is close to $m_{\chiOneZero}$, and increases with increasing $m_{\sTop}$.
+  \caption{Signal acceptances in the search regions, at each $\pt(\jet_1)$ threshold for the process $\ttwobb$. Each plot shows a different value of $m_{\sBot}$, and various masses of the LSP, $m_{\chiOneZero}$. Signal acceptance is greatest when $m_{\sBot}$ is close to $m_{\chiOneZero}$, and increases with increasing $m_{\sBot}$. \added{The kinks in the lines are because statistics are low for mass points where $m_{\sBot}-m_{\chiOneZero}>100~\GeV$, particularly at high leading jet thresholds.}
 \label{fig:sbottomAcc}}
   \end{center}
 \end{figure}
@@ -163,7 +171,7 @@ Signal acceptances of some representative mass hypothesis for $\ttwocc$  and $\t
 \small
       %  \fontsize{10 pt}{1.2 em}
         \begin{center}
-        \caption{\label{tab:mono_sigAcc} Signal acceptance $\times$ efficiency, shown in \%, for each step of the event selection. 
+        \caption{\label{tab:mono_sigAcc} Signal acceptance \deleted{$\times$ efficiency}, shown in \%, for each step of the event selection. 
         Two representative mass points are shown; ($m_{\sBot}$, $m_{\chiOneZero}$) = (250,240) and (150,50)~\GeV for $\ttwobb$ where $\mathcal{B}(\sBot\rightarrow\bottomquark\chiOneZero)$ = 1.0, 
         and ($m_{\sTop}$, $m_{\chiOneZero}$) = (250,240)~\GeV and (200,120) for $\ttwocc$, where $\mathcal{B}(\sTop\rightarrow\charmquark\chiOneZero)$ = 1.0.
         Only statistical uncertainties are shown.}
@@ -261,15 +269,18 @@ $\pt(\jet_1)$$>$550~\GeV  & 0.067 & 0.056 & 0.011 & 0.014 & 0.006 & 0.008 \\
 % This is the dominant source of uncertainty on the signal.
 
 The selection of signal events (and therefore the signal acceptance) in this analysis relies on a high-\pt ISR jet, so the modelling of ISR must be reliable.
-The simulated and measured \pt spectra of recoiling systems against ISR jets is studied in Ref.~\cite{CMSsinglelep} for Z\,+\,jets, 
-\ttbar and other processes. 
-The simulation is found to over predict the data by 20\% for ISR jets with $\pt > 250$ \GeV, see Figure~\ref{fig:ISRsyst}.
+The \MADGRAPH{} simulated and measured \pt spectra of recoiling systems against ISR jets is studied in Ref.~\cite{CMSsinglelep} for Z\,+\,jets, 
+\ttbar \added{and \W\Z{} final states, chosen because such events can be measured with good statistical precision and cover a wide range of phase space. 
+In both data and simulation, the \pt spectrum of the system which recoils against an \ac{ISR} jet is measured, and the shapes are compared. }
+The simulation is found to over predict the data by 20\% for ISR jets with $\pt > 250$ \GeV, see Figure~\ref{fig:ISRsyst} 
+\added[remark={I had this as the ttbar system before, but the z+jet system goes to higher pt and shows the 0.8 correction behaviour is appropriate - clearly no downward trend above 500GeV}]{which shows the spectrum of the  Z\,+\,jets system in both data and simulation}.
 All signal acceptances have therefore been weighted by a factor of 0.8 to correct for this difference, and a systematic uncertainty of 20\% is assigned to each search region to account for this difference for the high \pt ISR jets involved.
 
 \begin{figure}[ht!]
   \begin{center}
-  \includegraphics[scale=0.35]{Figures/sus13009/ISRmodellingSUS13011.pdf}
-  \caption{Taken from~\cite{CMSsinglelep}, the comparison of data to the prediction from simulation of the jet recoil system in \ttbar events. The data/MC ratio, in the top of the figure, shows that for jets with $\pt>250~\GeV$, the simulation over predicts the data.
+  \includegraphics[scale=0.35]{Figures/sus13009/ISRmodellingSUS13011_zjets1.pdf}
+  \includegraphics[scale=0.35]{Figures/sus13009/ISRmodellingSUS13011_zjets2.pdf}  
+  \caption{Taken from~\cite{CMSsinglelep}, the comparison of data to the prediction from simulation of the jet recoil system in \Z{}\,+\,jets events. \added{The left-hand plot shows the \pt spectrum of dilepton events in leptonic \Z decays, and the right-hand plot shows the \pt spectrum of the vector sum of reconstructed jets in hadronic \Z decays.} The data/MC ratio, in the top of the figure, shows that for jets with $\pt>250~\GeV$, the simulation over predicts the data. \added{The shaded band is centred on the weighted MC prediction and indicates the associated uncertainty on the ratio.}
 \label{fig:ISRsyst}}
   \end{center}
 \end{figure}
@@ -295,13 +306,13 @@ The error on the luminosity measurement is 2.6\% ~\cite{lumi:Summer2013}.
  \multicolumn{1}{c|}{\multirow{2}{*}{ Search region}} & \multicolumn{3}{c|}{($m_{\sTop}, m_{\chiOneZero}$) = (200,190)}& \multicolumn{3}{c}{($m_{\sTop}, m_{\chiOneZero}$) = (200,120)} \\ 
     & JES +  & JES - & $|$Difference$|$ &  JES + & JES - & $|$Difference$|$\\ 
    \hline
-$\pt(\jet_1)$$>$300~\GeV & 1.33 & 1.33 & $<$0.01 & 0.42 & 0.44 & 0.03    \\
+$\pt(\jet_1)$$>$250~\GeV & 1.33 & 1.33 & $<$0.01 & 0.42 & 0.44 & 0.03    \\
 $\pt(\jet_1)$$>$300~\GeV & 0.88 & 0.84 & 0.03    & 0.26 & 0.26 & $<$0.01  \\
-$\pt(\jet_1)$$>$300~\GeV & 0.52 & 0.50 & 0.03    & 0.14 & 0.14 & $<$0.01   \\
-$\pt(\jet_1)$$>$300~\GeV & 0.30 & 0.29 & 0.01    & 0.07 & 0.08 & $<$0.01  \\
-$\pt(\jet_1)$$>$300~\GeV & 0.18 & 0.17 & 0.01    & 0.04 & 0.04 & $<$0.01       \\
-$\pt(\jet_1)$$>$300~\GeV & 0.11 & 0.10 & 0.01    & 0.02 & 0.02 & $<$0.01   \\
-$\pt(\jet_1)$$>$300~\GeV & 0.07 & 0.06 & $<$0.01 & 0.02 & 0.01 & $<$0.01   \\
+$\pt(\jet_1)$$>$350~\GeV & 0.52 & 0.50 & 0.03    & 0.14 & 0.14 & $<$0.01   \\
+$\pt(\jet_1)$$>$400~\GeV & 0.30 & 0.29 & 0.01    & 0.07 & 0.08 & $<$0.01  \\
+$\pt(\jet_1)$$>$450~\GeV & 0.18 & 0.17 & 0.01    & 0.04 & 0.04 & $<$0.01       \\
+$\pt(\jet_1)$$>$500~\GeV & 0.11 & 0.10 & 0.01    & 0.02 & 0.02 & $<$0.01   \\
+$\pt(\jet_1)$$>$550~\GeV & 0.07 & 0.06 & $<$0.01 & 0.02 & 0.01 & $<$0.01   \\
 \hline
 \end{tabular}  
 \end{lrbox}
@@ -314,15 +325,16 @@ $\pt(\jet_1)$$>$300~\GeV & 0.07 & 0.06 & $<$0.01 & 0.02 & 0.01 & $<$0.01   \\
 \section{Exclusion limits}
 \label{sec:STAT}
 
-The CL$_{s}$ method is used to estimate the 95\% confidence level (CL) for a signal cross section in a counting experiment~\cite{bib:STAT_RooStats,PDG}.
+The CL$_{s}$ method is used to estimate the 95\% \ac{CL} \added{observed upper limit on the signal production cross section in a counting experiment, and corresponding median expected limit with the 1- and 2- standard deviation quantile bands}~\cite{bib:STAT_RooStats,PDG}.
 Given the integrated luminosity, signal acceptance, background expectation and number of observed events (with associated uncertainties),
-the 95\% CL upper limit on the signal cross section is calculated.
+the 95\% \ac{CL} upper limit on the signal cross section is calculated. 
+\added{This modified-frequentist approach generates a set of pseudo-experiments with the signal plus background, and background only hypotheses, for each mass point and in each search region. The uncertainty on the total background estimation shown in Table~\ref{tab:summary_bgd}, and uncertainties on signal and integrated luminosity (Section~\ref{sec:signalSYST}) are treated as a lognormal nuisance parameters.  }
 The theoretical top-squark production cross sections, which are equal to the bottom-squark production cross sections, with associated theoretical uncertainties $\pm1\sigma_{\rm th}$ are taken from a collaboration between the \ac{ATLAS}, \ac{CMS}
 and \ac{LPCC} \ac{SUSY} working groups. 
 Theory uncertainties are dominated by PDF uncertainties 
 and calculations are detailed in Ref.~\cite{bib:SUSYxs}. 
 Cross section values can be found in Ref.~\cite{stopsbottomxs}.  
-The 95\% CL exclusion limits on production cross sections are compared to the theoretical expectations in order to set lower limits on the top (bottom) squark and LSP masses in the ($m_{\sTop}, m_{\chiOneZero}$) (($m_{\sBot}, m_{\chiOneZero}$)) mass plane. 
+The 95\% \ac{CL} exclusion limits on production cross sections are compared to the theoretical expectations in order to set lower limits on the top (bottom) squark and LSP masses in the ($m_{\sTop}, m_{\chiOneZero}$) (($m_{\sBot}, m_{\chiOneZero}$)) mass plane. 
 
 
 \begin{figure}[!Ht]
@@ -333,21 +345,21 @@ The 95\% CL exclusion limits on production cross sections are compared to the th
   \includegraphics[scale=0.35]{Figures/sus13009/limitplots/plots/stop/expected_250.pdf}
   \includegraphics[scale=0.35]{Figures/sus13009/limitplots/plots/stop/expected_300.pdf} 
   \includegraphics[scale=0.35]{Figures/sus13009/limitplots/plots/stop/expected_350.pdf}  
-  \caption{95\% CL expected limit on top-squark production cross section as a function of $\pt(j_{1})$\GeV (i.e. in each search region). Limits for $m_{\sTop}=100,150,200,250,300$ and 350~\GeV are shown, where each line corresponds to $\dmstop=10,20,30,40,60$ and 80~\GeV.}
+  \caption{95\% \ac{CL} expected limit on top-squark production cross section as a function of $\pt(j_{1})$\GeV (i.e. in each search region). Limits for $m_{\sTop}=100,150,200,250,300$ and 350~\GeV are shown, where each line corresponds to $\dmstop=10,20,30,40,60$ and 80~\GeV.}
   \label{fig:expLimStop}
   \end{center}
 \end{figure}
 
-Expected 95\% CL limits on production cross section, displayed as a function of $\pt(\,\mathrm{j}_1)$ for every signal mass hypothesis for the $\ttwocc$ signal can be found in Figure~\ref{fig:expLimStop}. 
+Expected 95\% \ac{CL} limits on production cross section, displayed as a function of $\pt(\,\mathrm{j}_1)$ for \added{a selection} of signal mass hypothesis for the $\ttwocc$ signal can be found in Figure~\ref{fig:expLimStop}. 
 Each plot shows a particular $m_{\sTop}$ and the expected limit on cross section uses the \ac{SM} background expectation alone. 
-Similar plots showing the 95\% CL expected limits on production cross section for the $\ttwobb$ signal are shown in 
+Similar plots showing the 95\% \ac{CL} expected limits on production cross section for the $\ttwobb$ signal are shown in 
 Figure~\ref{fig:expLimSbot}.
 The signal region where the best (i.e. lowest) expected limit is found is selected as the optimal region in which to set limits for that mass point.
 Limits are generally fairly flat across the phase space range, for those mass points in the compressed region where $\dmstop$ and $\dmsbot \lessapprox 100~\GeV$.
-A fluctuation in the number of $\zmumubr${}\,+\,jets events at $\pt(\,\mathrm{j}_1)>450$~\GeV leads to a fluctuation in the total background expectation in this search region. 
-To ensure smooth limit curves we have discounted this signal region from the limit setting procedure. 
+A fluctuation in the number of $\zmumubr${}\,+\,jets events at $\pt(\,\mathrm{j}_1)>450$~\GeV (see the `Data' row of Table~\ref{tab:Zmuontable}) leads to a fluctuation in the total background expectation in this search region. 
+To ensure smooth limit curves, \added{particularly to avoid unphysical situations where the observed limit curve crosses the theoretical limit curve more than once,} we have discounted this signal region from the limit setting procedure. 
 
-Outside of the compressed region of phase space in the ($m_{\sBot}, m_{\chiOneZero}$) mass plane, for some signal points we are not able to set a 95\% CL limit on the production cross section in the search regions with the highest $\pt(\jet_1)$ thresholds. 
+Outside of the compressed region of phase space in the ($m_{\sBot}, m_{\chiOneZero}$) mass plane, for some signal points we are not able to set a 95\% \ac{CL} limit on the production cross section in the search regions with the highest $\pt(\jet_1)$ thresholds. 
 This is because the acceptance of such points is very low - these search regions are not sensitive to the dijet event topology described in Section~\ref{sec:sigAccep}.
 
 \begin{figure}[!Hhtb]
@@ -358,14 +370,14 @@ This is because the acceptance of such points is very low - these search regions
   \includegraphics[scale=0.35]{Figures/sus13009/limitplots/plots/sbottom/expected_250.pdf}
   \includegraphics[scale=0.35]{Figures/sus13009/limitplots/plots/sbottom/expected_300.pdf} 
   \includegraphics[scale=0.35]{Figures/sus13009/limitplots/plots/sbottom/expected_350.pdf} 
-  \caption{95\% CL expected limit on bottom-squark production cross section as a function of $\pt(j_{1})$\GeV (i.e. in each search region). Limits for $m_{\sBot}=100,150,200,250,300$ and 350~\GeV are shown, where each line corresponds to a different $m_{\chiOneZero}$.}
+  \caption{95\% \ac{CL} expected limit on bottom-squark production cross section as a function of $\pt(j_{1})$\GeV (i.e. in each search region). Limits for $m_{\sBot}=100,150,200,250,300$ and 350~\GeV are shown, where each line corresponds to a different $m_{\chiOneZero}$.}
   \label{fig:expLimSbot}
   \end{center}
 \end{figure}
 
 
 The temperature plots in Figure~\ref{fig:optimalacc} show the signal acceptance in the search region with the best expected limit for both ($m_{\sTop}, m_{\chiOneZero}$) and ($m_{\sBot}, m_{\chiOneZero}$) mass planes.
-The temperature plots in Figure~\ref{fig:optimalExp} show the best expected 95\% CL limit across the phase space range, and Figure~\ref{fig:optimalJ1} shows the search region in which this best expected limit is found.
+The temperature plots in Figure~\ref{fig:optimalExp} show the best expected 95\% \ac{CL} limit across the phase space range, and Figure~\ref{fig:optimalJ1} shows the search region in which this best expected limit is found.
 We see that typically, harder leading jet cuts give the better limits along the diagonal, where events are dominated by ISR. 
 Also, for larger $m_{\sTop}$ and $m_{\sBot}$, harder jet thresholds give the better limits, as these events are typically more boosted.   
 
@@ -374,7 +386,7 @@ Also, for larger $m_{\sTop}$ and $m_{\sBot}$, harder jet thresholds give the bet
   \begin{center}
   \includegraphics[scale=0.39]{Figures/sus13009/limitplots/plots/stop/optimal_stop_acceptance.pdf}
   \includegraphics[scale=0.39]{Figures/sus13009/limitplots/plots/sbottom/optimal_sbottom_acceptance.pdf}
-  \caption{The temperature plot shows acceptance of the signal point where the best expected limit is found, across the ($m_{\sTop}, m_{\chiOneZero})$ (left) and ($m_{\sBot},m_{\chiOneZero}$) (right) mass planes.}
+  \caption{The temperature plot shows the acceptance of the signal point where the best expected limit is found, across the ($m_{\sTop}, m_{\chiOneZero})$ (left) and ($m_{\sBot},m_{\chiOneZero}$) (right) mass planes.}
   \label{fig:optimalacc}
   \end{center}
 \end{figure}
@@ -392,7 +404,7 @@ Also, for larger $m_{\sTop}$ and $m_{\sBot}$, harder jet thresholds give the bet
   \begin{center}
   \includegraphics[scale=0.39]{Figures/sus13009/limitplots/optimal_stop_jet1pT.pdf}
   \includegraphics[scale=0.39]{Figures/sus13009/limitplots/optimal_sbottom_jet1pT.pdf}
-  \caption{The temperature plot shows search region (the $\pt(\,\mathrm{j}_1)$ threshold) in which the best expected limit is found, across the ($m_{\sTop}, m_{\chiOneZero})$ (left) and ($m_{\sBot},m_{\chiOneZero}$) (right) mass planes. Plots feature in Ref.~\cite{sus14001}.}
+  \caption{The temperature plot shows the search region (the $\pt(\,\mathrm{j}_1)$ threshold) in which the best expected limit is found, across the ($m_{\sTop}, m_{\chiOneZero})$ (left) and ($m_{\sBot},m_{\chiOneZero}$) (right) mass planes. Plots feature in Ref.~\cite{sus14001}.}
   \label{fig:optimalJ1}
   \end{center}
 \end{figure}
@@ -401,12 +413,12 @@ Sensitivity outside of the compressed region is expected in the ($m_{\sBot}, m_{
 The bottom squark decay $\sBot \rightarrow \bottomquark \chiOneZero$ dominates across the mass plane, 
 unlike the top squark decay $\sTop \rightarrow \charmquark \chiOneZero$ which is only valid for the compressed region of phase space.
 We test the sensitivity of the search criteria for signals where $\dmsbot>m_{\W}$, and see larger than naively expected acceptances. 
-To understand these signal acceptances (and resultant 95\% CL limits on production cross section) in detail, we study several mass points for which $m_{\sBot}=225~\GeV$. 
-Figure~\ref{fig:sbot225njets} shows the jet multiplicity distributions for $m_{\chiOneZero}=1,50$ and 100~\GeV in the baseline search region where all criteria apart from $\njets<2$ have been applied.  
+To understand these signal acceptances (and resultant 95\% \ac{CL} limits on production cross section) in detail, we study several mass points for which $m_{\sBot}=225~\GeV$. 
+Figure~\ref{fig:sbot225njets} shows the jet multiplicity distributions for $m_{\chiOneZero}=1,50$ and 100~\GeV in the baseline search region where all criteria apart from $\njets\leq2$ have been applied.  
 
 \begin{figure}[!Hhtb]
   \begin{center}
-  \includegraphics[scale=0.39]{Figures/sus13009/Njets_225_Norm.pdf}
+  \includegraphics[scale=0.39]{Figures/sus13009/Njets_225_Norm_mod.pdf}
   \caption{Normalized distribution of \njets for $\sBot \rightarrow \bottomquark \chiOneZero$ signal points, in the events satisfying the baseline search region criteria, other than $\njets<3$. Signal points are labelled as ($m_{\sBot}, m_{\chiOneZero}$)~\GeV.}
   \label{fig:sbot225njets}
   \end{center}
@@ -416,7 +428,7 @@ Figure~\ref{fig:sbot225njets} shows the jet multiplicity distributions for $m_{\
 At $(m_{\sBot},m_{\chiOneZero}) = (225, 100)$~\GeV, most events contain one jet. 
 This could be an \ac{ISR} jet or a b-jet from the decay of the bottom squark which is energetic enough to pass the $\pt(\jet_1)$ requirement of the baseline signal region.
 A significant number of events contain three jets. 
-The most energetic jet with $\pt>250~\GeV$ originates from one of the b-quark decays (\ac{ISR}), and the two softer jets with $\pt>60~\GeV$ originate from the second b quark and \ac{ISR} (the two b quarks or otherwise). 
+The most energetic jet with $\pt>250~\GeV$ originates from one of the b-quark decays (or \ac{ISR}), and the two softer jets with $\pt>60~\GeV$ originate from the second b quark and \ac{ISR} (or the two b quarks or otherwise). 
 These trijet events do not satisfy the requirements of the search region and acceptance is reduced. 
 
 When $(m_{\sBot},m_{\chiOneZero}) = (225, 50)$~\GeV most events are classified as having one or two jets. 
@@ -435,17 +447,17 @@ The behaviours described above are evident.
 
 \begin{figure}[!Hhtb]
   \begin{center}
-  \includegraphics[scale=0.39]{Figures/sus13009/eventTypes_225.pdf}
+  \includegraphics[scale=0.39]{Figures/sus13009/eventTypes_225_mod.pdf}
   \caption{The topology of events satisfying the baseline search region criteria for $(m_{\sBot}, m_{\chiOneZero})=(225,1), (225,50)$ and $(225,100)$~\GeV. The origin of the first and second jet in the event is shown for events with one or two jets. Distributions are normalized to unit area.}
   \label{fig:jetContent225}
   \end{center}
 \end{figure}
 
 %
-Figure~\ref{fig:stop_limits} shows the best 95\% CL expected and observed limits on the top-squark production cross section, 
+Figure~\ref{fig:stop_limits} shows the best 95\% \ac{CL} expected and observed limits on the top-squark production cross section, 
 as a function of the top squark mass for $\dmstop = 10, 20, 30, 40, 60$ and $80~\GeV$.
-Figure~\ref{fig:sbottom_10GeV} shows the similar 95\% CL expected and observed limits on the bottom-squark production cross section, 
-as a function of the bottom squark mass for $\dmstop = 10$. 
+Figure~\ref{fig:sbottom_10GeV} shows the similar 95\% \ac{CL} expected and observed limits on the bottom-squark production cross section, 
+as a function of the bottom squark mass for $\dmsbot = 10$. 
 As mass points in the remainder of the bottom squark signal sample are produced in a regular pattern in $(m_{\sBot}, m_{\chiOneZero})$ rather than in $(m_{\sBot}, \dmsbot)$ (as in the $\ttwocc$  case), we show the results for the remainder of $\ttwobb$ phase space in a slightly different plane.
 Figure~\ref{fig:sbottom_limits} shows the best expected and observed limits for various bottom squark masses as a function of mass difference, $\dmsbot$.
 All plots also show the $\pm1,2 \sigma_{\rm exp}$ bands on the expected limits.
@@ -470,7 +482,7 @@ All plots also show the $\pm1,2 \sigma_{\rm exp}$ bands on the expected limits.
   \includegraphics[scale=0.39]{Figures/sus13009/limits//Limit40.pdf}
   \includegraphics[scale=0.39]{Figures/sus13009/limits//Limit60.pdf}
   \includegraphics[scale=0.39]{Figures/sus13009/limits//Limit80.pdf}
-  \caption{95\% CL observed and expected limits on the top-squark production cross section as a function of the $m_{\sTop}$ for $m_{\sTop} - m_{\chiOneZero} = 10, 20, 30, 40, 60$ and 80 \GeV. Curves taken from Ref.~\cite{sus13009}.}
+  \caption{95\% \ac{CL} observed and expected limits on the top-squark production cross section as a function of the $m_{\sTop}$ for $m_{\sTop} - m_{\chiOneZero} = 10, 20, 30, 40, 60$ and 80 \GeV. Curves taken from Ref.~\cite{sus13009}.}
   \label{fig:stop_limits}
   \end{center}
 \end{figure}
@@ -487,7 +499,7 @@ The signal topology and search region jet requirements means monojet events, dij
 %  \includegraphics[scale=0.39]{m10.pdf}
 %  \includegraphics[scale=0.39]{m30.pdf}
   \includegraphics[scale=0.39]{Figures/sus13009/limitplots/plots/sbottom/Limit_susy_sbottom_10.pdf}
-  \caption{95\% CL observed and expected limits on the bottom-squark production cross section as a function of $m_{\sBot}$ for $m_{\sBot} - m_{\chiOneZero} = 10~\GeV$.}
+  \caption{95\% \ac{CL} observed and expected limits on the bottom-squark production cross section as a function of $m_{\sBot}$ for $m_{\sBot} - m_{\chiOneZero} = 10~\GeV$.}
   \label{fig:sbottom_10GeV}
   \end{center}
 \end{figure}
@@ -502,7 +514,7 @@ The signal topology and search region jet requirements means monojet events, dij
   \includegraphics[scale=0.39]{Figures/sus13009/limitplots/plots/sbottom/Limit_DM_sbottom_250.pdf}
   \includegraphics[scale=0.39]{Figures/sus13009/limitplots/plots/sbottom/Limit_DM_sbottom_275.pdf}
     \includegraphics[scale=0.39]{Figures/sus13009/limitplots/plots/sbottom/Limit_DM_sbottom_300.pdf}
-  \caption{95\% CL observed and expected limits on the bottom-squark production cross section as a function of the mass difference $m_{\sBot} - m_{\chiOneZero}$, shown for $m_{\sBot} = 100, 150, 175, 200, 225,$ and 275~\GeV. 
+  \caption{95\% \ac{CL} observed and expected limits on the bottom-squark production cross section as a function of the mass difference $m_{\sBot} - m_{\chiOneZero}$, shown for $m_{\sBot} = 100, 150, 175, 200, 225,$ and 275~\GeV. 
   Also shown are the $\pm 1, 2 \sigma_{\rm exp}$ limits. 
  }
   \label{fig:sbottom_limits}
@@ -517,19 +529,19 @@ By finding the point of intersection between the observed (expected) and theoret
 Similarly, by finding the intersection between the observed ($\pm 1 \sigma_{\rm exp}$) and $\pm 1 \sigma_{\rm th}$ (theoretical) limits on cross sections, we find the $\pm 1 \sigma_{\rm th}$ ( $\pm 1  \sigma_{\rm exp}$) lower limits on masses.
 By doing this for every mass point available we build an exclusion contour in the ($m_{\sTop},m_{\chiOneZero}$) and ($m_{\sBot},m_{\chiOneZero}$) mass planes.
 
-Figure~\ref{fig:stop_limits_2D} shows the 95\% CL expected $\pm 1 \sigma_{\rm exp}$ and observed limits $\pm 1 \sigma_{\rm th}$ in the ($m_{\sTop},m_{\chiOneZero}$) mass plane assuming 100\% branching fraction to the top squark decay $\sTop \rightarrow \charmquark \chiOneZero$.
+Figure~\ref{fig:stop_limits_2D} shows the 95\% \ac{CL} expected $\pm 1 \sigma_{\rm exp}$ and observed limits $\pm 1 \sigma_{\rm th}$ in the ($m_{\sTop},m_{\chiOneZero}$) mass plane assuming 100\% branching fraction to the top squark decay $\sTop \rightarrow \charmquark \chiOneZero$.
 Also shown are previous results from the Tevatron.
 We are able to exclude the region above a line which goes from approximately $m_{\sTop}=130~\GeV, m_{\chiOneZero}=50~\GeV$ to $m_{\sTop}=260~\GeV, m_{\chiOneZero}=255~\GeV$.  
 We are able to exclude $\ttwocc$ production for $m_{\sTop} \leq 260~\GeV$ and $\dmstop \leq 10~\GeV$ right up to the degeneracy limit. 
 
-Similarly, Figure~\ref{fig:sbottom_limits_2D} shows the 95\% CL expected $\pm 1 \sigma_{\rm exp}$ and observed limits $\pm 1 \sigma_{\rm th}$ in the ($m_{\sBot},m_{\chiOneZero}$) mass plane assuming 100\% branching fraction to bottom squark decay $\sBot \rightarrow \bottomquark \chiOneZero$.
+Similarly, Figure~\ref{fig:sbottom_limits_2D} shows the 95\% \ac{CL} expected $\pm 1 \sigma_{\rm exp}$ and observed limits $\pm 1 \sigma_{\rm th}$ in the ($m_{\sBot},m_{\chiOneZero}$) mass plane assuming 100\% branching fraction to the bottom squark decay $\sBot \rightarrow \bottomquark \chiOneZero$.
 We are able to exclude the region above a line which goes from approximately $m_{\sBot}=140~\GeV, m_{\chiOneZero}=50~\GeV$ to $m_{\sBot}=270~\GeV, m_{\chiOneZero}=265~\GeV$.  
 Further, the region where $m_{\sBot} < 145~\GeV$ is excluded for all $m_{\chiOneZero}$.
 We also exclude a region at lower $m_{\chiOneZero}$ from approximately $m_{\sBot}=150~\GeV, m_{\chiOneZero}=40~\GeV$ to $m_{\sBot}=275~\GeV, m_{\chiOneZero}=60~\GeV$, above the line extending from $m_{\sBot}=175~\GeV, m_{\chiOneZero}=0~\GeV$ to $m_{\sBot}=275~\GeV, m_{\chiOneZero}=40~\GeV$.
 The limit in the compressed region echoes that from the ($m_{\sTop},m_{\chiOneZero}$) mass plane: monojet-like events dominate, and sensitivity to events in the region of the mass plane where decay products are very soft is achieved. 
 In the region $\dmsbot>m_{\W}$, we set limits on $m_{\sBot}$ outside the compressed region. 
 
-Because the analysis is insensitive to the final state decay products, which are invisible to the event selection within the compressed regions of phase space, the limits can be generalised to any model in which has $\squark \rightarrow x \chiOneZero$; where $x$ is any decay product invisible within the event selection -- cross sections only need be modified accordingly. 
+Because the analysis is insensitive to the final state decay products, which are invisible to the event selection within the compressed regions of phase space, the limits can be generalised to any model which has $\squark \rightarrow x \chiOneZero$; where $x$ is any decay product invisible within the event selection -- cross sections only need be modified accordingly. 
 Limits are also valid for the most compressed regions of phase space, where $m_{\chiOneZero}$ approaches $m_{\squark}$.
 
 
@@ -537,9 +549,9 @@ Limits are also valid for the most compressed regions of phase space, where $m_{
   \begin{center}
 %  \includegraphics[scale=0.39]{m10.pdf}
 %  \includegraphics[scale=0.39]{m30.pdf}
-  \includegraphics[scale=0.39]{Figures/sus13009/limits/limits_stopLSP.pdf}
+  \includegraphics[scale=0.45]{Figures/sus13009/limits/limits_stopLSP.pdf}
 %  \includegraphics[scale=0.39]{Figures/sus13009/limits/limits_stopDM.pdf}
-  \caption{ Expected and observed 95\% CL exclusion limits in the ($m_{\sTop}, m_{\chiOneZero}$) mass plane for top-squark pair production, assuming 100\% branching fraction to the decay $\sTop \rightarrow \charmquark \chiOneZero$. The $\pm1\sigma_{exp}$ and $\pm1\sigma_{th}$ curves are also shown. The diagonal grey lines mark the borders of the kinematic regimes surrounding the compressed region of phase space. 
+  \caption{ Expected and observed 95\% \ac{CL} exclusion limits in the ($m_{\sTop}, m_{\chiOneZero}$) mass plane for top-squark pair production, assuming 100\% branching fraction to the decay $\sTop \rightarrow \charmquark \chiOneZero$. The $\pm1\sigma_{exp}$ and $\pm1\sigma_{th}$ curves are also shown. The diagonal grey lines mark the borders of the kinematic regimes surrounding the compressed region of phase space. 
   Taken from Ref.~\cite{sus13009}.}
   \label{fig:stop_limits_2D}
   \end{center}
@@ -560,8 +572,8 @@ Limits are also valid for the most compressed regions of phase space, where $m_{
 A search has been performed for signatures of top and bottom squark production in events with a monojet and large missing transverse momentum, using an integrated luminosity of 19.7~\fbinv of pp collisions at 8~\TeV. 
 The data are found to be in good agreement with expected contributions from \ac{SM} processes.  
 Limits on top and bottom squark production cross sections in the context of simplified models of supersymmetry are set. 
-Comparisons with the predictions from theory allows limits on third generation squark masses to be set in a mass parameter space where mass splittings between the $\sTop$ and $\sBot$ squark and the LSP are less than $\approx$ 80~\GeV.
-These regions have been insensitive to previous searches reliant on energetic sparticle decay products: where more than one jet, lepton or photon, as well as large missing energy, is required.  
+Comparisons with the predictions from theory allow limits on third generation squark masses to be set in a mass parameter space where mass splittings between the $\sTop$ and $\sBot$ squark and the LSP are less than $\approx$ 80~\GeV.
+These regions have not been probed by previous searches reliant on energetic sparticle decay products: where more than one jet, lepton or photon, as well as large missing energy, is required.  
 We exclude $\ttwocc$ 
 production for $m_{\sTop} \leq 260~\GeV$ and
 $m_{\sTop} - m_{\chiOneZero} <10~\GeV$ 
@@ -570,15 +582,15 @@ $m_{\sTop} - m_{\chiOneZero} <80~\GeV$.
 We similarly exclude $\ttwobb$ production for $m_{\sBot} \leq 270~\GeV$ and 
 $(m_{\sBot} - m_{\chiOneZero}) <10~\GeV$, with all $m_{\chiOneZero}$ excluded for $m_{\sBot} \leq 145~\GeV$.
 A small region of $\ttwobb$ parameter space is excluded for $m_{\sBot} \leq 270~\GeV$ and $m_{\chiOneZero} \approx 50~\GeV$.
-Because the final state jets in this search are invisible, and we are independent of the final state, these limits can be generalized to $\sTop \rightarrow x \chiOneZero$ and $\sBot \rightarrow x \chiOneZero$, where $x$ is any state which is invisible within the event selection.
+Because the final state jets in this search are invisible, and we are independent of the final state, these limits can be generalized to any model which has $\sTop \rightarrow x \chiOneZero$ and $\sBot \rightarrow x \chiOneZero$, where $x$ is any state which is invisible within the event selection.
 
 
-Future searches for compressed models of \ac{SUSY} will be able to take advantage of the increased centre-of-mass energy of the \ac{LHC}, at 13 and 14~\TeV{}. 
-This will increase production cross sections of squarks, as well as increasing the mass reach of the search, which is currently limited to 260~\GeV or so. 
-In addition, higher luminosities will increase statistics, enabling lower statistical uncertainties. 
-The number of \zmumubr{}\,+\,jets events used to estimate the \znunubr{}\,+\,jets background is the dominant uncertainty on the \ac{SM} background estimation, so with many more events the total background uncertainty will be reduced and allow lower uncertainties on expected limits. 
-Better modelling of \ac{ISR} in the signal simulation could also significantly reduce the signal uncertainty. 
-There is therefore scope to extend the sensitivity of the search, as well as add interpretations in more general ($m_{\squark}, m_{\chiOneZero}$) mass planes. 
+% Future searches for compressed models of \ac{SUSY} will be able to take advantage of the increased centre-of-mass energy of the \ac{LHC}, at 13 and 14~\TeV{}. 
+% This will increase production cross sections of squarks, as well as increasing the mass reach of the search, which is currently limited to 260~\GeV or so. 
+% In addition, higher luminosities will increase statistics, enabling lower statistical uncertainties. 
+% The number of \zmumubr{}\,+\,jets events used to estimate the \znunubr{}\,+\,jets background is the dominant uncertainty on the \ac{SM} background estimation, so with many more events the total background uncertainty will be reduced and allow lower uncertainties on expected limits. 
+% Better modelling of \ac{ISR} in the signal simulation could also significantly reduce the signal uncertainty. 
+% There is therefore scope to extend the sensitivity of the search, as well as add interpretations in more general ($m_{\squark}, m_{\chiOneZero}$) mass planes. 
 
 
 % \begin{table*}%[!Hhtb]  %table 8   110811:05  
@@ -627,6 +639,6 @@ There is therefore scope to extend the sensitivity of the search, as well as add
 
 
 
-
+\clearpage
 
 

@@ -6,7 +6,7 @@
 \chapterquote{Insanity: doing the same thing over and over again and expecting different results.}
 {Albert Einstein, 1879–-1955}
 
-Probing the physics of the \ac{SM} and beyond at the~\TeV scale is only possible with the technologically unparalleled apparatus situated at the \ac{CERN}.
+Probing the physics of the \ac{SM} and beyond at the~\TeV scale is only possible with the technologically unparalleled apparatus situated at \ac{CERN}.
 This chapter will introduce the hugely complex machinery of the \LHC, 
 which provides proton-proton collisions at centre-of-mass energies in excess of $\sqrt{s}=7$~\TeV, 
 and outline the main features of the \ac{CMS} experiment, of which the author is a member, 
@@ -27,18 +27,20 @@ Section~\ref{sec:LHC} presents the main features of the \ac{LHC}, and Section~\r
 
 \section{The \ac{LHC}}
 \label{sec:LHC}
-The \ac{LHC} is the world's largest and most energetic synchrotron particle collider. 
-Housed in the tunnel built for the \ac{LEP} collider that operated during the 1990's at \ac{CERN}, 
+The \ac{LHC} is the world's largest and most energetic synchrotron particle collider~\cite{bib:LHC}. 
+Housed in the tunnel built for the \ac{LEP} that operated during the 1990's at \ac{CERN}, 
 the \ac{LHC} is a double ring circular collider 27~\km in circumference, 
 and sits on the bedrock beneath the Franco-Swiss border, close to Geneva, Switzerland. 
-It is designed for both proton-proton (pp) and heavy ion (PbPb) collisions at a centre of mass energy $\sqrt{s} = 14~\TeV$ and luminosity of \designLumi.
+It is designed for both proton-proton (pp) and heavy ion (PbPb) collisions at a centre of mass energy $\sqrt{s} = 14~\TeV$ and instantaneous luminosity of \designLumi.
 
 
 Currently the world's only operating collider able to study physics directly at the~\TeV scale, the \ac{LHC} consists of thousands of superconducting magnets which act to accelerate, bend and focus two beams of protons (or heavy ions) that circulate in opposite directions around the accelerator. 
 %injector chain
-A chain of accelerators, shown in Figure~\ref{fig:LHC} and culminating with the \ac{SPS}, inject bunches of approximately one hundred billion protons 25 or 50~\ns apart at $\sqrt{s} = 450~\GeV$ into the two beams of \ac{LHC}.
-Oscillating electric fields provided by 1232 superconducting dipole magnets act to accelerate the beams up to the operating centre of mass energy, which for the data used in this thesis was $\sqrt{s} = 8$~\TeV, with bunch crossings every 50~\ns.
-Once protons are accelerated to the operational $\sqrt{s}$, the \ac{LHC} acts as a storage ring, and collisions can occur.
+A chain of accelerators, shown in Figure~\ref{fig:LHC} and culminating with the \ac{SPS}, inject bunches of approximately one hundred billion protons 25 or 50~\ns apart at $\sqrt{s} = 450~\GeV$ into the two beampipes of the \ac{LHC}.
+\replaced{16 \ac{RF} cavities along the \ac{LHC} ring provide electric fields which oscillate at 400 MHz}{Oscillating electric fields provided by 1232 superconducting dipole magnets} and act to accelerate the beams up to the operating centre of mass energy. 
+For the data used in this thesis, this was $\sqrt{s} = 8$~\TeV, 
+with bunches crossing every 50~\ns.
+Once protons are accelerated to the operational $\sqrt{s}$, the \ac{LHC} acts as a storage ring \added{with 1232 superconducting dipole magnets bending the beams around the 27 km circumference}, and collisions can occur.
 %
 Either side of four points around the \ac{LHC} ring, very high precision magnetic fields, provided by quadrupole and higher order multipole magnets, position and focus the beams such that each bunch has a diameter of 16~$\mu$m. 
 The chance of a pp collision with large momentum transfer at the four interaction points around the LHC ring is thereby increased, and the number of such collisions per bunch crossing, termed \ac{PU} for the data used in this thesis was $\sim20$.
@@ -57,12 +59,63 @@ The chance of a pp collision with large momentum transfer at the four interactio
 Interaction points are at the centre of four large particle detectors, shown in Figure~\ref{fig:LHC}:
 \ac{ALICE}~\cite{Aamodt:2008zz}, 
 \ac{ATLAS}~\cite{Aad:2008zzm}, 
-\ac{CMS}~\cite{Chatrchyan:2008aa} and 
+\ac{CMS}~\cite{Chatrchyan:2008zzk} and 
 \ac{LHCb}~\cite{Alves:2008zz}.
 They act to identify particles produced as a result of a pp or PbPb bunch crossing through a combination of tracking and calorimetry, in order to reconstruct and measure physical processes, to test currently accepted theories and search for new physics.
 
-%running in Run 1
+\added{
+\subsection{LHC run conditions, past and present}
+The first physics runs of the LHC were incredibly successful, both for the machine and the experiments. 
+The \ac{LHC} achieved the highest ever energy per beam, with sustained running at $3.5~\TeV$ per beam and then at $4~\TeV$ per beam, 
+and provided record-breaking integrated luminosities. 
+As a result, in Run 1, the \ac{CMS} and \ac{ATLAS}
+experiments collected around 5~\fbinv of integrated luminosity at $\sqrt{s} = 7~\TeV$ and 20~\fbinv of integrated luminosity at $\sqrt{s} = 8~\TeV$, with bunch crossings every 50~ns.
+The data collected allowed for the discovery of the last missing piece of the \ac{SM}~\cite{Aad:2012tfa,Chatrchyan:2012ufa,HiggsEvidence}, enabled us to probe many new regions of parameter space, and set limits on a huge array of new physics models. 
+It is the 20~\fbinv data set collected by the \ac{CMS} detector at $\sqrt{s}=8~\TeV$ that is used to seach for evidence of \ac{SUSY} in Chapters~\ref{chap:sus13009} and~\ref{chap:sus13009results}.
 
+On 13$^{\text{th}}$ February 2013 the \ac{LHC} was shut down in order to undergo an upgrade. 
+This period is termed \ac{LS1}, and is due to end in early 2015. 
+Magnet interconnections are being replaced and the dipole magnets are undergoing a quench training programme. 
+These improvements to the \ac{LHC} magnets will allow safe acceleration of protons up to 7~\TeV in each beam, and sustained operation at $\sqrt{s}=13~\TeV$, eventually to achieve the design energy of 14~\TeV.
+This will nearly double the available centre of mass energy as compared to Run I, potentially making Run 2 a discovery run --- opening up more phase space and therefore opportunities for finding new physics.
+Instantaneous luminosity will also increase, with the aim of providing the number of events to give the statistical precision required to search for the rarest processes, as well as shed more light on the properties of the boson discovered during Run 1. 
+The exact scenarios for running after LS1, in Run 2, are not concrete; however two potential luminosity scenarios with associated \ac{PU} conditions are shown in Table~\ref{lumiProgramme}. 
+For comparison, figures typical of Run 1 operation are also shown.  
+The jet algorithm described in Chapter~\ref{chap:l1jets} is for the period of running from 2016 when either of these luminosity scenarios, or similar, will be in operation. 
+
+\begin{table}[h]
+\begin{tabular}{c|c|c|c|c}
+Scenario & \# bunches & $\mathcal{L}$ (cm$^{-2}$s$^{-1}$) & Pile-up & L ($\fbinv$/year) \\ \hline
+Run 1: 50~ns & 2760 & 0.4 $\times 10^{34}$ & 15 & 10 \\ \hline
+Run 2: 25~ns & 2760 & 0.9 $\times 10^{34}$ & 21 & 24 \\ 
+Run 2: 50~ns & 1260 & 0.9-1.7 $\times 10^{34}$ & 40-76 & 45 \\ \hline
+\end{tabular}
+\caption{\label{lumiProgramme}Alongside typical numbers from Run 1 of LHC operation, two of the possible luminosity performances for \ac{LHC} after LS1, i.e. for running during Run 2~\cite{Tapper:1556311}.}
+\end{table}
+
+In approximately 2018, the LHC will again be shutdown for \ac{LS2}. 
+Improvements to the accelerator injector chain will be made --- with the aim of providing much greater instantaneous luminosities. 
+The different stages of \ac{LHC} running are summarized in Table~\ref{tab:LHCruns}.
+
+
+
+\begin{table}
+\begin{tabular}[ht!]{ccc}  
+\hline
+%\multicolumn{5}{c}{Force carrying gauge bosons: spin-1} \\ \hline
+Years & Name & $\sqrt{s}$ \\ \hline
+2010--2013 & Run 1 & 7 \& 8~\TeV \\ 
+2013--2015 & LS1 & - \\
+2015--2018 & Run 2 & 13~\TeV \\
+$\sim$2018--2020 & LS2 & - \\
+$\sim$2020 onwards & Run 3 & 14~\TeV \\ \hline
+\end{tabular}
+\caption{\label{tab:LHCruns}Summary of periods of running of the LHC.}
+
+\end{table}
+
+%running in Run 1
+}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %   _____ __  __  _____ 
 %  / ____|  \/  |/ ____|
@@ -92,8 +145,8 @@ and is built around a central 12.5~m long 4~\T superconducting solenoid magnet a
 The different sub-detectors are arranged in an onion structure.
 %
 Closest to the beam line is the silicon tracking system.
-A very highly resolution pixel detector lies closest to the interaction region, followed by a granular strip detector.
-Charged particle momenta measurements are made using the curvature of tracks in the uniform magnetic field provided by the solenoid, as well as measurements of displaced vertices and impact parameters which are essential for identifying heavy flavour decays. 
+A very high-resolution pixel detector lies closest to the interaction region, followed by a granular strip detector.
+Measurements of charged particle momenta are made using the curvature of tracks in the uniform magnetic field provided by the solenoid, as well as measurements of displaced vertices and impact parameters which are essential for identifying heavy flavour decays. 
 %
 Energy measurements are provided by the calorimeters, which lie outside the tracker; the \ac{ECAL} and \ac{HCAL}. 
 The highly granular \ac{ECAL} consists of 70,000 transparent lead tungstate crystals. 
@@ -112,7 +165,7 @@ The solenoid lies outside the \ac{HCAL} and provides a 3.8~\T axial magnetic fie
 Embedded in the iron return yoke of the magnet sits the muon system. 
 Three different types of muon detectors are used to identify muons and make momentum and charge measurements over a large kinematic range.
 %
-More information on the CMS detector can be found in Ref.~\cite{Chatrchyan:2008aa}.
+More information on the CMS detector can be found in Ref.~\cite{Chatrchyan:2008zzk}.
 
 %
 % Crucial to the successful operation of \ac{CMS} is the trigger. 
@@ -140,7 +193,7 @@ More information on the CMS detector can be found in Ref.~\cite{Chatrchyan:2008a
 % so require detectors further away from the interaction point. 
 % Three different types of muon detectors, interleaved with the steel return yoke of the solenoid, are used to identify muons and make momentum and charge measurements over a large kinematic range.
 % %
-% More information on the CMS detector can be found in Ref.~\cite{Chatrchyan:2008aa}.
+% More information on the CMS detector can be found in Ref.~\cite{Chatrchyan:2008zzk}.
 
 %picture
 \begin{figure}[htbp]
@@ -155,7 +208,7 @@ More information on the CMS detector can be found in Ref.~\cite{Chatrchyan:2008a
 %coordinate system
 \ac{CMS} uses a right-handed coordinate system: the $x$-axis points south towards the centre of the \ac{LHC} ring, the $y$-axis points vertically upwards and the $z$-axis is in the direction of the beam, where positive $z$ is to the West.
 More natural is the coordinate system defined in terms of $r$, $\phi$ and $\theta$.
-The azimuthal angle $\phi$ is measured from the $x$-axis in the $xy$ plane, where the radial component is denoted $r$. The polar angle $\theta$ is defined in the $rz$ plane, and the pseudorapity 
+The azimuthal angle $\phi$ is measured from the $x$-axis in the $xy$ plane, where the radial component is denoted $r$. The polar angle $\theta$ is defined in the $rz$ plane, and the pseudorapity is defined by
 \begin{equation}
 \eta = - \ln \tan (\theta /2).
 \end{equation}
@@ -166,14 +219,21 @@ Inelastic collisions with large momentum transfer can occur between component qu
 as well as the remnant part of any protons that have had a hard collision. 
 As a result, the forward and backward directions are highly populated environments and therefore difficult to instrument due to high occupancy and radiation damage. 
 \ac{CMS} has endcaps to extend the detector coverage at high $\eta$, however it is not possible to reconstruct the momentum of a single interaction in the direction of the beam.   
-Additionally, interesting physics is a result of a hard collision, where energy is available for the creation of new particles. It can be characterized by the amount of energy in the transverse ($xy$) plane.
+Additionally, interesting physics results from a hard collision, where energy is available for the creation of new particles. 
+It can be characterized by the amount of energy in the transverse ($xy$) plane. 
+\added{Most importantly, however, we cannot conserve momentum in the plane parallel to the beam because we cannot know the initial momentum of the quark or gluon which collides in the hard collision. 
+Protons are not fundamental particles. 
+The colliding parton has a fraction of the incoming proton's momentum; but we cannot know what this fraction is. 
+\ac{PDFs} try to predict these fractions, however the probabilistic nature of quantum mechanics means we cannot know it exactly.  
+This is not the case for $e^{+}e^{-}$ colliders such as LEP, in which the collisions occur between fundamental particles. }
+
 For these reasons, particle energy and momenta are described only in the transverse plane, where conservation laws can be applied.
-By conserving energy and momentum in the transverse plane, any imbalance can be assigned to a particle leaving the detector without any trace; for example from a neutrino, or, from new physics processes such as \ac{DM} production
-A nearly hermetic detector (with close to 4\pi coverage in solid angle) allow excellent particle reconstruction and measurements of missing transverse energy, the `tell-tale' sign of new physics, and make \ac{CMS} perfectly suited to searching for physics beyond the \ac{SM}.
+By conserving energy and momentum in the transverse plane, any imbalance can be assigned to a particle leaving the detector without any trace; for example from a neutrino, or, from new physics processes such as \ac{DM} production. 
+A nearly hermetic detector (with close to 4\pi coverage in solid angle) allows excellent particle reconstruction and measurements of missing transverse energy, the `tell-tale' sign of new physics, and make \ac{CMS} perfectly suited to searching for physics beyond the \ac{SM}.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\subsection{The Tracking System}
+\subsection{The tracking system}
 The tracker is designed for precise and efficient measurement of charged particle trajectories (and therefore position and momentum) as they emerge from the interaction point.
 Additionally, reconstruction of any secondary vertices is crucial for identifying heavy flavour decays such as jets that originate from b-quarks.
 
@@ -196,24 +256,32 @@ The strip detector has a length of 5.8~\m and a diameter of 2.4~\m, and is compo
 \begin{figure}[htbp]
   \begin{center}
   \includegraphics[width=0.9\textwidth]{Figures/detector/fig_cmstracker}
-  \caption{The \ac{CMS} tracker, shown in the $rz$ plane. The pixel detector is shown at the centre of the tracker, closest to the interaction region (shown by the black dot), and the strip detector surrounds it. The different subsystems of the strip detector are shown. Taken from Ref.~~\cite{Chatrchyan:2008aa}.
+  \caption{The \ac{CMS} tracker, shown in the $rz$ plane. The pixel detector is shown at the centre of the tracker, closest to the interaction region (shown by the black dot), and the strip detector surrounds it. The different subsystems of the strip detector are shown~\cite{Chatrchyan:2008zzk}.
 }
   \label{fig:CMStracker}
   \end{center}
 \end{figure}
 
-
+Both the energy and spatial resolutions of the tracker are excellent. 
 %The resolution of a track is described in terms of five parameters
-The energy resolution of the tracker is shown in Figure~\ref{fig:CMStrackerRes}, 
+The energy resolution of the tracker is shown in the left hand plot of Figure~\ref{fig:CMStrackerRes}, 
 for samples of single muons with \pt of 1, 10 and 100~\GeV. 
-For a 100\GeV muon, the resolution is 1-2\% up to $|\eta| = 1.6$. 
-Lower momentum objects have a better energy resolution as their tracks have increased curvature.
+For a 100~\GeV muon, the resolution is 1--2\% up to $|\eta| = 1.6$~\cite{Chatrchyan:2008zzk}. 
+Lower momentum objects have a better energy resolution as their tracks have increased curvature. 
+\added{
+Excellent spatial resolution is vital for identifying displaced vertices, important for tagging jets as originating from b-quarks. 
+The relatively long lived b-hadron decays $\sim1$~cm away from the primary vertex, leading to a displaced vertex. 
+The resolution of transverse and longitudinal impact parameters, which characterize the position of the displaced vertex, 
+are shown in the center and right plot of Figure~\ref{fig:CMStrackerRes}, for samples of single muons with \pt of 1, 10 and 100~\GeV. 
+The transverse impact parameter resolution is as good as 10~$\mu$m for high \pt tracks~\cite{Chatrchyan:2008zzk}; evidence of the excellent spatial resolution of the tracker. 
+}
 
 %picture
 \begin{figure}[htbp]
   \begin{center}
-  \includegraphics[width=0.3\textwidth]{Figures/detector/cmstrackerRes}
-  \caption{The energy resolution as a function of $|\eta|$ for \ac{CMS} tracker, shown for single muons with \pt = 1, 10 and 100~\GeV. 
+  \includegraphics[width=0.9\textwidth]{Figures/detector/cmstrackerResAll}
+  \caption{The energy resolution (left), transverse and longitudinal impact parameters (center, right) as a function of $|\eta|$ for \ac{CMS} tracker, 
+  shown for single muons with \pt = 1, 10 and 100~\GeV~\cite{Chatrchyan:2008zzk}.
 }
   \label{fig:CMStrackerRes}
   \end{center}
@@ -221,8 +289,8 @@ Lower momentum objects have a better energy resolution as their tracks have incr
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-\subsection{The Electromagnetic Calorimeter}
-High resolution photon and electron position and energy measurements are provided by the lead tungstate (PbWO$_{4}$) crystal \ac{ECAL}, which covers pseudorapidity up to $|\eta|<3$.
+\subsection{The electromagnetic calorimeter}
+High resolution photon and electron position and energy measurements are provided by the lead tungstate (PbWO$_{4}$) crystal \ac{ECAL}, which covers pseudorapidities up to $|\eta|<3$.
 It is made up of the \ac{EB}, covering the range $0<|\eta|<1.479$,
 and the \ac{EE}, covering the range $1.479<|\eta|<3$.
 
@@ -232,14 +300,14 @@ Arranged in a quasi-projective geometry, 61,200 crystals in the barrel and 7,324
 Barrel crystals have a front face of $22 \times 22$~mm$^{2}$ and a length of 23~\cm, corresponding to 25.8~$X_{0}$. 
 Endcap crystals have a front face of $28.6 \times 28.6$~mm$^{2}$ and length corresponding to 24.7~$X_{0}$.
 Electromagnetic showers are therefore expected to be contained within one crystal length, so only a single layer of crystals is needed. 
-A preshower detector is place in front of the endcaps, with a thickness of $3X_{0}$, in the range $1.653<|\eta|<2.6$, in order to distinguish between single photons and photon pairs resulting from neutral pion decay. 
+A preshower detector is placed in front of the endcaps, with a thickness of $3X_{0}$, in the range $1.653<|\eta|<2.6$, in order to distinguish between single photons and photon pairs resulting from neutral pion decay. 
 The \ac{ECAL} geometry is shown in Figure~\ref{fig:CMSecal}.
 
 %picture
 \begin{figure}[htbp]
   \begin{center}
   \includegraphics[width=0.7\textwidth]{Figures/detector/cmsECAL}
-  \caption{Geometric view of the \ac{CMS} \ac{ECAL}. Barrel crystals are arranged in modules and supermodules, and endcap crystals arranged in supercrystals. Also shown is the preshower detector.
+  \caption{Geometric view of the \ac{CMS} \ac{ECAL}~\cite{Chatrchyan:2008zzk}. Barrel crystals are arranged in modules and supermodules, and endcap crystals arranged in supercrystals. Also shown is the preshower detector.
 }
   \label{fig:CMSecal}
   \end{center}
@@ -247,8 +315,10 @@ The \ac{ECAL} geometry is shown in Figure~\ref{fig:CMSecal}.
 
 The very dense material PbWO$_{4}$ causes incident photons and electrons to shower. 
 Resulting pair produced electrons and positrons, and radiated photons, cause scintillation light in the transparent, polished crystals. 
-The amount of light produced is proportional to the incident particle energy, and is collected by an \ac{APD} on the end of each crystal in the barrel, and a \ac{VPT} in the endcaps. \textcolor{red}{[check if use these acronyms again]}
-These photodetectors also have to be radiation hard and operate successfully in the 3.8~\T magnetic field, while providing significant amplification to signal.
+The amount of light produced is proportional to the incident particle energy, and is collected by an avalanche photo-diode %\ac{APD}
+ on the end of each crystal in the barrel, and a vacuum photo-triode %\ac{VPT} 
+in the endcaps. %\textcolor{red}{[check if use these acronyms again]}
+These photodetectors also have to be radiation hard and operate successfully in the 3.8~\T magnetic field, while providing significant amplification of the signal.
 Both the crystal and photodetector performance has a strong temperature dependence, so the \ac{ECAL} is kept at a constant temperature of 18\deg via a water cooling system, and is stable to $\pm0.05~\deg$C.
 
 %energy resolution
@@ -257,12 +327,13 @@ The energy resolution of the \ac{ECAL} can be parametrised using the following e
 \left(\frac{\sigma}{E}\right)^{2} = \left(\frac{S}{\sqrt{E}}\right)^{2} + \left(\frac{N}{E}\right)^{2} + C^{2},
 \end{equation}
 %laser calibration
-where $S$ is due to stochastic scattering, $N$ is due to noise and $C$ is the constant term. Measurements in test beam are shown in Figure~\ref{fig:CMSecalRes}, where the terms were found to be: $S = 2.8\%$, $N=0.12~\GeV$ and $C = 0.30\%$. 
+where $S$ is due to stochastic scattering, $N$ is due to noise and $C$ is the constant term. 
+Measurements from test beam are shown in Figure~\ref{fig:CMSecalRes}, where the terms were found to be: $S = 2.8\%$, $N=0.12~\GeV$ and $C = 0.30\%$~\cite{Chatrchyan:2008zzk}. 
 
 \begin{figure}
   \begin{center}
   \includegraphics[width=0.5\textwidth]{Figures/detector/EcalRes.png}
-  \caption{The energy resolution of an \ac{ECAL} supercrystal, measured in a test beam. The lower set of points along the dashed line correspond to the energy measured in an array of 3$\times$3 crystals, where events fall within a 4$\times$4~\mm region in the central crystal. 
+  \caption{The energy resolution of an \ac{ECAL} supercrystal, measured in a test beam. The lower set of points along the dashed line correspond to the energy measured in an array of 3$\times$3 crystals, where events fall within a 4$\times$4~\mm region in the central crystal~\cite{TDRVOL1}. 
 }
   \label{fig:CMSecalRes}
   \end{center}
@@ -271,17 +342,17 @@ where $S$ is due to stochastic scattering, $N$ is due to noise and $C$ is the co
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-\subsection{The Hadronic Calorimeter}
+\subsection{The hadronic calorimeter}
 The \ac{HCAL} provides complementary energy measurements of hadronic showers, crucial for measuring jets and missing transverse energy.
 It is a sampling brass calorimeter, built from alternating layers of large, absorbing brass plates, interleaved with scintillating plastic tiles arranged in trays. 
-Sitting within the bore of the solenoid, the \ac{HB} covers pseudorapidity $|\eta|<1.3$,
+Sitting within the bore of the solenoid, the \ac{HB} covers pseudorapidities up to $|\eta|<1.3$,
 and the \ac{HE} on each side enclose $1.3<|\eta|<3$.
-To attain a most hermetic detector, there is also a \ac{HF}, which extends coverage right up to $|\eta|<5.2$.
+To attain an almost hermetic detector, there is also a \ac{HF}, which extends coverage right up to $|\eta|<5.2$.
 
 The quality of the \ac{HCAL}'s measurements is dictated by the fraction of the hadronic shower that passes through the scintillator; the plastic must be thick enough to catch the majority of the shower.
-This demand for radial extension is at odds with the location of the \ac{HCAL}, from the outer edge of the \ac{ECAL} at $r=1.77~\m$, and the inner edge of the solenoid at $r=2.95~\m$.
+This demand for radial extension is at odds with the location of the \ac{HCAL}, from the outer edge of the \ac{ECAL} at $r=1.77~\m$, to the inner edge of the solenoid at $r=2.95~\m$.
 Providing a compromise, an outer hadronic calorimeter, \ac{HO}, is placed outside of the vacuum tank of the magnet and supplements the \ac{HB}.
-Using the solenoid coil as absorber material, it can identify late starting showers, providing sufficient containment for 11.8 interaction lengths.% ($\lambda_{L}$).
+Using the solenoid coil as absorber material, it can identify late starting showers, providing sufficient containment for 11.8 interaction lengths. % ($\lambda_{L}$).
 Five rings of \ac{HO} are arranged along the $z$-axis of the detector, where the central ring at $\eta=0$ has two layers at $r=3.82~\m$ and $4.07~\m$, and the rest have a single layer at $r=4.07~\m$. 
 Figure~\ref{fig:CMShcal} shows the geometry of the \ac{HCAL}.
 
@@ -289,7 +360,7 @@ Figure~\ref{fig:CMShcal} shows the geometry of the \ac{HCAL}.
 \begin{figure}[htbp]
   \begin{center}
   \includegraphics[width=0.9\textwidth]{Figures/detector/cmsHCAL}
-  \caption{Longitudinal view of the \ac{CMS} \ac{HCAL}. Locations of the \ac{HB}, \ac{HO}, \ac{HE} and \ac{HF} are shown with values of $\eta$. The purple regions represent the muon detectors which further restrict the volume of the \ac{HO}.
+  \caption{Longitudinal view of the \ac{CMS} \ac{HCAL}~\cite{Chatrchyan:2008zzk}. Locations of the \ac{HB}, \ac{HO}, \ac{HE} and \ac{HF} are shown with values of $\eta$. The purple regions represent the muon detectors which further restrict the volume of the \ac{HO}.
 }
   \label{fig:CMShcal}
   \end{center}
@@ -297,8 +368,8 @@ Figure~\ref{fig:CMShcal} shows the geometry of the \ac{HCAL}.
 
 Hadron showers are created in the brass absorber plates, through nuclear interactions in the material, and the plastic scintillator tiles produce blue-violet light when the shower passes through. 
 It is read out using wavelength shifting fibres, sending the now green light down transparent fibres to \ac{HPD} which produce an electrical signal proportional to the incident hadron energy.
-The first layer of plastic tiles are placed in front of the first absorber plate in order to sample the incoming shower as it develops in the material between the \ac{ECAL} and the \ac{HCAL}.
-The final layer of scintillator placed after the final brass plate to catch any late developing showers.
+The first layer of plastic tiles is placed in front of the first absorber plate in order to sample the incoming shower as it develops in the material between the \ac{ECAL} and the \ac{HCAL}.
+The final layer of scintillator is placed after the final brass plate to catch any late developing showers.
 There are 70,000 plastic scintillator tiles in the \ac{HB} and 20,916 tiles in the \ac{HE}.
 
 The \ac{HF} uses a different technology in order to cope with the much harsher environment in which it is situated.
@@ -309,13 +380,13 @@ It is therefore most sensitive to the electromagnetic component of the shower.
 The energy resolution of the \ac{HCAL} was measured in pion beam tests. The energy response and 
 resolution are shown in Figure~\ref{fig:CMShcalRes}, and the fractional energy response is parametrised
 as 
-$\frac{\sigma}{E} = \frac{120\%}{\sqrt{E}} \oplus 6.9\%$.
+$\frac{\sigma}{E} = \frac{120\%}{\sqrt{E}} \oplus 6.9\%$~\cite{TDRVOL1}.
 
 %picture
 \begin{figure}[htbp]
   \begin{center}
   \includegraphics[width=0.9\textwidth]{Figures/detector/HCALres}
-  \caption{The raw energy response (left) and fractional energy resolution (right) as a function of energy, for pions, in team beam data.
+  \caption{The raw energy response (left) and fractional energy resolution (right) as a function of energy, for pions, in team beam data~\cite{TDRVOL1}.
 }
   \label{fig:CMShcalRes}
   \end{center}
@@ -323,7 +394,7 @@ $\frac{\sigma}{E} = \frac{120\%}{\sqrt{E}} \oplus 6.9\%$.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\subsection{The Muon System}
+\subsection{The muon system}
 %do i need this
 Muons are a powerful tool for recognising signs of interesting physics. 
 %Many SUSY models predict excesses of muon decays, for example $B_{s}\rightarrow\mu\mu$, 
@@ -332,14 +403,15 @@ A relatively easy experimental signature to identify, muons can provide excellen
 as, due to their larger mass, they do not suffer large radiative losses (as electrons do).
 %They are therefore of vital importance to the physics programme at \ac{CMS}, such that they take the middle word of the experiment's name.
 Muon reconstruction is therefore a central design feature. 
-Embedded in the iron flux-return yoke of the solenoid, the muon system combines three methods of gaseous detection to identify, carry out high resolution momentum measurements, and trigger events, up to $|\eta|<2.4$. 
-Figure~\ref{fig:CMSmuonSys} shows a cross section of one of the five wheels that make up the barrel section of muon system; there are also two planar endcaps which sit at either end of the detector and enclose it.
+Embedded in the iron flux-return yoke of the solenoid, the muon system combines three methods of gaseous detection to 
+identify mass, carry out high-resolution measurements of, and trigger events, up to $|\eta|<2.4$. 
+Figure~\ref{fig:CMSmuonSys} shows a cross section of one of the five wheels that make up the barrel section of the muon system; there are also two planar endcaps which sit at either end of the detector and enclose it.
 
 %picture
 \begin{figure}[htbp]
   \begin{center}
   \includegraphics[width=0.7\textwidth]{Figures/detector/muonSystems}
-  \caption{One of the 5 wheels of the barrel of the \ac{CMS} muon system. Gaseous detectors are embedded in the iron return yoke of the solenoid; due to the small residual magnetic field in the barrel, \ac{DT}s are used.
+  \caption{One of the 5 wheels of the barrel of the \ac{CMS} muon system~\cite{Chatrchyan:2008zzk}. Gaseous detectors are embedded in the iron return yoke of the solenoid.
 }
   \label{fig:CMSmuonSys}
   \end{center}
@@ -347,23 +419,24 @@ Figure~\ref{fig:CMSmuonSys} shows a cross section of one of the five wheels that
 
 
 
-In the barrel ($|\eta|<0.9$), magnetic flux is concentrated in the iron return yoke so the residual field is very small.
+In the barrel ($|\eta|<0.9$), the magnetic flux is concentrated in the iron return yoke so the residual field is very small.
 There is also a low muon rate and neutron induced background, so \ac{DT} chambers are used.
-In the endcaps ($0.9<|\eta|<2.4$), magnetic field and muon rate are much higher, so \ac{CSC} are used instead; 
+In the endcaps ($0.9<|\eta|<2.4$), the magnetic field and muon rates are much higher, so \ac{CSC} are used instead; 
 they have a faster response time, higher granularity and better radiation hardness.
-Both the \ac{DT} and \ac{CSC} have excellent position resolution.
+Both the \ac{DT}s and \ac{CSC} have excellent position resolution.
 An additional system of \ac{RPC} in both the barrel and endcaps provide an independent signal which has good time resolution (and poorer position resolution) and serves as a trigger.
 
 
-By combining information from the tracker, and from either the \ac{DT} or \ac{CSC} and \ac{RPC}, \ac{CMS} has excellent muon reconstruction. 
-Precise momentum resolution is achieved for the kinematic range, from 10~\GeV to $>500~\GeV$, shown in  
+By combining information from the tracker, and from either the \ac{DT}s or \ac{CSC} and \ac{RPC}, \ac{CMS} has excellent muon reconstruction. 
+Precise momentum resolution is achieved for the kinematic range, from 10~\GeV to $>500~\GeV$, as shown in  
 Figure~\ref{fig:CMSmuonRes}. 
 
 %picture
 \begin{figure}[htbp]
   \begin{center}
   \includegraphics[width=0.8\textwidth]{Figures/detector/CMSmuonRes}
-  \caption{Muon transverse momentum resolution, shown as a function of muon \pt in the barrel (left) and the endcaps (right). The resolution of the tracker and muon system is shown, and the enhancement gained by combining the information.
+  \caption{Muon transverse momentum resolution, shown as a function of muon \pt in the barrel (left) and the endcaps (right)~\cite{Chatrchyan:2008zzk}. The resolution of the tracker and muon system is shown, and the enhancement gained by combining the information. 
+  Here, and in several of the following plots, the units shown are not natural, indicated by the presence of $c$ in the specified unit.
 }
   \label{fig:CMSmuonRes}
   \end{center}
@@ -426,21 +499,21 @@ These features make the anti-k$_{\mathrm{t}}$ algorithm the preferential jet alg
 \begin{figure}[htbp]
   \begin{center}
   \includegraphics[width=0.7\textwidth]{Figures/detector/PUantiKT}
-  \caption{The relative insensitivity of the anti-k$_{\mathrm{t}}$ algorithm to \ac{PU} is shown, compared to other common jet algorithms. The distribution of back reaction, corresponding to the net change in \pt to each of the two hardest jets (where each jet has $\pt>200~\GeV$), when adding \ac{PU}$\sim 25$ to the event, corresponding to \ac{LHC} running conditions in the next phase of data taking starting in 2015. Taken from~\cite{bib:akjets}.}
+  \caption{The relative insensitivity of the anti-k$_{\mathrm{t}}$ algorithm to \ac{PU} is shown, compared to other common jet algorithms. The distribution of back reaction, corresponding to the net change in \pt to each of the two hardest jets (where each jet has $\pt>200~\GeV$), when adding \ac{PU}$\sim 25$ to the event, corresponding to \ac{LHC} running conditions in the next phase of data taking starting in 2015~\cite{bib:akjets}.}
   \label{fig:antikT_PU}
   \end{center}
 \end{figure}
 
 Several types of jets exist at \ac{CMS}, in which the anti-k$_{\mathrm{t}}$ algorithm is given different inputs.
 Calorimeter (Calo) jets use information from the calorimeter only.
-\ac{ECAL} crystals are grouped in $5\times5$ arrays into ``towers'', which measure $0.087\times0.87$ in $\Delta\phi \times \Delta \eta$ space (in the barrel region) and are matched to aligning blocks of \ac{HCAL}.
-The sum of the energy deposits in both layers of calorimeter are used as inputs to the jet algorithm, where towers are treated as massless and an $\eta$ dependent energy threshold has been placed on each tower to reduce the effect of instrumental noise. 
+\ac{ECAL} crystals are grouped in $5\times5$ arrays into ``towers'', which measure $0.087\times0.087$ in $\Delta\phi \times \Delta \eta$ space (in the barrel region) and are matched to aligning blocks of \ac{HCAL}.
+The sum of the energy deposits in both layers of the calorimeter are used as inputs to the jet algorithm, where towers are treated as massless and an $\eta$ dependent energy threshold has been placed on each tower to reduce the effect of instrumental noise. 
 
 The \ac{PF} algorithm~\cite{PFT-09-001} creates a list of all stable particles in an event: photons, electrons, muons, neutral hadrons and charged hadrons.
 Particle momentum, direction and type are determined using all of the subdetectors of \ac{CMS}, 
 which, with its silicon tracker, highly granular \ac{ECAL} and strong magnetic field is ideally suited to the task.
 The reconstruction of the fundamental constituents of a typical jet --- largely photons, charged hadrons and neutral hadrons --- uses charged particle tracks and calorimeter clusters, termed ``elements''.
-A traversing particle is expected to give rise to one, or several elements arising from separate subdetectors. 
+A traversing particle is expected to give rise to one, or several, elements arising from separate subdetectors. 
 %For example, a charged hadron could make one charged particle track and a calorimeter cluster. 
 To reconstruct a particle, these elements are therefore grouped into ``blocks'': links of one, two or three elements
 that have arisen due to the same object.
@@ -451,11 +524,11 @@ This list of particles is used as the input to the anti-k$_{\mathrm{t}}$ algorit
 The energy of a typical jet consists of energy from charged particles (65\%), photons (25\%) and neutral hadrons (10\%).
 Therefore, typically, 90\% of the jet energy can be reconstructed with good precision, utilising measurements from the high resolution silicon tracker and \ac{ECAL}. 
 Only 10\% of the energy, arising from neutral hadrons, is reconstructed using the relatively poor resolution hadron calorimeter. 
-Therefore, \ac{PF} jets, made of reconstructed particles, are much closer to jets made of simulated, \ac{MC} generated particles than those that rely just on calorimeter information alone (such as Calo jets), see Figure~\ref{fig:PFturnOns}.
+Therefore, \ac{PF} jets, made of reconstructed particles, are much closer to \added{hadron-level} jets made of simulated, \ac{MC} generated particles than those that rely just on calorimeter information alone (such as Calo jets), see Figure~\ref{fig:PFturnOns}.
 \ac{PF} jets consequently have excellent position and energy resolution. 
-Jet momentum resolution, defined as the ratio $(\pt^{\mathrm{rec}} - \pt^{\mathrm{gen}})/\pt^{\mathrm{gen}}$, (where ``rec'' is for reconstructed, i.e. \ac{PF} or Calo jets, and ``gen'' is for jets taken from simulation) 
-is shown in Figure~\ref{fig:PFmomRes}.
-It is because of the excellent performance of the \ac{PF} algorithm, as input to the anti-k$_{\mathrm{t}}$ that it is used most commonly across \ac{CMS} analyses, including in the analysis presented in this thesis.
+Jet momentum resolution, defined as the ratio $(\pt^{\mathrm{rec}} - \pt^{\mathrm{gen}})/\pt^{\mathrm{gen}}$ is shown in Figure~\ref{fig:PFmomRes}. 
+Here. ``rec'' is for jets taken from \added{hadron-level} simulation, i.e. \ac{PF} or Calo jets, and ``gen'' is for \added{parton-level jets taken from simulation} \deleted{jets taken from simulation}.
+It is because of the excellent performance of the \ac{PF} algorithm, as input to the anti-k$_{\mathrm{t}}$ algorithm, that it is used most commonly across \ac{CMS} analyses, including in the analysis presented in this thesis.
 
 %picture
 \begin{figure}[htbp]
@@ -472,24 +545,32 @@ It is because of the excellent performance of the \ac{PF} algorithm, as input to
   \begin{center}
   \includegraphics[width=0.33\textwidth, angle =90]{Figures/detector/MomResPFjetCaloJet_lowPt.pdf}
   \includegraphics[width=0.33\textwidth, angle =90]{Figures/detector/MomResPFjetCaloJet_highPt.pdf}
-  \caption{The momentum resolution, $(\pt^{\mathrm{rec}} - \pt^{\mathrm{gen}})/\pt^{\mathrm{gen}}$ of \ac{PF} jets, and Calo jets, for low energy jets ($40~\GeV<\pt<60~\GeV$) (left) and for high momentum jets ($300~\GeV<\pt<400~\GeV$) (right) in the barrel region, taken from~\cite{PFT-09-001}. Not only are the peaks sharper for \ac{PF} jets, meaning a smaller (and therefore better) overall momentum resolution, but it is also peaking much closer to zero, meaning the jet measurement is much closer to the generated jet momentum.}
+  \caption{The momentum resolution, 
+  $(\pt^{\text{rec}} - \pt^{\text{gen}})/\pt^{\text{gen}}$ of \ac{PF} jets, and Calo jets, for low energy jets ($40~\GeV<\pt<60~\GeV$) (left) and for high momentum jets ($300~\GeV<\pt<400~\GeV$) (right) in the barrel region, taken from~\cite{PFT-09-001}. Not only are the peaks sharper for \ac{PF} jets, meaning a smaller (and therefore better) overall momentum resolution, but it is also peaking much closer to zero, meaning the jet measurement is much closer to the generated jet momentum.}
   \label{fig:PFmomRes}
   \end{center}
 \end{figure}
 
 
-\subsection{Missing Transverse Energy}
+\subsection{Missing transverse \replaced{momentum}{energy}}
 
 As discussed in the previous sections, \ac{CMS} is nearly hermetic, has coverage up to $|\eta| = 5$ and excellent particle reconstruction; a very complete picture of each event is available. 
-As such, is it very well suited to make measurements of weakly interacting particles, such as neutrinos, that do not leave any trace within any subsystem of the detector; and are only evident through an imbalance of transverse momentum.
+As such, is it very well suited to make measurements of weakly interacting particles, such as neutrinos, that do not leave any trace within any subsystem of the detector; and are only evident through an imbalance of \deleted{transverse} momentum.
+\added{
+This momentum balance is evident in the transverse plane, that is, in the plane perpendicular to that of the beam, as discussed in Section~\ref{sec:CMS}. 
+Due to the unknown momenta of the initial colliding partons, as the proton is a non-fundamental particle, we are unable to conserve momentum in the direction of the beam. 
+We are, however, able to conserve momentum in the transverse plane; it sums vectorially to zero.
+}
 New physics processes, such as R-parity conserving \ac{SUSY}, would also lead to signatures involving a large imbalance in transverse momentum as the weakly interacting \ac{LSP} exits the detector. \ac{DM} production would also lead to such a signature.
-Measurements of missing transverse energy and momentum are therefore crucial to the search for new physics at \ac{CMS}, as they have been crucial in previous discoveries --- for example of the W boson~\cite{bib:Wdiscovery}, and in searches for other processes~\cite{Albajar:173124,Albajar:173125}. 
+Measurements of missing transverse energy and momentum are therefore crucial to the search for new physics at \ac{CMS}, as they have been crucial in previous discoveries --- for example of the W boson~\cite{bib:Wdiscovery}, and in searches for other related processes~\cite{Albajar:173124,Albajar:173125}. 
 
-The missing transverse energy vector, $\METv$ is formed by adding the transverse energy vectors $\sum \ETv$ of all the particles formed in an event. The missing transverse energy vector $\METv = - \sum \ETv$, where $|\METv| = \MET = |\sum \ETv|$; i.e., it is equal in magnitude and opposite in direction to the total visible energy in the event.
+The missing transverse \replaced{momentum}{energy} vector, $\METv$ is formed by adding the transverse \replaced{momentum}{energy} vectors $\sum \ptv$ of all the particles formed in an event. The missing transverse \replaced{momentum}{energy} vector $\METv = - \sum \ptv$, where $|\METv| = \MET = |\sum \ptv|$; i.e., it is equal in magnitude and opposite in direction to the total visible \replaced{momentum}{energy} in the event. 
+\added{It is worth noting that the missing transverse momentum is often written as the missing transverse energy, \ensuremath{\vec{E}_{\text{T}}^{\text{miss}}}. 
+Although technically wrong, as energy is not a vector quantity, the two are used interchangeably as any masses involved are negligable and we usually take the magnitude of the transverse momentum vector, a scalar quantity.}
 In an analogous way to jets (and usually using such jets), $\MET$ can be built using various algorithms. 
 Calorimeter (Calo) \MET, in the same way as Calo jets, is built from calorimeter information alone while
 \ac{PF} \MET is calculated from all of the transverse energies of reconstructed particles in an event. 
-In a similar way to the jet algorithms, a better resolution is achieved using the \ac{PF} algorithm over calorimeter information alone, see Figure~\ref{fig:PFMET}
+In a similar way to the jet algorithms, a better resolution is achieved using the \ac{PF} algorithm over calorimeter information alone, see Figure~\ref{fig:PFMET}. 
 However, because energy measurements of particle flow objects are driven by calorimeter resolution, particularly for large \ET objects, the improvement is less marked.
 In the analysis presented in this thesis, \ac{PF} \MET is used, where any muons present have been removed from the  calculation. It therefore mimics Calo \MET, only with an enhanced resolution. 
 
@@ -497,7 +578,8 @@ In the analysis presented in this thesis, \ac{PF} \MET is used, where any muons 
 \begin{figure}[htbp]
   \begin{center}
   \includegraphics[width=0.53\textwidth, angle =90]{Figures/detector/METresPF.pdf}
-  \caption{The momentum resolution, $(E^{\mathrm{miss}}_{T,rec} - E^{\mathrm{miss}}_{T,\mathrm{gen}})/E^{\mathrm{miss}}_{T,\mathrm{gen}}$ of \ac{PF} and Calo \MET, taken from~\cite{PFT-09-001}. An improved resolution is seen using the \ac{PF} algorithm, particularly at low values of \MET. At higher \MET values, energy measurements are dominated by the calorimeter resolution and values using the two different methods converge.}
+  \caption{The missing transverse momentum resolution, 
+  $(p^{\mathrm{miss}}_{\mathrm{T,rec}} - p^{\mathrm{miss}}_{\mathrm{T,gen}})/p^{\mathrm{miss}}_{\mathrm{T,gen}}$ of \ac{PF} and Calo \MET, taken from~\cite{PFT-09-001}. An improved resolution is seen using the \ac{PF} algorithm, particularly at low values of \MET. At higher \MET values, energy measurements are dominated by the calorimeter resolution and values using the two different methods converge.}
   \label{fig:PFMET}
   \end{center}
 \end{figure}
@@ -509,14 +591,14 @@ On the basis of an input or seed from the muon systems, the software only recons
 This means that only a very small part (typically a few percent) of the tracker volume must be processed to reconstruct a muon; thereby speeding up the procedure and reducing the CPU power necessary to process an event.
 
 Muon reconstruction has three stages: local, standalone and global reconstruction.
-Starting with a seed which defines a region of interest, which could be from the \ac{L1} Trigger seeds (from the \ac{RPC}) or from patterns of hits found in the \ac{CSC} and/or \ac{DT},
+Starting with a seed which defines a region of interest, which could be from the \ac{L1} Trigger seeds (from the \ac{RPC}) or from patterns of hits found in the \ac{CSC} and/or \ac{DT}s,
 a local reconstruction is performed in surrounding compatible muon chambers.
 The standalone reconstruction uses information from just the muon system;
 measurements of track position, momentum and direction of travel are taken, and extrapolated to the nominal interaction point. 
 Global reconstruction then extends the resulting muon trajectories to include hits in the silicon tracker. A track is extrapolated from the innermost muon chamber to the outer tracker surface, and compatible silicon layers determined.
 Candidates for the muon trajectory are built from pairs of hits in separate layers of the tracker 
-and $\chi^{2}$ of the fit is used to ensure a ``good'' muon candidate; to detect any bremsstrahlung or significant energy loss. 
-High energy muons present particular difficulty as they suffer huge energy loss and severe electromagnetic showers in the muon system; the $\chi^{2}$ probability of the fit compared to the the $\chi^{2}$ probability of the tracker only trajectory allows accurate momentum reconstruction of such objects. 
+and the $\chi^{2}$ of the fit is used to ensure a ``good'' muon candidate; to detect any bremsstrahlung or significant energy loss. 
+High energy muons present particular difficulty as they suffer huge energy loss and \replaced{undergo large}{severe} electromagnetic showers in the muon system; the $\chi^{2}$ probability of the fit compared to the $\chi^{2}$ probability of the tracker only trajectory allows accurate momentum reconstruction of such objects. 
 
 %\subsection{Electrons}
 
@@ -546,7 +628,7 @@ High energy muons present particular difficulty as they suffer huge energy loss 
 %Crucial to the successful operation of \ac{CMS} is the trigger. 
 The pp interaction cross section is 100~\mb, while for example, the W boson production cross section is some 6 orders of magnitude less than this, and the rare physics processes that \ac{CMS} was built to search for, such as Higgs boson and \ac{SUSY} production, many times smaller still; see Figure~\ref{fig:ppCrossSec}.
 The \ac{LHC} delivers an unprecedentedly high instantaneous luminosity so that such rare physics processes occur, but this also implies that the vast majority of the collisions result in `uninteresting' physics: namely relatively low energy, soft scattering events.
-It would be impossible to record the very high volumes of data that come out of \ac{CMS}, some PB s$^{-1}$, and not useful to do so.
+It would be impossible to record the very high volumes of data that come out of \ac{CMS}, some Petabytes per second, and not useful to do so.
 Therefore, a very efficient method of recording those events that appear `interesting'
 is necessary.% to reduce the 40~\MHz event rate to a more manageable 100~\Hz.
 %The two-tier trigger system fulfills this role, via a hardware based online \ac{L1} an software based offline \ac{HLT}.% and is described in Section~\ref{sec:CMStrig}.
@@ -555,38 +637,39 @@ is necessary.% to reduce the 40~\MHz event rate to a more manageable 100~\Hz.
 \begin{figure}[htbp]
   \begin{center}
   \includegraphics[width=0.49\textwidth]{Figures/detector/ppCrossSections}
-  \caption{Inclusive pp cross sections (\sigma) for basic and rarer physics processes, showing some of the phenomena on the physics programme at~\ac{CMS}. Shown on the right are the interaction rates for \ac{LHC} design luminosity, \designLumi. Taken from~\cite{Cittolin:578006}.
+  \caption{Inclusive pp cross sections (\sigma) for basic and rarer physics processes, showing some of the phenomena on the physics programme at~\ac{CMS}. Shown on the right are the interaction rates for \ac{LHC} design luminosity, \designLumi~\cite{Cittolin:578006}.
 }
   \label{fig:ppCrossSec}
   \end{center}
 \end{figure}
 
 A two tier trigger system reduces the 40~\MHz \ac{LHC} bunch crossing rate to an output of 100~\Hz, which is then saved offline to be reconstructed ready for physics analysis. 
-The hardware based \ac{L1} uses fast algorithms with coarse inputs from the calorimeter and muon system to efficiently select, online (that is at the same rate as \ac{LHC} bunch crossings),
- those events that appear interesting, reducing the 40~\MHz collision rate to 100~\kHz.
+The hardware based \ac{L1} trigger uses fast algorithms with coarse inputs from the calorimeter and muon system to efficiently select, online (that is at the same rate as \ac{LHC} bunch crossings),
+ those events that appear interesting. 
+ This reduces the 40~\MHz collision rate to 100~\kHz.
 A software based \ac{HLT} running on the event filter PC farm at Point 5 takes the output of the \ac{L1} trigger and reduces it further to 100~\Hz, using more sophisticated inputs and algorithms.
 Performance of the subdetectors and readiness to collect data, monitored by the \ac{DAQ} system, is supervised by the trigger control system.
 Events passing \ac{HLT} selection requirements are sent to the \ac{CERN} Computing Centre where complex algorithms using all the information from the \ac{CMS} detector are used to fully reconstruct the event.
 More information on the~\ac{CMS} trigger can be found in Ref.~\cite{Cittolin:578006}.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\subsection{The L1 Trigger}
+\subsection{The L1 trigger}
 Low granularity inputs from the calorimeter and muon system are used to quickly select possibly interesting events, based on predefined and programmable algorithms and criteria.
 Parts of the hardware are \ac{FPGA} based, allowing some flexibility in algorithms, while other parts are \ac{ASIC} based, with predefined criteria.
 Events are selected if they show signs of interesting physics; for example have jets, electrons/photons, or muons. 
 Global quantities such as total transverse energy and total missing transverse energy are also used.  
 In order to see if an event contains any of these physics objects above a pre-defined energy threshold or multiplicity, 
-the L1 trigger is separated into the Calorimeter Trigger, which looks for jets, photons and electrons, and the Muon Trigger, which looks for muons. 
+the \ac{L1} trigger is separated into the Calorimeter Trigger, which looks for jets, photons and electrons, and the Muon Trigger, which looks for muons. 
 Global quantities are computed at the \ac{GT} and combined with information from the Calorimeter and Muon triggers, 
 and here a decision is made to keep or reject an event.
 
 In the Calorimeter Trigger, information from the \ac{ECAL}, \ac{HCAL} and \ac{HF} are combined.
 First, the calorimeter is split into different (geographical) regions, and electron, photon and jet finding algorithms run on the separate parts of the subdetectors at the \ac{RCT}.
-Information from the different regions is then combined at the \ac{GCT}.%, where overlaps in the regions are dealt with.
+Information from the different regions is then combined \replaced{in}{at} the \ac{GCT}. %, where overlaps in the regions are dealt with.
 In the Muon Trigger, information from the \ac{DT}, \ac{CSC} and \ac{RPC} are combined.  
-Muon track finding algorithms are applied to data from the \ac{DT} and \ac{CSC} at the \ac{RMT},
+Muon track finding algorithms are applied to data from the \ac{DT} and \ac{CSC} \replaced{in}{at} the \ac{RMT},
 and the \ac{GMT} combines information from all of the three subdetectors to get an enhanced resolution.
-Inputs from the \ac{GCT} and \ac{GMT} are then combined at the \ac{GT}, 
+Inputs from the \ac{GCT} and \ac{GMT} are then combined \replaced{in}{at} the \ac{GT}, 
 where the decision to keep or discard an event is made.
 The architecture of the L1 trigger is shown in Figure~\ref{fig:L1triggerArch}.
 
@@ -609,24 +692,24 @@ The decisions on the rest of the bunch crossings follow at the rate of collision
 A \ac{L1} accept decision is based upon the results of the various physics object reconstruction algorithms.
 Typically, every physics analysis has a type of event it is searching for; a particular topology. 
 For example, the monojet analysis looks for events with a final state of one high \pt jet and large missing transverse energy. 
-At L1, it requires the global variable of an event, total missing transverse energy, above 36, 40 or 50 in \ac{L1} units of energy.
+At L1, it requires the global variable \deleted{of an event, total} missing transverse \replaced{momentum to be }{energy} above 36, 40 or 50 in \ac{L1} units of energy.
 A L1 trigger menu, comprised of all of the required \ac{L1} seeds for the whole physics programme at \ac{CMS}, gives a certain bandwidth to each of the seeds. A low threshold seed will typically demand a large amount of bandwidth as more events are likely to be lower in energy, whereas a high threshold will require a lower bandwidth. 
 Combined, the output to the \ac{HLT} of all of the \ac{L1} seeds in the trigger menu must not exceed the design rate of 100~\kHz.%, limited by the amount of data the \ac{HLT} can process.
 
 
-\subsection{The High Level Trigger}
+\subsection{The high level trigger}
 
 When an event is accepted by the \ac{L1} trigger, the full detector information for that event (consisting of around 1~MB of data) is passed onto the \ac{HLT}.
 On the event filter farm, which consists of over 1000 PC's, all of the detector information for each event is processed.
 Information not available at \ac{L1} becomes available. 
 The additional computing power and longer time scales mean the full granularity of the calorimeter and tracker information 
-(as well as \ac{L1} objects), can be used as inputs to more complex algorithms.
+(as well as \ac{L1} objects) can be used as inputs to more complex algorithms.
 As a result, much more stringent requirements are used to select events of interest, creating datasets which are used for offline analysis.
 
 
 An analysis will typically use more than one \ac{HLT} trigger, and similarly more than one analysis might use the same trigger (and an event pass more than one trigger).
 For example, the monojet analysis %which searches for events which have one high momentum jet and large missing transverse energy,
-uses a combination of three triggers which demand large missing transverse energy in every event, or a single high momentum jet in addition to large missing transverse energy.
+uses a combination of three triggers which demand large missing transverse momentum in every event, or a single high momentum jet in addition to large missing transverse momentum.
 % The monojet analysis, which searches for events which have one high momentum jet and large missing transverse energy, uses the triggers (or ``paths'')  
 % \textsc{\small HLT\_MET120\_HBHENoiseCleaned}
 % and
@@ -640,7 +723,8 @@ This allows events with a monojet topology to be selected efficiently; further k
 Similarly, every physics analysis uses a trigger (or triggers) suited to the topology under investigation.
 
 
-In the same way that there is a \ac{L1} trigger menu, there is also a \ac{HLT} menu 
+In the same way that there is a \ac{L1} trigger menu, there is also an \ac{HLT} menu 
 comprised of all of the \ac{HLT} trigger paths, and the bandwidths they require, which meets the needs of all of the physics analyses at \ac{CMS}.
-The total bandwidth of the \ac{HLT} menu must not exceed 100~\Hz or 100 events saved offline per second, limited by the resources necessary to process and store events; namely \ac{CPU}s and disk space available.
+The total bandwidth of the \ac{HLT} menu must not exceed 100~\Hz or 100 events saved offline per second; it is limited by the resources necessary to process and store events, namely the number of \ac{CPU}s and the disk space available.
 
+\clearpage

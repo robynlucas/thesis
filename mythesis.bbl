@@ -75,14 +75,41 @@ Submitted to {\it JHEP}.
   fields'',} \textit{ Nuclear Physics B} \textbf{ 35} (1971)
   \href{http://dx.doi.org/http://dx.doi.org/10.1016/0550-3213(71)90139-8}{\doi{http://dx.doi.org/10.1016/0550-3213(71)90139-8}}.
 
+\bibitem{Higgs1964132}
+\hrefCMSnoop {} {P.~W. Higgs, ``Broken symmetries, massless particles and gauge
+  fields'',} \textit{ Physics Letters} \textbf{ 12} (1964), no.~2, 132--133,
+  \href{http://dx.doi.org/http://dx.doi.org/10.1016/0031-9163(64)91136-9}{\doi{http://dx.doi.org/10.1016/0031-9163(64)91136-9}}.
+
+\bibitem{PhysRevLett.13.321}
+\hrefCMSnoop {} {F.~Englert and R.~Brout, ``Broken Symmetry and the Mass of
+  Gauge Vector Mesons'',} \textit{ Phys. Rev. Lett.} \textbf{ 13} (Aug, 1964)
+  321--323,
+  \href{http://dx.doi.org/10.1103/PhysRevLett.13.321}{\doi{10.1103/PhysRevLett.13.321}}.
+
 \bibitem{PhysRevLett.13.508}
-\hrefCMSnoop {} {P.~Higgs, ``Broken Symmetries and the Masses of Gauge
+\hrefCMSnoop {} {P.~W. Higgs, ``Broken Symmetries and the Masses of Gauge
   Bosons'',} \textit{ Phys. Rev. Lett.} \textbf{ 13} (Oct, 1964) 508--509,
   \href{http://dx.doi.org/10.1103/PhysRevLett.13.508}{\doi{10.1103/PhysRevLett.13.508}}.
 
+\bibitem{PhysRevLett.13.585}
+\hrefCMSnoop {} {G.~S. Guralnik, C.~R. Hagen, and T.~W.~B. Kibble, ``Global
+  Conservation Laws and Massless Particles'',} \textit{ Phys. Rev. Lett.}
+  \textbf{ 13} (Nov, 1964) 585--587,
+  \href{http://dx.doi.org/10.1103/PhysRevLett.13.585}{\doi{10.1103/PhysRevLett.13.585}}.
+
+\bibitem{PhysRev.145.1156}
+\hrefCMSnoop {} {P.~W. Higgs, ``Spontaneous Symmetry Breakdown without Massless
+  Bosons'',} \textit{ Phys. Rev.} \textbf{ 145} (May, 1966) 1156--1163,
+  \href{http://dx.doi.org/10.1103/PhysRev.145.1156}{\doi{10.1103/PhysRev.145.1156}}.
+
+\bibitem{PhysRev.155.1554}
+\hrefCMSnoop {} {T.~W.~B. Kibble, ``Symmetry Breaking in Non-Abelian Gauge
+  Theories'',} \textit{ Phys. Rev.} \textbf{ 155} (Mar, 1967) 1554--1561,
+  \href{http://dx.doi.org/10.1103/PhysRev.155.1554}{\doi{10.1103/PhysRev.155.1554}}.
+
 \bibitem{HalzenMartin}
-A.~D.~M. F.~Halzen, ``Quarks and Leptons: An Introductory Course in Modern
-  Particle Physics''.
+F.~Halzen and A.~D. Martin, ``Quarks and Leptons: An Introductory Course in
+  Modern Particle Physics''.
 \newblock John Wiley and Sons, Philadelphia, 1984.
 
 \bibitem{superK}
@@ -263,6 +290,51 @@ A.~D.~M. F.~Halzen, ``Quarks and Leptons: An Introductory Course in Modern
   \textbf{ 87} (Jul, 2001) 071301,
   \href{http://dx.doi.org/10.1103/PhysRevLett.87.071301}{\doi{10.1103/PhysRevLett.87.071301}}.
 
+\bibitem{Fukuda:1998ub}
+\hrefCMSnoop {} {{ Super-Kamiokande} Collaboration, ``{Study of the atmospheric
+  neutrino flux in the multi-GeV energy range}'',} \textit{ Phys.Lett.}
+  \textbf{ B436} (1998) 33--41,
+  \href{http://dx.doi.org/10.1016/S0370-2693(98)00876-4}{\doi{10.1016/S0370-2693(98)00876-4}},
+\href{http://www.arXiv.org/abs/hep-ex/9805006}{\texttt{ arXiv:hep-ex/9805006}}.
+%%CITATION = HEP-EX/9805006;%%.
+
+\bibitem{PhysRevLett.81.1562}
+\hrefCMSnoop {} {{ Super-Kamiokande} Collaboration, ``Evidence for Oscillation
+  of Atmospheric Neutrinos'',} \textit{ Phys. Rev. Lett.} \textbf{ 81} (Aug,
+  1998) 1562--1567,
+  \href{http://dx.doi.org/10.1103/PhysRevLett.81.1562}{\doi{10.1103/PhysRevLett.81.1562}}.
+
+\bibitem{An:2012eh}
+\hrefCMSnoop {} {{ Daya Bay} Collaboration, ``{Observation of
+  electron-antineutrino disappearance at Daya Bay}'',} \textit{ Phys.Rev.Lett.}
+  \textbf{ 108} (2012) 171803,
+  \href{http://dx.doi.org/10.1103/PhysRevLett.108.171803}{\doi{10.1103/PhysRevLett.108.171803}},
+\href{http://www.arXiv.org/abs/1203.1669}{\texttt{ arXiv:1203.1669}}.
+%%CITATION = ARXIV:1203.1669;%%.
+
+\bibitem{1674-1137-37-1-011001}
+\href {http://stacks.iop.org/1674-1137/37/i=1/a=011001} {{ Daya Bay}
+  Collaboration, ``Improved measurement of electron antineutrino disappearance
+  at Daya Bay'',} \textit{ Chinese Physics C} \textbf{ 37} (2013), no.~1,
+  011001.
+
+\bibitem{Abe:2013hdq}
+\hrefCMSnoop {} {{ T2K} Collaboration, ``{Observation of Electron Neutrino
+  Appearance in a Muon Neutrino Beam}'',} \textit{ Phys.Rev.Lett.} \textbf{
+  112} (2014) 061802,
+  \href{http://dx.doi.org/10.1103/PhysRevLett.112.061802}{\doi{10.1103/PhysRevLett.112.061802}},
+\href{http://www.arXiv.org/abs/1311.4750}{\texttt{ arXiv:1311.4750}}.
+%%CITATION = ARXIV:1311.4750;%%.
+
+\bibitem{Abe:2015awa}
+\hrefCMSnoop {} {{ T2K} Collaboration, ``{Measurements of neutrino oscillation
+  in appearance and disappearance channels by the T2K experiment with
+  6.6×10$^{20}$ protons on target}'',} \textit{ Phys.Rev.} \textbf{ D91}
+  (2015), no.~7, 072010,
+  \href{http://dx.doi.org/10.1103/PhysRevD.91.072010}{\doi{10.1103/PhysRevD.91.072010}},
+\href{http://www.arXiv.org/abs/1502.01550}{\texttt{ arXiv:1502.01550}}.
+%%CITATION = ARXIV:1502.01550;%%.
+
 \bibitem{GalRotCurves}
 \hrefCMSnoop {} {E.~Corbelli and P.~Salucci, ``The extended rotation curve and
   the dark matter halo of M33'',} \textit{ MNRAS} \textbf{ 311} (2000), no.~2,
@@ -403,6 +475,30 @@ A.~D.~M. F.~Halzen, ``Quarks and Leptons: An Introductory Course in Modern
   \href{http://dx.doi.org/10.1007/978-1-4615-5963-4_2}{\doi{10.1007/978-1-4615-5963-4_2}},
 \href{http://www.arXiv.org/abs/hep-ph/9612229}{\texttt{ arXiv:hep-ph/9612229}}.
 %%CITATION = HEP-PH/9612229;%%.
+
+\bibitem{Haber:1993wf}
+\hrefCMSnoop {} {H.~E. Haber, ``{Introductory low-energy supersymmetry}'',}
+\href{http://www.arXiv.org/abs/hep-ph/9306207}{\texttt{ arXiv:hep-ph/9306207}}.
+%%CITATION = HEP-PH/9306207;%%.
+
+\bibitem{ATLAS:2012kr}
+\hrefCMSnoop {} {{ ATLAS} Collaboration, ``{Search for R-parity-violating
+  supersymmetry in events with four or more leptons in $\sqrt{s}=7$ TeV $pp$
+  collisions with the ATLAS detector}'',} \textit{ JHEP} \textbf{ 1212} (2012)
+  124,
+  \href{http://dx.doi.org/10.1007/JHEP12(2012)124}{\doi{10.1007/JHEP12(2012)124}},
+\href{http://www.arXiv.org/abs/1210.4457}{\texttt{ arXiv:1210.4457}}.
+%%CITATION = ARXIV:1210.4457;%%.
+
+\bibitem{CMS-PAS-SUS-13-003}
+\href {http://cds.cern.ch/record/1525539} {{ CMS Collaboration} Collaboration,
+  ``{Search for light stop RPV supersymmetry with three or more leptons and
+  b-tags}'',} Technical Report CMS-PAS-SUS-13-003, CERN, Geneva, (2013).
+
+\bibitem{CMS:2013qda}
+\hrefCMSnoop {} {{ CMS} Collaboration,
+``{Search for RPV SUSY in the four-lepton final state}'',}.
+%%CITATION = CMS-PAS-SUS-13-010 ETC.;%%.
 
 \bibitem{GUT}
 \hrefCMSnoop {} {S.~Dimopoulos, S.~Raby, and F.~Wilczek, ``{Supersymmetry and
@@ -607,6 +703,13 @@ A.~D.~M. F.~Halzen, ``Quarks and Leptons: An Introductory Course in Modern
 \href{http://www.arXiv.org/abs/1305.1313}{\texttt{ arXiv:1305.1313}}.
 %%CITATION = ARXIV:1305.1313;%%.
 
+\bibitem{Casas:2014eca}
+\hrefCMSnoop {} {J.~A. Casas, J.~M. Moreno, S.~Robles{ et~al.}, ``{What is a
+  Natural SUSY scenario?}'',} \textit{ JHEP} \textbf{ 1506} (2015) 070,
+  \href{http://dx.doi.org/10.1007/JHEP06(2015)070}{\doi{10.1007/JHEP06(2015)070}},
+\href{http://www.arXiv.org/abs/1407.6966}{\texttt{ arXiv:1407.6966}}.
+%%CITATION = ARXIV:1407.6966;%%.
+
 \bibitem{WMAP2003}
 \hrefCMSnoop {} {{ WMAP Collaboration} Collaboration, ``{First year Wilkinson
   Microwave Anisotropy Probe (WMAP) observations: Determination of cosmological
@@ -668,6 +771,11 @@ A.~D.~M. F.~Halzen, ``Quarks and Leptons: An Introductory Course in Modern
   095006,
   \href{http://dx.doi.org/10.1103/PhysRevD.61.095006}{\doi{10.1103/PhysRevD.61.095006}}.
 
+\bibitem{bib:LHC}
+\href {http://stacks.iop.org/1748-0221/3/i=08/a=S08001} {L.~Evans and
+  P.~Bryant, ``LHC Machine'',} \textit{ Journal of Instrumentation} \textbf{ 3}
+  (2008), no.~08, S08001.
+
 \bibitem{Aamodt:2008zz}
 \hrefCMSnoop {} {{ ALICE} Collaboration, ``{The ALICE experiment at the CERN
   LHC}'',} \textit{ JINST} \textbf{ 3} (2008) S08002,
@@ -680,9 +788,9 @@ A.~D.~M. F.~Halzen, ``Quarks and Leptons: An Introductory Course in Modern
 \href{http://dx.doi.org/10.1088/1748-0221/3/08/S08003}{\doi{10.1088/1748-0221/3/08/S08003}}.
 %%CITATION = JINST,3,S08003;%%.
 
-\bibitem{Chatrchyan:2008aa}
-\hrefCMSnoop {} {{ CMS} Collaboration, ``{The CMS experiment at the CERN
-  LHC}'',} \textit{ JINST} \textbf{ 3} (2008) S08004,
+\bibitem{Chatrchyan:2008zzk}
+\hrefCMSnoop {} {{ CMS} Collaboration, ``The {CMS} experiment at the {CERN}
+  {LHC}'',} \textit{ JINST} \textbf{ 3} (2008) S08004,
 \href{http://dx.doi.org/10.1088/1748-0221/3/08/S08004}{\doi{10.1088/1748-0221/3/08/S08004}}.
 %%CITATION = JINST,3,S08004;%%.
 
@@ -692,10 +800,23 @@ A.~D.~M. F.~Halzen, ``Quarks and Leptons: An Introductory Course in Modern
 \href{http://dx.doi.org/10.1088/1748-0221/3/08/S08005}{\doi{10.1088/1748-0221/3/08/S08005}}.
 %%CITATION = JINST,3,S08005;%%.
 
+\bibitem{HiggsEvidence}
+\hrefCMSnoop {} {{ CMS} Collaboration, ``{Evidence for the direct decay of the
+  125 GeV Higgs boson to fermions}'',} \textit{ Nature Phys.} \textbf{ 10}
+  (2014) 557--560,
+  \href{http://dx.doi.org/10.1038/nphys3005}{\doi{10.1038/nphys3005}},
+\href{http://www.arXiv.org/abs/1401.6527}{\texttt{ arXiv:1401.6527}}.
+%%CITATION = ARXIV:1401.6527;%%.
+
+\bibitem{Tapper:1556311}
+\hrefCMSnoop {} {{ CMS} Collaboration, ``{CMS Technical Design Report for the
+  Level-1 Trigger Upgrade}'',} Technical Report CERN-LHCC-2013-011. CMS-TDR-12,
+  CERN, Geneva, (Jun, 2013).
+
 \bibitem{TDRVOL1}
-\hrefCMSnoop {} {{ CMS} Collaboration, ``{CMS Physics: Technical Design Report
-  Volume 1: Detectornce and Software}'',} technical design report cms, CERN,
-  (2006).
+\href {https://cds.cern.ch/record/922757} {{ CMS} Collaboration, ``{CMS
+  Physics: Technical Design Report Volume 1: Detector Performance and
+  Software}'',} technical design report cms, CERN, (2006).
 
 \bibitem{bib:akjets}
 \hrefCMSnoop {} {M.~Cacciari, G.~P. Salam, and G.~Soyez, ``The
@@ -741,27 +862,14 @@ A.~D.~M. F.~Halzen, ``Quarks and Leptons: An Introductory Course in Modern
   Design Report, Volume 2: Data Acquisition and High-Level Trigger. CMS trigger
   and data-acquisition project}'',} technical report, Geneva, (2002).
 
-\bibitem{HiggsEvidence}
-\hrefCMSnoop {} {{ CMS} Collaboration, ``{Evidence for the direct decay of the
-  125 GeV Higgs boson to fermions}'',} \textit{ Nature Phys.} \textbf{ 10}
-  (2014) 557--560,
-  \href{http://dx.doi.org/10.1038/nphys3005}{\doi{10.1038/nphys3005}},
-\href{http://www.arXiv.org/abs/1401.6527}{\texttt{ arXiv:1401.6527}}.
-%%CITATION = ARXIV:1401.6527;%%.
-
-\bibitem{Tapper:1556311}
-\hrefCMSnoop {} {{ CMS} Collaboration, ``{CMS Technical Design Report for the
-  Level-1 Trigger Upgrade}'',} Technical Report CERN-LHCC-2013-011. CMS-TDR-12,
-  CERN, Geneva, (Jun, 2013).
-
-\bibitem{RoseTrig}
-\hrefCMSnoop {} {A.~Rose, G.~Iles, A.~Tapper{ et~al.}, ``Calorimeter Trigger
-  Layer 2 Design and Status'',} (2013). EDR Presentation.
-
 \bibitem{TMT_dem}
 \href {http://stacks.iop.org/1748-0221/7/i=01/a=C01060} {R.~Frazier, S.~Fayer,
   G.~Hall{ et~al.}, ``A demonstration of a Time Multiplexed Trigger for the CMS
   experiment'',} \textit{ JINST} \textbf{ 7} (2012), no.~01, C01060.
+
+\bibitem{RoseTrig}
+\hrefCMSnoop {} {A.~Rose, G.~Iles, A.~Tapper{ et~al.}, ``Calorimeter Trigger
+  Layer 2 Design and Status'',} (2013). EDR Presentation.
 
 \bibitem{1748-0221-9-01-C01006}
 \href {http://stacks.iop.org/1748-0221/9/i=01/a=C01006} {M.~Baber, M.~Blake,
@@ -1062,6 +1170,59 @@ Submitted to \textit{JINST}.
   distributions of charged hadrons in pp collisions at $\sqrt{s} = 0.9$ and
   2.36 {TeV}'',} \textit{ JHEP} \textbf{ 02} (2010) 041,
   \href{http://dx.doi.org/10.1007/JHEP02(2010)041}{\doi{10.1007/JHEP02(2010)041}}.
+
+\bibitem{Kidonakis:2010dk}
+\hrefCMSnoop {} {N.~Kidonakis, ``Next-to-next-to-leading Soft-Gluon Corrections
+  for the Top Quark Cross Section and Transverse Momentum Distribution'',}
+  \textit{ Phys. Rev. D} \textbf{ 82} (2010) 114030,
+  \href{http://dx.doi.org/10.1103/PhysRevD.82.114030}{\doi{10.1103/PhysRevD.82.114030}},
+\href{http://www.arXiv.org/abs/1009.4935}{\texttt{ arXiv:1009.4935}}.
+%%CITATION = 1009.4935;%%.
+
+\bibitem{Melnikov:2006kv}
+\hrefCMSnoop {} {K.~Melnikov and F.~Petriello, ``{Electroweak Gauge Boson
+  Production at hadron colliders through $O(\alpha(s)^2)$}'',} \textit{ Phys.
+  Rev. D} \textbf{ 74} (2006) 114017,
+  \href{http://dx.doi.org/10.1103/PhysRevD.74.114017}{\doi{10.1103/PhysRevD.74.114017}},
+\href{http://www.arXiv.org/abs/hep-ph/0609070}{\texttt{ arXiv:hep-ph/0609070}}.
+%%CITATION = HEP-PH/0609070;%%.
+
+\bibitem{Kidonakis:2011wy}
+\hrefCMSnoop {} {N.~Kidonakis, ``{Next-to-next-to-leading-order collinear and
+  soft gluon corrections for $t$-channel single top quark production}'',}
+  \textit{ Phys. Rev. D} \textbf{ 83} (2011) 091503,
+  \href{http://dx.doi.org/10.1103/PhysRevD.83.091503}{\doi{10.1103/PhysRevD.83.091503}},
+\href{http://www.arXiv.org/abs/1103.2792}{\texttt{ arXiv:1103.2792}}.
+%%CITATION = ARXIV:1103.2792;%%.
+
+\bibitem{xsec_WZ}
+\hrefCMSnoop {} {R.~Gavin, Y.~Li, F.~Petriello{ et~al.}, ``{W physics at the
+  LHC with FEWZ 2.1}'',} \textit{ Comput. Phys. Commun.} \textbf{ 184} (2013)
+  208,
+  \href{http://dx.doi.org/10.1016/j.cpc.2012.09.005}{\doi{10.1016/j.cpc.2012.09.005}},
+\href{http://www.arXiv.org/abs/1201.5896}{\texttt{ arXiv:1201.5896}}.
+%%CITATION = ARXIV:1201.5896;%%.
+
+\bibitem{Kidonakis:2010tc}
+\hrefCMSnoop {} {N.~Kidonakis, ``{NNLL resummation for $s$-channel single top
+  quark production}'',} \textit{ Phys. Rev. D} \textbf{ 81} (2010) 054028,
+  \href{http://dx.doi.org/10.1103/PhysRevD.81.054028}{\doi{10.1103/PhysRevD.81.054028}},
+\href{http://www.arXiv.org/abs/1001.5034}{\texttt{ arXiv:1001.5034}}.
+%%CITATION = ARXIV:1001.5034;%%.
+
+\bibitem{Kidonakis:2010ux}
+\hrefCMSnoop {} {N.~Kidonakis, ``{Two-loop soft anomalous dimensions for single
+  top quark associated production with a $\mathrm{W}^-$ or $\mathrm{H}^-$}'',}
+  \textit{ Phys. Rev. D} \textbf{ 82} (2010) 054018,
+  \href{http://dx.doi.org/10.1103/PhysRevD.82.054018}{\doi{10.1103/PhysRevD.82.054018}},
+\href{http://www.arXiv.org/abs/1005.4451}{\texttt{ arXiv:1005.4451}}.
+%%CITATION = ARXIV:1005.4451;%%.
+
+\bibitem{bib:PDF4LHC}
+\hrefCMSnoop {} {M.~Botje, J.~Butterworth, A.~Cooper-Sarkar{ et~al.}, ``{The
+  PDF4LHC Working Group Interim Recommendations}'',} (2011).
+\href{http://www.arXiv.org/abs/1101.0538}{\texttt{ arXiv:1101.0538}}.
+%%CITATION = ARXIV:1101.0538;%%.
 
 \bibitem{CMS:exoDijetRes}
 \hrefCMSnoop {} {{ CMS} Collaboration, ``{Search for narrow resonances and

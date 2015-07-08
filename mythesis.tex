@@ -1,7 +1,11 @@
 \documentclass{mythesis}
 \usepackage{mythesis}
-
 \usepackage{amsmath}
+
+%package for corrections: changes are in blue
+\usepackage{changes}
+%\usepackage[final]{changes}
+
 
 %% You can set the line spacing this way
 %\setallspacing{double}
@@ -21,6 +25,7 @@ citecolor=black,
 urlcolor=black 
 }
 }{}
+\definechangesauthor[name={Robyn Lucas}, color=orange]{per}
 \makeatother
 
 %% Define the thesis title and author
@@ -44,6 +49,18 @@ urlcolor=black
   \input{chap_l1jets}
   \input{chap_compSUSY}
   \input{chap_compSUSYresults}
+  \input{chap_summary}
+
+% This is \added[id=per,remark={we need this}]{new} text.
+% This is \added[id=per,remark={has to be in it}]{new} text.
+% This is \deleted[id=per,remark=obsolete]{unnecessary}text.
+% This is \replaced[id=per]{nice}{bad} text.
+
+% This is \added[remark={we need this}]{new} text.
+% This is \added[remark={has to be in it}]{new} text.
+% This is \deleted[remark=obsolete]{unnecessary}text.
+% This is \replaced{nice}{bad} text.
+
   %\input{chap_parkedData}
   %% To ignore a specific chapter while working on another,
   %% making the build faster, comment it out like this:
@@ -60,6 +77,8 @@ urlcolor=black
 \begin{backmatter}
   \input{backmatter}
 \end{backmatter}
+
+\listofchanges
 
 %% Close
 \end{document}

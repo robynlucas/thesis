@@ -2,49 +2,51 @@ This is BibTeX, Version 0.99d (TeX Live 2012)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: mythesis.aux
 The style file: lucas_unsrt.bst
+Reallocated field_info (elt_size=4) to 10520 items from 5000.
 Database file #1: mythesis.bib
 Warning--empty note in GUTpic
 Warning--empty institution in PFT-09-001
 Warning--empty institution in Cittolin:578006
-You've used 160 entries,
+Warning--empty note in bib:PDF4LHC
+You've used 184 entries,
             2517 wiz_defined-function locations,
-            1867 strings with 39695 characters,
-and the built_in function-call counts, 50025 in all, are:
-= -- 5445
-> -- 1279
-< -- 4
-+ -- 516
-- -- 356
-* -- 4596
-:= -- 6207
-add.period$ -- 267
-call.type$ -- 160
+            2048 strings with 46304 characters,
+and the built_in function-call counts, 58033 in all, are:
+= -- 6355
+> -- 1428
+< -- 5
++ -- 573
+- -- 389
+* -- 5303
+:= -- 7159
+add.period$ -- 307
+call.type$ -- 184
 change.case$ -- 2
 chr.to.int$ -- 0
-cite$ -- 163
-duplicate$ -- 3143
-empty$ -- 4963
-format.name$ -- 186
-if$ -- 13105
+cite$ -- 188
+duplicate$ -- 3661
+empty$ -- 5751
+format.name$ -- 213
+if$ -- 15218
 int.to.chr$ -- 0
-int.to.str$ -- 160
-missing$ -- 429
-newline$ -- 674
-num.names$ -- 83
-pop$ -- 877
+int.to.str$ -- 184
+missing$ -- 495
+newline$ -- 776
+num.names$ -- 98
+pop$ -- 1002
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1822
+skip$ -- 2159
 stack$ -- 0
-substring$ -- 1800
-swap$ -- 1342
-text.length$ -- 4
+substring$ -- 2174
+swap$ -- 1585
+text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 3
-while$ -- 257
-width$ -- 163
-write$ -- 2018
-(There were 3 warnings)
+warning$ -- 4
+while$ -- 305
+width$ -- 187
+write$ -- 2322
+(There were 4 warnings)

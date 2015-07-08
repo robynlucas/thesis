@@ -31,7 +31,7 @@ Particular emphasis is placed on the arguments for \ac{SUSY} with compressed mas
 The \ac{SM} of particle physics provides a fantastically accurate description of the fundamental particles of nature and their interactions via the strong, electromagnetic, and weak forces at the electroweak energy scale.
 It has proved itself incredibly robust during the first years of \ac{LHC} running. 
 Many high precision measurements of production cross sections (which can be understood as the number of events produced) are consistent with their loop level \ac{SM} predictions, see Figure~\ref{fig:stairwayToHeaven}, 
-which shows many different experimental measurements and theory expectations agree over 6 orders of magnitude.
+which shows many different experimental measurements and theory expectations \replaced{agreeing}{agree} over 6 orders of magnitude.
 Even very rare processes have been measured to agree with their \ac{SM} predictions: the decay $B_{S}\rightarrow \mu\mu$, very sensitive to new physics processes, has been observed at the level of three in every billion decays of the $B_{S}$ meson~\cite{BSmumuCombo}.
 Such tests of the \ac{SM} cement its place as one of the major successes of 20$^{\rm th}$ century physics.
 
@@ -50,7 +50,7 @@ It is gauge invariant, guaranteeing its renormalizability, and contains three sy
 $SU(3)_{C} \otimes SU(2)_{L} \otimes U(1)_{Y}$.
 $SU(3)$ describes the strong force, felt by coloured particles, 
 and $SU(2) \otimes U(1)$ describes the unified Electromagnetic and Weak forces, felt by particles with weak isospin and weak hypercharge. 
-The Higgs mechanism~\cite{PhysRevLett.13.508} describes the spontaneous symmetry breaking of the $SU(2) \times U(1)$ gauge symmetry which allows for massive gauge bosons in a gauge invariant way.
+The Higgs mechanism~\cite{Higgs1964132,PhysRevLett.13.321,PhysRevLett.13.508,PhysRevLett.13.585,PhysRev.145.1156,PhysRev.155.1554} describes the spontaneous symmetry breaking of the $SU(2) \otimes U(1)$ gauge symmetry which allows for massive gauge bosons in a gauge invariant way.
 The discovery of the Higgs boson~\cite{Aad:2012tfa,Chatrchyan:2012ufa} in July 2012, the mediator of the Higgs field, provided the last piece of the \ac{SM}. 
 % Here, the subscript $C$ is for colour charge,
 % $L$ is to signify only left handed fermions belong to the group, and $Y$ is for the Yukawa couplings which affect all matter.
@@ -58,7 +58,7 @@ The discovery of the Higgs boson~\cite{Aad:2012tfa,Chatrchyan:2012ufa} in July 2
 
 \subsection{Fundamental particles and forces}
 All known matter in the universe can be described by the fundamental matter particles, which can be separated into quarks -- those that feel the strong force, and leptons -- those that do not.
-Matter particles are all spin-$\frac{1}{2}$ fermions that conform to Fermi statistics and obey the Dirac equation~\footnote{The convention $c=\bar{h}=1$ is used throughout and the four vector indices are labelled $\mu$ and $\nu$.}.
+Matter particles are all spin-$\frac{1}{2}$ fermions that conform to Fermi statistics and obey the Dirac equation\footnote{The convention $c=\hbar=1$ is used throughout and the four vector indices are labelled $\mu$ and $\nu$.}:
 %
 \begin{eqnarray}
 \label{eqn:Dirac}
@@ -69,12 +69,12 @@ where $\gamma^{\mu}$ are the Dirac matrices, which are defined by their anti-com
 $\left\{ \gamma^{\mu}, \gamma^{\nu} \right\} = \gamma^{\mu} \gamma^{\nu} + \gamma^{\nu} \gamma^{\mu} = 2 \eta^{\mu\nu}I_{4}$,
 where
 $ \eta^{\mu\nu} $ is the Minkowski metric $(+, -, -, -)$, and $I_{4}$ is the four-dimensional identity matrix;
-$\delta_{\mu}$ is the covariant derivative; and $m$ is the mass of the particle.
-Repeated indices are summed over~\cite{HalzenMartin}.
+$\delta_{\mu}$ is the covariant derivative; and $m$ is the mass of the particle~\cite{HalzenMartin}.
+Repeated indices are summed over.
 
 A summary of the matter particles of the \ac{SM} can be found in Table~\ref{tab:SMfermions}. 
-A similar table exists for the antiparticles of the leptons and quarks, a consequence of Equation~\ref{eqn:Dirac}, which has both positive and negative energy solutions. 
-Rather than particles travelling backwards through time, as the negative energy solutions suggest, anti-particles are interpreted to have all of the same properties as their partner particles but with opposite charge.
+A similar table exists for the anti-particles of the leptons and quarks\replaced{. There are both positive and negative energy solutions of Equation~\ref{eqn:Dirac}, so, rather than interpreting the negative solutions as particles travelling backwards in time, }{, a consequence of Equation~\ref{eqn:Dirac}, which has both positive and negative energy solutions. 
+Rather than particles travelling backwards through time, as the negative energy solutions suggest} anti-particles are interpreted to have all of the same properties as their partner particles but with opposite charge.
 
 \begin{table}
 %\footnotesize
@@ -99,14 +99,15 @@ Generation & Particle & Mass (MeV) & Charge & Particle & Mass (MeV) & Charge \\ 
 
 %
 Leptons are fundamental, free particles in nature. 
-Conversely, quarks are fundamental but not free particles; they form hadrons: baryons, which consist of 3 quarks or anti-quarks, and mesons, a bound quark-anti-quark pair. 
-This difference is due to the colour charge that quarks carry: they interact with the strong force, resulting in colour confinement and hadronization.
-Both quarks and gluons exist in three families or generations, with each subsequent family increasing in mass.
+Conversely, quarks are fundamental but not free particles; they form hadrons: baryons, which consist of 3 quarks or anti-quarks, and mesons, a bound quark--anti-quark pair. 
+This difference is due to the colour charge that quarks carry: they interact with the strong force\added{. The force carrier of the strong force, the gluon, is both massless and self-interacting, which results} in colour confinement and hadronization. \added{Rather than separate a quark from another quark or gluon into a `free' quark, it is more 
+energetically favourable for a quark--anti-quark pair to pop out of the vacuum via the exchange of a gluon, creating a hadronization process.} 
+Both quarks and \replaced{leptons}{gluons} exist in three families or generations, with each subsequent family increasing in mass.
 Within the \ac{SM} neutrinos are massless; however neutrino oscillations observed in nature imply a non-zero mass~\cite{superK}.
 However, due to the negligible mass as compared to the other \ac{SM} particles as well as to the energy scales probed, here, and throughout, their mass is neglected.
 
 Matter particles interact via the exchange of spin-1 gauge bosons. 
-The photon ($\gamma$) mediates the electromagnetic interaction and the heavy $\W^{\pm}$ and $\Z$ bosons mediate the weak interaction, through the mixing of the gauge fields when the respective forces are unified. There are 8 colourless gluons ($g$) that mediate the strong force.
+The photon ($\gamma$) mediates the electromagnetic interaction and the heavy $\W^{\pm}$ and $\Z$ bosons mediate the weak interaction, through the mixing of the gauge fields when the respective forces are unified. There are 8 \replaced{coloured}{colourless} gluons ($g$) that mediate the strong force.
 The properties of these bosons, and similarly the properties of the interactions, are a direct result of their gauge symmetry groups, detailed in Section~\ref{th:gauge}.
 A summary of the bosons can be found in Table~\ref{tab:SMbosons}.
 %
@@ -159,13 +160,13 @@ The observation of three-jet events at PETRA~\cite{gluon:3jet1, gluon:3jet2},~\a
 
 
 
-\subsection{Gauge Symmetries \label{th:gauge}}
-Neother's theorem~\cite{bib:Noether1918} states that symmetries lead to conserved quantities in nature.
+\subsection{Gauge symmetries \label{th:gauge}}
+Noether's theorem~\cite{bib:Noether1918} states that \added{continuous} symmetries lead to conserved quantities in nature.
 If a physical process is unaffected by location or time, then its Lagrangian is symmetric under space and time translations.
 As a result, both energy and linear momentum are conserved quantities.
 If it is unaffected by spatial orientation, its Lagrangian is rotationally symmetric, leading to the conservation of angular momentum.
 The symmetries found in a Lagrangian which attempts to describe a system therefore reveal important and useful properties of that system.
-It is certainty reasonable that we should expect a theory to give the same answer 10 minutes ago as it does now; and in 10 minutes, or 10 years, or 10 millennia -- any Lagrangian which is not invariant under time transformations should perhaps be revised.
+It is certainly reasonable that we should expect a theory to give the same answer 10 minutes ago as it does now; and in 10 minutes, or 10 years, or 10 millennia -- any Lagrangian which is not invariant under time transformations should perhaps be revised\footnote{\added{Unless the Lagrangian is not symmetric under \ac{CP} symmetry: for \ac{CPT} must always be invariant.}}.
 Indeed, the conserved quantity associated with invariance under time transformations, energy, is a cornerstone of physics. 
 Energy is always conserved.
 Symmetries are therefore very powerful in forming conserved quantities, and vice versa.
@@ -224,7 +225,7 @@ $x$, and substituting in Eq.~\ref{Amugaugetransform} for the gauge transformatio
 %
 \mathcal{L}' &=& \mathcal{L} 
 \end{eqnarray}
-as the last term equates zero.
+as the last term equates to zero.
 \ac{QED} is therefore gauge invariant under a local gauge transformation, which guarantees its renormalizability as a theory.
 $A_{\mu}$ is interpreted as the massless photon field which has coupling $g=e$.
 In order to regard A$_{\mu}$ as a physical field a kinetic term must be added to the Lagrangian of Eq.~\ref{freelagrangianQED}. 
@@ -238,7 +239,7 @@ The lack of any photon mass term, of the form $m^{2}A_{\mu}A^{\mu}$ (which would
 Thus, by requiring gauge invariance and using the simple free particle Dirac Equation, which is invariant under $U(1)_{EM}$ symmetry, we arrive at the \ac{QED} Lagrangian that gives a massless photon field, $A_{\mu}$, with interaction strength $e$.
 
 
-\subsection{Electroweak Unification \label{th:EW}}
+\subsection{Electroweak unification \label{th:EW}}
 %
 The requirement of local gauge invariance in the weak sector, in conjunction with \ac{QED}, can be used to unify the electromagnetic and weak forces. 
 The \ac{EWK} sector is defined by the symmetry groups $SU(2)_{L} \otimes U(1)_{Y}$.
@@ -246,7 +247,7 @@ The \ac{EWK} sector is defined by the symmetry groups $SU(2)_{L} \otimes U(1)_{Y
 
 The special unitary group $SU(2)_{L}$, of order 2, 
 is generated by the $2\times2$ matrices $T_{i} = \tau_{i}/2$, 
-where $\tau_{i}$ are the three Pauli spin matrices~\footnote{The $SU(2)$ generators are labelled $i$, $j$, and $k$}.
+where $\tau_{i}$ are the three Pauli spin matrices\footnote{The $SU(2)$ generators are labelled $i$, $j$, and $k$}.
 The three generators are manifested in the three gauge fields 
 $W^{1}_{\mu}, W^{2}_{\mu},$ and $W^{3}_{\mu}$. 
 They act only on the left handed chiral component of the field $\psi_{L}$, 
@@ -293,7 +294,7 @@ and the Weinberg angle, $\theta_{W}$, is determined by the ratio of the electrom
 \end{equation}
 
 
-The fermion wavefunctions are then written in terms of left-handed states (the electroweak doublet), and right-handed state (the electroweak singlet).
+The fermion wavefunctions are then written in terms of left-handed states (the electroweak doublet), and right-handed states (the electroweak singlet).
 For the leptons, these are:
 %\[ 
 %$\chi_{L} = \left($
@@ -377,7 +378,7 @@ The kinetic term of the Lagrangian can thus be defined,
 \begin{equation}
 \mathcal{L}_{kin} = - \frac{1}{4}F_{\mu \nu}F^{\mu \nu} = - \frac{1}{4}\left( B_{\mu\nu}B^{\mu\nu} +  W_{\mu\nu} W^{\mu\nu} \right),
 \end{equation}
-and the full $SU(2)_{L} \times U(1)_{Y}$ Lagrangian is simply written as
+and the full $SU(2)_{L} \otimes U(1)_{Y}$ Lagrangian is simply written as
 \begin{equation}
 \mathcal{L}_{EWK} = \mathcal{L}_{int} + \mathcal{L}_{kin}.
 \end{equation}
@@ -390,7 +391,7 @@ Masses are instead generated using the Higgs mechanism.
 By introducing an extra scalar field (with an associated massive scalar boson), spontaneous symmetry breaking is induced in order to give mass to the electroweak bosons, and \ac{SM} fermions, in a gauge invariant way.
 
 
-\subsection{Electroweak Symmetry Breaking and the Higgs Mechanism \label{th:Higgs}}
+\subsection{Electroweak symmetry breaking and the higgs mechanism \label{th:Higgs}}
 %
 The previous discussion tells us that if we are to believe $\mathcal{L}_{EWK}$ to be an accurate description of the electroweak force, 
 both the bosons and fermions must be massless: something which observation tells us is clearly not true.
@@ -439,7 +440,7 @@ The field no longer looks the same in all directions of the $SU(2)$ phase space;
   \end{center}
 \end{figure}
 
-The convention is to chose the \ac{VeV} as 
+The convention is to choose the \ac{VeV} as 
 \begin{equation}
 \langle 0 | \Phi | 0 \rangle = \left(  
 \begin{array}{c}
@@ -450,7 +451,7 @@ v/\sqrt{2}
 v = \sqrt{\frac{- \mu^{2}}{\lambda}}
 \end{equation}
 as the minimum of the Higgs potential, given by $\Phi^{\dag} \Phi = \frac{1}{2} (- \mu)^{2}/\lambda$, 
-is chosen to be consistent with the ground state of the vacuum.
+\added{which} is chosen to be consistent with the ground state of the vacuum.
 Fluctuations from this zero point are then parametrized in terms of the four real scalar fields $\theta_{1} , \theta_{2} ,\theta_{3},$ and $h(x)$.
 %
 \begin{equation}
@@ -469,7 +470,7 @@ v/ \sqrt{2} + h(x)/ \sqrt{2} - i \theta_{3}
 \end{equation}
 %
 The four scalar fields can be interpreted as four massless Goldstone bosons.
-The exponential factor is recognised as a $SU(2)$ gauge transformation, so by moving to a different gauge in which this term becomes unity (the unitary gauge), we can arrive at
+The exponential factor is recognised as an $SU(2)$ gauge transformation, so by moving to a different gauge in which this term becomes unity (the unitary gauge), we can arrive at
 \begin{equation}
 \Phi(x)' = \frac{1}{\sqrt{2}}
  \left(  
@@ -498,12 +499,12 @@ Crucially, the photon remains massless.
 By moving to the unitary gauge, we have lost three of the Goldstone bosons, 
 or equivalently three degrees of freedom.
 The fourth massless Goldstone boson has become a massive scalar boson, the \ac{SM} Higgs boson, with mass $m_{H} = \sqrt{-2\mu^{2}}$. 
-The three lost degrees of freedom correspond to the longitudinal polarizations of the new massive boson.
+The three lost degrees of freedom correspond to the longitudinal polarizations of the new massive \added{$W^{\pm}$ and $Z$} bosons.
 
 Adding the Higgs potential to the \ac{SM} Lagrangian has allowed massive gauge bosons in a gauge invariant way. 
 The remaining missing fermion mass terms can now be filled in using a similar method. 
 By adding a Yukawa coupling (that is invariant under $SU(2)$) between the Higgs field and the fermions in the Lagrangian, 
-the same Higgs boson can generate their masses.
+the same Higgs \replaced{field}{boson} can generate their masses.
 The additional terms in the Lagrangian are of the form
 \begin{equation}
 \mathcal{L}_{Yukawa} =  k_{e} \bar{L} \Phi e_{R} + h.c. +  
@@ -527,7 +528,7 @@ D_{\mu} &= \partial_{\mu} - i g_{1} \frac{Y}{2} B_{\mu} - ig_{2} \frac{\tau_{i}}
 \end{equation}
 
 Gauge invariance dictates the form of the electroweak Lagrangian. 
-Spontaneous symmetry breaking via the Higgs mechanism leads to three to massive gauge bosons, one massless gauge boson, and one massive scalar boson.
+Spontaneous symmetry breaking via the Higgs mechanism leads to three massive gauge bosons, one massless gauge boson, and one massive scalar boson.
 The \ac{SM} Lagrangian can then be written by summing the various terms discussed above:
 \begin{equation}
 \mathcal{L}&=\mathcal{L}_{int}+\mathcal{L}_{kin}+\mathcal{L}_{H}+\mathcal{L}_{Yukawa} \\
@@ -552,15 +553,19 @@ Despite its negligible influence on subatomic particles at the energy scales pro
 %
 
 In addition, there is insufficient \ac{CP} violation within the \ac{SM} to explain the observed matter dominance in the Universe. 
-The \ac{CP} violation in the kaon and $D_{0}$ meson sectors is not enough to explain why only matter remains from the Big Bang, 
+The \ac{CP} violation in the kaon\added{, $B_{0}$} and $D_{0}$ meson sectors is not enough to explain why only matter remains from the Big Bang, 
 in which matter and antimatter are thought to have been produced in even quantities. 
-Physics \ac{BSM} is necessary to introduce another source of it in order to explain we why are here at all; why all matter did not annihilate soon after it was created.
+Physics \ac{BSM} is necessary to introduce another source of it in order to explain \replaced{why we}{we why} are here at all; why all matter did not annihilate soon after it was created.
 
 %
 
 The solar neutrino problem, in which there were far less $\nu_{e}$ arriving at the Earth from the Sun than solar models predicted, 
 was solved with the discovery of neutrino oscillations~\cite{SolarNeut}. 
 The $\nu_{e}$, on their flight from the sun, were changing state so that when they were measured on Earth they were no longer in the electron-like weak eigenstate. They had oscillated into a different weak eigenstate, and so appeared to have disappeared when measured in electron-like charged current interactions. 
+%atmospheric
+\added{Atmospheric neutrinos are produced in cosmic ray interactions in the atmosphere (resulting largely from charged pion decay), in the ratio of approximately 2:1 of $\nu_{\mu}$:$\nu_{e}$. 
+There is similarly observed to be a deficit of the muon-like weak eigenstate in experiments on (or under) the ground~\cite{Fukuda:1998ub,PhysRevLett.81.1562}.
+Experiments using neutrinos from accelerator and reactor sources have seen similar behaviours~\cite{An:2012eh,1674-1137-37-1-011001,Abe:2013hdq,Abe:2015awa}.}
 Neutrino oscillations imply that there is a mass difference between the different mass eigenstates of the neutrinos, $\nu_{1}, \nu_{2}, \nu_{3}$, which are a superposition of their weak flavour eigenstates $\nu_{e}, \nu_{\mu}, \nu_{\tau}$.
 A mass difference means each type of neutrino must have a mass (albeit small) -- in contradiction of the massless, left handed neutrinos present in the \ac{SM}.
 New physics is needed to explain massive neutrinos.
@@ -582,7 +587,7 @@ and is responsible for the observed expansion of the universe, is not understood
 
 While the above are pieces of experimental evidence that cannot be explained by the \ac{SM}, 
 there are also theoretical problems with the model when calculating the radiative corrections to the Higgs boson mass.
-We saw in Eq.~\ref{eq:HiggsPot} that the scalar potential giving rise to the Higgs Boson $h$ is of the form
+We saw in Eq.~\ref{eq:HiggsPot} that the scalar potential giving rise to the Higgs boson $h$ is of the form
 \begin{equation}
 V \sim m_{H0}^{2} h^{2} + \lambda h^{4}.
 \end{equation}
@@ -597,11 +602,11 @@ If there is no new physics between the electroweak scale at $\sim 100~\GeV$ and 
 Indirect constraints on the Higgs mass from measurements of the $\W$ and top quark masses~\cite{higgsMassConstraint1,higgsMassConstraint2} imply that the Higgs mass is around the electroweak scale, and indeed direct measurements of the Higgs boson mass are around 125~\GeV~\cite{HiggsLegacyCMS,HiggsLegacyATLAS} -- not $M_{Pl}$.
 The term $\delta M_{H}^{2}$ then must cancel out the term in $\Lambda$; ie there must be a cancellation of order $M_{Pl} \sim 10^{18}$.
 To put this hierarchy problem another way, there is a precise fine-tuning necessary, of one part in $10^{18}$.
-Although possible, this is very unnatural, and drives the much of the theoretical motivation for \ac{BSM} physics.
+Although possible, this is very unnatural, and drives \deleted{the} much of the theoretical motivation for \ac{BSM} physics.
 
 
 
-\ac{SUSY}~\cite{susyMot1,susyMot2} is one example of an extension to the \ac{SM} which can solve many of its problems, and is the subject of remainder of this chapter, as well as the analysis work done in this thesis. 
+\ac{SUSY}~\cite{susyMot1,susyMot2} is one example of an extension to the \ac{SM} which can solve many of its problems, and is the subject of \added{the} remainder of this chapter, as well as the analysis work done in this thesis. 
 It is probably the most popular and well studied \ac{BSM} theory in the community, however is not alone: models of
 Large Extra Dimensions~\cite{ADDextraDimensions}, the 
 SeeSaw Mechanism~\cite{seesawMech1,seesawMech2}, and
@@ -624,7 +629,7 @@ This allows a symmetry between fermions (f) and bosons (b):
 where $\hat{O}$ is the supersymmetric operator generating the transition.
 \ac{SUSY} relates particles of different spin, where they differ by a half integer unit,
 and the Lagrangian remains invariant under transformations such as those in Eq.~\ref{fermionbosonTrans}.
-The generated particles, or sparticles, have the all of the same quantum numbers as those particles they have been generated with (but for the spin) -- so they have the same mass. 
+The generated particles, or sparticles, have \deleted{the} all of the same quantum numbers as those particles they have been generated with (but for the spin) -- so they have the same mass. 
 
 If we reconsider the one loop corrections to the Higgs field, h, 
 with massive fermions \psi and massive scalars \phi~\cite{susyandsuch} (which can be generated by a supersymmetric transition as they differ in spin by a half-integer unit), we see additional terms in $m_{H}^{2}$:
@@ -656,8 +661,8 @@ but, provided the masses are `not too different'
 - the issue of the fine-tuning of the Higgs mass is resolved, as the huge corrections necessary with no \ac{SUSY} are now far more manageable.
 
 \ac{SUSY}, then, is a \ac{BSM} theory with a foundation in the mathematics of \ac{QFT}s, which, as a consequence of its symmetry, cancels out the huge quadratic divergences in the Higgs mass, making it very appealing. 
-The \ac{SM} becomes a part of a wider supersymmetric model that maintains the same $SU(3)\times SU(2) \times U(1)$ gauge symmetry. 
-In the \ac{MSSM}, every \ac{SM} particle gets a supersymmetric particle (sparticle) partner which has the same quantum numbers but differs a half integer unit in spin and has a greater mass. 
+The \ac{SM} becomes a part of a wider supersymmetric model that maintains the same $SU(3)\otimes SU(2) \otimes U(1)$ gauge symmetry. 
+\deleted{In the \ac{MSSM}, e}Every \ac{SM} particle gets a supersymmetric particle (sparticle) partner which has the same quantum numbers but differs a half integer unit in spin and has a greater mass.\added{ In the \ac{MSSM}~\cite{Haber:1993wf}, there is the minimum number of new particle states, with one extra Higgs doublet.} 
 A rich sparticle phenomenology results, as the entire spectrum of \ac{SM} particles is doubled.
 For example, the left-handed quark doublet gets a doublet of left handed scalars:
 \begin{equation}
@@ -680,7 +685,7 @@ Additional superfields contain the \ac{SM} bosons and their fermionic partners: 
 To cancel out gauge anomalies, the \ac{SM} $SU(2)_{L}$ Higgs doublet of scalars becomes two doublets $H_{u}$ and $H_{d}$, which then require two Higgs doublets of fermions for the higgsinos $\tilde{h}$. 
 
 
-\subsection{R Parity and Dark Matter\label{th:RParity}}
+\subsection{R parity and dark matter\label{th:RParity}}
 The full \ac{MSSM} Lagrangian can be found elsewhere~\cite{susyandsuch}. 
 Suffice to say, there are terms which permit lepton and baryon number violating interactions that can mediate proton decay, and give rise to interactions such as the one in Fig.~\ref{fig:pdecay}.
 \begin{figure}[htbp]
@@ -693,7 +698,7 @@ Suffice to say, there are terms which permit lepton and baryon number violating 
 There are very stringent limits on proton decay; $\tau > 10^{33}$ years~\cite{PDG}, so interactions such as these must be highly suppressed, if allowed at all. 
 The class of \ac{SUSY} models which do not permit lepton and baryon violating interactions have an additional symmetry in R parity, which is defined as
 \begin{equation}
-R = (-1)^{3(B-L)+s},
+R = (-1)^{3(B-L)+2s},
 \end{equation}
 where $B$ is the baryon number, $L$ the lepton number, and $s$ the spin of the particle.
 A consequence of R parity conserving \ac{SUSY} is that sparticles are always produced in pairs, and any sparticle decay will always result in another sparticle being produced.
@@ -702,7 +707,13 @@ This is then the \ac{LSP}, and must be stable.
 Cosmological bounds on light charged or coloured stable particles~\cite{PDG} imply the \ac{LSP} (if it exists) must be neutral.
 A stable, neutral, weakly interacting \ac{LSP}, key to the popularity of \ac{SUSY}, then very naturally gives a \ac{DM} candidate.
 The \ac{LSP}, with a collider signature much like a neutrino, will exit a detector having deposited no energy as it interacts with none of its material.
-There will instead be an imbalance in momentum, leading to a missing transverse energy signature.
+There will instead be an imbalance in momentum, leading to a missing transverse \replaced{momentum}{energy} signature.
+
+\added{Proton decay requires both lepton and baryon number 
+violation, so 
+certain models that have partial R-parity violation in either B or L can be compatible with limits on proton decay. 
+These do not give rise to the same missing transverse momentum signatures as R-parity conserving \ac{SUSY}, as the \ac{LSP} becomes unstable eventually decays into \ac{SM} particles. 
+There are dedicated searches for such models, and these are discussed elsewhere~\cite{ATLAS:2012kr,CMS-PAS-SUS-13-003,CMS:2013qda}.}
 
 \subsection{Unifying the forces}
 
@@ -725,7 +736,7 @@ This very elegant picture of the early universe is very attractive: one single f
 The idea of a \ac{GUT}, with some higher symmetry group, that can dictate all of the behaviour we observe in the universe is very appealing to theorists.
 
 
-\subsection{Breaking Supersymmetry and Naturalness \label{th:susyBreaking}}
+\subsection{Breaking supersymmetry and naturalness \label{th:susyBreaking}}
 
 We have mentioned that \ac{SUSY} is a broken symmetry if it exists in nature.
 The possible mechanism of the spontaneous symmetry breaking is beyond the scope of this thesis, 
@@ -737,7 +748,7 @@ The correction to the Higgs mass then takes the form
 \end{equation}
 The largest contribution to $\delta m_{H}$ is from the top quark, 
 because it is so much more massive than all other \ac{SM} fermions at 173~\GeV.
-To keep $\delta m_{H}$ reasonably small, and the fine tuning issue minimal, the supersymmetric partner to the top quark, the top squark \sTop should be fairly close in mass to 173~\GeV.
+To keep $\delta m_{H}$ reasonably small, and the fine tuning issue minimal, the supersymmetric partner to the top quark, the top squark \sTop{} should be fairly close in mass to 173~\GeV.
 Figure~\ref{fig:SUSYmot} shows the correction to the Higgs mass due to the top quark loop, and the corresponding loop correction from the top squark, which acts to cancel the divergence in the Higgs mass out.
 
 \begin{figure}[htbp]
@@ -748,14 +759,14 @@ Figure~\ref{fig:SUSYmot} shows the correction to the Higgs mass due to the top q
   \end{center}
 \end{figure}
 
-Such naturalness arguments motivate a light \sTop, and a bottom-up approach to any \ac{SUSY} spectrum.
+Such naturalness arguments motivate a light \sTop{}, and a bottom-up approach to any \ac{SUSY} spectrum.
 The biggest Yukawa couplings come from the heaviest \ac{SM} particles, i.e. the third generation.  
 To keep corrections to the Higgs mass small, the third \ac{SUSY} generation is expected to be the lightest, 
 and in reach of the \ac{LHC}~\cite{natSUSY3,natSUSY4}.
 First generation squarks and sleptons can be much heavier, even up at the Plank scale, 
 while keeping a natural \ac{SUSY}.
 
-\subsection{Searching for Supersymmetry at Colliders}
+\subsection{Searching for supersymmetry at colliders}
 \label{sec:susycolliders}
 
 Having motivated \ac{SUSY} as a extension of the \ac{SM} which has the potential to very nicely solve the hierarchy problem, give us a \ac{DM} candidate and unify the three fundamental forces at the \ac{GUT} scale, we ask ourselves how best to search for any possible signs of it at a collider.
@@ -789,12 +800,12 @@ Innovative methods of controlling the large backgrounds, particularly as a resul
 
 Stringent bounds were placed on the \ac{CMSSM} during the first \ac{LHC} run~\cite{constrainedCMSSM,finetuningcmssm}. 
 It is a popular \ac{SUSY} model which simply reduces the multitude of free parameters in the \ac{MSSM} down to 5 by setting many of the masses to be equal. 
-All scalar masses become $m_{0}$, all gaugino masses $m_{1/2}$, trilinear coupling are set to $A_{0}$, and the ratio of the \ac{VeV} of the two Higgs doublets is $\tan{\beta}$. 
+All scalar masses become $m_{0}$, all gaugino masses $m_{1/2}$, trilinear couplings are set to $A_{0}$, and the ratio of the \ac{VeV} of the two Higgs doublets is $\tan{\beta}$. 
 The fifth parameter is the sign of $\tan{\beta}$.
 Traditionally, searches are interpreted using the \ac{CMSSM} as it produces a simple phenomenology, enabling mass scans in four dimensions (plus a sign) rather than over one hundred in the full \ac{MSSM}. 
 The phenomenology is also `easily' discoverable: parameters are fixed at the \ac{GUT} scale and extrapolated down to the electroweak scale (for example, the \Z pole mass), making mass differences between particles relatively large and so decay products reasonably energetic. 
 Limits from searches using the CMS detector are shown in Fig.~\ref{fig:cmssmlimits}.
-The lack of any sign of \ac{SUSY} in these direct searches, as well as limits from indirect searches sensitive to the parameters of the \ac{CMSSM} (such as $B_{S}\rightarrow \mu\mu$~\cite{BSmumuCombo}) have lead the community pursue less specific, alternative scenarios.
+The lack of any sign of \ac{SUSY} in these direct searches, as well as limits from indirect searches sensitive to the parameters of the \ac{CMSSM} (such as $B_{S}\rightarrow \mu\mu$~\cite{BSmumuCombo}) have led the community to pursue less specific, alternative scenarios.
 
 
 % %{\color{red} Should I put the summary plots here?}
@@ -806,7 +817,7 @@ The lack of any sign of \ac{SUSY} in these direct searches, as well as limits fr
    \end{center}
  \end{figure}
 
-A more model independent approach has been adopted more recently, with the use of \ac{SMS}~\cite{SMS1,SMS2,SMS3, SMSPaper}, which allow searches to be interpreted in the mass planes of various sparticles: in the mass of the \sTop, \sbottom, \squark and \chiOneZero for example.
+A more model independent approach has been adopted more recently \added{at \ac{CMS}}, with the use of \ac{SMS}~\cite{SMS1,SMS2,SMS3, SMSPaper}, which allow searches to be interpreted in the mass planes of various sparticles: in the mass of the \sTop{}, \sbottom, \squark and \chiOneZero for example.
 All other sparticles than those probed are assumed to be very heavy and are integrated out.
 %\ac{SMS} are discussed further in Section~\ref{sec:SMS}.
 
@@ -819,7 +830,7 @@ All other sparticles than those probed are assumed to be very heavy and are inte
 \end{figure}
 
 
-Figure~\ref{fig:t2tt} shows an example Feynman diagram for a particular decay of the \sTop, 
+Figure~\ref{fig:t2tt} shows an example Feynman diagram for a particular decay of the \sTop{}, 
 one of the \ac{SMS} hypotheses probed, 
 which dominates if the top squark is heavy enough to produce an on-shell top quark when it decays.
 Other decays dominate when this is not true, which can then be targeted with searches that have different kinematics than that of Fig.~\ref{fig:t2tt}: this will be the subject of Chapter~\ref{chap:sus13009}.
@@ -828,36 +839,37 @@ Such generic searches can also be simply applied to other models of \ac{BSM} phy
 
 At 7 and 8~\TeV, no evidence for \ac{SUSY} has been found at the \ac{LHC};
 exclusion limits on squarks and gluinos are around 1~\TeV at 95\% \ac{CL}.
-Searches have ruled out huge swathes of phase space, see Fig.~\ref{fig:cmssmlimits} and Fig.~\ref{fig:susy2013stop} that show the limits on the \ac{CMSSM} and the combined \ac{CMS} results on the \sTop, \chiOneZero mass plane at SUSY 2013 respectively.
+Searches have ruled out huge swathes of phase space, see Fig.~\ref{fig:cmssmlimits} and Fig.~\ref{fig:susy2013stop} that show the limits on the \ac{CMSSM} and the combined \ac{CMS} results on the \sTop{}, \chiOneZero{} mass plane\added{, as shown} at SUSY 2013, respectively.
 
 \begin{figure}[t!]
   \begin{center}
   \includegraphics[width=0.7\textwidth]{Figures/theory/SUSY2013T2ttT6.pdf}
-  \caption{The limits on the \sTop, \chiOneZero mass plane from \ac{CMS} at SUSY 2013~\cite{tw:SUSY2013T2tt}.}
+  \caption{The limits on the \sTop{}, \chiOneZero mass plane from \ac{CMS} at SUSY 2013~\cite{tw:SUSY2013T2tt}.}
   \label{fig:susy2013stop}
   \end{center}
 \end{figure}
 
 
 If~\ac{SUSY} is to persist as a convincing~\ac{BSM} theory, 
-naturalness arguments in conjunction with a Higgs mass of $\sim 125$~\GeV imply that the third generation squarks should be light~\cite{natSUSYhiggs}.
+naturalness arguments in conjunction with a Higgs mass of $\sim 125$~\GeV imply that the third generation squarks should be light~\cite{natSUSYhiggs}
+\footnote{\added{Recent work may indicate that a light stop is not necessarily the only route to `natural' SUSY; light higgsinos can also give a small amount of fine-tuning~\cite{Casas:2014eca}.}}.
 Either \ac{SUSY} does not exist in a natural way and doesn't solve the theoretical problems in the \ac{SM} that it has been proclaimed to, it is just out of reach at the 8~\TeV \ac{LHC}, or \ac{SUSY} is somehow hidden.
 Fig.~\ref{fig:susy2013stop} has areas which are not covered by the exclusion regions, 
 where it has been suggested that \ac{SUSY} may be `hiding'. 
 Traditional searches loose sensitivity in these regions.
 For example, in the strip close to the kinematic limit, 
 when the parent sparticle -- $m_{\sTop}$ in this case -- is close in mass to $m_{\chiOneZero}$,
-decay products become very soft, so would in hidden amongst the high \ac{QCD} background.
+decay products become very soft, so would be hidden amongst the high \ac{QCD} background.
 This kind of mass spectrum, which is compressed, would not show up in the traditional \ac{SUSY} searches that demand lots of visible energy: 
 a different approach is necessary.
 %also has phenomenological motivations, and will the subject of the remainder of this chapter.
 
 
-\subsection{Supersymmetry with Compressed Mass Spectra \label{th:CMPsusy}}
+\subsection{Supersymmetry with compressed mass spectra \label{th:CMPsusy}}
 
 \ac{SUSY} has compressed mass spectra when the symmetry breaking dictates that the various states are close in mass, for example see Fig.~\ref{fig:compSUSYspec}. 
 Particularly, the \ac{LSP} is close in mass to the \ac{NLSP}, which, 
-in many scenarios, is the \sTop. 
+in many scenarios, is the \sTop{}. 
 There is no reason to assume that nature would not `prefer' a compressed spectra: to keep as wide a net as possible over the \ac{SUSY} phase space, compressed scenarios should be probed -- we should look for both the types of spectra shown in Fig.~\ref{fig:compSUSYspec}.
 Further, it is not just the lack of any evidence for \ac{SUSY} in the bulk phase space regions, 
 where the mass difference between the \ac{LSP} and the next lightest sparticle is typically $>100~\GeV$, 
@@ -866,7 +878,7 @@ but there are also phenomenological arguments which motivate the search for comp
 \begin{figure}[t!]
   \begin{center}
   \includegraphics[width=0.7\textwidth]{Figures/theory/susyCompressedSpectra.pdf}
-  \caption{An example \ac{SUSY} spectrum in the bulk region, left, and for a compressed spectrum, right. The mass difference between the \ac{NLSP} and the \ac{LSP}, here the \sTop and \chiOneZero receptively, is much reduced for the compressed scenario.}
+  \caption{An example \ac{SUSY} spectrum in the bulk region, left, and for a compressed spectrum, right. The mass difference between the \ac{NLSP} and the \ac{LSP}, here the \sTop{} and \chiOneZero receptively, is much reduced for the compressed scenario.}
   \label{fig:compSUSYspec}
   \end{center}
 \end{figure}
@@ -876,14 +888,14 @@ Any \ac{BSM} candidate for \ac{DM} must give the correct energy density of dark 
 Any \ac{SUSY} model, if it is to explain the origin of \ac{DM} as the \ac{LSP}, must therefore give the correct \ac{DM} relic density (if nothing else is acting to increase or decrease the relic density). 
 This requirement can dictate the nature of the neutralino (the \ac{DM} candidate)~\cite{CompSUSY1,CompSUSY2}.
 If the neutralino is a superposition of bino states, then the relic density is too large; if it is instead a composition of higgsino or wino states, then it is too small.
-However, if the neutralino is bino-like but has a few tens of~\GeV mass splitting with the lightest \sTop, the correct relic density can be achieved~\cite{CompSUSY6,CompSUSY9,CompSUSY10}.
+However, if the neutralino is bino-like but has a few tens of~\GeV mass splitting with the lightest \sTop{}, the correct relic density can be achieved~\cite{CompSUSY6,CompSUSY9,CompSUSY10}.
 
 %experimental signature
 Any compressed scenario will lead to soft decay products, 
 as the energy from the parent sparticle goes mostly into producing the daughter particles with little left to boost the decay products.
 The question of how to efficiently select these events then presents itself -- it is very difficult to pick out events that contain only a few soft particles; 
 they would be lost in the \ac{SM} electroweak, \ttbar and \ac{QCD} events.
-Similarly, the \chiOneZero at the end of the decay chain will also be very soft, so \MET in each event is also small. 
+Similarly, the \chiOneZero at the end of the decay chain will also be very soft, so \added{the} \MET in each event is also small. 
 Instead of looking for the decay products themselves, it is then more useful to search for 
 states which are produced in association with the parent sparticles.
 \ac{ISR} can lead to the emission of a high energy gluon or quark, giving a hard jet. 
@@ -912,7 +924,7 @@ While the production cross section of a process with an \ac{ISR} jet is of cours
 %The LHC limits on degenerate \gluino and \squark are strong, but when an implicit bottom-up flavour structure is considered, the \sTop and \sbottom limits significantly weaken.
 
 
-\section{Decays of the top squark}
+\section{Decays of the Top Squark}
 
 We have discussed in the previous section the importance of a light top squark for natural ~\ac{SUSY}. 
 In order to optimise any search for such a light top squark, it is important to consider its decays in different regions of parameter space~\cite{CompSUSY7,CompSUSY8}.
@@ -921,7 +933,7 @@ For the case when the mass difference between the top squark and the \ac{LSP} is
 $m_{\sTop} - m_{\chiOneZero} > m_{t}$, 
 the dominant decay mode is simply 
 $\sTop \rightarrow t \chiOneZero$.
-The Feynman diagram for \sTop pair production followed by this decay is shown in Fig.~\ref{fig:t2tt}.
+The Feynman diagram for \sTop{} pair production followed by this decay is shown in Fig.~\ref{fig:t2tt}.
 
 However, when the mass difference is less than the top quark, 
 $m_{\sTop} - m_{\chiOneZero} < m_{t}$, 
@@ -934,16 +946,16 @@ $m_{\sTop} - m_{\chiOneZero} < m_{W}$,
 both the flavour changing neutral current decay 
 $\sTop \rightarrow c \chiOneZero$ 
 and the four body decay 
-$\sTop \rightarrow b \chiOneZero f \bar{f}'$ can occur, where $f$ is any fermion.
+$\sTop \rightarrow b \chiOneZero f \bar{f}'$ can occur, where $f$ is any fermion, \added{and the intermediate top quark is produced off-shell.}
 Examples of Feynman diagrams that contribute to these are shown in Fig.~\ref{fig:stopDecays}.
 While the precise branching fraction of these decay modes is rather model dependent, it is usually assumed that due to phase space arguments, the four body decay is suppressed and $\sTop \rightarrow c \chiOneZero$ dominates~\cite{CompSUSY7}.
-Figure~\ref{fig:stopDecayMassPlane} summarizes the decays of the top squark, showing the relevant decay for the different kinematic regimes of \sTop and \chiOneZero mass.
+Figure~\ref{fig:stopDecayMassPlane} summarizes the decays of the top squark, showing the relevant decay for the different kinematic regimes of \sTop{} and \chiOneZero mass \added{in the \sTop{}--\chiOneZero{} mass plane}.
 
 \begin{figure}[t!]
   \begin{center}
   \includegraphics[width=0.3\textwidth]{Figures/theory/stop2bodydecay.pdf}
   \includegraphics[width=0.4\textwidth]{Figures/theory/stop4bodydecay.pdf}
-  \caption{Feynman diagrams to show two contributing processes to the decays of the top squark: $\sTop \rightarrow c \chiOneZero$ (left) and $\sTop \rightarrow b \chiOneZero f \bar{f}'$ (right).}
+  \caption{Feynman diagrams to show two contributing processes to the decays of the top squark: $\sTop \rightarrow c \chiOneZero$ (left) and $\sTop \rightarrow b \chiOneZero f \bar{f}'$ (right). \added{The intermediate top quark on the right, $t^{*}$, is produced off-shell.}}
   \label{fig:stopDecays}
   \end{center}
 \end{figure}
@@ -954,10 +966,14 @@ Figure~\ref{fig:stopDecayMassPlane} summarizes the decays of the top squark, sho
   \includegraphics[width=0.7\textwidth]{Figures/theory/stopMassPlane}
   \caption{Phase space of the top squark and LSP. The grey region is kinematically forbidden: 
   $m_{\chiOneZero} > m_{\sTop}$ is at odds with the \ac{LSP} definition. 
-  The coloured dotted lines and labels define each kinematic region, and the dominant \sTop decays are shown, where we have neglected the four body decay in the region where $m_{\sTop} - m_{\chiOneZero} < m_{W}$.}
+  The coloured dotted lines and labels define each kinematic region, and the dominant \sTop{} decays are shown, where we have neglected the four body decay in the region where $m_{\sTop} - m_{\chiOneZero} < m_{W}$.}
   \label{fig:stopDecayMassPlane}
   \end{center}
 \end{figure}
 
 In light of the arguments for searching for compressed \ac{SUSY}, particularly in the third generation, 
-Chapters~\ref{chap:sus13009} and~\ref{chap:parkeddata} will describe searches for light stops decaying to a charm quark and a neutralino, using events with a monojet topology.
+Chapters~\ref{chap:sus13009} and~\ref{chap:sus13009results} will describe a search for light stops decaying to a charm quark and a neutralino, using events with a monojet topology.
+\added{This search is applicable to many new physics scenarios, being more usually applied to dark matter searches and the like. Here, it is interpreted for these particular third generation compressed \ac{SUSY} scenarios, and equally could be applied to other compressed \ac{SUSY} scenarios.
+}
+
+\clearpage

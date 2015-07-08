@@ -2,74 +2,79 @@
 \BOOKMARK [0][-]{chapter.2}{Theory and Motivations}{}% 2
 \BOOKMARK [1][-]{section.2.1}{The Standard Model of Particle Physics }{chapter.2}% 3
 \BOOKMARK [2][-]{subsection.2.1.1}{Fundamental particles and forces}{section.2.1}% 4
-\BOOKMARK [2][-]{subsection.2.1.2}{Gauge Symmetries }{section.2.1}% 5
-\BOOKMARK [2][-]{subsection.2.1.3}{Electroweak Unification }{section.2.1}% 6
-\BOOKMARK [2][-]{subsection.2.1.4}{Electroweak Symmetry Breaking and the Higgs Mechanism }{section.2.1}% 7
+\BOOKMARK [2][-]{subsection.2.1.2}{Gauge symmetries }{section.2.1}% 5
+\BOOKMARK [2][-]{subsection.2.1.3}{Electroweak unification }{section.2.1}% 6
+\BOOKMARK [2][-]{subsection.2.1.4}{Electroweak symmetry breaking and the higgs mechanism }{section.2.1}% 7
 \BOOKMARK [1][-]{section.2.2}{Motivation for Physics Beyond the Standard Model }{chapter.2}% 8
 \BOOKMARK [1][-]{section.2.3}{Supersymmetry }{chapter.2}% 9
-\BOOKMARK [2][-]{subsection.2.3.1}{R Parity and Dark Matter}{section.2.3}% 10
+\BOOKMARK [2][-]{subsection.2.3.1}{R parity and dark matter}{section.2.3}% 10
 \BOOKMARK [2][-]{subsection.2.3.2}{Unifying the forces}{section.2.3}% 11
-\BOOKMARK [2][-]{subsection.2.3.3}{Breaking Supersymmetry and Naturalness }{section.2.3}% 12
-\BOOKMARK [2][-]{subsection.2.3.4}{Searching for Supersymmetry at Colliders}{section.2.3}% 13
-\BOOKMARK [2][-]{subsection.2.3.5}{Supersymmetry with Compressed Mass Spectra }{section.2.3}% 14
-\BOOKMARK [1][-]{section.2.4}{Decays of the top squark}{chapter.2}% 15
+\BOOKMARK [2][-]{subsection.2.3.3}{Breaking supersymmetry and naturalness }{section.2.3}% 12
+\BOOKMARK [2][-]{subsection.2.3.4}{Searching for supersymmetry at colliders}{section.2.3}% 13
+\BOOKMARK [2][-]{subsection.2.3.5}{Supersymmetry with compressed mass spectra }{section.2.3}% 14
+\BOOKMARK [1][-]{section.2.4}{Decays of the Top Squark}{chapter.2}% 15
 \BOOKMARK [0][-]{chapter.3}{The LHC and CMS experiment}{}% 16
 \BOOKMARK [1][-]{section.3.1}{The LHC}{chapter.3}% 17
-\BOOKMARK [1][-]{section.3.2}{The CMS Detector}{chapter.3}% 18
-\BOOKMARK [2][-]{subsection.3.2.1}{The Tracking System}{section.3.2}% 19
-\BOOKMARK [2][-]{subsection.3.2.2}{The Electromagnetic Calorimeter}{section.3.2}% 20
-\BOOKMARK [2][-]{subsection.3.2.3}{The Hadronic Calorimeter}{section.3.2}% 21
-\BOOKMARK [2][-]{subsection.3.2.4}{The Muon System}{section.3.2}% 22
-\BOOKMARK [1][-]{section.3.3}{Event Reconstruction}{chapter.3}% 23
-\BOOKMARK [2][-]{subsection.3.3.1}{Jets}{section.3.3}% 24
-\BOOKMARK [2][-]{subsection.3.3.2}{Missing Transverse Energy}{section.3.3}% 25
-\BOOKMARK [2][-]{subsection.3.3.3}{Muons}{section.3.3}% 26
-\BOOKMARK [1][-]{section.3.4}{The Trigger}{chapter.3}% 27
-\BOOKMARK [2][-]{subsection.3.4.1}{The L1 Trigger}{section.3.4}% 28
-\BOOKMARK [2][-]{subsection.3.4.2}{The High Level Trigger}{section.3.4}% 29
-\BOOKMARK [0][-]{chapter.4}{Jet Algorithms for the L1 Trigger Upgrade}{}% 30
-\BOOKMARK [1][-]{section.4.1}{The LHC Upgrade}{chapter.4}% 31
-\BOOKMARK [1][-]{section.4.2}{CMS Trigger Upgrade}{chapter.4}% 32
-\BOOKMARK [2][-]{subsection.4.2.1}{Calorimeter Trigger Upgrade}{section.4.2}% 33
-\BOOKMARK [1][-]{section.4.3}{Algorithm for jet reconstruction at L1}{chapter.4}% 34
-\BOOKMARK [2][-]{subsection.4.3.1}{Jet Reconstruction}{section.4.3}% 35
-\BOOKMARK [2][-]{subsection.4.3.2}{Jet Filtering}{section.4.3}% 36
-\BOOKMARK [2][-]{subsection.4.3.3}{Event-by-event estimation of pile-up}{section.4.3}% 37
-\BOOKMARK [2][-]{subsection.4.3.4}{Calibration to the jet energy scale }{section.4.3}% 38
-\BOOKMARK [1][-]{section.4.4}{Upgrade L1 Jet Algorithm Performance}{chapter.4}% 39
-\BOOKMARK [2][-]{subsection.4.4.1}{Angular and Energy Resolutions}{section.4.4}% 40
-\BOOKMARK [2][-]{subsection.4.4.2}{Trigger efficiencies}{section.4.4}% 41
-\BOOKMARK [2][-]{subsection.4.4.3}{Jet trigger rates}{section.4.4}% 42
-\BOOKMARK [2][-]{subsection.4.4.4}{Other jet variables}{section.4.4}% 43
-\BOOKMARK [1][-]{section.4.5}{Conclusion}{chapter.4}% 44
-\BOOKMARK [0][-]{chapter.5}{Searching for SUSY with compressed mass spectra using monojet events}{}% 45
-\BOOKMARK [1][-]{section.5.1}{Introduction}{chapter.5}% 46
-\BOOKMARK [1][-]{section.5.2}{Data samples}{chapter.5}% 47
-\BOOKMARK [1][-]{section.5.3}{Background MC simulation}{chapter.5}% 48
-\BOOKMARK [1][-]{section.5.4}{Object reconstruction}{chapter.5}% 49
-\BOOKMARK [2][-]{subsection.5.4.1}{Jets and ETmiss}{section.5.4}% 50
-\BOOKMARK [2][-]{subsection.5.4.2}{Leptons}{section.5.4}% 51
-\BOOKMARK [1][-]{section.5.5}{Event selection}{chapter.5}% 52
-\BOOKMARK [2][-]{subsection.5.5.1}{Event Cleaning}{section.5.5}% 53
-\BOOKMARK [2][-]{subsection.5.5.2}{Search region event selection}{section.5.5}% 54
-\BOOKMARK [1][-]{section.5.6}{Background estimation and systematic uncertainties}{chapter.5}% 55
-\BOOKMARK [2][-]{subsection.5.6.1}{Data-driven Z \( \040\)+jets background estimation}{section.5.6}% 56
-\BOOKMARK [2][-]{subsection.5.6.2}{Data-driven W \(\)+jets background estimation}{section.5.6}% 57
-\BOOKMARK [2][-]{subsection.5.6.3}{QCD Background Estimation}{section.5.6}% 58
-\BOOKMARK [2][-]{subsection.5.6.4}{t background estimation}{section.5.6}% 59
-\BOOKMARK [2][-]{subsection.5.6.5}{Diboson background estimation}{section.5.6}% 60
-\BOOKMARK [2][-]{subsection.5.6.6}{Single top quark and Drell\205Yan background estimations}{section.5.6}% 61
-\BOOKMARK [1][-]{section.5.7}{Summary}{chapter.5}% 62
-\BOOKMARK [0][-]{chapter.6}{Results and Interpretation}{}% 63
-\BOOKMARK [1][-]{section.6.1}{Results}{chapter.6}% 64
-\BOOKMARK [1][-]{section.6.2}{Interpretation}{chapter.6}% 65
-\BOOKMARK [2][-]{subsection.6.2.1}{Simulation of signal events}{section.6.2}% 66
-\BOOKMARK [1][-]{section.6.3}{Signal acceptance}{chapter.6}% 67
-\BOOKMARK [2][-]{subsection.6.3.1}{Signal acceptance in 2- and 3-parton simulation}{section.6.3}% 68
-\BOOKMARK [2][-]{subsection.6.3.2}{Systematic Uncertainties on Signal}{section.6.3}% 69
-\BOOKMARK [1][-]{section.6.4}{Exclusion limits}{chapter.6}% 70
-\BOOKMARK [1][-]{section.6.5}{Summary}{chapter.6}% 71
-\BOOKMARK [0][-]{appendix*.181}{Bibliography}{}% 72
-\BOOKMARK [0][-]{appendix*.182}{List of Figures}{}% 73
-\BOOKMARK [0][-]{appendix*.183}{List of Tables}{}% 74
-\BOOKMARK [1][-]{section.Alph0.1}{Acronyms}{appendix*.183}% 75
+\BOOKMARK [2][-]{subsection.3.1.1}{LHC run conditions, past and present}{section.3.1}% 18
+\BOOKMARK [1][-]{section.3.2}{The CMS Detector}{chapter.3}% 19
+\BOOKMARK [2][-]{subsection.3.2.1}{The tracking system}{section.3.2}% 20
+\BOOKMARK [2][-]{subsection.3.2.2}{The electromagnetic calorimeter}{section.3.2}% 21
+\BOOKMARK [2][-]{subsection.3.2.3}{The hadronic calorimeter}{section.3.2}% 22
+\BOOKMARK [2][-]{subsection.3.2.4}{The muon system}{section.3.2}% 23
+\BOOKMARK [1][-]{section.3.3}{Event Reconstruction}{chapter.3}% 24
+\BOOKMARK [2][-]{subsection.3.3.1}{Jets}{section.3.3}% 25
+\BOOKMARK [2][-]{subsection.3.3.2}{Missing transverse momentumenergy}{section.3.3}% 26
+\BOOKMARK [2][-]{subsection.3.3.3}{Muons}{section.3.3}% 27
+\BOOKMARK [1][-]{section.3.4}{The Trigger}{chapter.3}% 28
+\BOOKMARK [2][-]{subsection.3.4.1}{The L1 trigger}{section.3.4}% 29
+\BOOKMARK [2][-]{subsection.3.4.2}{The high level trigger}{section.3.4}% 30
+\BOOKMARK [0][-]{chapter.4}{Jet Algorithms for the L1 Trigger Upgrade}{}% 31
+\BOOKMARK [1][-]{section.4.1}{The LHC Upgrade}{chapter.4}% 32
+\BOOKMARK [2][-]{subsection.4.1.1}{Motivations for a new L1 jet algorithm}{section.4.1}% 33
+\BOOKMARK [1][-]{section.4.2}{CMS Trigger Upgrade}{chapter.4}% 34
+\BOOKMARK [2][-]{subsection.4.2.1}{Calorimeter trigger upgrade}{section.4.2}% 35
+\BOOKMARK [1][-]{section.4.3}{Algorithm for Jet Reconstruction at L1}{chapter.4}% 36
+\BOOKMARK [2][-]{subsection.4.3.1}{Jet reconstruction}{section.4.3}% 37
+\BOOKMARK [2][-]{subsection.4.3.2}{Jet filtering}{section.4.3}% 38
+\BOOKMARK [2][-]{subsection.4.3.3}{Event-by-event estimation of pile-up}{section.4.3}% 39
+\BOOKMARK [2][-]{subsection.4.3.4}{Calibration to the jet energy scale }{section.4.3}% 40
+\BOOKMARK [1][-]{section.4.4}{Upgrade L1 Jet Algorithm Performance}{chapter.4}% 41
+\BOOKMARK [2][-]{subsection.4.4.1}{Angular and energy resolutions}{section.4.4}% 42
+\BOOKMARK [2][-]{subsection.4.4.2}{Trigger efficiencies}{section.4.4}% 43
+\BOOKMARK [2][-]{subsection.4.4.3}{Jet trigger rates}{section.4.4}% 44
+\BOOKMARK [2][-]{subsection.4.4.4}{Other jet variables}{section.4.4}% 45
+\BOOKMARK [1][-]{section.4.5}{Conclusion}{chapter.4}% 46
+\BOOKMARK [0][-]{chapter.5}{Searching for SUSY with compressed mass spectra using monojet events}{}% 47
+\BOOKMARK [1][-]{section.5.1}{Introduction}{chapter.5}% 48
+\BOOKMARK [1][-]{section.5.2}{Data samples}{chapter.5}% 49
+\BOOKMARK [1][-]{section.5.3}{Background MC simulation}{chapter.5}% 50
+\BOOKMARK [1][-]{section.5.4}{Object reconstruction}{chapter.5}% 51
+\BOOKMARK [2][-]{subsection.5.4.1}{Jets and pTmiss}{section.5.4}% 52
+\BOOKMARK [2][-]{subsection.5.4.2}{Leptons}{section.5.4}% 53
+\BOOKMARK [1][-]{section.5.5}{Event selection}{chapter.5}% 54
+\BOOKMARK [2][-]{subsection.5.5.1}{Event Cleaning}{section.5.5}% 55
+\BOOKMARK [2][-]{subsection.5.5.2}{Search region event selection}{section.5.5}% 56
+\BOOKMARK [1][-]{section.5.6}{Background estimation and systematic uncertainties}{chapter.5}% 57
+\BOOKMARK [2][-]{subsection.5.6.1}{Data-driven Z \( \040\)+jets background estimation}{section.5.6}% 58
+\BOOKMARK [2][-]{subsection.5.6.2}{Data-driven W \(\)+jets background estimation}{section.5.6}% 59
+\BOOKMARK [2][-]{subsection.5.6.3}{QCD Background Estimation}{section.5.6}% 60
+\BOOKMARK [2][-]{subsection.5.6.4}{t background estimation}{section.5.6}% 61
+\BOOKMARK [2][-]{subsection.5.6.5}{Diboson background estimation}{section.5.6}% 62
+\BOOKMARK [2][-]{subsection.5.6.6}{Single top quark and Drell\205Yan background estimations}{section.5.6}% 63
+\BOOKMARK [1][-]{section.5.7}{Summary}{chapter.5}% 64
+\BOOKMARK [0][-]{chapter.6}{Results and Interpretation}{}% 65
+\BOOKMARK [1][-]{section.6.1}{Results}{chapter.6}% 66
+\BOOKMARK [1][-]{section.6.2}{Interpretation}{chapter.6}% 67
+\BOOKMARK [2][-]{subsection.6.2.1}{Simulation of signal events}{section.6.2}% 68
+\BOOKMARK [1][-]{section.6.3}{Signal acceptance}{chapter.6}% 69
+\BOOKMARK [2][-]{subsection.6.3.1}{Signal acceptance in 2- and 3-parton simulation}{section.6.3}% 70
+\BOOKMARK [2][-]{subsection.6.3.2}{Systematic Uncertainties on Signal}{section.6.3}% 71
+\BOOKMARK [1][-]{section.6.4}{Exclusion limits}{chapter.6}% 72
+\BOOKMARK [1][-]{section.6.5}{Summary}{chapter.6}% 73
+\BOOKMARK [0][-]{chapter.7}{Conclusions and Future Outlook }{}% 74
+\BOOKMARK [1][-]{section.7.1}{Upgrade L1 Jet Algorithm}{chapter.7}% 75
+\BOOKMARK [1][-]{section.7.2}{Search for Compressed SUSY in Monojet Events}{chapter.7}% 76
+\BOOKMARK [0][-]{appendix*.183}{Bibliography}{}% 77
+\BOOKMARK [0][-]{appendix*.184}{List of Figures}{}% 78
+\BOOKMARK [0][-]{appendix*.185}{List of Tables}{}% 79
+\BOOKMARK [1][-]{section.Alph0.1}{Acronyms}{appendix*.185}% 80
