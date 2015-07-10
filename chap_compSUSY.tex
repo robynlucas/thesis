@@ -66,7 +66,7 @@ Here, we have increased the jet counting threshold and bin signal regions in lea
 
 
 
-\section{Data samples}
+\section{Data Samples}
 \label{sec:data}
 
 The data for this search were collected using a combination of \replaced{three}{two} triggers at the \ac{HLT}. 
@@ -127,7 +127,7 @@ Era    &       Dataset  &  Int. Lumi. [$\pbinv$]\\ \hline
 
 
 %
-\section{Background MC simulation} 
+\section{Background MC Simulation} 
 \label{sec:GEN}
 \ac{MC} simulation of \ac{SM} backgrounds are used, directly and indirectly, to estimate the contribution of \ac{SM} backgrounds to the number of events in the search regions. 
 The \ac{SM} processes considered are;  \W or \Z bosons produced in association with jets, top quark pair production (\ttbar), diboson ($\W\W{}$, $\W\Z{}$, $\Z\Z{}$, $\W\gamma{}$ and $\Z\gamma${}) production, single top quark events, and QCD multijet processes.
@@ -159,7 +159,7 @@ In order to avoid double counting photons from the \PYTHIA shower in \wpj{} and 
 events from the \wpj{} and \zellellbr{}\,+\,jets simulation which have a photon from \ac{ISR} or \ac{FSR}, of $\pt(\gamma)>5$~\GeV, are removed.
 
 
-\section{Object reconstruction}
+\section{Object Reconstruction}
 \label{sec:objectReco}
 
 In Chapter~\ref{chap:detector} the CMS detector and reconstruction methods are discussed at length, including those used in this analysis. 
@@ -191,6 +191,7 @@ To resolve any ambiguity in the reconstruction of jets and leptons, a jet is rem
 \subsection{Leptons}
 \label{sec:objectReco:lep}
 
+Leptons are reconstructed using the \ac{PF} algorithm and the definitions of objects are in accordance with the \ac{CMS} recommendations.
 \added{Lepton reconstruction is used at various stages in the analysis. 
 We identify events with leptons --- electrons, muons, and hadronically decaying $\tau$ leptons --- in order to veto these events and reduce the electroweak backgrounds. 
 The identifications used for this purpose are ``loose'', that is, satisfying basic selection criteria, in order to reject as much of these backgrounds as possible. 
@@ -198,10 +199,7 @@ Muon control samples are also used to estimate the electroweak --- \znunubr{}\,+
 A data control sample of $\Z(\mu\mu)$\,+\,jets events is selected using one loose and one tight muon, and a data control sample of $\W(\mu\nu)$\,+\,jets events is selected using one tight muon.   
 We further use a data control sample consisting of loose muons and tight electrons to provide a data-driven estimate for the \ttbar background.}
 
-Leptons are also reconstructed using the \ac{PF} algorithm and the definitions of objects are in accordance with the \ac{CMS} recommendations.
-In addition to muons, electrons and $\tau$ leptons are also used in the analysis.
-Muons either pass a ``loose'' or ``tight'' selection criteria (which has more stringent requirements). 
-Electrons must pass a ``loose'' selection criteria, and the \ac{HPS} algorithm with ``loose'' criteria is used to reconstruct hadronically decaying $\tau$ leptons ($\tauh$).
+
 
 A loose muon must have \pt{} greater than 10~\GeV{}, and be tagged as a Global or Tracker muon --- meaning that it must
 have independent tracks from both the tracker and the muon systems that join together, or that a series of hits in the tracker matches up with at least one hit in the muon system~\cite{CMS-PAPER-MUO-10-004}. 
@@ -214,14 +212,16 @@ In order to suppress the number of cosmic-ray muons (and further suppress muons 
 Requiring the longitudinal impact parameter ($d_{z}$) to be less than 5~mm has a similar effect, as well as reducing the number of muons which originate from \ac{PU}.
 Additional demands on the number of hits in the pixel system ($>0$) and the number of tracker layers with hits ($>5$) further suppress in-flight muon decays, and guarantee a good measurement of the muon \pt{}.
 
-The electron identification used in the analysis is loose. To be classified as an electron, a track in the tracker must match to a supercluster in the \ac{ECAL}. 
+To be classified as a loose electron, a track in the tracker must match to a supercluster in the \ac{ECAL}. 
 The electron \pt must be greater than 10~\GeV{}. 
 \added{If the electron originates in the gap between the \ac{ECAL} barrel and endcap, where there is no instrumentation (and thus reconstruction is far from optimal): 
 $1.44< |\eta| < 1.56 $, the event is rejected. } 
 \deleted{and the electron reconstruction avoids the gap between the \ac{ECAL} barrel and endcap where there is no instrumentation (and thus reconstruction is far from optimal): 
 $1.44< |\eta| < 1.56 $. } 
 In addition, various simple parameters regarding the supercluster shower shape, matching between the \ac{ECAL} cluster and track, 
-the ratio of energy deposited in the \ac{ECAL} and \ac{HCAL}, and impact parameters distinguish between primary electrons and those originating from bremsstrahlung and photon conversion. More information can be found in Ref.~\cite{CMS:elecReco}.
+the ratio of energy deposited in the \ac{ECAL} and \ac{HCAL}, and impact parameters distinguish between primary electrons and those originating from bremsstrahlung and photon conversion. 
+A tight electron has similar, but more stringent requirements on these parameters, as well as demanding $\pt>20$~\GeV. 
+More information can be found in Ref.~\cite{CMS:elecReco}.
 
 To ensure that electrons and muons are isolated --- not close to a jet or other object --- they must satisfy requirements on the isolation parameter $Iso$, defined as
 \begin{equation}
@@ -229,7 +229,7 @@ Iso = \frac{\sum{\ET^{\text{charged hadrons}}}+ \sum{\ET^{\text{neutral hadrons}
 \end{equation} 
 where the hadrons and photons are considered in a cone with radius $\Delta R=\sqrt{\Delta \phi ^{2} + \Delta \eta ^{2}}=0.4$ around the lepton direction.
 Tight muons must have $Iso<0.12$, and loose muons must have $Iso<0.2$. 
-Loose electrons must also have $Iso<0.2$.
+Loose electrons must also have $Iso<0.2$, and tight electrons have $Iso<0.1$.
 The effect of \ac{PU} is corrected for. 
 For charged particles, only those which are associated with the primary vertex in the event are considered, where this primary vertex is defined as that which has the largest sum of $\pt^{2}$ of all the tracks associated with it. 
 The hadronization of \ac{PU} vertices leads to approximately twice 
@@ -238,7 +238,7 @@ so the energy within the isolation cone deposited by charged particles
 from \ac{PU} vertices is multiplied by 0.5 and subtracted from the neutral component.
 
 
-The $\tau$ lepton decays hadronically 65\% of the time, with the dominant decay modes consisting of one or three charged $\pi^{\pm}$ mesons, and up to two neutral $\pi^{0}$ mesons.
+The $\tau$ lepton decays hadronically ($\tauh$) 65\% of the time, with the dominant decay modes consisting of one or three charged $\pi^{\pm}$ mesons, and up to two neutral $\pi^{0}$ mesons.
 The \ac{HPS} algorithm first reconstructs the $\pi^{0}$ component of the \tauh decay using a \ac{PF} anti-k$_{\rm t}$ seed jet with distance parameter 0.5, and then combines with charged hadrons to build a \tauh. 
 `Strips' are constructed from \ac{PF} photons and electrons, starting with the most energetic electromagnetic particle within the seed jet, and combining all surrounding electromagnetic particles.
 Strips with $\pt > 1$~\GeV{} are then combined with charged hadrons to provide a \tauh candidate. 
@@ -252,13 +252,13 @@ More information can be found in Ref.~\cite{bib:HPStaus}.
 
 
 
-\section{Event selection}
+\section{Event Selection}
 \label{sec:ANA}
 
 The aim is to select signal candidate events while rejecting as much background as possible.
 A final state with one, high \pt leading jet, and large \MET from the LSPs leaving the detector form the basis of the event selection in order to be sensitive to compressed \ac{SUSY} signatures.
 
-\subsection{Event Cleaning}
+\subsection{Event cleaning}
 
 The first stage of the event selection, after the trigger, is to reject any events that have passed the trigger due to instrumental noise or non-collision backgrounds.
 
@@ -489,7 +489,7 @@ $\pt(\,\mathrm{j}_1)>550$~\GeV{}   &204     &  7.4      &406       & 21      & 1
 
 
 
-\section{Background estimation and systematic uncertainties}
+\section{Background Estimation and Systematic Uncertainties}
 \label{sec:BKG}
 
 As is evident in Table~\ref{tab:SEL_TabDataMC200}, the dominant backgrounds in the search regions after the monojet event selection are expected to be electroweak backgrounds.
@@ -1004,7 +1004,7 @@ $\pt(\,\mathrm{j}_1)$ (\GeV)  & $>250$ &$>$300 & $>350$ & $>400$& $>450$ & $>500
 
 
 
-\subsection{QCD Background Estimation}
+\subsection{QCD background estimation}
 \label{section:QCD}
 
 The QCD multijet contribution in the search regions is expected to be small, $\approx 2\%$.
